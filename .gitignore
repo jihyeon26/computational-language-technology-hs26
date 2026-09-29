@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Data
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# Model / ML artifacts
+artifacts/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Embeddings / indexes
+embeddings/
+indexes/
+
+# Logs
+*.log
+logs/
