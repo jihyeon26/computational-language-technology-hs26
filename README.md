@@ -38,7 +38,7 @@ This project analyzes AI media coverage from September 2024 to August 2026 using
 
 ## Shared Files
 
-Shared Google Drive: **[add link]**
+Shared Google Drive: **[[(https://drive.google.com/drive/folders/1XtPc9nRzLp875plcbgYoUuhaz4EtgLY3?usp=sharing)]**
 
 Use the shared Drive for:
 
