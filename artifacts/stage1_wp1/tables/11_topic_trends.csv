@@ -1,0 +1,17 @@
+key,slope_pp_per_year,year1_share,year2_share,change_pp
+T04 claude · agent · cod,9.86,4.46,13.15,8.69
+T08 nemotron · nvidia · nvidia nemotron,3.4,2.88,7.4,4.52
+T07 china · united_states · chinese,2.97,4.61,7.01,2.4
+T10 api · file · python,1.92,7.19,8.94,1.75
+T15 qwen · qwen qwen · context length,1.13,2.7,3.9,1.2
+T03 blackwell · gpu · workload,0.43,5.17,6.01,0.85
+T09 gemma · gemma model · model gemma,0.26,3.76,3.83,0.08
+T16 people · ask · find,-0.12,10.76,11.37,0.61
+T05 memory · attention · token,-0.3,6.46,6.52,0.06
+T12 stock · investor · growth,-0.53,4.89,4.63,-0.26
+T11 english · multilingual · instruction,-2.82,6.11,2.68,-3.43
+T06 image · video · text,-2.97,7.54,4.81,-2.73
+T02 deepseek · r1 · chinese,-3.2,6.95,2.93,-4.02
+T13 meta · zuckerberg · llama,-3.24,8.33,5.06,-3.26
+T14 enterprise · innovation · solution,-3.27,10.82,8.36,-2.46
+T01 reasoning · reinforcement · reinforcement learning,-3.52,7.38,3.38,-4.0

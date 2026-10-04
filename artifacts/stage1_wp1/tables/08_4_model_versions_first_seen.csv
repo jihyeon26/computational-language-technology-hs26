@@ -1,0 +1,69 @@
+version,family,n_docs,first_seen,last_seen,peak_month,region,in_circulation_at_window_start
+Llama 2,llama,102,2024-09-12,2026-08-11,2025-04,US,True
+Llama 3,llama,163,2024-09-12,2026-08-13,2025-06,US,True
+Llama 3.1,llama,177,2024-09-13,2026-08-11,2024-10,US,True
+Phi-3,phi,29,2024-09-13,2026-06-11,2024-09,US,True
+Qwen 2,qwen,37,2024-09-17,2026-06-11,2025-01,China,True
+Gemma 2,gemma,48,2024-09-18,2026-05-20,2025-03,US,True
+Llama 3.2,llama,95,2024-09-18,2026-08-11,2024-10,US,True
+Phi-3.5,phi,14,2024-09-19,2026-06-11,2024-09,US,True
+Mixtral,mistral,58,2024-09-19,2026-07-04,2025-06,Europe,True
+Pixtral,mistral,15,2024-10-15,2026-03-17,2024-11,Europe,False
+Ministral,mistral,9,2024-10-16,2026-05-13,2026-02,Europe,False
+Granite 3.0,granite,7,2024-10-21,2024-12-13,2024-10,US,False
+Nemotron 4,nemotron,12,2024-10-24,2026-03-21,2024-10,US,False
+Mistral Large 2,mistral,7,2024-11-01,2025-09-03,2024-11,Europe,False
+Llama 1,llama,6,2024-11-01,2025-12-29,2024-11,US,False
+Llama 4,llama,103,2024-11-05,2026-08-12,2025-04,US,False
+DeepSeek R1,deepseek,337,2024-11-06,2026-08-11,2025-02,China,False
+Codestral,mistral,10,2024-11-08,2026-07-16,2025-06,Europe,False
+Qwen 2.5,qwen,110,2024-11-13,2026-08-11,2025-02,China,False
+DeepSeek V2,deepseek,18,2024-11-13,2026-03-22,2025-01,China,False
+gpt-oss,gpt_oss,82,2024-11-20,2026-08-16,2025-08,US,False
+Qwen 3,qwen,143,2024-11-20,2026-08-11,2026-02,China,False
+Llama 3.3,llama,54,2024-11-26,2026-08-11,2025-02,US,False
+Mistral Large,mistral,11,2024-12-02,2026-04-03,2024-12,Europe,False
+Phi-4,phi,51,2024-12-16,2026-06-27,2025-05,US,False
+DeepSeek V3,deepseek,95,2024-12-25,2026-08-11,2025-01,China,False
+Nemotron Nano,nemotron,23,2025-01-07,2026-08-04,2025-08,US,False
+GLM-4,glm,6,2025-02-04,2026-04-04,2025-06,China,False
+Granite 3.2,granite,5,2025-02-10,2025-10-28,2025-02,US,False
+Mistral Large 3,mistral,8,2025-02-12,2026-03-26,2026-03,Europe,False
+DeepSeek V3.2,deepseek,23,2025-02-12,2026-07-03,2026-02,China,False
+OLMo 2,olmo,8,2025-02-19,2025-12-29,2025-04,US,False
+Gemma 3,gemma,81,2025-03-01,2026-08-11,2025-03,US,False
+Nemotron Super,nemotron,9,2025-03-16,2026-05-18,2026-05,US,False
+Mistral Small 3.1,mistral,9,2025-03-17,2026-07-16,2025-07,Europe,False
+DeepSeek R2,deepseek,5,2025-03-24,2025-08-20,2025-03,China,False
+Nemotron Ultra,nemotron,8,2025-04-07,2026-08-03,2025-04,US,False
+Mistral Medium 3,mistral,7,2025-05-07,2026-07-16,2025-05,Europe,False
+Gemma 3n,gemma,17,2025-05-09,2026-07-31,2025-05,US,False
+Devstral,mistral,11,2025-05-21,2026-05-13,2025-05,Europe,False
+Magistral,mistral,7,2025-06-10,2026-03-17,2025-06,Europe,False
+MiniMax-M1,minimax,6,2025-06-16,2026-01-05,2025-06,China,False
+Phi-2,phi,5,2025-06-20,2026-04-03,2026-03,US,False
+Kimi K2,kimi,51,2025-07-11,2026-08-11,2025-07,China,False
+Voxtral,mistral,6,2025-07-15,2026-03-30,2025-07,Europe,False
+MiniMax-M2,minimax,7,2025-07-19,2026-04-24,2025-11,China,False
+GLM-4.5,glm,12,2025-07-19,2026-06-28,2025-07,China,False
+Kimi K2.5,kimi,37,2025-07-19,2026-07-24,2026-04,China,False
+DeepSeek V3.1,deepseek,10,2025-09-12,2026-06-05,2025-10,China,False
+Apertus,apertus,7,2025-10-02,2026-06-17,2025-11,Europe,False
+Kimi K2.6,kimi,21,2025-11-12,2026-08-11,2026-05,China,False
+OLMo 3,olmo,8,2025-11-20,2026-07-31,2025-11,US,False
+Nemotron 3,nemotron,56,2025-12-04,2026-08-12,2026-03,US,False
+GLM-4.7,glm,6,2025-12-30,2026-04-23,2026-01,China,False
+MiniMax-M2.5,minimax,8,2026-02-12,2026-07-09,2026-02,China,False
+Qwen 3.5,qwen,52,2026-02-16,2026-08-26,2026-05,China,False
+GLM-5,glm,14,2026-02-20,2026-07-05,2026-03,China,False
+DeepSeek V4,deepseek,41,2026-02-25,2026-08-24,2026-06,China,False
+Kimi K3,kimi,32,2026-03-04,2026-08-31,2026-07,China,False
+Gemma 4,gemma,68,2026-03-10,2026-08-24,2026-05,US,False
+MiniMax-M2.7,minimax,6,2026-03-23,2026-05-25,2026-05,China,False
+GLM-5.1,glm,13,2026-03-28,2026-06-28,2026-05,China,False
+Qwen 3.6,qwen,30,2026-04-04,2026-08-20,2026-05,China,False
+Qwen 3.7,qwen,8,2026-05-25,2026-07-21,2026-06,China,False
+Nemotron 3.5,nemotron,8,2026-06-02,2026-08-12,2026-08,US,False
+GLM-5.2,glm,38,2026-06-12,2026-08-19,2026-07,China,False
+MiniMax-M3,minimax,5,2026-06-12,2026-08-24,2026-06,China,False
+Qwen 3.8,qwen,7,2026-07-21,2026-08-24,2026-07,China,False

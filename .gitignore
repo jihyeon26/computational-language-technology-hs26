@@ -27,7 +27,7 @@ data/
 *.jsonl
 
 # Model / ML artifacts
-artifacts/
+artifacts/*
 checkpoints/
 models/
 *.pt
@@ -43,3 +43,8 @@ indexes/
 # Logs
 *.log
 logs/
+
+
+# Exception: small Stage 1 WP1 results (figures, tables, lexicon, validation labels) are versioned
+!artifacts/stage1_wp1/
+!artifacts/stage1_wp1/**

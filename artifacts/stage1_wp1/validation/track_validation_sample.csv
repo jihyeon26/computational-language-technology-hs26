@@ -1,0 +1,61 @@
+doc_id,sample,date,domain,title,om_score,families
+doc_32fda2f066,core,2025-02-18,bbc,"India AI: As DeepSeek and ChatGPT surge, is Delhi falling behind?",8.0,deepseek
+doc_b7740a192d,core,2026-07-22,huggingface,Inference Providers · Hugging Face,7.0,"gpt_oss, flux, deepseek"
+doc_4c28e03ed5,core,2024-09-25,huggingface,QuantFactory/Llama-Guard-3-1B-GGUF · Hugging Face,8.0,llama
+doc_141fee4c59,core,2026-02-19,cloud.google,Provisioned Throughput (PT) on Vertex AI,7.0,"llama, deepseek, qwen, glm"
+doc_c5f4ca1075,core,2025-01-09,venturebeat,Microsoft’s new rStar-Math technique upgrades small models to outperform OpenAI’s o1-preview at math problems,6.0,"phi, qwen"
+doc_15f67bc143,core,2026-04-24,huggingface,Opensource LLMs for Audio Understanding,7.0,
+doc_47f29bf86a,core,2024-10-03,venturebeat,Black Forest Labs releases Flux 1.1 Pro and an API,11.0,"flux, stable_diffusion"
+doc_061f8473ea,core,2026-08-11,thoughtworks,EAGLE-3 speculative decoding for NVIDIA Nemotron 3.5 Lightning,11.0,"nemotron, deepseek, qwen"
+doc_bdbab358f8,core,2025-05-18,thenewstack,OpenMDW Is a New Permissive License for AI Models,4.0,
+doc_387b2f4a71,core,2025-01-28,geeksforgeeks,DeepSeek vs ChatGPT: Comparison of Best AI Titans in 2025,8.0,deepseek
+doc_08bb3adb06,core,2026-06-08,oreilly,The AI Agents Stack (2026 Edition) – O’ Reilly,6.0,"llama, deepseek, qwen"
+doc_4475c596b2,core,2025-07-28,technologyreview,"Chinese universities want students to use more AI, not less",4.5,deepseek
+doc_661a34508d,core,2025-10-23,machinelearningmastery,The Machine Learning Practitioner's Guide to Fine-Tuning Language Models,4.5,"llama, phi, mistral"
+doc_115a684c63,core,2025-03-26,analyticsdrift,9 Open-Source AI Platforms to Level up Your Organizational Workflows,4.5,"llama, mistral, stable_diffusion"
+doc_30dd77e293,core,2026-05-13,learn.microsoft,Foundry Models sold by Azure - Microsoft Foundry,6.0,"llama, gpt_oss, mistral, flux, deepseek, qwen, kimi"
+doc_5e033f0b0e,core,2025-06-12,techfundingnews,"Meta ploughs $ 15B into Scale AI to catch up with OpenAI, Anthropic, and DeepSeek in the AI race — TFN",5.5,"llama, deepseek"
+doc_6cfd60a596,core,2024-11-22,adasci,AI-Powered Image-to-JSON Conversion for LLM Fine-Tuning Using 'Outlines ' - Association of Data Scientists,5.0,"mistral, qwen"
+doc_f75f13d97d,core,2025-01-28,geeksforgeeks,How to Fix DeepSeek R1 Confidence Problem [ Quick Fixes ],8.0,deepseek
+doc_4fbb8d9722,core,2025-10-12,fintechweekly,Ant Group Unveils Trillion-Parameter AI Model Ling-1T,6.0,"deepseek, qwen, kimi"
+doc_075dbb55a1,core,2024-10-11,latent,$ 2 H100s: How the GPU Bubble Burst,7.0,"llama, deepseek"
+doc_7d23caff00,core,2026-07-15,blogs.nvidia,NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry,9.0,nemotron
+doc_8149d2dfa4,core,2025-03-12,cnbc,DeepSeek AI cranks open the spigots on Chinese venture capital,8.0,"deepseek, glm"
+doc_d7af00789e,core,2025-01-29,builtin,What DeepSeek Means for Tech,9.0,deepseek
+doc_1003435c68,core,2025-02-09,thenewstack,The Metamorphosis of Open Source: An Industry in Transition,4.0,
+doc_79391cff9c,core,2026-07-27,thenewstack,Moonshot opens Kimi K3 weights — but few can run it,12.0,kimi
+doc_665acab743,core,2026-04-15,cloud.google,Agent Platform Model Garden - Advanced Features,4.0,llama
+doc_4fe95e5489,core,2025-01-25,swisscognitive,AI Takes Center Stage at Davos 2025 - SwissCognitive,5.0,"llama, mistral, deepseek"
+doc_0f1cfadf1e,core,2025-01-29,builtin,What Is DeepSeek-R1?,12.0,"llama, deepseek, qwen, kimi"
+doc_e2e45dcb97,core,2026-05-20,thenewstack,Cursor bets on cheaper coding with Composer 2.5 and Kimi K2.5,7.0,kimi
+doc_261e01d0b6,core,2025-04-23,aijourn,The Outer Limits of Understanding: Can Cognitive AI Leap-Frog GenAI?,4.0,"llama, deepseek"
+doc_4a8347de0b,core,2024-12-04,spectrum.ieee,Adversarial Attacks Trick AI Generators to Make NSFW Art,6.0,stable_diffusion
+doc_8a8c5b11c5,core,2026-02-01,kdnuggets,Bindu Reddy: Navigating the Path to AGI,6.0,"deepseek, qwen, kimi"
+doc_11efdbca3d,core,2025-03-14,siliconcanals,DDN and Fluidstack Join Forces With Mistral AI to Accelerate Enterprise AI,9.0,"mistral, flux"
+doc_1ea34ba049,core,2026-03-22,magazine.sebastianraschka,A Visual Guide to Attention Variants in Modern LLMs,7.0,"llama, gemma, nemotron, gpt_oss, olmo, smollm, mistral, deepseek, qwen, kimi, glm, minimax, sarvam"
+doc_a6dcc38448,core,2026-07-16,thefastmode,Japan Enterprises Build Industry-Specialized AI With NVIDIA Nemotron Open Models,12.0,nemotron
+doc_e983706247,core,2025-01-28,cbinsights,What DeepSeek’s model releases mean for the future of AI,11.0,"deepseek, qwen, kimi, glm, minimax, yi, baichuan"
+doc_efed989ac6,core,2025-03-19,thestar,"UBC bans Chinese AI DeepSeek from its devices and networks, citing privacy, security",9.0,deepseek
+doc_bc63824c85,core,2026-05-26,pctechmag,The Best AI Image Generation Tools for PC Users: A Practical Review for 2026,5.5,stable_diffusion
+doc_70efacf382,core,2026-08-11,dev,How Much Does It Cost to Self-Host Open Models on AWS?,12.0,"llama, gemma, deepseek, qwen, kimi, glm"
+doc_0d6fb662be,core,2025-02-08,thenewstack,"Where AI Benchmarks Fall Short, and How To Evaluate Models Instead",5.0,"llama, gemma"
+doc_74ef8d9207,mention,2025-01-10,digiday,"AI in 2025: Five trends for marketing, media, enterprise and e-commerce",2.0,
+doc_b48a75b664,mention,2025-07-24,pwc,Perspectives: Global E & M Outlook 2025–2029,1.5,"deepseek, qwen"
+doc_b2f403c3b6,mention,2025-10-17,deeplearning,"Data Points: Claude’s Haiku Boasts Top Performance, Fast",3.0,qwen
+doc_1ce44bf055,mention,2025-07-21,cnbc,How Huawei ascended from telecoms to become China's 'jack of all trades ' AI leader,1.0,
+doc_a500d06431,mention,2025-02-06,towardsdatascience,Supercharge Your RAG with Multi-Agent Self-RAG,0.5,deepseek
+doc_fff168d860,mention,2026-04-02,dev,AI Vocab 101,0.5,llama
+doc_abf975701c,mention,2026-05-07,blogs.nvidia,Powering the Next American Century: US Energy Secretary Chris Wright and NVIDIA’s Ian Buck on the Genesis Mission,1.0,
+doc_54fff64028,mention,2025-07-18,technologyreview,A major AI training data set contains millions of examples of personal data,0.5,stable_diffusion
+doc_cfd2659367,mention,2025-09-11,parametric-architecture,The winners of AI Creative Challenge 5.0 announced!,0.5,stable_diffusion
+doc_001b7f75cd,mention,2026-04-16,research,Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles,2.5,gemma
+doc_c50d2b72f5,mention,2025-06-11,thenewstack,Data Synchronization Fuels Hybrid Workloads and AI Success,0.5,deepseek
+doc_3513a0cde4,mention,2025-10-28,blogs.nvidia,"Lilly Deploys World’s Largest, Most Powerful AI Factory for Drug Discovery Using NVIDIA Blackwell-Based DGX SuperPOD",3.0,
+doc_e843b39d58,mention,2025-08-14,huggingface,LICENSE.md · nvidia/Nemotron-CC-Math-v1 at main,3.5,nemotron
+doc_ca878b4069,mention,2026-06-16,nextplatform,Tensordyne Converts AI Matrix Math To Logs To Crank Up Inference Oomph,1.0,deepseek
+doc_3b4db6d4e1,mention,2026-02-25,a16z,Investing in QuiverAI,2.0,
+doc_1bc5e0fb2f,mention,2026-06-04,truefoundry,Understanding LiteLLM Pricing: Cost of Open Source Gateways,1.0,
+doc_6d9ebb31fd,mention,2026-06-11,redhat,Protecting enterprise AI: How to manage API keys in Models-as-a-Service (MaaS),1.5,granite
+doc_a97e6c8ae1,mention,2026-06-19,technologyreview,A startup claims it broke through a bottleneck that’s holding back LLMs,1.5,qwen
+doc_cc0438af75,mention,2025-08-20,thequantuminsider,IBM Venture Head Says Company Puts Quantum on Equal Footing With AI,0.5,mistral
+doc_edd3645055,mention,2026-07-20,thefastmode,NVIDIA Cosmos 3 Edge Advances Japan’s Physical AI and Robotics Ecosystem,3.5,nemotron

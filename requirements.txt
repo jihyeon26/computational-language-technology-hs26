@@ -1,0 +1,17 @@
+# Project requirements. Stage 1 · WP1 reference run: Python 3.13.5, pandas 3.0.1, numpy 2.4.2, scikit-learn 1.9.1, spaCy 3.8.16
+
+# --- Stage 1 · WP1 (data and topic analysis) ---
+pandas>=2.2
+numpy>=1.26
+pyarrow>=14
+scikit-learn==1.9.1   # pinned: the number of topics chosen depends on the version (1.8.0 -> 14 topics, 1.9.1 -> 16 topics)
+matplotlib>=3.8
+seaborn>=0.13
+spacy>=3.7            # the notebook downloads en_core_web_sm automatically if missing
+nltk>=3.8             # the notebook downloads the VADER lexicon automatically
+ftfy>=6.1
+langdetect>=1.0.9
+kagglehub>=0.2        # optional: downloads the dataset if it is not in data/raw/
+jupyter
+
+# --- Stage 1 · WP2 / WP3, Stage 2, Stage 3: add your packages below ---

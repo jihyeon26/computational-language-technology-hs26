@@ -1,0 +1,36 @@
+key,label,developer,region,docs_any,docs_core,mentions
+deepseek,DeepSeek,DeepSeek,China,1309,566,5977
+llama,Llama,Meta,US,1139,438,3187
+mistral,Mistral,Mistral AI,Europe,625,237,1686
+qwen,Qwen,Alibaba,China,513,298,2368
+gemma,Gemma,Google,US,352,194,1989
+kimi,Kimi,Moonshot AI,China,216,151,735
+nemotron,Nemotron,NVIDIA,US,216,117,835
+stable_diffusion,Stable Diffusion / StableLM,Stability AI,Europe,201,52,408
+glm,GLM,Zhipu AI (Z.ai),China,126,87,524
+phi,Phi,Microsoft,US,89,48,364
+flux,FLUX,Black Forest Labs,Europe,85,38,223
+gpt_oss,gpt-oss,OpenAI,US,82,48,291
+minimax,MiniMax,MiniMax,China,75,45,315
+granite,Granite,IBM,US,62,24,179
+olmo,OLMo / Molmo / Tülu,Ai2,US,38,30,154
+hunyuan,Hunyuan,Tencent,China,31,22,114
+eleuther,Pythia / GPT-NeoX,EleutherAI,US,25,9,50
+smollm,SmolLM,Hugging Face,US,24,16,108
+sarvam,Sarvam,Sarvam AI,Other,23,13,80
+cohere_open,Command R / Aya,Cohere,Other,15,10,80
+bloom,BLOOM,BigScience,Europe,15,6,21
+wan,Wan,Alibaba,China,11,6,63
+falcon,Falcon,TII,Other,10,5,22
+grok_open,Grok (open releases),xAI,US,10,6,25
+jamba,Jamba,AI21 Labs,Other,10,4,25
+internlm,InternLM / InternVL,Shanghai AI Lab,China,9,7,74
+starcoder,StarCoder,BigCode,US,9,5,19
+dbrx,DBRX,Databricks,US,8,5,24
+yi,Yi,01.AI,China,8,7,11
+jais,Jais,G42 / Inception,Other,7,2,9
+apertus,Apertus,Swiss AI Initiative,Europe,7,3,10
+baichuan,Baichuan,Baichuan,China,6,6,11
+eurollm,EuroLLM / Teuken,EU research consortia,Europe,5,2,11
+arctic,Snowflake Arctic,Snowflake,US,4,1,4
+hermes,Hermes,Nous Research,US,2,2,6

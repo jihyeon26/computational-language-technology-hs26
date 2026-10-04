@@ -1,0 +1,752 @@
+{
+  "version": "wp1-1.0",
+  "created_utc": "2026-10-04T10:03:21+00:00",
+  "note": "Regexes are applied to the matching view (Section 6). 'kw' are literal pre-filter triggers; family ids are canonical identities.",
+  "families": {
+    "llama": {
+      "label": "Llama",
+      "developer": "Meta",
+      "region": "US",
+      "modality": "text/multimodal",
+      "kw": [
+        "Llama",
+        "LLaMA",
+        "LLAMA"
+      ],
+      "rx": "\\b(?:Llama|LLaMA|LLAMA)(?:Con)?\\b",
+      "tags": [
+        "Llama",
+        "Llama2",
+        "Llama3",
+        "Llama4",
+        "CodeLlama",
+        "TinyLlama"
+      ]
+    },
+    "gemma": {
+      "label": "Gemma",
+      "developer": "Google",
+      "region": "US",
+      "modality": "text/multimodal",
+      "kw": [
+        "Gemma"
+      ],
+      "rx": "\\b(?:Code|Med|Pali|Shield|Embedding|Function|Vault|T5|Data|Diffusion|Recurrent|Sign|Dolphin|Tx)?Gemma\\b(?!\\s(?!(?:Scope|Team|Models?|Family|Nano|Open|Developer|Day|Good|Robotics|Vision)\\b)[A-Z][a-z]+)",
+      "tags": [
+        "Gemma",
+        "EmbeddingGemma",
+        "DiffusionGemma"
+      ]
+    },
+    "phi": {
+      "label": "Phi",
+      "developer": "Microsoft",
+      "region": "US",
+      "modality": "text/multimodal",
+      "kw": [
+        "Phi-",
+        "Phi "
+      ],
+      "rx": "\\bPhi[- ]?(?:[1-4](?:\\.5)?|Silica)\\b",
+      "tags": [
+        "Phi2",
+        "Phi3",
+        "Phi4"
+      ]
+    },
+    "nemotron": {
+      "label": "Nemotron",
+      "developer": "NVIDIA",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "Nemotron"
+      ],
+      "rx": "\\bNemotron\\b",
+      "tags": [
+        "Nemotron",
+        "LlamaNemotron"
+      ]
+    },
+    "gpt_oss": {
+      "label": "gpt-oss",
+      "developer": "OpenAI",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "gpt-oss",
+        "GPT-OSS",
+        "gpt oss",
+        "GPT-oss",
+        "Gpt-oss",
+        "GPT OSS"
+      ],
+      "rx": "(?i)\\bgpt[- ]oss\\b",
+      "tags": [
+        "GPTOSS"
+      ]
+    },
+    "granite": {
+      "label": "Granite",
+      "developer": "IBM",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "Granite"
+      ],
+      "rx": "\\bGranite[- ]?\\d(?:\\.\\d)?\\b|\\bIBM(?:'s)?\\s+Granite\\b|\\bGranite\\s+(?:models?|family|LLMs?|Guardian|Vision|Code|Embedding)\\b",
+      "tags": [
+        "IBMGranite"
+      ]
+    },
+    "olmo": {
+      "label": "OLMo / Molmo / Tülu",
+      "developer": "Ai2",
+      "region": "US",
+      "modality": "text/multimodal",
+      "kw": [
+        "OLMo",
+        "Olmo",
+        "Molmo",
+        "Tülu",
+        "Tulu"
+      ],
+      "rx": "\\b(?:OLMo|Olmo|Molmo)\\b|\\bT[üu]lu[- ]?\\d\\b",
+      "tags": [
+        "Olmo"
+      ]
+    },
+    "dbrx": {
+      "label": "DBRX",
+      "developer": "Databricks",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "DBRX"
+      ],
+      "rx": "\\bDBRX\\b",
+      "tags": []
+    },
+    "arctic": {
+      "label": "Snowflake Arctic",
+      "developer": "Snowflake",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "Arctic"
+      ],
+      "rx": "\\bSnowflake(?:'s)?\\s+Arctic\\b|\\bArctic[- ](?:Embed|LLM|Instruct)\\b",
+      "tags": []
+    },
+    "starcoder": {
+      "label": "StarCoder",
+      "developer": "BigCode",
+      "region": "US",
+      "modality": "code",
+      "kw": [
+        "StarCoder"
+      ],
+      "rx": "\\bStarCoder\\d?\\b",
+      "tags": [
+        "StarCoder"
+      ]
+    },
+    "smollm": {
+      "label": "SmolLM",
+      "developer": "Hugging Face",
+      "region": "US",
+      "modality": "text/multimodal",
+      "kw": [
+        "SmolLM",
+        "SmolVLM"
+      ],
+      "rx": "\\bSmol(?:LM|VLM)\\d?\\b",
+      "tags": [
+        "SmolLM"
+      ]
+    },
+    "eleuther": {
+      "label": "Pythia / GPT-NeoX",
+      "developer": "EleutherAI",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "Pythia",
+        "GPT-Neo",
+        "GPT-J"
+      ],
+      "rx": "\\bPythia\\b|\\bGPT-Neo(?:X)?\\b|\\bGPT-J\\b",
+      "tags": [
+        "Pythia"
+      ]
+    },
+    "hermes": {
+      "label": "Hermes",
+      "developer": "Nous Research",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "Hermes"
+      ],
+      "rx": "\\bHermes[- ]?[2-4]\\b|\\bNous Hermes\\b",
+      "tags": []
+    },
+    "grok_open": {
+      "label": "Grok (open releases)",
+      "developer": "xAI",
+      "region": "US",
+      "modality": "text",
+      "kw": [
+        "Grok"
+      ],
+      "rx": "\\bGrok[- ]?(?:1|2\\.5)\\b",
+      "tags": []
+    },
+    "mistral": {
+      "label": "Mistral",
+      "developer": "Mistral AI",
+      "region": "Europe",
+      "modality": "text/multimodal",
+      "kw": [
+        "Mistral",
+        "Mixtral",
+        "Ministral",
+        "Codestral",
+        "Pixtral",
+        "Magistral",
+        "Devstral",
+        "Voxtral",
+        "Mathstral"
+      ],
+      "rx": "\\b(?:Mistral|Mixtral|Ministral|Codestral|Pixtral|Magistral|Devstral|Voxtral|Mathstral)\\b",
+      "tags": [
+        "Mistral",
+        "Mixtral"
+      ]
+    },
+    "apertus": {
+      "label": "Apertus",
+      "developer": "Swiss AI Initiative",
+      "region": "Europe",
+      "modality": "text",
+      "kw": [
+        "Apertus"
+      ],
+      "rx": "\\bApertus\\b",
+      "tags": [
+        "Apertus"
+      ]
+    },
+    "eurollm": {
+      "label": "EuroLLM / Teuken",
+      "developer": "EU research consortia",
+      "region": "Europe",
+      "modality": "text",
+      "kw": [
+        "EuroLLM",
+        "Teuken"
+      ],
+      "rx": "\\b(?:Open)?EuroLLM\\b|\\bTeuken\\b",
+      "tags": []
+    },
+    "bloom": {
+      "label": "BLOOM",
+      "developer": "BigScience",
+      "region": "Europe",
+      "modality": "text",
+      "kw": [
+        "BLOOM"
+      ],
+      "rx": "\\bBLOOMZ?\\b",
+      "tags": [
+        "BLOOM"
+      ]
+    },
+    "flux": {
+      "label": "FLUX",
+      "developer": "Black Forest Labs",
+      "region": "Europe",
+      "modality": "image",
+      "kw": [
+        "FLUX",
+        "Flux.",
+        "Black Forest Labs"
+      ],
+      "rx": "\\bFLUX(?:\\.\\d)?\\b|\\bFlux\\.\\d\\b|\\bBlack Forest Labs\\b",
+      "tags": []
+    },
+    "stable_diffusion": {
+      "label": "Stable Diffusion / StableLM",
+      "developer": "Stability AI",
+      "region": "Europe",
+      "modality": "image",
+      "kw": [
+        "Stable Diffusion",
+        "StableLM",
+        "Stable LM",
+        "SDXL",
+        "Stable Audio",
+        "Stable Video",
+        "Stable Cascade"
+      ],
+      "rx": "\\bStable\\s?(?:Diffusion|LM|Audio|Video(?:\\s+Diffusion)?|Cascade)\\b|\\bSDXL\\b",
+      "tags": [
+        "StableDiffusion",
+        "StableLM"
+      ]
+    },
+    "deepseek": {
+      "label": "DeepSeek",
+      "developer": "DeepSeek",
+      "region": "China",
+      "modality": "text",
+      "kw": [
+        "DeepSeek",
+        "Deepseek",
+        "DEEPSEEK"
+      ],
+      "rx": "\\b(?:DeepSeek|Deepseek|DEEPSEEK)\\b",
+      "tags": [
+        "DeepSeek"
+      ]
+    },
+    "qwen": {
+      "label": "Qwen",
+      "developer": "Alibaba",
+      "region": "China",
+      "modality": "text/multimodal",
+      "kw": [
+        "Qwen",
+        "QwQ",
+        "Tongyi"
+      ],
+      "rx": "\\bQwen\\w*|\\bQwQ\\b|\\bTongyi\\b",
+      "tags": [
+        "Qwen2",
+        "Qwen3"
+      ]
+    },
+    "wan": {
+      "label": "Wan",
+      "developer": "Alibaba",
+      "region": "China",
+      "modality": "video",
+      "kw": [
+        "Wan2",
+        "Wan 2",
+        "Wan-2"
+      ],
+      "rx": "\\bWan[- ]?2\\.\\d\\b",
+      "tags": []
+    },
+    "kimi": {
+      "label": "Kimi",
+      "developer": "Moonshot AI",
+      "region": "China",
+      "modality": "text",
+      "kw": [
+        "Kimi",
+        "Moonshot AI"
+      ],
+      "rx": "\\bKimi\\b(?!\\s+(?:R[äa]ikk[öo]nen|Antonelli))|\\bMoonshot AI\\b",
+      "tags": [
+        "Kimi",
+        "MoonshotAI"
+      ]
+    },
+    "glm": {
+      "label": "GLM",
+      "developer": "Zhipu AI (Z.ai)",
+      "region": "China",
+      "modality": "text",
+      "kw": [
+        "GLM",
+        "Zhipu",
+        "Z.ai"
+      ],
+      "rx": "\\b(?:Chat)?GLM[- ]?\\d(?:\\.\\d)?\\w*|\\bZhipu\\b|\\bZ\\.ai\\b",
+      "tags": [
+        "GLM"
+      ]
+    },
+    "minimax": {
+      "label": "MiniMax",
+      "developer": "MiniMax",
+      "region": "China",
+      "modality": "text/multimodal",
+      "kw": [
+        "MiniMax"
+      ],
+      "rx": "\\bMiniMax\\b",
+      "tags": [
+        "MiniMax"
+      ]
+    },
+    "hunyuan": {
+      "label": "Hunyuan",
+      "developer": "Tencent",
+      "region": "China",
+      "modality": "text/multimodal",
+      "kw": [
+        "Hunyuan"
+      ],
+      "rx": "\\bHunyuan\\w*",
+      "tags": []
+    },
+    "yi": {
+      "label": "Yi",
+      "developer": "01.AI",
+      "region": "China",
+      "modality": "text",
+      "kw": [
+        "01.AI",
+        "Yi-"
+      ],
+      "rx": "\\b01\\.AI\\b|\\bYi-(?:Lightning|Large|Coder|\\d+B)\\b",
+      "tags": []
+    },
+    "baichuan": {
+      "label": "Baichuan",
+      "developer": "Baichuan",
+      "region": "China",
+      "modality": "text",
+      "kw": [
+        "Baichuan"
+      ],
+      "rx": "\\bBaichuan\\b",
+      "tags": []
+    },
+    "internlm": {
+      "label": "InternLM / InternVL",
+      "developer": "Shanghai AI Lab",
+      "region": "China",
+      "modality": "text/multimodal",
+      "kw": [
+        "InternLM",
+        "InternVL"
+      ],
+      "rx": "\\bIntern(?:LM|VL)\\d?\\b",
+      "tags": []
+    },
+    "falcon": {
+      "label": "Falcon",
+      "developer": "TII",
+      "region": "Other",
+      "modality": "text",
+      "kw": [
+        "Falcon"
+      ],
+      "rx": "\\bFalcon[- ](?:\\d+B|[23](?:\\.\\d)?|H1\\w*|Mamba|Arabic|E|LLM|Edge)\\b|\\bFalconLLM\\b|\\bTII(?:'s)?\\s+Falcon\\b",
+      "tags": [
+        "FalconLLM"
+      ]
+    },
+    "jais": {
+      "label": "Jais",
+      "developer": "G42 / Inception",
+      "region": "Other",
+      "modality": "text",
+      "kw": [
+        "Jais"
+      ],
+      "rx": "\\bJais\\b",
+      "tags": []
+    },
+    "jamba": {
+      "label": "Jamba",
+      "developer": "AI21 Labs",
+      "region": "Other",
+      "modality": "text",
+      "kw": [
+        "Jamba"
+      ],
+      "rx": "\\bJamba\\b",
+      "tags": [
+        "Jamba"
+      ]
+    },
+    "cohere_open": {
+      "label": "Command R / Aya",
+      "developer": "Cohere",
+      "region": "Other",
+      "modality": "text",
+      "kw": [
+        "Command R",
+        "Command-R",
+        "Command A",
+        "Command-A",
+        "Aya "
+      ],
+      "rx": "\\bCommand[- ][RA]\\+?\\b|\\bAya\\s+(?:Expanse|Vision|23|101)\\b",
+      "tags": []
+    },
+    "sarvam": {
+      "label": "Sarvam",
+      "developer": "Sarvam AI",
+      "region": "Other",
+      "modality": "text",
+      "kw": [
+        "Sarvam"
+      ],
+      "rx": "\\bSarvam\\b",
+      "tags": []
+    }
+  },
+  "concepts": {
+    "open_weight": {
+      "kw": [
+        "open-weight",
+        "open weight",
+        "openweight"
+      ],
+      "rx": "(?i)\\bopen[- ]?weights?\\b"
+    },
+    "open_source_model": {
+      "kw": [
+        "open-source",
+        "open source",
+        "opensource",
+        "open-sourced"
+      ],
+      "rx": "(?i)\\bopen[- ]?sourced?\\s+(?:(?!(?:framework|frameworks|library|libraries|tool|tools|toolkit|platform|platforms|software|project|projects|community|communities|code|codebase|stack|ecosystem|repository|repositories|repo|database|protocol|protocols|standard|standards|agent|agents|implementation|alternative|alternatives|version|release|movement|initiative|developers?|development|business|licensing|license|governance|operating|pricing|delivery|funding|revenue|distribution|collaboration|security|support|subscription|services?|consumption|engagement|data|programming|partnership|maturity|innovation)\\b)[\\w.+-]+\\s+){0,3}?(?:language\\s+models?|foundation\\s+models?|models?|llms?|slms?|weights|checkpoints?)\\b"
+    },
+    "open_model": {
+      "kw": [
+        "open model",
+        "open language model",
+        "open foundation model",
+        "open reasoning model",
+        "open frontier model",
+        "open multimodal model",
+        "open small model",
+        "open large language model",
+        "open llm"
+      ],
+      "rx": "(?i)\\bopen\\s+(?:(?:large\\s+)?language\\s+|foundation\\s+|reasoning\\s+|frontier\\s+|multimodal\\s+|small\\s+)?(?:models|llms)\\b|\\bopen\\s+(?:(?:large\\s+)?language|foundation|reasoning|frontier|multimodal|small)\\s+(?:model|llm)\\b"
+    },
+    "osaid": {
+      "kw": [
+        "open source ai definition",
+        "osaid",
+        "openwashing",
+        "open-washing",
+        "open washing"
+      ],
+      "rx": "(?i)\\bopen\\s+source\\s+ai\\s+definition\\b|\\bosaid\\b|\\bopen[- ]?washing\\b"
+    },
+    "weights_release": {
+      "kw": [
+        "weights"
+      ],
+      "rx": "(?i)\\b(?:releas(?:e|es|ed|ing)|publish(?:es|ed|ing)?|open-?sourc(?:e|es|ed|ing)|made\\s+available|shar(?:e|es|ed|ing)|download(?:s|ed|able)?)\\s+(?:[\\w-]+\\s+){0,3}?weights\\b"
+    },
+    "open_source_ai": {
+      "kw": [
+        "open-source ai",
+        "open source ai"
+      ],
+      "rx": "(?i)\\bopen[- ]?source\\s+ai\\b(?![- ]?(?:tools?|frameworks?|libraries|library|platforms?|projects?|agents?|gateways?|stacks?|software|apps?|applications?|startups?|compan(?:y|ies)|ecosystems?|solutions?)\\b)"
+    }
+  },
+  "ecosystem": {
+    "hugging_face": {
+      "kw": [
+        "Hugging"
+      ],
+      "rx": "\\bHugging\\s?Face\\b"
+    },
+    "ollama": {
+      "kw": [
+        "Ollama"
+      ],
+      "rx": "\\bOllama\\b"
+    },
+    "llama_cpp": {
+      "kw": [
+        "llama.cpp"
+      ],
+      "rx": "\\bllama\\.cpp\\b"
+    },
+    "vllm": {
+      "kw": [
+        "vLLM"
+      ],
+      "rx": "\\bvLLM\\b"
+    },
+    "gguf": {
+      "kw": [
+        "GGUF"
+      ],
+      "rx": "\\bGGUF\\b"
+    },
+    "lm_studio": {
+      "kw": [
+        "LM Studio"
+      ],
+      "rx": "\\bLM Studio\\b"
+    },
+    "lora": {
+      "kw": [
+        "LoRA"
+      ],
+      "rx": "\\bQ?LoRA\\b"
+    }
+  },
+  "frames": {
+    "Performance & benchmarks": "\\b(?:benchmark\\w*|outperform\\w*|state[- ]of[- ]the[- ]art|leaderboard\\w*|beats?|rivals?|rivall?ing|on par|surpass\\w*|frontier|top[- ]performing)\\b",
+    "Cost & efficiency": "\\b(?:cost\\w*|cheap\\w*|efficien\\w*|afford\\w*|pric(?:e|es|ed|ing)|fraction of|inexpensive|low[- ]cost|budget\\w*)\\b",
+    "Access & democratisation": "\\b(?:democrati[sz]\\w*|accessib\\w*|transparen\\w*|communit(?:y|ies)|collaborat\\w*|freely|free to|researchers?|anyone|permissive\\w*|download\\w*|locally|on[- ]device)\\b",
+    "Safety & misuse": "\\b(?:risk\\w*|misuse\\w*|safety|unsafe|danger\\w*|harm\\w*|malicious|jailbreak\\w*|bioweapon\\w*|weapon\\w*|guardrail\\w*|vulnerab\\w*|abus(?:e|ed|es|ing)|threat\\w*)\\b",
+    "Geopolitics & sovereignty": "\\b(?:china|chinese|beijing|u\\.s\\.|united states|america\\w*|export controls?|national security|geopolit\\w*|sovereign\\w*|bans?|banned|sanction\\w*|military|ai race)\\b",
+    "Licensing & definitions": "\\b(?:licen[cs]\\w*|apache|osi|open source initiative|definition|open[- ]?washing|terms of use|commercial use|restrict\\w*|proprietary|closed[- ]source|closed models?)\\b",
+    "Enterprise adoption": "\\b(?:enterprise\\w*|customers?|deploy\\w*|production|adopt\\w*|integrat\\w*|on[- ]prem\\w*|workloads?|businesses)\\b"
+  },
+  "version_patterns": [
+    [
+      "llama",
+      "\\b(?:Llama|LLaMA|LLAMA)[- ]?(\\d(?:\\.\\d)?)(?![\\d.])(?!\\s?[BbMm]\\b)",
+      "Llama {}"
+    ],
+    [
+      "qwen",
+      "\\bQwen[- ]?(\\d(?:\\.\\d)?)(?![\\d.])(?!\\s?[BbMm]\\b)",
+      "Qwen {}"
+    ],
+    [
+      "deepseek",
+      "\\b(?:DeepSeek|Deepseek)[- ]?((?:R|V)\\d(?:\\.\\d)?)\\b",
+      "DeepSeek {}"
+    ],
+    [
+      "gemma",
+      "\\bGemma[- ]?(\\dn?)\\b(?![\\d.])",
+      "Gemma {}"
+    ],
+    [
+      "phi",
+      "\\bPhi[- ]?(\\d(?:\\.5)?)\\b",
+      "Phi-{}"
+    ],
+    [
+      "kimi",
+      "\\bKimi[- ]?(K\\d(?:\\.\\d)?)\\b",
+      "Kimi {}"
+    ],
+    [
+      "glm",
+      "\\bGLM[- ]?(\\d(?:\\.\\d)?)\\b",
+      "GLM-{}"
+    ],
+    [
+      "minimax",
+      "\\bMiniMax[- ]?(M\\d(?:\\.\\d)?)\\b",
+      "MiniMax-{}"
+    ],
+    [
+      "mistral",
+      "\\bMistral (Small|Medium|Large)(?: (\\d(?:\\.\\d)?))?\\b",
+      "Mistral {}"
+    ],
+    [
+      "mistral",
+      "\\b(Mixtral|Magistral|Devstral|Codestral|Pixtral|Ministral|Voxtral)\\b",
+      "{}"
+    ],
+    [
+      "gpt_oss",
+      "(?i)\\bgpt[- ]oss\\b",
+      "gpt-oss"
+    ],
+    [
+      "nemotron",
+      "\\bNemotron[- ](\\d(?:\\.\\d)?|Nano|Super|Ultra)\\b",
+      "Nemotron {}"
+    ],
+    [
+      "granite",
+      "\\bGranite[- ]?(\\d(?:\\.\\d)?)\\b",
+      "Granite {}"
+    ],
+    [
+      "olmo",
+      "\\b(?:OLMo|Olmo)[- ]?(\\d)\\b",
+      "OLMo {}"
+    ],
+    [
+      "apertus",
+      "\\bApertus\\b",
+      "Apertus"
+    ]
+  ],
+  "phrase_normalisation": [
+    [
+      "(?i)\\bopen[- ]?weights?\\b",
+      "open_weight"
+    ],
+    [
+      "(?i)\\bopen[- ]?sourced?\\b",
+      "open_source"
+    ],
+    [
+      "(?i)\\blarge language models?\\b|\\bLLMs?\\b",
+      "llm"
+    ],
+    [
+      "(?i)\\bsmall language models?\\b|\\bSLMs?\\b",
+      "slm"
+    ],
+    [
+      "(?i)\\bmixture[- ]of[- ]experts?\\b|\\bMoE\\b",
+      "mixture_of_experts"
+    ],
+    [
+      "(?i)\\bfine[- ]?tun(?:e|es|ed|ing)\\b",
+      "fine_tuning"
+    ],
+    [
+      "(?i)\\bchain[- ]of[- ]thought\\b|\\bCoT\\b",
+      "chain_of_thought"
+    ],
+    [
+      "(?i)\\breasoning models?\\b",
+      "reasoning_model"
+    ],
+    [
+      "(?i)\\bfoundation models?\\b",
+      "foundation_model"
+    ],
+    [
+      "(?i)\\bgenerative ai\\b|\\bgen ?ai\\b",
+      "generative_ai"
+    ],
+    [
+      "(?i)\\bartificial intelligence\\b",
+      "ai"
+    ],
+    [
+      "\\bU\\.S\\.(?:A\\.)?|\\bUSA?\\b|\\bUnited States\\b",
+      "united_states"
+    ],
+    [
+      "(?i)\\bexport controls?\\b",
+      "export_control"
+    ],
+    [
+      "(?i)\\bnational security\\b",
+      "national_security"
+    ],
+    [
+      "(?i)\\bdata cent(?:er|re)s?\\b",
+      "data_center"
+    ],
+    [
+      "(?i)\\bhugging ?face\\b",
+      "hugging_face"
+    ],
+    [
+      "(?i)\\bopen ai\\b",
+      "openai"
+    ]
+  ],
+  "relevance_score": "3*title_hit + 2*lead_hit + min(openness_concepts, 4) + 0.5*min(family_mentions, 6); core if >= 4; API reference pages form the separate tier reference"
+}

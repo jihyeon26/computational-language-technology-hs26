@@ -1,0 +1,474 @@
+{
+  "created_utc": "2026-10-04T06:49:26+00:00",
+  "raw_file": "ai_media_dataset_20260911.csv",
+  "raw_bytes": 529709045,
+  "raw_sha256": "82dcea5ee2b15faf805994043fa7e8afb37b82fe8df7ab4fba8873db386f05b9",
+  "versions": {
+    "python": "3.13.5",
+    "pandas": "3.0.1",
+    "numpy": "2.4.2",
+    "scikit-learn": "1.9.1",
+    "spacy": "3.8.16",
+    "ftfy": "6.3.1",
+    "nltk": "3.10.3"
+  },
+  "params": {
+    "SEED": 42,
+    "STUDY_START": "2024-09-01 00:00:00",
+    "STUDY_END": "2026-08-31 00:00:00",
+    "BOILERPLATE_MIN_DOCS": 5,
+    "BOILERPLATE_MIN_SHARE": 0.01,
+    "MIN_CHARS": 1500,
+    "EN_STOPWORD_RATIO_MIN": 0.25,
+    "NEAR_DUP_THRESHOLD": 0.8,
+    "MINHASH_PERM": 64,
+    "MINHASH_BANDS": 8,
+    "SHINGLE_K": 5,
+    "SHINGLE_MAX_WORDS": 800,
+    "LEAD_CHARS": 1200,
+    "CORE_SCORE_MIN": 4.0,
+    "SPACY_MAX_CHARS": 12000,
+    "K_GRID": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "K_SELECT_RANGE": [
+      8,
+      16
+    ]
+  },
+  "raw_monthly": {
+    "2024-09": 975,
+    "2024-10": 2127,
+    "2024-11": 1741,
+    "2024-12": 1456,
+    "2025-01": 2450,
+    "2025-02": 1825,
+    "2025-03": 2325,
+    "2025-04": 2126,
+    "2025-05": 2041,
+    "2025-06": 2406,
+    "2025-07": 1673,
+    "2025-08": 1776,
+    "2025-09": 1426,
+    "2025-10": 1632,
+    "2025-11": 1780,
+    "2025-12": 1699,
+    "2026-01": 2947,
+    "2026-02": 1717,
+    "2026-03": 1915,
+    "2026-04": 2455,
+    "2026-05": 3463,
+    "2026-06": 2447,
+    "2026-07": 1961,
+    "2026-08": 1145,
+    "2026-09": 243
+  },
+  "funnel": [
+    [
+      "Raw dataset",
+      47751
+    ],
+    [
+      "≥ 1,500 characters after boilerplate removal",
+      46759
+    ],
+    [
+      "English",
+      46402
+    ],
+    [
+      "Exact and near-duplicates removed",
+      45873
+    ],
+    [
+      "Study window Sep 2024 – Aug 2026",
+      45644
+    ]
+  ],
+  "boilerplate": {
+    "rule": "paragraph repeated in >= max(5, 1% of the source's docs) docs of the same source",
+    "boilerplate_paragraph_types": 5667,
+    "paragraphs_removed": 280950,
+    "share_paragraphs_removed": 0.15906023397904787,
+    "share_chars_removed": 0.09792112543301801,
+    "docs_affected": 33717,
+    "top_examples": [
+      [
+        1174,
+        "thenewstack",
+        "We’ re so glad you’ re here. You can expect all the best TNS content to arrive Monday through Friday to keep you on top of the news and at the top of "
+      ],
+      [
+        1174,
+        "thenewstack",
+        "Follow TNS on your favorite social media networks."
+      ],
+      [
+        1174,
+        "thenewstack",
+        "Community created roadmaps, articles, resources and journeys for developers to help you choose your path and grow in your career."
+      ],
+      [
+        1174,
+        "thenewstack",
+        "Check your inbox for a confirmation email where you can adjust your preferences and even join additional groups."
+      ],
+      [
+        1174,
+        "thenewstack",
+        "Check out the latest featured and trending stories while you wait for your first TNS newsletter."
+      ],
+      [
+        1155,
+        "thenewstack",
+        "Become a TNS follower on LinkedIn."
+      ],
+      [
+        1131,
+        "dev",
+        "We're a place where coders share, stay up-to-date and grow their careers."
+      ],
+      [
+        1131,
+        "dev",
+        "Made with love and Ruby on Rails. DEV Community © 2016 - 2026."
+      ],
+      [
+        1131,
+        "dev",
+        "Built on Forem — the open source software that powers DEV and other inclusive communities."
+      ],
+      [
+        1128,
+        "dev",
+        "Templates let you quickly answer FAQs or store snippets for re-use."
+      ]
+    ],
+    "track_term_examples": [
+      [
+        1131,
+        "dev",
+        "Built on Forem — the open source software that powers DEV and other inclusive communities."
+      ],
+      [
+        432,
+        "azobuild",
+        "Your questions, but not your email details will be shared with OpenAI and retained for 30 days in accordance with their privacy principles."
+      ],
+      [
+        235,
+        "builtin",
+        "GitLab is the Intelligent Orchestration Platform where software teams and their AI agents stay in flow to amplify their capacity for innovation. Toget"
+      ],
+      [
+        171,
+        "azocleantech",
+        "Your questions, but not your email details will be shared with OpenAI and retained for 30 days in accordance with their privacy principles."
+      ],
+      [
+        119,
+        "fintechweekly",
+        "The Hyperledger Foundation is an open source collaborative effort hosted by the Linux Foundation and created to advance cross-industry blockchain... R"
+      ],
+      [
+        111,
+        "alexanderthamm",
+        "Matomo is an open-source web analytics solution that emphasizes data privacy and sovereignty and records statistical user data."
+      ],
+      [
+        104,
+        "hpcwire",
+        "The movement toward open source AI made progress today when the Open Source Initiative released the first Open Source AI Definition ( OSAID). While th"
+      ],
+      [
+        70,
+        "tessl",
+        "OpenAI is phasing out self-serve fine-tuning, citing advanced models reducing its necessity, signaling a shift in enterprise AI towards infrastructure"
+      ]
+    ],
+    "top_sources_by_removed_share": [
+      [
+        "apnews",
+        0.654,
+        1259
+      ],
+      [
+        "esgnews",
+        0.598,
+        98
+      ],
+      [
+        "hpcwire",
+        0.47,
+        355
+      ],
+      [
+        "cbsnews",
+        0.406,
+        302
+      ],
+      [
+        "synopsys",
+        0.379,
+        628
+      ],
+      [
+        "fintechweekly",
+        0.364,
+        140
+      ],
+      [
+        "hiddenlayer",
+        0.358,
+        110
+      ],
+      [
+        "wearedevelopers",
+        0.35,
+        159
+      ],
+      [
+        "azobuild",
+        0.338,
+        432
+      ],
+      [
+        "a16z",
+        0.301,
+        219
+      ],
+      [
+        "azocleantech",
+        0.258,
+        171
+      ],
+      [
+        "cloudgeometry",
+        0.24,
+        62
+      ]
+    ],
+    "seconds": 4.8
+  },
+  "repair": {
+    "zero_width_chars_removed": 32507,
+    "apostrophe_spacing_fixed": 681159,
+    "parenthesis_spacing_fixed": 269632,
+    "ptb_quotes_fixed": 160588,
+    "documents_mojibake_fixed": 167,
+    "examples": [
+      [
+        "nt systems and energy management solutions. The company’ s AI-driven technologies facilitate real-time data analy",
+        "nt systems and energy management solutions. The company’s AI-driven technologies facilitate real-time data analy"
+      ],
+      [
+        "w.azobuild.com/news.aspx? newsID=23603.  Dhull, Nidhi. `` Optimizing Sustainable Construction with Smart Tools '",
+        "w.azobuild.com/news.aspx? newsID=23603.  Dhull, Nidhi. \"Optimizing Sustainable Construction with Smart Tools '"
+      ],
+      [
+        "ri Libarikian, Kayvaun Rowshankish, Markus Berger-de LeÃ³n, and Vishnu Kamalnath, âFrom raw data to real profi",
+        "ri Libarikian, Kayvaun Rowshankish, Markus Berger-de León, and Vishnu Kamalnath, “From raw data to real profi"
+      ]
+    ],
+    "seconds": 14.6
+  },
+  "min_content": {
+    "removed": 992,
+    "removed_by_source": {
+      "apnews": 578,
+      "synopsys": 157,
+      "builtin": 89,
+      "cbsnews": 42,
+      "a16z": 41,
+      "wearedevelopers": 31,
+      "hiddenlayer": 20,
+      "huggingface": 9
+    },
+    "example": {
+      "title": "Highlights of Grand Slam champion Rafael Nadal's career in photos",
+      "remaining_text": "Rafael Nadal is retiring from professional tennis at age 38 after winning 22 Grand Slam titles during an unprecedented era he shared with rivals Roger Federer and Novak Djokovic."
+    }
+  },
+  "language": {
+    "checked_with_langdetect": 2887,
+    "removed": 357,
+    "removed_by_language": {
+      "es": 135,
+      "de": 105,
+      "pt": 47,
+      "fr": 32,
+      "id": 8,
+      "ko": 8,
+      "nl": 8,
+      "it": 6,
+      "no": 2,
+      "pl": 2,
+      "ro": 2,
+      "cs": 1,
+      "sk": 1
+    },
+    "removed_by_source": {
+      "blog.google": 139,
+      "gitnation": 56,
+      "t3": 39,
+      "alexanderthamm": 19,
+      "workday": 19,
+      "meer": 8
+    },
+    "seconds": 20.8
+  },
+  "dedup": {
+    "exact_duplicates": 119,
+    "near_duplicate_pairs_confirmed": 613,
+    "docs_removed": 529,
+    "clusters": 472,
+    "cross_source_clusters": 100,
+    "largest_clusters": [
+      [
+        8,
+        1,
+        "2026-01-13",
+        "2026-02-10",
+        "Territory Account Manager, NE - Carbon Robotics",
+        "builtin"
+      ],
+      [
+        7,
+        1,
+        "2024-09-18",
+        "2025-04-23",
+        "meta-llama/Llama-3.2-3B-Instruct · Hugging Face",
+        "huggingface"
+      ],
+      [
+        6,
+        1,
+        "2025-12-06",
+        "2025-12-25",
+        "Software Engineer II, Full Stack (Human AI Innovation Team) - Dataminr",
+        "builtin"
+      ],
+      [
+        5,
+        1,
+        "2026-01-10",
+        "2026-02-08",
+        "Strategic Account Executive, Indiana/Ohio - Rubrik",
+        "builtin"
+      ],
+      [
+        4,
+        1,
+        "2024-09-25",
+        "2024-09-25",
+        "QuantFactory/Llama-3.2-3B-GGUF · Hugging Face",
+        "huggingface"
+      ],
+      [
+        4,
+        1,
+        "2026-06-28",
+        "2026-06-28",
+        "HR Workshop - Vibe: athon: Where HR Goes to Build 4/4 Â· WeAreDevelopers World Congress",
+        "wearedevelopers"
+      ]
+    ],
+    "cross_source_examples": [
+      [
+        3,
+        2,
+        "2024-11-28",
+        "2024-12-01",
+        "GitHub - Tencent/HunyuanVideo: HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+        "deeplearning, huggingface"
+      ],
+      [
+        3,
+        3,
+        "2026-04-22",
+        "2026-04-22",
+        "A robot Sony built with AI is defeating human pros at table tennis",
+        "apnews, bnnbloomberg, thestar"
+      ],
+      [
+        3,
+        2,
+        "2025-07-30",
+        "2025-08-14",
+        "google/gemma-3-270m-it · Hugging Face",
+        "ai.google, huggingface"
+      ],
+      [
+        3,
+        3,
+        "2025-07-23",
+        "2025-07-23",
+        "Teens say they are turning to AI for advice, friendship and more",
+        "apnews, bnnbloomberg, thestar"
+      ],
+      [
+        2,
+        2,
+        "2024-10-09",
+        "2024-10-10",
+        "Australia’s TPG Telecom Taps Mavenir to Boost Voice Security For Mobile Users and Block AI-Driven Scam Calls",
+        "macaubusiness, thefastmode"
+      ],
+      [
+        2,
+        2,
+        "2024-10-09",
+        "2024-10-11",
+        "Machine learning cracked the protein-folding problem and won the 2024 Nobel Prize in chemistry",
+        "discovermagazine, theconversation"
+      ]
+    ],
+    "seconds": 77.2
+  },
+  "window": {
+    "removed_outside_window": 229,
+    "first_date": "2024-09-11",
+    "last_date": "2026-08-31"
+  },
+  "track": {
+    "tiers": {
+      "none": 41539,
+      "mention": 2827,
+      "core": 1210,
+      "reference": 68
+    },
+    "core_score_min": 4.0,
+    "target_sentences": 13587
+  },
+  "topics": {
+    "main_model": "NMF",
+    "k": 16,
+    "labels": [
+      "T01 reasoning · reinforcement · reinforcement learning",
+      "T02 deepseek · r1 · chinese",
+      "T03 blackwell · gpu · workload",
+      "T04 claude · agent · cod",
+      "T05 memory · attention · token",
+      "T06 image · video · text",
+      "T07 china · united_states · chinese",
+      "T08 nemotron · nvidia · nvidia nemotron",
+      "T09 gemma · gemma model · model gemma",
+      "T10 api · file · python",
+      "T11 english · multilingual · instruction",
+      "T12 stock · investor · growth",
+      "T13 meta · zuckerberg · llama",
+      "T14 enterprise · innovation · solution",
+      "T15 qwen · qwen qwen · context length",
+      "T16 people · ask · find"
+    ],
+    "npmi_mean": 0.23874325816916983
+  },
+  "last_run_utc": "2026-10-04T10:03:21+00:00"
+}

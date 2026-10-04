@@ -1,0 +1,14 @@
+family,region,sentences,mean_compound,ci
+gpt-oss,US,201,0.1841,0.0411
+GLM,China,352,0.1938,0.0335
+Kimi,China,521,0.1971,0.0274
+Qwen,China,1338,0.2265,0.0167
+DeepSeek,China,4181,0.2269,0.0109
+Llama,US,1814,0.231,0.0152
+Gemma,US,1407,0.2331,0.016
+Phi,US,253,0.2439,0.0405
+Nemotron,US,585,0.2679,0.0252
+Mistral,Europe,900,0.2759,0.0204
+MiniMax,China,211,0.2798,0.0427
+Granite,US,108,0.3093,0.0597
+Stable Diffusion / StableLM,Europe,166,0.4638,0.0431
