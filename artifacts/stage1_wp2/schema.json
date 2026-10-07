@@ -1,0 +1,675 @@
+{
+  "version": "wp2-1.0",
+  "created_utc": "2026-10-07T01:52:28+00:00",
+  "corpus": "open_models_core.parquet (WP1 core tier, 1,210 articles, Sep 2024 - Aug 2026)",
+  "node": {
+    "id": "entity_id (<type>:<id>, e.g. model:llama, org:openai)",
+    "name": "entity",
+    "type_field": "entity_type",
+    "entity_types": {
+      "FOUNDATION_MODEL": {
+        "definition": "open model family from the WP1 lexicon (canonical_id = family id, with developer and version)",
+        "sources": "domain_dict"
+      },
+      "AI_MODEL": {
+        "definition": "AI model not in the WP1 lexicon (e.g. closed models such as GPT-4, o1)",
+        "sources": "gliner"
+      },
+      "COMPANY": {
+        "definition": "company; also lexicon names used as a company in context (e.g. DeepSeek, Mistral)",
+        "sources": "gliner"
+      },
+      "ORG": {
+        "definition": "organisation (company, lab, institution, agency); also the lexicon developers",
+        "sources": "spacy, gliner, wp1_lexicon"
+      },
+      "PERSON": {
+        "definition": "person",
+        "sources": "spacy, gliner"
+      },
+      "PRODUCT": {
+        "definition": "product (hardware, software, service)",
+        "sources": "spacy, gliner"
+      },
+      "TECHNOLOGY": {
+        "definition": "technology or tool; ecosystem tools of the WP1 lexicon use their lexicon id (e.g. hugging_face)",
+        "sources": "domain_dict, gliner"
+      },
+      "STANDARD": {
+        "definition": "standard or specification",
+        "sources": "gliner"
+      },
+      "LAW": {
+        "definition": "law or regulation",
+        "sources": "spacy"
+      },
+      "GPE": {
+        "definition": "country, city, region",
+        "sources": "spacy"
+      },
+      "NORP": {
+        "definition": "nationality or political/religious group (e.g. Chinese)",
+        "sources": "spacy"
+      },
+      "OPENNESS_CONCEPT": {
+        "definition": "openness concept from the WP1 lexicon (e.g. open_weight, open_source_model)",
+        "sources": "domain_dict"
+      },
+      "ARCHITECTURE": {
+        "definition": "model architecture (e.g. mixture of experts, transformer)",
+        "sources": "gliner"
+      },
+      "CAPABILITY": {
+        "definition": "capability of a model (e.g. reasoning, coding, vision)",
+        "sources": "gliner"
+      },
+      "BENCHMARK": {
+        "definition": "evaluation benchmark (e.g. MMLU, SWE-bench)",
+        "sources": "gliner"
+      },
+      "LICENSE": {
+        "definition": "licence (e.g. Apache 2.0, Llama Community License)",
+        "sources": "gliner"
+      },
+      "DATASET": {
+        "definition": "dataset (e.g. training data)",
+        "sources": "gliner"
+      },
+      "HARDWARE": {
+        "definition": "hardware, chips and accelerators (e.g. H100, TPU)",
+        "sources": "gliner"
+      },
+      "PLATFORM": {
+        "definition": "platform or service where models are hosted or run (e.g. Hugging Face, AWS Bedrock)",
+        "sources": "gliner"
+      },
+      "MODEL_SPEC": {
+        "definition": "model size or context length (e.g. 70B parameters, 128K tokens) - attribute value",
+        "sources": "gliner"
+      }
+    }
+  },
+  "edges": {
+    "relation": {
+      "file": "edges_relations.csv",
+      "directed": true,
+      "types": {
+        "developed by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE",
+            "DATASET",
+            "BENCHMARK",
+            "STANDARD",
+            "LICENSE"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY",
+            "PERSON"
+          ],
+          "definition": "the organisation/person created or developed the model, product, technology, platform, hardware, architecture, dataset, benchmark, standard or license",
+          "note": "extracted by GLiREL, or model -> developer from the WP1 lexicon (source = wp1_lexicon)"
+        },
+        "released by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "DATASET",
+            "BENCHMARK",
+            "STANDARD",
+            "LICENSE"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY",
+            "PERSON"
+          ],
+          "definition": "the organisation/person publicly released or published the model, product, technology, platform, hardware, dataset, benchmark, standard or license"
+        },
+        "announced by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE",
+            "DATASET",
+            "BENCHMARK",
+            "STANDARD"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY",
+            "PERSON"
+          ],
+          "definition": "the organisation/person announced the model, product, technology, platform, hardware, architecture, dataset, benchmark or standard"
+        },
+        "member of family": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "definition": "the model is a version or variant of a model family"
+        },
+        "successor of": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "HARDWARE"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "HARDWARE"
+          ],
+          "definition": "the artifact is a newer version or generation that follows an earlier one"
+        },
+        "based on": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "ARCHITECTURE"
+          ],
+          "definition": "the model, product, technology or platform is built on top of another model, product, technology, platform or architecture"
+        },
+        "fine-tuned from": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "definition": "the model was further trained from an earlier model"
+        },
+        "distilled from": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "definition": "the model was trained to imitate another model"
+        },
+        "quantized version of": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "definition": "the model is a compressed quantized version of another model"
+        },
+        "has parameter count": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "ARCHITECTURE"
+          ],
+          "tail_types": [
+            "MODEL_SPEC"
+          ],
+          "definition": "parameter count associated with the model or model architecture"
+        },
+        "has context window": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "MODEL_SPEC"
+          ],
+          "definition": "maximum context or input length supported by the model"
+        },
+        "licensed under": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE",
+            "DATASET",
+            "BENCHMARK"
+          ],
+          "tail_types": [
+            "LICENSE",
+            "STANDARD"
+          ],
+          "definition": "license or licensing standard under which the artifact is distributed"
+        },
+        "has openness type": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE",
+            "DATASET"
+          ],
+          "tail_types": [
+            "OPENNESS_CONCEPT"
+          ],
+          "definition": "openness status of the artifact, such as open-weight, open-source or proprietary"
+        },
+        "uses architecture": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM"
+          ],
+          "tail_types": [
+            "ARCHITECTURE",
+            "TECHNOLOGY"
+          ],
+          "definition": "architecture or architectural technology used by the model, product, technology or platform"
+        },
+        "uses technique": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM"
+          ],
+          "tail_types": [
+            "TECHNOLOGY"
+          ],
+          "definition": "training, inference or implementation technique used by the model, product, technology or platform"
+        },
+        "has capability": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "tail_types": [
+            "CAPABILITY"
+          ],
+          "definition": "capability provided by the model, product, technology, platform or hardware"
+        },
+        "evaluated on": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE"
+          ],
+          "tail_types": [
+            "BENCHMARK",
+            "DATASET"
+          ],
+          "definition": "benchmark or evaluation dataset on which the artifact is evaluated"
+        },
+        "outperforms": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "definition": "the artifact is reported to perform better than another comparable artifact"
+        },
+        "competes with": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "ORG",
+            "COMPANY",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "tail_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "ORG",
+            "COMPANY",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "definition": "direct competitor, rival model, organisation, product, technology, platform or hardware"
+        },
+        "trained on data": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "DATASET"
+          ],
+          "definition": "dataset or data source used to train the model"
+        },
+        "trained using hardware": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL"
+          ],
+          "tail_types": [
+            "HARDWARE",
+            "PRODUCT",
+            "TECHNOLOGY"
+          ],
+          "definition": "hardware, accelerator or infrastructure technology used to train the model"
+        },
+        "runs on": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM"
+          ],
+          "tail_types": [
+            "HARDWARE",
+            "PLATFORM",
+            "PRODUCT",
+            "TECHNOLOGY"
+          ],
+          "definition": "hardware, platform, product or technology on which the artifact runs"
+        },
+        "manufactured by": {
+          "head_types": [
+            "HARDWARE",
+            "PRODUCT",
+            "TECHNOLOGY"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "organisation that manufactures or produces the hardware, product or technology"
+        },
+        "available on": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "DATASET",
+            "BENCHMARK"
+          ],
+          "tail_types": [
+            "PLATFORM",
+            "TECHNOLOGY",
+            "PRODUCT"
+          ],
+          "definition": "platform, technology or product through which the artifact is available"
+        },
+        "integrated into": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM"
+          ],
+          "tail_types": [
+            "PRODUCT",
+            "PLATFORM",
+            "TECHNOLOGY"
+          ],
+          "definition": "product, platform or technology into which the artifact is integrated"
+        },
+        "used by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "TECHNOLOGY",
+            "PRODUCT",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE",
+            "DATASET"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY",
+            "PRODUCT",
+            "PERSON"
+          ],
+          "definition": "organisation, product or person that uses or adopts the artifact"
+        },
+        "supported by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM"
+          ],
+          "tail_types": [
+            "TECHNOLOGY",
+            "PLATFORM",
+            "PRODUCT",
+            "HARDWARE",
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "technology, platform, product, hardware or organisation that supports the artifact"
+        },
+        "subsidiary of": {
+          "head_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "the organisation belongs to or is controlled by a parent organisation"
+        },
+        "acquired by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "ORG",
+            "COMPANY",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "the model, organisation, product, technology, platform or hardware was acquired by another organisation"
+        },
+        "invested in": {
+          "head_types": [
+            "ORG",
+            "COMPANY",
+            "PERSON"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "the organisation or person invested in another organisation"
+        },
+        "partner of": {
+          "head_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "the organisations collaborate or have a partnership"
+        },
+        "founded by": {
+          "head_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "tail_types": [
+            "PERSON",
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "the organisation was founded by a person or another organisation"
+        },
+        "works for": {
+          "head_types": [
+            "PERSON"
+          ],
+          "tail_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "definition": "the person works for, leads or holds a role in the organisation"
+        },
+        "headquartered in": {
+          "head_types": [
+            "ORG",
+            "COMPANY"
+          ],
+          "tail_types": [
+            "GPE"
+          ],
+          "definition": "country, city or geographic location where the organisation is headquartered"
+        },
+        "complies with": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "ORG",
+            "COMPANY",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE",
+            "ARCHITECTURE",
+            "DATASET"
+          ],
+          "tail_types": [
+            "STANDARD",
+            "LAW",
+            "LICENSE"
+          ],
+          "definition": "the model, organisation or artifact complies with a standard, law, license or regulation"
+        },
+        "regulated by": {
+          "head_types": [
+            "FOUNDATION_MODEL",
+            "AI_MODEL",
+            "ORG",
+            "COMPANY",
+            "PRODUCT",
+            "TECHNOLOGY",
+            "PLATFORM",
+            "HARDWARE"
+          ],
+          "tail_types": [
+            "LAW",
+            "STANDARD"
+          ],
+          "definition": "the model, organisation or artifact is subject to a law, regulation or regulatory standard"
+        }
+      },
+      "type_check": "type_valid = head and tail types satisfy the relation constraints"
+    },
+    "co_mention": {
+      "file": "edges_cooccurrence.csv",
+      "directed": false,
+      "definition": "both entities appear in the same sentence; weight = number of sentences, association = NPMI"
+    }
+  },
+  "time": "publication date of the article (date / month / quarter), not dates written in the text",
+  "extraction": {
+    "spacy_model": "en_core_web_lg",
+    "spacy_types_kept": [
+      "ORG",
+      "PERSON",
+      "PRODUCT",
+      "LAW",
+      "GPE",
+      "NORP"
+    ],
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "gliner_labels": {
+      "company": "COMPANY",
+      "organization": "ORG",
+      "technology": "TECHNOLOGY",
+      "AI model": "AI_MODEL",
+      "standard": "STANDARD",
+      "product": "PRODUCT",
+      "person": "PERSON",
+      "model architecture": "ARCHITECTURE",
+      "capability": "CAPABILITY",
+      "benchmark": "BENCHMARK",
+      "license": "LICENSE",
+      "dataset": "DATASET",
+      "hardware": "HARDWARE",
+      "platform": "PLATFORM",
+      "model size or context length": "MODEL_SPEC"
+    },
+    "gliner_threshold": 0.5,
+    "relation_model": "jackboyla/glirel-large-v0",
+    "relation_threshold": 0.5,
+    "relation_candidates": "per sentence, only relation labels compatible with the entity types present",
+    "merge_priority": "domain_dict > spacy (GPE, NORP only) > gliner > spacy; GLiNER type for ambiguous names ['baichuan', 'deepseek', 'minimax', 'mistral', 'sarvam']",
+    "normalisation": "WP1 lexicon phrase_normalisation + casing + short person names -> full names; pronouns removed from GLiNER"
+  }
+}

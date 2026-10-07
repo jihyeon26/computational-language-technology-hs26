@@ -48,3 +48,6 @@ logs/
 # Exception: small Stage 1 WP1 results (figures, tables, lexicon, validation labels) are versioned
 !artifacts/stage1_wp1/
 !artifacts/stage1_wp1/**
+# Exception: Stage 1 WP2 handover (entities, relations, co-occurrence, schema) is versioned
+!artifacts/stage1_wp2/
+!artifacts/stage1_wp2/**
