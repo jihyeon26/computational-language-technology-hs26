@@ -51,3 +51,8 @@ logs/
 # Exception: Stage 1 WP2 handover (entities, relations, co-occurrence, schema) is versioned
 !artifacts/stage1_wp2/
 !artifacts/stage1_wp2/**
+# Exception: Stage 1 WP3 relation review sample (files for manual review only)
+!artifacts/stage1_wp3/
+artifacts/stage1_wp3/*
+!artifacts/stage1_wp3/review/
+!artifacts/stage1_wp3/review/**
