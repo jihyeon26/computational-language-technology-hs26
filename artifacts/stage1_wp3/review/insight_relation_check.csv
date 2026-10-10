@@ -1,0 +1,328 @@
+head_id,relation,tail_id,head,tail,document_count,ai_verdict,verdict,error_type,reason,human_checked,human_note
+model:nemotron,available on,platform:github,Nemotron,GitHub,3,AMBIGUOUS,AMBIGUOUS,,GitHub availability attaches to NemoClaw/NeMo Retriever; unclear for Nemotron,False,
+platform:latent_space,acquired by,org:ainews,Latent Space,AINews,8,FALSE,FALSE,reversed_direction,"AINews became part of Latent Space, not the reverse",True,confirmed FALSE
+model:manus,acquired by,org:meta,Manus,Meta,2,FALSE,FALSE,negation_or_uncertainty,acquisition blocked/unwound by Chinese regulators,True,confirmed FALSE
+benchmark:gtc_2026,announced by,org:nvidia,GTC 2026,NVIDIA,2,FALSE,TRUE,schema_or_catalogue,GTC 2026 is a conference typed as benchmark,True,relation correct; only node type wrong
+technology:hugging_face,available on,platform:openrouter,hugging_face,OpenRouter,2,FALSE,FALSE,entity_linking,Hugging Face and OpenRouter are co-listed platforms,True,confirmed FALSE
+org:meta,competes with,org:microsoft,Meta,Microsoft,18,FALSE,TRUE,insufficient_context,only co-listed among hyperscalers/big tech,True,sentence states the hyperscalers are in a race to lead in AI
+model:glm,competes with,org:moonshot_ai,GLM,MoonShot AI,3,FALSE,FALSE,entity_linking,"rivalry is Moonshot vs Zhipu (company), not GLM model",True,confirmed FALSE
+org:deepseek,competes with,org:nvidia,DeepSeek,NVIDIA,21,FALSE,FALSE,wrong_predicate,DeepSeek disrupted Nvidia's stock/dominance; not a competitor,True,confirmed FALSE
+benchmark:claude_sonnet_4_5,developed by,org:anthropic,Claude Sonnet 4.5,Anthropic,2,FALSE,TRUE,schema_or_catalogue,"Claude Sonnet 4.5 is a model, typed as benchmark",True,relation correct; only node type wrong
+standard:codex,developed by,org:anthropic,Codex,Anthropic,3,FALSE,FALSE,entity_linking,Codex is OpenAI's,True,confirmed FALSE
+model:chinese_ai,developed by,org:deepseek,Chinese AI,DeepSeek,12,FALSE,FALSE,entity_boundary,"'Chinese AI' is a generic phrase, not a model",True,confirmed FALSE
+model:pro_model,developed by,org:deepseek,Pro model,DeepSeek,1,FALSE,FALSE,entity_boundary,'Pro model' truncated from V4-Pro,True,confirmed FALSE
+model:o1,developed by,org:deepseek,o1,DeepSeek,3,FALSE,FALSE,entity_linking,o1 is OpenAI's,True,confirmed FALSE
+dataset:ai_overviews,developed by,org:google,AI Overviews,Google,2,FALSE,TRUE,schema_or_catalogue,AI Overviews is a Google feature typed as dataset,True,relation correct; only node type wrong
+benchmark:c2s_scale,developed by,org:google,C2S-Scale,Google,1,FALSE,TRUE,schema_or_catalogue,C2S-Scale is a model typed as benchmark,True,relation correct; only node type wrong
+platform:chatgpt,developed by,org:google,ChatGPT,Google,3,FALSE,FALSE,entity_linking,ChatGPT is OpenAI's,True,confirmed FALSE
+model:claude_3,developed by,org:google,Claude 3,Google,2,FALSE,FALSE,entity_linking,Claude 3 is Anthropic's; Google makes Gemini,True,confirmed FALSE
+model:codex_model,developed by,org:google,Codex model,Google,1,FALSE,FALSE,other,Codex is OpenAI's model; sentence wrongly attributes it to Google,True,confirmed FALSE
+model:gpt,developed by,org:google,GPT,Google,3,FALSE,FALSE,entity_linking,GPT is OpenAI's; Google mentioned for BERT/Transformer,True,confirmed FALSE
+model:gpt_4_2,developed by,org:google,GPT-4,Google,2,FALSE,FALSE,entity_linking,GPT-4 is OpenAI's; listed alongside Google's Gemini/Gemma,True,confirmed FALSE
+model:gpt_4o_2,developed by,org:google,GPT-4o,Google,2,FALSE,FALSE,entity_linking,GPT-4o is OpenAI's; Google only for Gemini in the list,True,confirmed FALSE
+platform:project_maven,developed by,org:google,Project Maven,Google,2,FALSE,FALSE,wrong_predicate,Project Maven is a Pentagon program; Google was a contractor that withdrew,True,confirmed FALSE
+product:ultra,developed by,org:google,Ultra,Google,2,FALSE,FALSE,entity_boundary,'Ultra' is a truncated/generic subscription tier name,True,confirmed FALSE
+technology:llama_cpp,developed by,org:google,llama_cpp,Google,1,FALSE,FALSE,entity_linking,TurboQuant is Google's; llama.cpp is not developed by Google,True,confirmed FALSE
+product:av,developed by,org:nvidia,AV,NVIDIA,2,FALSE,FALSE,entity_boundary,"'AV' is a generic term for autonomous vehicles, not a product",True,confirmed FALSE
+product:ltx_2,developed by,org:nvidia,LTX-2,NVIDIA,2,FALSE,FALSE,entity_linking,LTX-2 is Lightricks' model; NVIDIA only showcases/accelerates it,True,confirmed FALSE
+product:ltx_2_5,developed by,org:nvidia,LTX-2.5,NVIDIA,1,FALSE,FALSE,entity_linking,LTX-2.5 only optimized for NVIDIA hardware; developer is Lightricks,True,confirmed FALSE
+model:mlperf_inference,developed by,org:nvidia,MLPerf Inference,NVIDIA,1,FALSE,FALSE,entity_linking,MLPerf is an MLCommons benchmark; NVIDIA only submits results,True,confirmed FALSE
+architecture:mamba,developed by,org:nvidia,Mamba,NVIDIA,2,FALSE,FALSE,entity_linking,Mamba architecture not created by NVIDIA (Gu & Dao); NVIDIA uses it,True,confirmed FALSE
+model:mamba2,developed by,org:nvidia,Mamba2,NVIDIA,1,FALSE,FALSE,entity_boundary,Entity should be 'NVIDIA hybrid Mamba2' model; Mamba2 itself is not NVIDIA's,True,confirmed FALSE
+model:muse_glimmer,developed by,org:nvidia,Muse Glimmer,NVIDIA,1,FALSE,FALSE,entity_linking,Muse Glimmer is Meta's model; only optimized for NVIDIA hardware,True,confirmed FALSE
+platform:openclaw,developed by,org:nvidia,OpenClaw,NVIDIA,4,FALSE,FALSE,entity_linking,"NemoClaw installs OpenClaw; OpenClaw founded by Peter Steinberger, not NVIDIA",True,confirmed FALSE
+model:r1_2,developed by,org:nvidia,R1,NVIDIA,2,FALSE,FALSE,entity_linking,R1 is DeepSeek's; NVIDIA stock reacted to it,True,confirmed FALSE
+model:r1_model,developed by,org:nvidia,R1 model,NVIDIA,3,FALSE,FALSE,entity_linking,R1 model is DeepSeek's; NVIDIA only mentioned,True,confirmed FALSE
+product:sglang,developed by,org:nvidia,SGLang,NVIDIA,2,FALSE,FALSE,entity_linking,SGLang listed alongside NVIDIA stack but not NVIDIA-developed,True,confirmed FALSE
+technology:spark,developed by,org:nvidia,Spark,NVIDIA,2,FALSE,FALSE,entity_boundary,'Spark' truncated from DGX Spark; ambiguous with Apache Spark,True,confirmed FALSE
+architecture:disaggregated_serving,developed by,org:nvidia,disaggregated serving,NVIDIA,2,FALSE,FALSE,wrong_predicate,"Disaggregated serving is a technique NVIDIA highlights/supports, not developed by it",True,confirmed FALSE
+technology:llama_cpp,developed by,org:nvidia,llama_cpp,NVIDIA,2,FALSE,FALSE,entity_linking,llama.cpp is community project; NVIDIA only collaborates/deploys on it,True,confirmed FALSE
+architecture:mixture_of_experts,developed by,org:nvidia,mixture_of_experts,NVIDIA,2,FALSE,FALSE,entity_linking,MoE architecture not developed by NVIDIA; NVIDIA uses it,True,confirmed FALSE
+architecture:simulation_frameworks,developed by,org:nvidia,simulation frameworks,NVIDIA,2,FALSE,FALSE,entity_boundary,Generic entity 'simulation frameworks',True,confirmed FALSE
+technology:vllm,developed by,org:nvidia,vllm,NVIDIA,3,FALSE,FALSE,entity_linking,vLLM listed with NVIDIA stack but developed by UC Berkeley community,True,confirmed FALSE
+standard:codex,developed by,org:nous_research,Codex,Nous Research,2,FALSE,FALSE,entity_linking,Codex is OpenAI's; Nous only mentioned in same sentence,True,confirmed FALSE
+model:agi,developed by,org:openai,AGI,OpenAI,5,FALSE,FALSE,entity_boundary,"AGI is a goal/concept, not a model developed by OpenAI",True,confirmed FALSE
+platform:azure,developed by,org:openai,Azure,OpenAI,2,FALSE,FALSE,entity_linking,Azure is Microsoft's platform,True,confirmed FALSE
+model:claude_sonnet_3_5,developed by,org:openai,Claude Sonnet 3.5,OpenAI,2,FALSE,FALSE,entity_linking,Claude Sonnet 3.5 is Anthropic's; listed with OpenAI o1,True,confirmed FALSE
+product:copilot,developed by,org:openai,Copilot,OpenAI,3,FALSE,FALSE,entity_linking,Copilot is Microsoft's; listed with OpenAI,True,confirmed FALSE
+platform:gemini,developed by,org:openai,Gemini,OpenAI,5,FALSE,FALSE,entity_linking,Gemini is Google's; listed with OpenAI models,True,confirmed FALSE
+model:r1_2,developed by,org:openai,R1,OpenAI,10,FALSE,FALSE,entity_linking,R1 is DeepSeek's; listed with OpenAI o1,True,confirmed FALSE
+model:r1_model,developed by,org:openai,R1 model,OpenAI,2,FALSE,FALSE,entity_linking,R1 model is DeepSeek's,True,confirmed FALSE
+model:hermes_agent,developed by,org:teknium,Hermes Agent,Teknium,2,FALSE,FALSE,schema_or_catalogue,Teknium is a person typed as company; Nous Research released Hermes Agent,True,confirmed FALSE
+org:openai,founded by,org:thinking_machines_lab,OpenAI,Thinking Machines Lab,2,FALSE,FALSE,entity_linking,"Thinking Machines Lab was founded by ex-OpenAI CTO, not founder of OpenAI",True,confirmed FALSE
+org:linux_foundation,founded by,org:tokenomics_foundation,Linux Foundation,Tokenomics Foundation,2,FALSE,FALSE,reversed_direction,Linux Foundation launched Tokenomics Foundation,True,confirmed FALSE
+org:ap,headquartered in,place:hong_kong,AP,Hong Kong,2,FALSE,FALSE,other,"Hong Kong is a news dateline, not AP headquarters",True,confirmed FALSE
+org:nvidia,headquartered in,place:japan,NVIDIA,Japan,2,FALSE,FALSE,wrong_predicate,NVIDIA works with Japanese firms; not headquartered in Japan,True,confirmed FALSE
+org:white_house_task_force_on_artificial_intelligence_education,headquartered in,place:washington,White House Task Force on Artificial Intelligence Education,Washington,2,FALSE,FALSE,insufficient_context,Only a meeting location; no headquarters stated for task force,True,confirmed FALSE
+org:openai,invested in,org:amazon,OpenAI,Amazon,2,FALSE,FALSE,reversed_direction,Amazon invested in OpenAI,True,confirmed FALSE
+model:gpt_4o_2,outperforms,model:claude,GPT-4o,Claude,4,FALSE,FALSE,entity_linking,Other models beat GPT-4o and Claude; no GPT-4o over Claude claim,True,confirmed FALSE
+model:kimi,outperforms,product:claude_fable_5,Kimi,Claude Fable 5,2,FALSE,FALSE,reversed_direction,Kimi K3 trails Claude Fable 5,True,confirmed FALSE
+model:qwen,outperforms,model:llama,Qwen,Llama,7,FALSE,FALSE,entity_linking,Other models beat Llama and Qwen; no Qwen over Llama claim,True,confirmed FALSE
+model:gpt_4o_2,outperforms,model:olmo_2,GPT-4o,OLMo / Molmo / Tülu,4,FALSE,FALSE,reversed_direction,Molmo outperforms GPT-4o,True,confirmed FALSE
+model:glm,outperforms,model:qwen,GLM,Qwen,2,FALSE,FALSE,entity_linking,GLM and Qwen only listed as being beaten by others,True,confirmed FALSE
+org:ant_group,subsidiary of,org:alibaba,Ant Group,Alibaba,2,FALSE,FALSE,wrong_predicate,"Ant Group described as Alibaba affiliate, not subsidiary",True,confirmed FALSE
+model:kimi,supported by,org:alibaba,Kimi,Alibaba,3,FALSE,FALSE,entity_linking,"Alibaba backs Moonshot AI (company), not the Kimi model",True,confirmed FALSE
+model:kimi,supported by,org:hongshan,Kimi,HongShan,2,FALSE,FALSE,entity_linking,"HongShan backs Moonshot AI (company), not the Kimi model",True,confirmed FALSE
+platform:github,supported by,org:ycombinator,GitHub,YCombinator,2,FALSE,FALSE,entity_linking,"YCombinator backs the project hosted on GitHub, not GitHub",True,confirmed FALSE
+org:google_deepmind,acquired by,org:google,Google DeepMind,Google,2,TRUE,TRUE,,DeepSeek acquired by Google in 2014,False,
+org:cursor,acquired by,org:spacex,Cursor,SpaceX,3,TRUE,TRUE,,Cursor recently acquired by SpaceX,False,
+product:nemo_switchyard,available on,platform:github,NeMo Switchyard,GitHub,2,TRUE,TRUE,,NeMo Switchyard available on GitHub,False,
+model:nemotron,available on,platform:openrouter,Nemotron,OpenRouter,3,TRUE,TRUE,,Nemotron models available on OpenRouter,False,
+model:kimi,available on,technology:hugging_face,Kimi,hugging_face,2,TRUE,TRUE,,Kimi K2.5 checkpoint available on Hugging Face,False,
+model:glm,competes with,org:anthropic,GLM,Anthropic,5,TRUE,FALSE,schema_or_catalogue,GLM 5.2 described as competitor to Anthropic,True,model paired with a company
+org:anthropic,competes with,org:deepseek,Anthropic,DeepSeek,23,TRUE,TRUE,,Anthropic models competing against DeepSeek; DeepSeek compared to US competitor Claude,False,
+org:amazon,competes with,org:google,Amazon,Google,27,TRUE,TRUE,,Amazon entering direct competition with Google,False,
+org:anthropic,competes with,org:google,Anthropic,Google,51,TRUE,TRUE,,Anthropic competition with Google intensifies,False,
+org:deepseek,competes with,org:google,DeepSeek,Google,30,TRUE,TRUE,,DeepSeek product rivals Google offerings,False,
+org:portkey,competes with,product:helicone,Portkey,Helicone,2,TRUE,TRUE,,Helicone is an alternative to Portkey,False,
+org:truefoundry,competes with,product:litellm,TrueFoundry,LiteLLM,3,TRUE,TRUE,,TrueFoundry as LiteLLM alternative that outperforms it,False,
+org:deepseek,competes with,org:meta,DeepSeek,Meta,22,TRUE,TRUE,,DeepSeek R1 rivals Meta products; DeepSeek rival of Meta Llama,False,
+org:google,competes with,org:meta,Google,Meta,42,TRUE,TRUE,,Meta in direct competition with Google Assistant,False,
+org:amazon,competes with,org:microsoft,Amazon,Microsoft,21,TRUE,TRUE,,Microsoft competing against Amazon,False,
+org:google,competes with,org:microsoft,Google,Microsoft,37,TRUE,TRUE,,Microsoft competing against Google,False,
+org:amd,competes with,org:nvidia,AMD,NVIDIA,17,TRUE,TRUE,,AMD competitive against Nvidia,False,
+org:anthropic,competes with,org:openai,Anthropic,OpenAI,97,TRUE,TRUE,,Anthropic described as OpenAI competitor,False,
+org:deepseek,competes with,org:openai,DeepSeek,OpenAI,103,TRUE,TRUE,,DeepSeek rivals OpenAI,False,
+model:glm,competes with,org:openai,GLM,OpenAI,3,TRUE,TRUE,,OpenAI's closed models competing against Chinese open models incl. GLM,False,
+org:google,competes with,org:openai,Google,OpenAI,80,TRUE,TRUE,,Google in competition with OpenAI,False,
+org:meta,competes with,org:openai,Meta,OpenAI,40,TRUE,TRUE,,Meta in direct competition with OpenAI,False,
+org:portkey,competes with,org:truefoundry,Portkey,TrueFoundry,3,TRUE,TRUE,,TrueFoundry listed as key competitor of Portkey,False,
+model:muse_spark,developed by,person:alexandr_wang,Muse Spark,Alexandr Wang,3,TRUE,TRUE,,Muse Spark built under Alexandr Wang,False,
+model:claude,developed by,org:anthropic,Claude,Anthropic,18,TRUE,TRUE,,Claude developed by Anthropic,False,
+product:claude_3_5_sonnet,developed by,org:anthropic,Claude 3.5 Sonnet,Anthropic,2,TRUE,TRUE,,Anthropic offers Claude 3.5 Sonnet,False,
+model:claude_4,developed by,org:anthropic,Claude 4,Anthropic,2,TRUE,TRUE,,Anthropic released Claude 4,False,
+model:claude_ai,developed by,org:anthropic,Claude AI,Anthropic,2,TRUE,TRUE,,Claude AI by Anthropic,False,
+technology:claude_api,developed by,org:anthropic,Claude API,Anthropic,2,TRUE,TRUE,,Anthropic's Claude API,False,
+model:claude_code,developed by,org:anthropic,Claude Code,Anthropic,5,TRUE,TRUE,,Claude Code built by Anthropic,False,
+product:claude_fable_5,developed by,org:anthropic,Claude Fable 5,Anthropic,4,TRUE,TRUE,,Anthropic launched Claude Fable 5,False,
+product:claude_mythos_5,developed by,org:anthropic,Claude Mythos 5,Anthropic,4,TRUE,TRUE,,Anthropic launched Claude Mythos 5,False,
+product:claude_mythos_preview,developed by,org:anthropic,Claude Mythos Preview,Anthropic,2,TRUE,TRUE,,Anthropic announced Claude Mythos Preview,False,
+product:claude_opus_4_5,developed by,org:anthropic,Claude Opus 4.5,Anthropic,2,TRUE,TRUE,,Anthropic launched Claude Opus 4.5,False,
+product:claude_opus_5,developed by,org:anthropic,Claude Opus 5,Anthropic,1,TRUE,TRUE,,Anthropic launched Claude Opus 5,False,
+model:claude_model,developed by,org:anthropic,Claude model,Anthropic,3,TRUE,TRUE,,Anthropic's Claude model,False,
+model:claude_models,developed by,org:anthropic,Claude models,Anthropic,2,TRUE,TRUE,,Anthropic's Claude models,False,
+product:fable_5,developed by,org:anthropic,Fable 5,Anthropic,2,TRUE,TRUE,,Anthropic launched Fable 5,False,
+standard:mcp,developed by,org:anthropic,MCP,Anthropic,9,TRUE,TRUE,,MCP open standard developed by Anthropic,False,
+model:mythos,developed by,org:anthropic,Mythos,Anthropic,4,TRUE,TRUE,,Anthropic developed Mythos,False,
+product:mythos_5,developed by,org:anthropic,Mythos 5,Anthropic,2,TRUE,TRUE,,Anthropic's Mythos 5 model,False,
+model:mythos_model,developed by,org:anthropic,Mythos model,Anthropic,3,TRUE,TRUE,,Anthropic's Mythos model,False,
+model:opus,developed by,org:anthropic,Opus,Anthropic,2,TRUE,TRUE,,Opus in Anthropic's Claude series,False,
+model:siri,developed by,org:apple,Siri,Apple,3,TRUE,TRUE,,Siri is Apple's assistant,False,
+product:janus_pro,developed by,org:deepseek,Janus Pro,DeepSeek,2,TRUE,TRUE,,DeepSeek released Janus Pro,False,
+product:janus_pro_7b,developed by,org:deepseek,Janus Pro 7B,DeepSeek,1,TRUE,TRUE,,DeepSeek introduced Janus Pro 7B,False,
+model:r1_2,developed by,org:deepseek,R1,DeepSeek,56,TRUE,TRUE,,R1 developed by DeepSeek,False,
+model:r1_models,developed by,org:deepseek,R1 models,DeepSeek,2,TRUE,TRUE,,DeepSeek developed R1 models,False,
+model:r1_reasoning_model,developed by,org:deepseek,R1 reasoning model,DeepSeek,6,TRUE,TRUE,,DeepSeek's R1 reasoning model,False,
+model:r1_zero,developed by,org:deepseek,R1-Zero,DeepSeek,2,TRUE,TRUE,,DeepSeek released R1-Zero,False,
+model:r2_model,developed by,org:deepseek,R2 model,DeepSeek,2,TRUE,TRUE,,DeepSeek's R2 model in development,False,
+model:v3,developed by,org:deepseek,V3,DeepSeek,9,TRUE,TRUE,,DeepSeek built V3,False,
+model:v3_model,developed by,org:deepseek,V3 model,DeepSeek,9,TRUE,TRUE,,DeepSeek's V3 model,False,
+product:v4,developed by,org:deepseek,V4,DeepSeek,4,TRUE,TRUE,,DeepSeek released V4,False,
+product:v4_pro,developed by,org:deepseek,V4-Pro,DeepSeek,2,TRUE,TRUE,,DeepSeek's V4-Pro,False,
+technology:ai_mode,developed by,org:google,AI Mode,Google,2,TRUE,TRUE,,Google's AI Mode,False,
+model:amie,developed by,org:google,AMIE,Google,2,TRUE,TRUE,,AMIE developed by Google Research/DeepMind,False,
+model:alphafold_3,developed by,org:google,AlphaFold 3,Google,2,TRUE,TRUE,,AlphaFold 3 developed by Google DeepMind,False,
+platform:android,developed by,org:google,Android,Google,3,TRUE,TRUE,,Google's Android,False,
+model:bert,developed by,org:google,BERT,Google,4,TRUE,TRUE,,BERT developed by Google,False,
+model:bard,developed by,org:google,Bard,Google,2,TRUE,TRUE,,Google Bard,False,
+platform:chrome,developed by,org:google,Chrome,Google,2,TRUE,TRUE,,Google's Chrome browser,False,
+product:chrome_browser,developed by,org:google,Chrome browser,Google,1,TRUE,TRUE,,Google's Chrome browser,False,
+model:codemender,developed by,org:google,CodeMender,Google,1,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:data_commons,developed by,org:google,Data Commons,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:flash_thinking,developed by,org:google,Flash Thinking,Google,2,TRUE,TRUE,,Google's reasoning model Gemini 2.0 Flash Thinking,False,
+product:flow,developed by,org:google,Flow,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:gke,developed by,org:google,GKE,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:gemini,developed by,org:google,Gemini,Google,31,TRUE,TRUE,,Gemini is Google's model family/app,False,
+model:gemini_2_0,developed by,org:google,Gemini 2.0,Google,4,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:gemini_2_5_pro,developed by,org:google,Gemini 2.5 Pro,Google,6,TRUE,TRUE,,Sentence states the company created/released it,False,
+technology:gemini_api,developed by,org:google,Gemini API,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:gemini_agent,developed by,org:google,Gemini Agent,Google,1,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:gemini_cli,developed by,org:google,Gemini CLI,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:gemini_code_assist,developed by,org:google,Gemini Code Assist,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:gemini_enterprise_agent_platform,developed by,org:google,Gemini Enterprise Agent Platform,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:gemini_pro,developed by,org:google,Gemini Pro,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:gemini_models,developed by,org:google,Gemini models,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:gemini_series,developed by,org:google,Gemini series,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:gemma3,developed by,org:google,Gemma3,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+architecture:ml_pathways,developed by,org:google,ML Pathways,Google,7,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:meridian,developed by,org:google,Meridian,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:model_garden,developed by,org:google,Model Garden,Google,4,TRUE,TRUE,,Vertex AI Model Garden is Google's,False,
+product:nano_banana,developed by,org:google,Nano Banana,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:nano_banana_pro,developed by,org:google,Nano Banana Pro,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:notebooklm,developed by,org:google,NotebookLM,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:pathways,developed by,org:google,Pathways,Google,2,TRUE,TRUE,,Developed by Google DeepMind,False,
+product:project_mariner,developed by,org:google,Project Mariner,Google,1,TRUE,TRUE,,Sentence states the company created/released it,False,
+technology:rig,developed by,org:google,RIG,Google,2,TRUE,TRUE,,Google's DataGemma RIG approach,False,
+product:stitch,developed by,org:google,Stitch,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:tpu,developed by,org:google,TPU,Google,5,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:tpus,developed by,org:google,TPUs,Google,6,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:tensor_processing_units,developed by,org:google,Tensor Processing Units,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+technology:tensorflow,developed by,org:google,TensorFlow,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:veo,developed by,org:google,Veo,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:veo_3_1,developed by,org:google,Veo 3.1,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:vertex_ai,developed by,org:google,Vertex AI,Google,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+architecture:transformer,developed by,org:google,transformer,Google,2,TRUE,TRUE,,Google researchers introduced the transformer,False,
+architecture:transformer_architecture,developed by,org:google,transformer architecture,Google,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:atlas_950_superpod,developed by,org:huawei,Atlas 950 SuperPoD,Huawei,2,TRUE,TRUE,,Huawei showcasing its AI computing system,False,
+benchmark:itbench_aa,developed by,org:ibm,ITBench-AA,IBM,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:ltx_2,developed by,org:lightricks,LTX-2,Lightricks,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:behemoth,developed by,org:meta,Behemoth,Meta,3,TRUE,TRUE,,Meta stated as builder/releaser,False,
+product:llama_4,developed by,org:meta,LLaMa 4,Meta,1,TRUE,TRUE,,Meta stated as builder/releaser,False,
+model:maverick,developed by,org:meta,Maverick,Meta,3,TRUE,TRUE,,Meta stated as builder/releaser,False,
+platform:messenger,developed by,org:meta,Messenger,Meta,2,TRUE,TRUE,,Meta stated as builder/releaser,False,
+model:muse_glimmer,developed by,org:meta,Muse Glimmer,Meta,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:muse_spark,developed by,org:meta,Muse Spark,Meta,7,TRUE,TRUE,,Sentence states the company created/released it,True,confirmed TRUE
+model:muse_spark_1_1,developed by,org:meta,Muse Spark 1.1,Meta,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:ray_ban_smart_glasses,developed by,org:meta,Ray-Ban smart glasses,Meta,2,TRUE,TRUE,,Meta stated as builder/releaser,False,
+model:sam_3,developed by,org:meta,SAM 3,Meta,1,TRUE,TRUE,,Meta stated as builder/releaser,False,
+model:sapiens2,developed by,org:meta,Sapiens2,Meta,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:scout,developed by,org:meta,Scout,Meta,2,TRUE,TRUE,,Meta stated as builder/releaser,False,
+model:spirit_lm,developed by,org:meta,Spirit LM,Meta,1,TRUE,TRUE,,Meta stated as builder/releaser,False,
+product:v_jepa_2,developed by,org:meta,V-JEPA 2,Meta,2,TRUE,TRUE,,Meta stated as builder/releaser,False,
+platform:whatsapp,developed by,org:meta,WhatsApp,Meta,2,TRUE,TRUE,,Meta stated as builder/releaser,False,
+model:muse_spark,developed by,org:meta_superintelligence_labs,Muse Spark,Meta Superintelligence Labs,3,TRUE,TRUE,,Developed by Meta Superintelligence Labs,False,
+hardware:a100,developed by,org:nvidia,A100,NVIDIA,5,TRUE,TRUE,,Sentence states the company created/released it,False,
+architecture:ai_blueprints,developed by,org:nvidia,AI Blueprints,NVIDIA,4,TRUE,TRUE,,Sentence states the company created/released it,False,
+standard:ai_q_blueprint,developed by,org:nvidia,AI-Q Blueprint,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:agent_toolkit,developed by,org:nvidia,Agent Toolkit,NVIDIA,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:alpamayo_2_super,developed by,org:nvidia,Alpamayo 2 Super,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:b200,developed by,org:nvidia,B200,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+architecture:blackwell_gpu_architecture,developed by,org:nvidia,Blackwell GPU architecture,NVIDIA,1,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:blackwell_gpus,developed by,org:nvidia,Blackwell GPUs,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:blackwell_ultra,developed by,org:nvidia,Blackwell Ultra,NVIDIA,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:blackwell_ultra_gpu,developed by,org:nvidia,Blackwell Ultra GPU,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+architecture:blackwell_architecture,developed by,org:nvidia,Blackwell architecture,NVIDIA,8,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:blackwell_platform,developed by,org:nvidia,Blackwell platform,NVIDIA,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+technology:cuda,developed by,org:nvidia,CUDA,NVIDIA,8,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:cuda_x,developed by,org:nvidia,CUDA-X,NVIDIA,4,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:cosmos,developed by,org:nvidia,Cosmos,NVIDIA,6,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:cosmos_3_edge,developed by,org:nvidia,Cosmos 3 Edge,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:cosmos_models,developed by,org:nvidia,Cosmos models,NVIDIA,1,TRUE,TRUE,,Sentence states the company created/released it,False,
+platform:dgx,developed by,org:nvidia,DGX,NVIDIA,7,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:dgx_spark,developed by,org:nvidia,DGX Spark,NVIDIA,12,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:dgx_station,developed by,org:nvidia,DGX Station,NVIDIA,7,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:dgx_superpod,developed by,org:nvidia,DGX SuperPod,NVIDIA,4,TRUE,TRUE,,Sentence states the company created/released it,False,
+technology:dlss,developed by,org:nvidia,DLSS,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+product:dynamo,developed by,org:nvidia,Dynamo,NVIDIA,5,TRUE,TRUE,,Sentence states the company created/released it,False,
+model:earth_2,developed by,org:nvidia,Earth-2,NVIDIA,3,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:gb10_grace_blackwell_superchip,developed by,org:nvidia,GB10 Grace Blackwell Superchip,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:gb200_nvl72,developed by,org:nvidia,GB200 NVL72,NVIDIA,2,TRUE,TRUE,,"Nvidia rack-scale platform, widely known",False,
+hardware:gb300_nvl72,developed by,org:nvidia,GB300 NVL72,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:grace,developed by,org:nvidia,Grace,NVIDIA,2,TRUE,TRUE,,Sentence states the company created/released it,False,
+hardware:grace_blackwell_superchip,developed by,org:nvidia,Grace Blackwell Superchip,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+architecture:grace_blackwell_architecture,developed by,org:nvidia,Grace Blackwell architecture,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+hardware:h100,developed by,org:nvidia,H100,NVIDIA,5,TRUE,TRUE,,Evidence states head made by tail,False,
+product:h20,developed by,org:nvidia,H20,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+hardware:h800,developed by,org:nvidia,H800,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+platform:hopper,developed by,org:nvidia,Hopper,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:isaac_gr00t,developed by,org:nvidia,Isaac GR00T,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+product:isaac_sim,developed by,org:nvidia,Isaac Sim,NVIDIA,4,TRUE,TRUE,,Evidence states head made by tail,False,
+model:ltm,developed by,org:nvidia,LTM,NVIDIA,1,TRUE,TRUE,,NVIDIA unveiled the Nemotron-based LTM,False,
+product:nim_microservices,developed by,org:nvidia,NIM microservices,NVIDIA,5,TRUE,TRUE,,Evidence states head made by tail,False,
+standard:nvfp4_data_format,developed by,org:nvidia,NVFP4 data format,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+hardware:nvl72,developed by,org:nvidia,NVL72,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:nvlm,developed by,org:nvidia,NVLM,NVIDIA,3,TRUE,TRUE,,Evidence states head made by tail,False,
+model:nemo,developed by,org:nvidia,NeMo,NVIDIA,5,TRUE,TRUE,,NeMo is NVIDIA framework,False,
+product:nemo_guardrails,developed by,org:nvidia,NeMo Guardrails,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+product:nemo_retriever,developed by,org:nvidia,NeMo Retriever,NVIDIA,3,TRUE,TRUE,,Evidence states head made by tail,False,
+product:nemo_switchyard,developed by,org:nvidia,NeMo Switchyard,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+product:nemoclaw,developed by,org:nvidia,NemoClaw,NVIDIA,9,TRUE,TRUE,,NVIDIA developed NemoClaw,True,confirmed TRUE
+model:newton,developed by,org:nvidia,Newton,NVIDIA,3,TRUE,TRUE,,"Newton co-developed by NVIDIA, DeepMind, Disney",False,
+platform:openshell,developed by,org:nvidia,OpenShell,NVIDIA,4,TRUE,TRUE,,NVIDIA OpenShell runtime in Agent Toolkit,False,
+product:project_digits,developed by,org:nvidia,Project Digits,NVIDIA,3,TRUE,TRUE,,Evidence states head made by tail,False,
+product:project_r2x,developed by,org:nvidia,Project R2X,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+hardware:quantum_x_infiniband,developed by,org:nvidia,Quantum-X InfiniBand,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+hardware:rtx,developed by,org:nvidia,RTX,NVIDIA,4,TRUE,TRUE,,Evidence states head made by tail,False,
+product:rtx_remix,developed by,org:nvidia,RTX Remix,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+technology:tensorrt,developed by,org:nvidia,TensorRT,NVIDIA,3,TRUE,TRUE,,Evidence states head made by tail,False,
+technology:tensorrt_llm,developed by,org:nvidia,TensorRT LLM,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+product:tensorrt_llm,developed by,org:nvidia,TensorRT-LLM,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+product:vera,developed by,org:nvidia,Vera,NVIDIA,1,TRUE,TRUE,,Evidence states head made by tail,False,
+technology:cudf,developed by,org:nvidia,cuDF,NVIDIA,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:cudnn,developed by,org:nvidia,cuDNN,NVIDIA,2,TRUE,TRUE,,cuDNN is an NVIDIA library,False,
+model:hermes_agent,developed by,org:nous_research,Hermes Agent,Nous Research,3,TRUE,TRUE,,Evidence states head made by tail,False,
+product:ai_super_app,developed by,org:openai,AI Super App,OpenAI,1,TRUE,TRUE,,OpenAI building its AI Super App,False,
+product:agents_sdk,developed by,org:openai,Agents SDK,OpenAI,3,TRUE,TRUE,,Evidence states head made by tail,False,
+technology:assistants_api,developed by,org:openai,Assistants API,OpenAI,5,TRUE,TRUE,,Evidence states head made by tail,False,
+technology:chat_completions_api,developed by,org:openai,Chat Completions API,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+platform:chatgpt,developed by,org:openai,ChatGPT,OpenAI,28,TRUE,TRUE,,Evidence states head made by tail,False,
+standard:codex,developed by,org:openai,Codex,OpenAI,17,TRUE,TRUE,,OpenAI's Codex,False,
+model:dall_e,developed by,org:openai,DALL-E,OpenAI,4,TRUE,TRUE,,Evidence states head made by tail,False,
+product:dall_e_2,developed by,org:openai,DALL-E 2,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+product:dall_e_3,developed by,org:openai,DALL-E 3,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt,developed by,org:openai,GPT,OpenAI,13,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_models,developed by,org:openai,GPT models,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_2,developed by,org:openai,GPT-2,OpenAI,8,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_3_2,developed by,org:openai,GPT-3,OpenAI,11,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_3_5,developed by,org:openai,GPT-3.5,OpenAI,3,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_4_2,developed by,org:openai,GPT-4,OpenAI,23,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_4_5,developed by,org:openai,GPT-4.5,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_4o_2,developed by,org:openai,GPT-4o,OpenAI,18,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_4o_mini,developed by,org:openai,GPT-4o-mini,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_5_2,developed by,org:openai,GPT-5,OpenAI,24,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_5_4_2,developed by,org:openai,GPT-5.4,OpenAI,2,TRUE,TRUE,,Evidence states head made by tail,False,
+model:gpt_5_5_2,developed by,org:openai,GPT-5.5,OpenAI,4,TRUE,TRUE,,Evidence states head made by tail,True,confirmed TRUE
+model:gpt_rosalind,developed by,org:openai,GPT-Rosalind,OpenAI,1,TRUE,TRUE,,Evidence states head made by tail,False,
+model:generative_pre_trained_transformer,developed by,org:openai,Generative Pre-trained Transformer,OpenAI,2,TRUE,TRUE,,GPT introduced by OpenAI in 2018,False,
+technology:responses_api,developed by,org:openai,Responses API,OpenAI,4,TRUE,TRUE,,Evidence states head made by tail,False,
+model:safeguard,developed by,org:openai,Safeguard,OpenAI,2,TRUE,TRUE,,Directly stated in evidence,False,
+model:sora,developed by,org:openai,Sora,OpenAI,8,TRUE,TRUE,,Directly stated in evidence,False,
+product:sora_2,developed by,org:openai,Sora 2,OpenAI,2,TRUE,TRUE,,Directly stated in evidence,False,
+platform:symphony,developed by,org:openai,Symphony,OpenAI,3,TRUE,TRUE,,Directly stated in evidence,False,
+model:whisper,developed by,org:openai,Whisper,OpenAI,4,TRUE,TRUE,,Directly stated in evidence,False,
+model:o1,developed by,org:openai,o1,OpenAI,24,TRUE,TRUE,,Directly stated in evidence,False,
+model:o1_model,developed by,org:openai,o1 model,OpenAI,9,TRUE,TRUE,,Directly stated in evidence,False,
+model:o1_models,developed by,org:openai,o1 models,OpenAI,2,TRUE,TRUE,,Directly stated in evidence,False,
+model:o1_reasoning_model,developed by,org:openai,o1 reasoning model,OpenAI,2,TRUE,TRUE,,Directly stated in evidence,False,
+model:o1_mini,developed by,org:openai,o1-mini,OpenAI,3,TRUE,TRUE,,Directly stated in evidence,False,
+model:o1_preview,developed by,org:openai,o1-preview,OpenAI,4,TRUE,TRUE,,Directly stated in evidence,False,
+model:o3,developed by,org:openai,o3,OpenAI,18,TRUE,TRUE,,Directly stated in evidence,False,
+model:o3_model,developed by,org:openai,o3 model,OpenAI,6,TRUE,TRUE,,Directly stated in evidence,False,
+product:o3_series,developed by,org:openai,o3 series,OpenAI,2,TRUE,TRUE,,Directly stated in evidence,False,
+product:o3_mini,developed by,org:openai,o3-mini,OpenAI,8,TRUE,TRUE,,Directly stated in evidence,False,
+model:o4_mini,developed by,org:openai,o4-mini,OpenAI,3,TRUE,TRUE,,Directly stated in evidence,False,
+platform:openclaw,developed by,person:peter_steinberger,OpenClaw,Peter Steinberger,3,TRUE,TRUE,,Directly stated in evidence,False,
+product:fugu,developed by,org:sakana_ai,Fugu,Sakana AI,2,TRUE,TRUE,,Directly stated in evidence,False,
+product:ai_gateway,developed by,org:truefoundry,AI Gateway,TrueFoundry,4,TRUE,TRUE,,Directly stated in evidence,False,
+product:llm_gateway,developed by,org:truefoundry,LLM Gateway,TrueFoundry,2,TRUE,TRUE,,Directly stated in evidence,False,
+product:mimo_v2_pro,developed by,org:xiaomi,MiMo-V2-Pro,Xiaomi,2,TRUE,TRUE,,Directly stated in evidence,False,
+org:cursor,founded by,person:aman_sanger,Cursor,Aman Sanger,2,TRUE,TRUE,,Sentences call Aman Sanger Cursor co-founder,False,
+org:saving_voices_project,founded by,person:arjuna_sathiaseelan,Saving Voices Project,Arjuna Sathiaseelan,2,TRUE,TRUE,,Directly stated in evidence,False,
+org:spacex,founded by,person:elon_musk,SpaceX,Elon Musk,2,TRUE,TRUE,,Tesla and SpaceX founder Elon Musk,False,
+org:moonshot_ai,headquartered in,place:beijing,MoonShot AI,Beijing,2,TRUE,TRUE,,Beijing-based Moonshot,False,
+org:anysphere,headquartered in,place:san_francisco,Anysphere,San Francisco,3,TRUE,TRUE,,Directly stated in evidence,False,
+org:white_house,headquartered in,place:washington,White House,Washington,2,TRUE,TRUE,,"White House in Washington, consistent with known fact",False,
+org:white_house,headquartered in,place:united_states,White House,united_states,2,TRUE,TRUE,,"White House is US government, known fact",False,
+model:kimi,licensed under,license:mit_license,Kimi,MIT license,2,TRUE,TRUE,,Kimi K2.5 released under modified MIT license,False,
+hardware:ascend_chips,manufactured by,org:huawei,Ascend chips,Huawei,2,TRUE,TRUE,,Directly stated in evidence,False,
+org:deepseek,outperforms,platform:chatgpt,DeepSeek,ChatGPT,10,TRUE,TRUE,,DeepSeek app outperforming ChatGPT,False,
+model:glm,outperforms,product:claude_opus,GLM,Claude Opus,4,TRUE,TRUE,,GLM-5.2 beats Claude Opus on some benchmarks,False,
+model:kimi,outperforms,org:deepseek,Kimi,DeepSeek,4,TRUE,TRUE,,Kimi K2 beats DeepSeek-V3 on LiveCodeBench,False,
+model:qwen,outperforms,org:deepseek,Qwen,DeepSeek,8,TRUE,TRUE,,Qwen 2.5-Max outperforms DeepSeek V3,False,
+org:deepseek,outperforms,model:gpt_4o_2,DeepSeek,GPT-4o,8,TRUE,TRUE,,DeepSeek R1 outperformed GPT-4o,False,
+org:deepseek,outperforms,platform:gemini,DeepSeek,Gemini,2,TRUE,TRUE,,DeepSeek V4 Pro Max superior to Gemini 3.0-Pro,False,
+model:llama,outperforms,model:gemma,Llama,Gemma,4,TRUE,TRUE,,Llama 3.2 outperforms Gemma,False,
+model:qwen,outperforms,model:gemma,Qwen,Gemma,7,TRUE,TRUE,,Qwen 3.6 beats Gemma 4 on coding,False,
+model:qwen,outperforms,model:kimi,Qwen,Kimi,4,TRUE,TRUE,,Qwen3-235B outperforms Kimi K2,False,
+org:deepseek,outperforms,model:llama,DeepSeek,Llama,10,TRUE,TRUE,,DeepSeek-V3 outperforms Llama 3.1 405B,False,
+model:mistral,outperforms,model:llama,Mistral,Llama,4,TRUE,TRUE,,Mixtral outperforms Llama 2 70B,False,
+model:phi,outperforms,model:llama,Phi,Llama,4,TRUE,TRUE,,Phi-4 outperforms Llama 3.3 70B,False,
+org:deepseek,outperforms,model:o1,DeepSeek,o1,10,TRUE,TRUE,,DeepSeek surpassing OpenAI o1,False,
+model:gemma,runs on,platform:cloud_run,Gemma,Cloud Run,2,TRUE,TRUE,,Directly stated in evidence,False,
+product:nemoclaw,runs on,hardware:dgx_station,NemoClaw,DGX Station,2,TRUE,TRUE,,Directly stated in evidence,False,
+technology:ray,runs on,platform:gke,Ray,GKE,2,TRUE,TRUE,,Directly stated in evidence,False,
+model:gemma,runs on,product:raspberry_pi,Gemma,Raspberry Pi,2,TRUE,TRUE,,Directly stated in evidence,False,
+model:glm,runs on,technology:hugging_face,GLM,hugging_face,2,TRUE,TRUE,,GLM 5.2 ran on Hugging Face infrastructure,False,
+org:deepseek,supported by,org:huawei,DeepSeek,Huawei,2,TRUE,TRUE,,DeepSeek V4 supported by Huawei chips,False,
+person:lingjiao_chen,works for,org:ai_frontiers_group,Lingjiao Chen,AI Frontiers group,2,TRUE,TRUE,,Directly stated in evidence,False,
+person:dario,works for,org:anthropic,Dario,Anthropic,2,TRUE,TRUE,,Anthropic CEO Dario,False,
+person:alexandr_wang,works for,org:meta_superintelligence_labs,Alexandr Wang,Meta Superintelligence Labs,2,TRUE,TRUE,,Wang's team at Meta Superintelligence Labs,False,
+person:hanna_hajishirzi,works for,org:microsoft,Hanna Hajishirzi,Microsoft,2,TRUE,TRUE,,Joined Microsoft Superintelligence,False,
+person:mustafa_suleyman,works for,org:microsoft,Mustafa Suleyman,Microsoft,2,TRUE,TRUE,,CEO of Microsoft AI,False,
+person:ranjay_krishna,works for,org:microsoft,Ranjay Krishna,Microsoft,2,TRUE,TRUE,,Joined Microsoft Superintelligence,False,
+person:lingjiao_chen,works for,org:microsoft_research,Lingjiao Chen,Microsoft Research,2,TRUE,TRUE,,Directly stated in evidence,False,
+person:tim_costa,works for,org:nvidia,Tim Costa,NVIDIA,2,TRUE,TRUE,,Directly stated in evidence,False,
+person:peter_steinberger,works for,org:openai,Peter Steinberger,OpenAI,3,TRUE,TRUE,,Directly stated in evidence,False,
+person:scott_bessent,works for,org:treasury,Scott Bessent,Treasury,2,TRUE,TRUE,,Directly stated in evidence,False,
+person:sebasti_n_uchitel,works for,org:university_of_buenos_aires,Sebastián Uchitel,University of Buenos Aires,2,TRUE,TRUE,,Directly stated in evidence,False,
+person:michael_kratsios,works for,org:white_house,Michael Kratsios,White House,4,TRUE,TRUE,,Directly stated in evidence,False,

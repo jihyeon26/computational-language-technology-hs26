@@ -1,0 +1,410 @@
+{
+  "schema_version": "stage1-wp3-open-models-kg-v1.0",
+  "status": "human_reviewed_sample",
+  "track": "Open Models",
+  "node_key": "entity_id",
+  "node_attributes": [
+    "canonical_name",
+    "entity_type",
+    "entity_type_compact",
+    "mention_count",
+    "document_count",
+    "first_seen",
+    "last_seen",
+    "is_open_model_family",
+    "aliases",
+    "parameter_sizes_b"
+  ],
+  "entity_types": {
+    "MODEL": {
+      "definition": "AI model or open model family (WP1 lexicon families and other models)",
+      "wp2_entity_types": [
+        "AI_MODEL",
+        "FOUNDATION_MODEL"
+      ]
+    },
+    "ORGANIZATION": {
+      "definition": "company, lab, institution or agency",
+      "wp2_entity_types": [
+        "COMPANY",
+        "ORG"
+      ]
+    },
+    "PERSON": {
+      "definition": "named person",
+      "wp2_entity_types": [
+        "PERSON"
+      ]
+    },
+    "INFRASTRUCTURE": {
+      "definition": "hardware, platform or product used to build, host or run models",
+      "wp2_entity_types": [
+        "HARDWARE",
+        "PLATFORM",
+        "PRODUCT"
+      ]
+    },
+    "TECHNICAL_COMPONENT": {
+      "definition": "technology, tool or model architecture",
+      "wp2_entity_types": [
+        "ARCHITECTURE",
+        "TECHNOLOGY"
+      ]
+    },
+    "MODEL_ATTRIBUTE": {
+      "definition": "capability, openness concept or model specification",
+      "wp2_entity_types": [
+        "CAPABILITY",
+        "MODEL_SPEC",
+        "OPENNESS_CONCEPT"
+      ]
+    },
+    "EVALUATION_RESOURCE": {
+      "definition": "benchmark or dataset",
+      "wp2_entity_types": [
+        "BENCHMARK",
+        "DATASET"
+      ]
+    },
+    "GOVERNANCE": {
+      "definition": "license, standard or law",
+      "wp2_entity_types": [
+        "LAW",
+        "LICENSE",
+        "STANDARD"
+      ]
+    },
+    "LOCATION_OR_GROUP": {
+      "definition": "country, city, region or nationality group",
+      "wp2_entity_types": [
+        "GPE",
+        "NORP"
+      ]
+    }
+  },
+  "relation_types": {
+    "has capability": {
+      "group": "ATTRIBUTE",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "MODEL_ATTRIBUTE"
+      ],
+      "definition": "capability provided by the model, product, technology, platform or hardware"
+    },
+    "available on": {
+      "group": "DEPLOYMENT",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL",
+        "TECHNICAL_COMPONENT"
+      ],
+      "observed_tail_types": [
+        "INFRASTRUCTURE",
+        "TECHNICAL_COMPONENT"
+      ],
+      "definition": "platform, technology or product through which the artifact is available"
+    },
+    "supported by": {
+      "group": "DEPLOYMENT",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL",
+        "TECHNICAL_COMPONENT"
+      ],
+      "observed_tail_types": [
+        "INFRASTRUCTURE",
+        "ORGANIZATION",
+        "TECHNICAL_COMPONENT"
+      ],
+      "definition": "technology, platform, product, hardware or organisation that supports the artifact"
+    },
+    "runs on": {
+      "group": "DEPLOYMENT",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL",
+        "TECHNICAL_COMPONENT"
+      ],
+      "observed_tail_types": [
+        "INFRASTRUCTURE",
+        "TECHNICAL_COMPONENT"
+      ],
+      "definition": "hardware, platform, product or technology on which the artifact runs"
+    },
+    "used by": {
+      "group": "DEPLOYMENT",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "organisation, product or person that uses or adopts the artifact"
+    },
+    "integrated into": {
+      "group": "DEPLOYMENT",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "INFRASTRUCTURE"
+      ],
+      "definition": "product, platform or technology into which the artifact is integrated"
+    },
+    "competes with": {
+      "group": "EVALUATION",
+      "directed": false,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL",
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "INFRASTRUCTURE",
+        "MODEL",
+        "ORGANIZATION"
+      ],
+      "definition": "direct competitor, rival model, organisation, product, technology, platform or hardware"
+    },
+    "outperforms": {
+      "group": "EVALUATION",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "INFRASTRUCTURE",
+        "MODEL"
+      ],
+      "definition": "the artifact is reported to perform better than another comparable artifact"
+    },
+    "licensed under": {
+      "group": "GOVERNANCE_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL",
+        "TECHNICAL_COMPONENT"
+      ],
+      "observed_tail_types": [
+        "GOVERNANCE"
+      ],
+      "definition": "license or licensing standard under which the artifact is distributed"
+    },
+    "complies with": {
+      "group": "GOVERNANCE_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "GOVERNANCE"
+      ],
+      "definition": "the model, organisation or artifact complies with a standard, law, license or regulation"
+    },
+    "regulated by": {
+      "group": "GOVERNANCE_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "GOVERNANCE"
+      ],
+      "definition": "the model, organisation or artifact is subject to a law, regulation or regulatory standard"
+    },
+    "member of family": {
+      "group": "LINEAGE",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "MODEL"
+      ],
+      "definition": "the model is a version or variant of a model family"
+    },
+    "based on": {
+      "group": "LINEAGE",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "MODEL"
+      ],
+      "definition": "the model, product, technology or platform is built on top of another model, product, technology, platform or architecture"
+    },
+    "distilled from": {
+      "group": "LINEAGE",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "MODEL"
+      ],
+      "definition": "the model was trained to imitate another model"
+    },
+    "works for": {
+      "group": "ORGANIZATION_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "PERSON"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "the person works for, leads or holds a role in the organisation"
+    },
+    "headquartered in": {
+      "group": "ORGANIZATION_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "LOCATION_OR_GROUP"
+      ],
+      "definition": "country, city or geographic location where the organisation is headquartered"
+    },
+    "invested in": {
+      "group": "ORGANIZATION_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "ORGANIZATION",
+        "PERSON"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "the organisation or person invested in another organisation"
+    },
+    "acquired by": {
+      "group": "ORGANIZATION_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE",
+        "MODEL",
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "the model, organisation, product, technology, platform or hardware was acquired by another organisation"
+    },
+    "subsidiary of": {
+      "group": "ORGANIZATION_RELATION",
+      "directed": true,
+      "observed_head_types": [
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "the organisation belongs to or is controlled by a parent organisation"
+    },
+    "developed by": {
+      "group": "PROVENANCE",
+      "directed": true,
+      "observed_head_types": [
+        "EVALUATION_RESOURCE",
+        "GOVERNANCE",
+        "INFRASTRUCTURE",
+        "MODEL",
+        "ORGANIZATION",
+        "TECHNICAL_COMPONENT"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION",
+        "PERSON",
+        "TECHNICAL_COMPONENT"
+      ],
+      "definition": "the organisation/person created or developed the model, product, technology, platform, hardware, architecture, dataset, benchmark, standard or license"
+    },
+    "founded by": {
+      "group": "PROVENANCE",
+      "directed": true,
+      "observed_head_types": [
+        "ORGANIZATION"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION",
+        "PERSON"
+      ],
+      "definition": "the organisation was founded by a person or another organisation"
+    },
+    "manufactured by": {
+      "group": "PROVENANCE",
+      "directed": true,
+      "observed_head_types": [
+        "INFRASTRUCTURE"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "organisation that manufactures or produces the hardware, product or technology"
+    },
+    "announced by": {
+      "group": "PROVENANCE",
+      "directed": true,
+      "observed_head_types": [
+        "EVALUATION_RESOURCE",
+        "GOVERNANCE",
+        "INFRASTRUCTURE",
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION",
+        "PERSON"
+      ],
+      "definition": "the organisation/person announced the model, product, technology, platform, hardware, architecture, dataset, benchmark or standard"
+    },
+    "released by": {
+      "group": "PROVENANCE",
+      "directed": true,
+      "observed_head_types": [
+        "MODEL"
+      ],
+      "observed_tail_types": [
+        "ORGANIZATION"
+      ],
+      "definition": "the organisation/person publicly released or published the model, product, technology, platform, hardware, dataset, benchmark, standard or license"
+    }
+  },
+  "edge_quality_tiers": {
+    "A": "curated WP1 lexicon model family -> developer (no article sentence)",
+    "B": "relation passing all WP3 checks with >= 2 distinct evidence sentences (GLiREL, role-typed GLiREL, or model-name member of family); competes with needs >= 3 unless labelled TRUE in the review"
+  },
+  "review_status_values": [
+    "curated_lexicon",
+    "unreviewed",
+    "reviewed_true",
+    "reviewed_ambiguous",
+    "checked_true_ai",
+    "checked_true_human"
+  ],
+  "graph_views": {
+    "assertion": "directed multigraph, one edge per evidence sentence (edge key = relation_id)",
+    "typed": "directed multigraph, one edge per unique (head, relation, tail); competes with is symmetric",
+    "cooccurrence": "undirected weighted graph of same-sentence co-mentions in >= 2 articles"
+  },
+  "edge_weight": "document_count = number of distinct articles supporting the edge",
+  "date_semantics": "published_at, first_seen and last_seen are article publication dates",
+  "provenance_chain": [
+    "entity_id",
+    "relation_id",
+    "text_unit_id (doc_id:sentence_id)",
+    "document_id",
+    "published_at"
+  ]
+}

@@ -15,3 +15,5 @@ kagglehub>=0.2        # optional: downloads the dataset if it is not in data/raw
 jupyter
 
 # --- Stage 1 · WP2 / WP3, Stage 2, Stage 3: add your packages below ---
+networkx>=3.2         # WP3 knowledge graph
+openpyxl>=3.1         # WP3: reads the review workbooks
