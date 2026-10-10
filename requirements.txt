@@ -1,8 +1,8 @@
 # Project requirements. Stage 1 · WP1 reference run: Python 3.13.5, pandas 3.0.1, numpy 2.4.2, scikit-learn 1.9.1, spaCy 3.8.16
 
 # --- Stage 1 · WP1 (data and topic analysis) ---
-pandas>=2.2
-numpy>=1.26
+pandas==3.0.1          # pinned with numpy: the topic models (Section 7) depend on the numeric versions
+numpy==2.4.2
 pyarrow>=14
 scikit-learn==1.9.1   # pinned: the number of topics chosen depends on the version (1.8.0 -> 14 topics, 1.9.1 -> 16 topics)
 matplotlib>=3.8
