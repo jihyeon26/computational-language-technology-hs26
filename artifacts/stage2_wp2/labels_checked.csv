@@ -1,0 +1,1061 @@
+doc_id,split,silver_theme,checked_theme,label_source,ai_theme,ai_secondary,ai_confidence,ai_reason
+doc_c44fd663ac,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial deploying Llama via vLLM on SageMaker endpoint
+doc_d57f4c755c,validation,model_families,model_families,human_after_ai,model_families,research_techniques,medium,Google DataGemma models grounded with RIG and RAG
+doc_3f5ee378c1,train,business_compute,business_compute,ai,business_compute,,high,Small AI chip makers compete with Nvidia on inference
+doc_aa40fb25c4,train,developer_tools,business_compute,ai,business_compute,developer_tools,medium,Cost comparison of GPT-4o vs Llama 3 for business
+doc_6e52a3f8ee,train,business_compute,research_techniques,ai,research_techniques,model_families,medium,DataGemma uses RAG and RIG to reduce hallucinations
+doc_3b92326128,train,model_families,model_families,ai,model_families,,high,Model card for EraX-VL-7B Vietnamese multimodal model
+doc_fa76b96f1a,train,business_compute,model_families,ai,model_families,research_techniques,medium,DataGemma model grounding via RAG and RIG
+doc_e6b138fdbf,validation,model_families,model_families,human,model_families,,medium,Llama 3.2 3B model page showing community licence terms
+doc_8819c20cc3,train,model_families,model_families,ai,model_families,research_techniques,high,Ai2 releases Molmo open multimodal model family
+doc_183fa1cbb3,train,business_compute,model_families,ai,model_families,,medium,IBM and NASA release Prithvi WxC weather foundation model
+doc_4c28e03ed5,train,model_families,model_families,ai,model_families,,high,Quantized Llama Guard 3-1B safety model card
+doc_e3599d071a,train,model_families,model_families,ai,model_families,,high,Quantized Llama 3.2 3B model card
+doc_ce5dd6e1ec,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,Meta releases Llama 3.2 models
+doc_f076530547,train,research_techniques,developer_tools,ai,developer_tools,,medium,Comparing open and closed embedding models for semantic search
+doc_ffeffc2e84,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Guide to minimum infrastructure for enterprise gen AI apps
+doc_65275a8327,train,model_families,model_families,ai,model_families,developer_tools,medium,Llama 3.2 Vision availability via Together AI
+doc_10ad296400,train,model_families,model_families,ai,model_families,business_compute,low,Meta Connect event with VR hardware and Llama 3.2
+doc_7860509430,validation,model_families,model_families,human,model_families,,high,Llama 3.2 multimodal model launch
+doc_bc9fabfd46,validation,model_families,model_families,ai_agrees_silver_high,model_families,research_techniques,high,Liquid AI non-transformer foundation models debut
+doc_bbd3477493,train,model_families,model_families,ai,model_families,research_techniques,medium,Reflection 70B model benchmark controversy post-mortem
+doc_47f29bf86a,train,research_techniques,model_families,ai,model_families,developer_tools,high,Release of Flux 1.1 Pro image model with paid API
+doc_85c55c74e7,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Enterprise adoption of open-source LLMs in cybersecurity
+doc_1610ac7c70,train,model_families,model_families,ai,model_families,,medium,Comparing Llama and GPT open versus closed models
+doc_3cd233c6b9,train,research_techniques,model_families,ai,model_families,,high,List of top Indian large language models
+doc_19af832240,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Benchmarking 8-bit and paged AdamW optimizers for fine-tuning
+doc_e7f2a07216,train,business_compute,china_geopolitics,ai,china_geopolitics,,high,Defense policy and regulation of open foundation models
+doc_075dbb55a1,train,business_compute,business_compute,ai,business_compute,,high,H100 GPU rental market economics
+doc_37e1b6a4ce,train,research_techniques,none,ai,none,research_techniques,low,Generic explainer of what foundation models are
+doc_389f2d4068,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,medium,Tutorial fine-tuning Llama 3.2 1B versus GPT-4o
+doc_598f916dcd,validation,model_families,business_compute,human,none,,medium,SEO marketing advice for Meta AI visibility
+doc_0d62d85daa,train,business_compute,model_families,ai,model_families,,high,Mistral launches Ministral 3B and 8B edge models
+doc_4cc0d469a8,validation,business_compute,business_compute,human,business_compute,,high,Intel pitches Gaudi 3 accelerators against Nvidia
+doc_f89144b0d0,train,business_compute,model_families,ai,model_families,,high,Nvidia releases Llama-3.1-Nemotron-70B-Instruct beating GPT-4o
+doc_206b037413,train,research_techniques,model_families,ai,model_families,research_techniques,high,Meta Spirit LM open multimodal speech-text model release
+doc_3723167dad,train,business_compute,model_families,ai,model_families,,high,IBM Granite 3.0 model family release
+doc_bc4ff40d38,validation,business_compute,model_families,human_after_ai,model_families,business_compute,medium,IBM Granite 3.0 model family release and watsonx updates
+doc_e584c6c1d6,train,model_families,model_families,ai,model_families,business_compute,high,IBM Granite 3.0 open model family release
+doc_9330fcfb22,train,research_techniques,model_families,ai,model_families,business_compute,high,Genmo releases open Mochi 1 video generation model
+doc_b3c7ceee1b,train,research_techniques,model_families,ai,model_families,developer_tools,medium,Stable Diffusion 3 release and usage with Diffusers
+doc_a2e6095943,train,business_compute,business_compute,ai,business_compute,model_families,medium,Infosys enterprise collaboration with Meta on Llama adoption
+doc_96a2831197,train,research_techniques,model_families,ai,model_families,research_techniques,high,Nvidia Llama-3.1-Nemotron-70B release and benchmarks
+doc_7b96727d80,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Hyperparameter optimization and compression for vision models
+doc_ff29339962,train,model_families,business_compute,ai,business_compute,developer_tools,medium,Indian healthcare organizations adopting NVIDIA NIM Hindi model
+doc_1771a6cd64,train,business_compute,business_compute,ai,business_compute,,high,Enterprise adoption of open source LLMs
+doc_d6a7e7d2d3,train,business_compute,business_compute,ai,business_compute,model_families,low,Weekly roundup of enterprise AI product news
+doc_05a9b5c50b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US outbound investment restrictions on Chinese AI and chips
+doc_a7873b47d7,validation,research_techniques,developer_tools,human_after_ai,developer_tools,,low,Workshop on using Stable Diffusion in architectural design
+doc_f15000eb65,train,business_compute,china_geopolitics,ai,china_geopolitics,,low,Governance standard for open AI systems as public goods
+doc_0ff0fa054a,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,high,LayerSkip self-speculative decoding method and benchmarks
+doc_303f238949,train,business_compute,business_compute,ai,business_compute,,high,Google Trillium TPU infrastructure launch
+doc_27d35d46e2,train,model_families,developer_tools,ai,developer_tools,business_compute,low,Data privacy options for enterprise GenAI with open models
+doc_37afc8907a,train,business_compute,business_compute,ai,business_compute,,high,Azure VM series with AMD MI300X GPUs
+doc_1d426d6e6b,train,business_compute,business_compute,ai,business_compute,developer_tools,high,Naptha AI raises pre-seed funding for multi-agent platform
+doc_73dfee3667,train,research_techniques,developer_tools,ai,developer_tools,model_families,medium,Microsoft OmniParser screen parsing for GUI agents
+doc_ca6e7b27b1,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,low,Roundup led by OSI open source AI definition and model compliance
+doc_f312420c90,train,model_families,china_geopolitics,ai,china_geopolitics,,high,Chinese military using Meta Llama raises national security concerns
+doc_fa93b48461,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Chinese military adapts Meta Llama for military use
+doc_1a22e095a9,validation,research_techniques,research_techniques,human,research_techniques,,high,Explainer of multimodal LLM architectures
+doc_79105ae491,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial deploying quantized Llama 3.2 1B on AWS Lambda
+doc_6238bbe1fd,train,model_families,model_families,ai,model_families,china_geopolitics,medium,Report on gap between open and closed models
+doc_67d651b727,train,research_techniques,research_techniques,ai,research_techniques,model_families,high,MobileLLM deep-thin architecture research for on-device models
+doc_eb878633b4,train,model_families,china_geopolitics,ai,china_geopolitics,model_families,low,OSI open source AI definition standard and governance
+doc_4cf5d23da9,train,developer_tools,developer_tools,ai,developer_tools,model_families,high,Guide to LLM APIs and integrating models into products
+doc_f6ee9dfd39,train,model_families,china_geopolitics,ai,china_geopolitics,,medium,"Meta allowing military use of Llama, national security"
+doc_51130c9e88,train,business_compute,developer_tools,ai,developer_tools,,high,Docling document processing tool for gen AI
+doc_725625eedc,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Comparing costs of platforms for hosting open LLMs
+doc_eb5d2b123e,train,developer_tools,model_families,ai,model_families,developer_tools,low,"Newsletter on agent-optimized LLMs, Hunyuan-Large, Llama military use"
+doc_a807f75249,train,business_compute,business_compute,ai,business_compute,,high,MLPerf training benchmarks for Nvidia and Google chips
+doc_cd46dd7141,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Running open models locally on Mac clusters with Exo
+doc_389e75f1c2,train,model_families,none,ai,none,model_families,low,Mistral research licence legal text
+doc_f2f11fe92f,train,model_families,model_families,ai,model_families,business_compute,medium,Launch of Indonesian Sahabat-AI open LLMs with NVIDIA
+doc_4dc03d3759,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Investor Xavier Niel on funding European AI startups
+doc_9174ba18de,train,model_families,china_geopolitics,ai,china_geopolitics,,high,Meta allows Llama for US military amid PLA use
+doc_c22b733ba8,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Explainer of multimodal LLM approaches with Llama example
+doc_c5204237b7,train,business_compute,model_families,ai,model_families,,high,Explainer of IBM Granite model family
+doc_6cfd60a596,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial using Outlines for structured JSON extraction
+doc_3ee92bc757,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial deploying LLMs with TensorRT-LLM on Jetson
+doc_6190d217dc,train,model_families,model_families,ai,model_families,developer_tools,medium,Google open health foundation models suite
+doc_4afd6c6168,validation,research_techniques,developer_tools,human_after_ai,developer_tools,,high,Tutorial running quantized Llama on serverless CPUs
+doc_f06166740a,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,AMD ROCm 6.3 software stack release features
+doc_b705dadaf7,train,model_families,model_families,ai,model_families,,high,Llama 3.3 70B model card and licence
+doc_4213f836ce,validation,research_techniques,research_techniques,human,research_techniques,,high,Structured width pruning method for Llama 3.2
+doc_f7d9d82304,train,research_techniques,model_families,ai,model_families,research_techniques,high,HunyuanVideo open video generation model repository and architecture
+doc_cbc2f187f4,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Top Nvidia business and chip news of 2024
+doc_9298eb8b55,train,research_techniques,developer_tools,ai,developer_tools,,low,Workshop on using Stable Diffusion in architecture workflows
+doc_1c2ff3c0e9,train,research_techniques,research_techniques,ai,research_techniques,,high,Method for LLM forecasting using textual context
+doc_9efaddf74a,validation,research_techniques,model_families,human,model_families,,high,HunyuanVideo prompt rewrite model card
+doc_791f59dc09,train,developer_tools,developer_tools,ai,developer_tools,research_techniques,medium,Case study using LLM-assisted labeling and fine-tuning on HF tools
+doc_5f5bd065ab,validation,research_techniques,model_families,human_after_ai,model_families,developer_tools,medium,Comparison of coding LLMs by benchmarks and Elo
+doc_206b52e8ef,train,developer_tools,developer_tools,ai,developer_tools,research_techniques,medium,Building multimodal RAG systems with example code
+doc_8e56f64660,train,model_families,research_techniques,ai,research_techniques,,high,FineWeb2 multilingual pretraining dataset and data processing pipeline
+doc_d040e655e6,train,research_techniques,research_techniques,ai,research_techniques,,high,List of 2024 LLM research papers
+doc_a6a6e77b2b,train,model_families,model_families,ai,model_families,,high,Cohere Command R7B open weights model card
+doc_c0f6eea07e,validation,research_techniques,model_families,human_after_ai,model_families,,medium,Roundup led by Phi-4 small model release and benchmarks
+doc_577bdedbf0,validation,model_families,developer_tools,human_after_ai,developer_tools,,high,"Review of 2024 AI engineering trends: agents, coding tools"
+doc_5eb8fa495f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,high,Chinese AI models compete with US amid chip restrictions
+doc_43284cd5ed,train,research_techniques,research_techniques,ai,research_techniques,,high,Primer on synthetic data for training LLMs
+doc_19eb0369e4,train,research_techniques,model_families,ai,model_families,,medium,Newsletter on Phi-4 and HunyuanVideo releases
+doc_8fc40e5665,train,model_families,research_techniques,ai,research_techniques,,high,Safety classification research using intermediate layers
+doc_c1c5f538de,train,research_techniques,research_techniques,ai,research_techniques,,high,Test-time compute scaling lets small models beat larger ones
+doc_fdfd2688b7,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Chain of thought reasoning techniques tested
+doc_f99520239a,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Top European startup funding rounds of 2024
+doc_0c81a84868,validation,business_compute,business_compute,human,developer_tools,business_compute,low,2024 AI review led by agentic workflows and price falls
+doc_512ba017cf,validation,model_families,model_families,human,model_families,research_techniques,high,DeepSeek-V3 model card with architecture and deployment
+doc_408d60aeb0,train,developer_tools,model_families,ai,model_families,,high,DeepSeek-V3 release and other model news
+doc_b8f8855667,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Top AI research papers of 2024
+doc_3f33cded0e,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial building multi-agent RAG with Hugging Face
+doc_810a61417b,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial building LLM CV extraction and job matching app
+doc_6d15cb5288,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,DeepSeek-V3 architecture and training efficiency explained
+doc_df0721a1dd,train,research_techniques,developer_tools,ai,developer_tools,,high,Podcast on ComfyUI image generation tool
+doc_09fbfcf3c7,train,model_families,model_families,ai,model_families,,high,NVIDIA Llama Nemotron model family announcement
+doc_9f8a6e618f,validation,model_families,model_families,human_after_ai,model_families,developer_tools,medium,Nvidia Cosmos world foundation models release
+doc_81e5f63319,train,model_families,model_families,ai,model_families,developer_tools,high,Nvidia announces Llama Nemotron and Cosmos Nemotron families
+doc_c8f249686a,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,Nvidia NIM microservices and blueprints for running models on RTX PCs
+doc_398e90a672,train,model_families,business_compute,ai,business_compute,model_families,medium,Funding landscape of open vs closed foundation model developers
+doc_7728d9e4c3,validation,model_families,developer_tools,human_after_ai,developer_tools,business_compute,high,NVIDIA NIM microservices and AI Blueprints for RTX PCs
+doc_cd7e44b29f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,China advancing in AI despite US chip export controls
+doc_c5f4ca1075,train,research_techniques,research_techniques,ai,research_techniques,,high,rStar-Math MCTS self-evolution technique for small model math reasoning
+doc_f52255a20f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Leaked US AI chip and model weight export control rule
+doc_e641c2232a,train,business_compute,business_compute,ai,business_compute,,high,Nvidia Rubin and Feynman GPU architecture roadmap
+doc_a424f084c9,train,research_techniques,research_techniques,ai,research_techniques,,high,Replacing softmax attention in Llama with hybrid linear attention
+doc_bb518a2ef4,train,model_families,research_techniques,ai,research_techniques,,medium,Content safety dataset for guard model training
+doc_4bd052a5dc,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,Biden administration AI chip export restrictions on China
+doc_0a8b559570,train,developer_tools,developer_tools,ai,developer_tools,,high,Building multimodal LangGraph agent with local and cloud models
+doc_3040625776,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Tutorial writing C++ inference program with llama.cpp
+doc_faaa1612ff,train,china_geopolitics,model_families,ai,model_families,business_compute,low,Newsletter: AI product management and DeepSeek-V3 low-cost model
+doc_5254f59744,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,developer_tools,high,Survey on enterprise AI deployment and adoption
+doc_13a55cabb4,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,medium,Building Document AI solutions with open-source models
+doc_7c5153ac46,train,model_families,model_families,ai,model_families,,high,Llama 3.1 405B Instruct model card
+doc_fa20af4061,validation,research_techniques,research_techniques,human,model_families,research_techniques,high,DeepSeek-R1 release with RL training and benchmarks
+doc_1ef43a7d70,validation,research_techniques,developer_tools,human_after_ai,developer_tools,,high,"Tutorial building image apps with ComfyUI, Flux, LoRAs, ControlNets"
+doc_b6c234008b,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,medium,Stargate 500B infrastructure investment debate amid DeepSeek rivalry
+doc_79b829069f,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Pipeshift seed funding for open model MLOps platform
+doc_176c088eaf,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,high,DeepSeek R1 developed despite US chip sanctions
+doc_ac2665946d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,DeepSeek R1 shockwaves through Silicon Valley
+doc_3fa6b5609f,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,DPO preference optimization for vision language models with TRL
+doc_7a096bb266,train,research_techniques,model_families,ai,model_families,research_techniques,high,SmolVLM small vision language model release
+doc_2b775f3afe,validation,developer_tools,developer_tools,human,developer_tools,,high,Cookbook building multimodal RAG with SmolVLM
+doc_4fe95e5489,train,business_compute,china_geopolitics,ai,china_geopolitics,,low,Davos AI governance and national supremacy discussion
+doc_b9416ccc36,validation,model_families,model_families,human,model_families,,high,Qwen2.5-VL vision-language model release
+doc_26e5b419c6,train,china_geopolitics,research_techniques,ai,research_techniques,china_geopolitics,medium,How DeepSeek-R1 used reinforcement learning instead of SFT
+doc_79abb6ff8a,train,model_families,model_families,ai,model_families,,high,Qwen2.5-VL model card
+doc_9214215e76,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek tops App Store and triggers tech selloff
+doc_44e5b829fb,train,china_geopolitics,model_families,ai,model_families,research_techniques,medium,DeepSeek-R1 reasoning model and efficient training
+doc_ae45ed1800,validation,china_geopolitics,model_families,human,model_families,china_geopolitics,high,"DeepSeek-R1 benchmarks, licence and capabilities overview"
+doc_a6d282c476,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek framed as market shock causing US stock selloff
+doc_880d44192e,train,research_techniques,model_families,ai,model_families,research_techniques,low,News roundup led by Kimi k1.5 release and training
+doc_b6cdf93198,train,model_families,model_families,ai,model_families,research_techniques,medium,Qwen2.5-1M long-context model release and deployment
+doc_f095bbb560,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,DeepSeek R1 release and open versus proprietary debate
+doc_43dd145498,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek framed as market shock causing Nvidia selloff
+doc_6c91d64060,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,"DeepSeek-R1 reasoning model features, licence and reception"
+doc_4b00bdb570,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,DeepSeek impact on Nvidia and AMD stock picks
+doc_b3409f602f,train,research_techniques,research_techniques,ai,research_techniques,business_compute,medium,How DeepSeek trained V3 efficiently on H800 hardware
+doc_bbf0643374,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek market shock wipes value from US tech stocks
+doc_51e12d266b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,DeepSeek shock hits US Big Tech valuations
+doc_ecede6a9da,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek explained as challenge to US AI supremacy
+doc_d5f6dcbf15,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,medium,Newsletter leads with DeepSeek R1 and export controls failing
+doc_4d6058e593,train,business_compute,business_compute,ai,business_compute,developer_tools,high,Pipeshift seed funding for AI deployment platform
+doc_341c9816c0,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,Janus Pro launch framed amid stock selloff and China fears
+doc_9d67260baf,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,Comparing DeepSeek-R1 capabilities with ChatGPT product
+doc_cf6d44251e,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,DeepSeek R1 market shock and stock sell-off
+doc_5dfffb957f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,"DeepSeek as shock to Big Tech, Wall Street and Washington"
+doc_2a4a3fbaf4,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,DeepSeek effect on Big Tech earnings and AI capex
+doc_62a6adacbf,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,medium,DeepSeek market shock crashes Nvidia stock
+doc_0666f7b8b2,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,"RAND analysis of DeepSeek, compute access and export controls"
+doc_000447447c,validation,model_families,developer_tools,human,developer_tools,model_families,medium,Open source AI definition and list of platforms
+doc_e983706247,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,medium,DeepSeek implications for AI investment and infrastructure
+doc_bcf6b3c518,validation,china_geopolitics,china_geopolitics,human,business_compute,china_geopolitics,low,Profile of DeepSeek company and founder Liang Wenfeng
+doc_6505c593ab,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek wipes market value and upends US AI dominance
+doc_6eaa116381,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,China brief on DeepSeek and AI space race narrative
+doc_f75f13d97d,train,research_techniques,developer_tools,ai,developer_tools,,low,Generic how-to on fixing DeepSeek R1 output confidence
+doc_eccec040f1,train,research_techniques,model_families,ai,model_families,developer_tools,medium,List of alternatives to DeepSeek chatbots and models
+doc_9a1b814cad,train,china_geopolitics,research_techniques,ai,research_techniques,china_geopolitics,medium,DeepSeek R1 training efficiency and RL approach explained
+doc_c01b66bc43,train,business_compute,business_compute,ai,business_compute,,high,Oracle stock analysis after DeepSeek-driven selloff
+doc_89cbbaf5b0,validation,china_geopolitics,china_geopolitics,human_after_ai,china_geopolitics,research_techniques,medium,DeepSeek shock to US AI race and implications for UK
+doc_6c7c4c4070,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek national security debate compared to TikTok
+doc_d36d3ade88,train,model_families,developer_tools,ai,developer_tools,,high,Replicate platform for running and fine-tuning models
+doc_1d7af18519,validation,china_geopolitics,china_geopolitics,human,research_techniques,china_geopolitics,low,"How DeepSeek cut costs with open source, RL and MoE"
+doc_134097eac9,validation,china_geopolitics,china_geopolitics,human,business_compute,china_geopolitics,medium,Stargate data center energy debate after DeepSeek
+doc_9476dae37d,validation,china_geopolitics,china_geopolitics,human_after_ai,china_geopolitics,business_compute,medium,DeepSeek challenges US data center race; news digest
+doc_1a24332a10,train,business_compute,developer_tools,ai,developer_tools,,high,Podcast on AI coding assistant using codebase context
+doc_7f201f95cf,train,business_compute,china_geopolitics,ai,china_geopolitics,,high,DeepSeek implications for UK AI policy and competitiveness
+doc_9e2b9a94d6,validation,business_compute,developer_tools,human,developer_tools,,high,Block launches Goose open-source agent framework
+doc_8af0b04a09,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,model_families,medium,Qwen2.5-Max release framed as China challenge to US
+doc_9fee123902,validation,china_geopolitics,model_families,human_after_ai,model_families,china_geopolitics,medium,DeepSeek R1 as cost-effective rival to ChatGPT
+doc_db74f38a65,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Emerging market stock picks amid trade wars and DeepSeek
+doc_82b123c249,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,ETF picks amid DeepSeek-driven stock market turmoil
+doc_efc18e4348,train,business_compute,business_compute,ai,business_compute,,high,Value fund picks amid market volatility and DeepSeek selloff
+doc_d7af00789e,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,DeepSeek as industry and geopolitical shock
+doc_0f1cfadf1e,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,Explainer on DeepSeek-R1 model and its features
+doc_db0d18d9a5,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,DeepSeek privacy and national security concerns for adopters
+doc_655b96114f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,low,"Newsletter on DeepSeek, China catching up and RL reasoning"
+doc_11e5ec548c,train,research_techniques,research_techniques,ai,research_techniques,,medium,Introduction to LLM training stages and fine-tuning
+doc_485e0953d8,validation,research_techniques,research_techniques,human,research_techniques,developer_tools,medium,Crafting and labeling prompt-image training data for diffusion models
+doc_896c079a0a,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,DeepSeek implications for enterprise AI and compute demand
+doc_a0cb048048,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek and China AI policy and industry landscape
+doc_77408c9986,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Opinion: DeepSeek shows China winning technology race
+doc_b31483467e,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek sparks US national security fears
+doc_631f0e2d0d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek founder profile framed as Sputnik moment and chip embargo
+doc_ac6ad35ec4,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,business_compute,medium,DeepSeek and the resulting US tech stock selloff
+doc_a4e36cc986,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial running Llama 3 locally with Ollama
+doc_f652dfea64,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,Oumi open source AI platform launch with seed funding
+doc_883f048958,train,china_geopolitics,research_techniques,ai,research_techniques,china_geopolitics,medium,Why training LLMs is costly and DeepSeek efficiencies
+doc_04e55ca54c,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,high,DeepSeek success and US-China AI competition
+doc_bc11096aed,train,research_techniques,research_techniques,ai,research_techniques,,high,Breakdown of DeepSeek-R1 GRPO reinforcement learning training
+doc_7a481bca7a,validation,model_families,developer_tools,human_after_ai,developer_tools,business_compute,medium,"Oumi open platform for building models, seed funding"
+doc_4e5836a876,train,business_compute,business_compute,ai,business_compute,,high,Robinhood stock analysis after DeepSeek sell-off
+doc_02cdb1d906,train,business_compute,business_compute,ai,business_compute,,high,Preview of Magnificent 7 stock earnings
+doc_f060fcf924,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,AI stocks to watch after DeepSeek market rout
+doc_98533b03cc,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,How DeepSeek could benefit Indian IT companies
+doc_9fb9bc3bc2,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,DeepSeek market shock and expert skepticism of claims
+doc_e945987d4e,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Newsletter on DeepSeek shock to US strategy and AI investments
+doc_cfee0120f2,train,business_compute,business_compute,ai,business_compute,,medium,List of top AI companies to watch
+doc_4f23df16b9,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,china_geopolitics,high,Nvidia stock slide analysis after DeepSeek and export fears
+doc_8968eb73b5,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,"Assesses DeepSeek panic, export controls and US-China AI race"
+doc_19c5a3e141,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,developer_tools,medium,DeepSeek R1 in cybersecurity framed by national security concerns
+doc_9ebc28e828,train,research_techniques,model_families,ai,model_families,research_techniques,medium,Ai2 Tulu 3 405B release with RLVR post-training
+doc_63f96758e3,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Amodei analysis of DeepSeek cost narrative and US-China competition
+doc_3daa207f9e,validation,research_techniques,research_techniques,human_after_ai,research_techniques,model_families,medium,Red-teaming security assessment of DeepSeek-R1
+doc_f111309556,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Cerebras hardware inference speed claims for DeepSeek distill
+doc_4ea03cc3eb,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,medium,"DeepSeek lowers cost of entry, implications for hardware market"
+doc_4d49718aa1,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,ETF diversification advice after DeepSeek tech selloff
+doc_6ec65da26a,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,medium,"DeepSeek and agents commoditizing LLMs, Nvidia stock drop"
+doc_aa799f136e,train,china_geopolitics,research_techniques,ai,research_techniques,china_geopolitics,medium,Security researchers jailbreak DeepSeek to reveal system prompt
+doc_ed5e287514,validation,business_compute,business_compute,human,business_compute,china_geopolitics,high,Investment portfolio implications of DeepSeek stock sell-off
+doc_41e2c9f394,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,high,"Global AI race, is China catching up to US"
+doc_ce9e818d20,train,business_compute,business_compute,ai,business_compute,,high,Stocks benefiting from Stargate infrastructure investment
+doc_d0a02017a9,train,business_compute,business_compute,ai,business_compute,,high,Nebius stock drop after DeepSeek release
+doc_3d69ef086b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,medium,DeepSeek founder profile with CCP and data concerns
+doc_9159bf723c,train,china_geopolitics,research_techniques,ai,research_techniques,model_families,medium,Technical breakdown of DeepSeek architecture and training
+doc_398ff365aa,train,china_geopolitics,research_techniques,ai,research_techniques,china_geopolitics,medium,How DeepSeek RL training approach changed the playbook
+doc_cf242fdf9b,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,"DeepSeek, Nvidia sell-off and AI investment speculation"
+doc_858724a7a7,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek disruption of US tech stocks and sanctions
+doc_cea37d6e71,validation,china_geopolitics,business_compute,human,business_compute,china_geopolitics,medium,"AI energy use and data centres, Jevons paradox after DeepSeek"
+doc_a0fec0e825,train,research_techniques,research_techniques,ai,research_techniques,,high,Explains Multi-head Latent Attention in DeepSeek-V3
+doc_17c7462c5d,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,high,VPTQ 2-bit vector quantization method and evaluation
+doc_ac1dfd5e5d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,UK AI regulation between EU and US approaches
+doc_b1eeea3206,train,research_techniques,model_families,ai,model_families,,medium,Hands-on comparison of DeepSeek-R1 and o1 on tasks
+doc_77133ac076,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,high,OpenAI o3-mini release countering DeepSeek
+doc_84f7b21877,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,Andrew Ng on China catching up and DeepSeek-R1 implications
+doc_fb45f6fae5,validation,china_geopolitics,china_geopolitics,human_after_ai,china_geopolitics,business_compute,medium,Tech CEOs react to DeepSeek shock and US-China race
+doc_7cb89f1379,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek as Sputnik moment and US AI policy opinion
+doc_4ab105e0cb,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek chatbot censorship on Chinese political topics
+doc_8b333a69cd,train,developer_tools,model_families,ai,model_families,,medium,Hands-on evaluation of DeepSeek V3 capabilities for data science
+doc_c9498822a8,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Altman rethinks open source after DeepSeek market shock
+doc_05fbc3455a,train,china_geopolitics,research_techniques,ai,research_techniques,,medium,Opinion that efficient architecture beats raw compute after DeepSeek
+doc_21b3b72528,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,DeepSeek privacy and national security concerns
+doc_af6835f478,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,medium,"Should businesses adopt DeepSeek, cost and security caveats"
+doc_3b3f2fb6e2,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Investor advice after DeepSeek-triggered Nvidia stock plunge
+doc_edc305a98e,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,business_compute,medium,DeepSeek market shock and Nvidia outlook commentary
+doc_a6d03d88ad,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Post-training and test-time compute for reasoning models and agents
+doc_f83c1e0071,train,business_compute,business_compute,ai,business_compute,,high,"Microsoft quarterly earnings, Azure growth and AI spending"
+doc_cd7bf00b53,train,business_compute,business_compute,ai,business_compute,,low,Index page of CB Insights market and funding research briefs
+doc_f696eb82e6,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Digital media industry response to DeepSeek disruption
+doc_832a1195f7,train,research_techniques,model_families,ai,model_families,,medium,"Roundup of model releases: Qwen2.5-Max, Tulu 3, Eagle 2"
+doc_94daa6ce8b,train,business_compute,china_geopolitics,ai,china_geopolitics,model_families,medium,EU-funded OpenEuroLLM for European digital sovereignty
+doc_9663f42dad,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek and US-China AI competition policy
+doc_fdf4fcad1f,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,high,DeepSeek as Sputnik moment and US export controls
+doc_3c89bb0135,train,china_geopolitics,research_techniques,ai,research_techniques,business_compute,medium,Lessons from DeepSeek on distillation and smaller models
+doc_41c59ad8c8,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,low,DeepSeek success framed as win for open-source over closed
+doc_754d6e20c6,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,"Alphabet earnings call, capex, and DeepSeek comparison"
+doc_89a3e37165,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,business_compute,high,DeepSeek R1 as Sputnik moment and export controls
+doc_3510de92f0,train,china_geopolitics,business_compute,ai,business_compute,research_techniques,medium,DeepSeek efficiency implications for executives and AI capex
+doc_ae19a87b96,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,model_families,medium,Explainer on DeepSeek market shock and national security scrutiny
+doc_3cba8303b2,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,China response to Trump tariffs and US security
+doc_8cb6d057d4,train,developer_tools,developer_tools,ai,developer_tools,,high,Developer guide to Azure AI Agent Service
+doc_dea6b0af33,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Chinese AI startups in national AI race beyond DeepSeek
+doc_b38150d07f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,OpenAI distillation accusation against DeepSeek and IP disputes
+doc_06740f1e09,train,developer_tools,model_families,ai,model_families,,low,Batch issue on 10x professionals and o3-mini release
+doc_de8a882fa9,validation,research_techniques,research_techniques,human,research_techniques,,high,Explainer on approaches for building reasoning LLMs
+doc_34c6fe25af,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,high,DeepSeek-R1 efficiency and implications for global AI race
+doc_7feec38462,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Trump AI push and energy demand uncertainty after DeepSeek
+doc_2d935e6857,train,research_techniques,model_families,ai,model_families,,high,"Google releases Gemini 2.0 Pro, Flash and Flash-Lite"
+doc_e09a821ee6,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Paris AI summit and global AI leadership race after DeepSeek
+doc_f6353a78e8,train,business_compute,model_families,ai,model_families,china_geopolitics,low,Newsletter on DOGE government AI and Phi-4 release
+doc_04785ffa30,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Bill to ban DeepSeek on US government devices
+doc_9f2a30a679,train,china_geopolitics,none,ai,none,,high,"Gaza cease-fire interview, only passing DeepSeek mention"
+doc_253758ec49,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Tech bans spurring Chinese AI innovation and open-source race
+doc_45ab976104,train,china_geopolitics,research_techniques,ai,research_techniques,china_geopolitics,low,Podcast on DeepSeek technical optimizations and implications
+doc_0994d12608,train,research_techniques,business_compute,ai,business_compute,model_families,low,Infrastructure founders on DeepSeek impact for open models and economics
+doc_8abe7004f5,validation,research_techniques,research_techniques,human_after_ai,research_techniques,developer_tools,medium,"Distillation, SFT, RL and RAG for enterprises after R1"
+doc_dd5e518bc9,train,business_compute,none,ai,none,business_compute,low,Weekly roundup of ecommerce product launches
+doc_2235fcc072,validation,business_compute,business_compute,human,business_compute,,high,French AI startup funding ecosystem
+doc_26edff8734,train,business_compute,business_compute,ai,business_compute,,low,Enterprise challenges of deploying AI workers
+doc_9fa6a391e7,train,developer_tools,developer_tools,ai,developer_tools,,low,Stolen API keys and reverse proxies for LLM access
+doc_72cb813f09,train,business_compute,business_compute,ai,business_compute,,high,IBM stock and earnings analysis
+doc_4e84ec4786,train,model_families,china_geopolitics,ai,china_geopolitics,,low,"Panel on open source AI definitions, licensing and regulation"
+doc_2d9261371f,train,business_compute,business_compute,ai,business_compute,,high,Model ML startup raises 12M funding
+doc_0d6fb662be,train,business_compute,research_techniques,ai,research_techniques,developer_tools,low,Limits of benchmarks and methods for evaluating LLMs
+doc_97e042cb39,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Paris AI Action Summit on governance and geopolitics
+doc_1003435c68,train,business_compute,none,ai,none,,medium,General open source software licensing and business model history
+doc_df690c398a,validation,research_techniques,model_families,human,model_families,developer_tools,medium,Feature comparison of Mistral Le Chat and ChatGPT
+doc_e2629be7bf,train,research_techniques,model_families,ai,model_families,research_techniques,low,"Roundup of model results: o3-mini, SmolLM2, Granite"
+doc_07cc5d2659,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US AI chip export controls debate after DeepSeek
+doc_17c7332edb,train,business_compute,research_techniques,ai,research_techniques,model_families,medium,Security red-team testing finds DeepSeek-R1 guardrail failures
+doc_31797a7688,train,research_techniques,research_techniques,ai,research_techniques,model_families,high,ColPali vision retrieval method and benchmark
+doc_2a8c5f9942,train,developer_tools,model_families,ai,model_families,business_compute,medium,Guide listing top LLMs and their specs for business
+doc_6efb9d87dc,validation,business_compute,china_geopolitics,human_after_ai,china_geopolitics,,high,DeepSeek as geopolitical earthquake in US-China AI race
+doc_27a1f774ba,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,medium,Chinese enterprises rapidly adopting DeepSeek
+doc_08a342af03,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,medium,DeepSeek in global AI race with security and censorship concerns
+doc_7e7aab599a,train,developer_tools,developer_tools,ai,developer_tools,research_techniques,medium,Tutorial scoring LLM response trustworthiness in a RAG app
+doc_151b65088d,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Startup app for personal on-device open models
+doc_9f5715b614,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,DeepSeek impact on data center market outlook
+doc_c0880664a9,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,EU regulation and GDPR response to DeepSeek
+doc_b269eb40cb,train,developer_tools,developer_tools,ai,developer_tools,research_techniques,medium,Supply chain security risks of using open models from repositories
+doc_1bb4b90ee8,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,high,"DeepSeek challenges US AI leadership, geopolitical stakes"
+doc_d3666c18ba,train,research_techniques,model_families,ai,model_families,,high,Nous Research releases DeepHermes-3 toggleable reasoning model
+doc_eb894cea69,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Executives on DeepSeek and US-China AI competition
+doc_cc148668ca,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,low,"Running DeepSeek-R1 locally, with RL training explanation"
+doc_152456e545,train,business_compute,none,ai,none,,medium,"Open-source marketing mix modeling, not about language models"
+doc_4b36577e2a,train,research_techniques,model_families,ai,model_families,research_techniques,medium,"News roundup of model releases: Sonar, Ernie, Mistral Saba"
+doc_32fda2f066,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,India lagging in national AI race after DeepSeek
+doc_4b2fc63e6a,train,china_geopolitics,model_families,ai,model_families,,high,xAI Grok 3 model release and benchmarks
+doc_d89a573fd2,train,developer_tools,developer_tools,ai,developer_tools,,high,Launch of Inference Providers on Hugging Face Hub
+doc_5020b53086,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,low,Profile of DeepSeek team and origins in China
+doc_c465bb7cab,train,research_techniques,research_techniques,ai,research_techniques,,high,Safety study of reasoning models cheating at chess
+doc_c369221f12,train,model_families,model_families,ai,model_families,developer_tools,medium,Ai2 OLMoE small model release for iOS devices
+doc_ad95f32a81,train,research_techniques,model_families,ai,model_families,developer_tools,high,PaliGemma vision language model family introduction
+doc_e92915b715,train,business_compute,developer_tools,ai,developer_tools,,medium,Interview on applying LLMs in product engineering
+doc_5fd8f29246,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Policy recommendations to protect US AI lead over China
+doc_020f067cc9,train,business_compute,business_compute,ai,business_compute,model_families,medium,"ChatGPT user growth, enterprise adoption and GPT-5 plans"
+doc_df5e472766,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,high,Beijing backs DeepSeek to drive national AI adoption
+doc_9a9799d56b,train,business_compute,business_compute,ai,business_compute,,high,DeepSeek efficiency seen as net positive for data centers
+doc_6c069acafe,train,research_techniques,research_techniques,ai,research_techniques,,high,Study on test-time scaling letting small models beat large ones
+doc_8f5211c9b0,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,US AI investment spending trap after DeepSeek
+doc_2685c368e6,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,DeepSeek-driven rally in Chinese stocks versus India
+doc_0fa6593cac,train,research_techniques,developer_tools,ai,developer_tools,model_families,medium,How-to guide for Hailuo AI video generation platform
+doc_8db8da8f39,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Overview of LLM customization techniques from prompting to LoRA
+doc_76fa5d13b5,train,model_families,model_families,ai,model_families,,high,Phi-4-multimodal-instruct model card
+doc_b196886f02,train,business_compute,business_compute,ai,business_compute,,high,Nvidia earnings preview amid infrastructure spending and DeepSeek
+doc_70adfd44d5,train,business_compute,business_compute,ai,business_compute,,high,Together AI Series B funding and GPU cloud expansion
+doc_e971bd6f8d,train,business_compute,business_compute,ai,business_compute,,high,NVIDIA earnings and semiconductor ETFs
+doc_9c06669d05,train,china_geopolitics,business_compute,ai,business_compute,china_geopolitics,high,Nvidia earnings outlook after DeepSeek
+doc_a7f379955a,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,high,"China AI industry ecosystem, state support and national strategy"
+doc_0867f58585,train,research_techniques,model_families,ai,model_families,,high,IBM Granite 3.2 model family release
+doc_316ea1dd98,validation,model_families,business_compute,human_after_ai,business_compute,,high,Nvidia quarterly revenue and earnings results
+doc_f47dd8da2e,validation,developer_tools,model_families,human,model_families,developer_tools,medium,Overview of top LLMs and their uses
+doc_12b6003cd2,train,business_compute,model_families,ai,model_families,,high,Microsoft Phi-4 multimodal and mini model release
+doc_61867fe2d5,train,model_families,model_families,ai,model_families,,high,Model card for Cohere Command R7B Arabic
+doc_f5f3921193,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Chinese tech stocks to watch after DeepSeek
+doc_7331135f1c,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,Gemma 3 12B instruction-tuned model card
+doc_92902c7c3d,validation,business_compute,china_geopolitics,human_after_ai,china_geopolitics,research_techniques,medium,AI governance and IP regulation around DeepSeek distillation dispute
+doc_28f074f56f,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US-China tech race and export control effectiveness
+doc_6b301545fe,train,business_compute,developer_tools,ai,developer_tools,,medium,Product page for LLM-based customer support agent
+doc_bf48995a07,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,Benchmark showing escalation bias of LLMs in national security
+doc_cc059853a0,train,model_families,china_geopolitics,ai,china_geopolitics,,low,OSI board election dispute over open source AI definition
+doc_ff078c70bf,validation,research_techniques,model_families,human,model_families,,high,Cohere releases Aya Vision multilingual open-weight model
+doc_52e3c163f1,train,model_families,model_families,ai,model_families,,high,Alibaba QwQ-32B reasoning model release
+doc_a0a5814aa3,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,China tech policy amid US trade pressure
+doc_d04a2bfde7,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,Alibaba QwQ release framed in China AI race context
+doc_9583f29c6d,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,"Lambda GPU cloud strategy, inference API and funding"
+doc_bf98602661,validation,business_compute,business_compute,human,business_compute,developer_tools,medium,Fortytwo decentralized inference network pre-seed funding
+doc_fd1cbef2b0,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,National security risks of DeepSeek and PRC policy context
+doc_7e74c8855f,train,business_compute,business_compute,ai,business_compute,developer_tools,low,Manus AI partnership with Alibaba Qwen for business agents
+doc_34a6274124,validation,china_geopolitics,china_geopolitics,human,business_compute,research_techniques,medium,Economics of cheaper training and commoditized open AI
+doc_0dc0018819,validation,developer_tools,research_techniques,human,developer_tools,research_techniques,medium,Explainer on improving LLMs with RAG versus fine-tuning
+doc_c68d7cc1dc,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Claude 3.7 and Claude Code as enterprise coding agents
+doc_24513a7645,train,developer_tools,developer_tools,ai,developer_tools,,high,OpenAI Responses API and Agents SDK for building agents
+doc_44fb16e61a,validation,business_compute,business_compute,human,business_compute,,high,Cerebras adds six inference data centers and enterprise deals
+doc_66a45af19a,train,model_families,model_families,ai,model_families,,high,Model card for Cohere Command A open weights release
+doc_f3663d6bbf,train,china_geopolitics,developer_tools,ai,developer_tools,china_geopolitics,medium,Manus autonomous agent from China and its capabilities
+doc_417acf1d8c,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Enterprise economics of adopting open-source LLMs
+doc_8149d2dfa4,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,DeepSeek revives Chinese venture capital investment
+doc_1a0658a7e3,train,research_techniques,model_families,ai,model_families,research_techniques,high,Gemma 3 release and technical details
+doc_03d40b4976,train,model_families,research_techniques,ai,research_techniques,,high,HELMET benchmark for evaluating long-context models
+doc_1508dae9f2,validation,developer_tools,developer_tools,human,developer_tools,,high,Troubleshooting running DeepSeek GGUF on Spaces and Ollama
+doc_3251087df7,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial deploying Gemma on Model Garden GPU endpoints
+doc_d467e03783,train,developer_tools,developer_tools,ai,developer_tools,,high,Docs for deploying models via Model Garden
+doc_4234250f84,train,china_geopolitics,model_families,ai,model_families,,high,Cohere Command A release and benchmark comparisons
+doc_fe04506d39,validation,model_families,developer_tools,human,model_families,developer_tools,medium,"Google Cloud launches Gemma 3, Gemini Robotics and tools"
+doc_e8513b5c3a,validation,business_compute,business_compute,human_after_ai,business_compute,,medium,Huawei speech on industrial AI transformation and ICT infrastructure
+doc_11efdbca3d,train,business_compute,business_compute,ai,business_compute,,high,"DDN, Fluidstack and Mistral infrastructure partnership"
+doc_f897b91657,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,medium,DeepSeek founder celebrated as Chinese national hero
+doc_55899965d1,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,"Diffusion LLMs as alternative to autoregression, Mercury"
+doc_83bcde9d51,train,developer_tools,developer_tools,ai,developer_tools,,high,OpenAI Agents SDK and Responses API for enterprises
+doc_264afb8274,train,developer_tools,developer_tools,ai,developer_tools,model_families,low,"Developer news roundup: Node TypeScript, Nuxt, Gemma 3, OpenAI agents"
+doc_cbf5bf1d4d,train,model_families,model_families,ai,model_families,research_techniques,medium,GGUF quantized Llama 3.2 1B model card
+doc_474d28637d,train,model_families,model_families,ai,model_families,,high,Llama-3.3-Nemotron-Super-49B model card
+doc_e5f85dcf62,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial introduction to Hugging Face Transformers library
+doc_0bf6b0bb8e,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,DeepSeek pushes South Korea into national AI race
+doc_f63dcd5fe1,train,developer_tools,developer_tools,ai,developer_tools,,high,Workflow for scanning open source models before deployment
+doc_e0894cfb49,train,business_compute,model_families,ai,model_families,,high,Mistral Small 3.1 open model release and performance
+doc_f8d67ccd1c,train,business_compute,business_compute,ai,business_compute,,high,Nvidia Blackwell Ultra GPU and data center revenue pitch
+doc_a4155bbeee,train,developer_tools,developer_tools,ai,developer_tools,,high,RamaLama tool for running models in containers
+doc_c92e8263a9,train,business_compute,business_compute,ai,business_compute,,high,Nvidia GTC hardware focus on inference after DeepSeek
+doc_130cad8ece,train,model_families,model_families,ai,model_families,,high,Quantized Llama 3.2 1B model card
+doc_736bb5c889,train,model_families,model_families,ai,model_families,developer_tools,high,Nvidia Llama Nemotron reasoning model release
+doc_e68e8d4cc0,train,research_techniques,developer_tools,ai,developer_tools,model_families,low,Promotional page for downloading the Le Chat assistant app
+doc_efed989ac6,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,UBC bans DeepSeek over privacy and security concerns
+doc_e530c689bf,train,business_compute,business_compute,ai,business_compute,,high,"Nvidia GTC 2025 keynote: Blackwell, chip roadmap, Dynamo"
+doc_c4bdd4165c,validation,business_compute,china_geopolitics,human,china_geopolitics,,high,Hugging Face submission to White House AI Action Plan
+doc_fc69a4fe28,train,model_families,none,ai,none,,medium,Mixed tech news archive listing without single AI theme
+doc_8cf011e7bc,train,model_families,business_compute,ai,business_compute,model_families,medium,Nvidia GTC enterprise hardware push with Nemotron models mentioned
+doc_474c5f539c,train,business_compute,developer_tools,ai,developer_tools,,high,Eclipse Theia AI open source IDE and tooling platform
+doc_9d1ad58a5a,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Open-R1 project reproducing DeepSeek-R1 RL training pipeline
+doc_d8dd0a6d02,train,model_families,model_families,ai,model_families,,high,Quantized Llama 3.1 8B Instruct model card
+doc_d4ce91cd00,train,research_techniques,business_compute,ai,business_compute,developer_tools,medium,LexisNexis enterprise use of distilled small models
+doc_c7c1d0e593,train,business_compute,business_compute,ai,business_compute,,high,Nvidia GTC 2025 GPU and platform announcements
+doc_70ba69e61e,train,model_families,model_families,ai,model_families,,high,Model card for Qwen2.5-VL-32B-Instruct
+doc_f898d5a828,train,model_families,model_families,ai,model_families,developer_tools,high,Llama 3.1 model card with GGUF quantizations
+doc_d7b095c1cb,train,model_families,china_geopolitics,ai,china_geopolitics,,low,"Opinion on open source AI transparency, trust and regulation"
+doc_f99a918909,validation,china_geopolitics,business_compute,human_after_ai,business_compute,,high,"DeepSeek impact on GPU demand, custom chips and data centers"
+doc_ccfd40a28a,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Chinese open-source shift after DeepSeek upending market
+doc_cce20be898,train,model_families,model_families,ai,model_families,developer_tools,high,Phi-4-mini model card with GGUF quantized variants
+doc_400e292959,validation,china_geopolitics,model_families,human_after_ai,model_families,china_geopolitics,medium,"DeepSeek-V3-0324 release, MoE details and local running"
+doc_c8deb43042,train,research_techniques,developer_tools,ai,developer_tools,,high,Introduction to vLLM inference serving engine
+doc_ebefe2f2eb,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,VC AI investment strategies in 2025
+doc_f1a0519e03,train,research_techniques,research_techniques,ai,research_techniques,,medium,Architecture fingerprinting of DeepSeek-R1 for security detection
+doc_1f3e5c22b7,validation,research_techniques,research_techniques,human,research_techniques,,medium,Architecture genealogy analysis of DeepSeek-R1 for detection
+doc_9038d3f603,train,business_compute,business_compute,ai,business_compute,,medium,Open source and data centre economics after DeepSeek
+doc_0989c81de0,train,model_families,model_families,ai,model_families,china_geopolitics,low,Openness and licensing of DeepSeek and other models
+doc_e7b2ecbb65,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,"DeepSeek-V3-0324 release, size, licence and local performance"
+doc_115a684c63,train,business_compute,developer_tools,ai,developer_tools,,medium,List of open-source AI platforms and frameworks for business
+doc_336095064f,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,Unused Chinese AI data centers and failing infrastructure investment
+doc_879320b232,validation,china_geopolitics,china_geopolitics,human,research_techniques,business_compute,medium,Low-cost academic reproductions of DeepSeek reasoning training
+doc_030b3d4f8a,train,research_techniques,model_families,ai,model_families,,medium,Newsletter on ChatGPT multimodal update and DeepSeek-V3 release
+doc_3382863bb3,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,Alibaba stock rally and corporate turnaround
+doc_31442c1027,train,research_techniques,model_families,ai,model_families,research_techniques,low,General explainer of LLMs and leading model families
+doc_5ea0137829,train,research_techniques,business_compute,ai,business_compute,developer_tools,medium,Trends in Chinese generative AI application market
+doc_dac03163e1,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Tutorial building RAG apps on Intel Gaudi 2 and Xeon
+doc_99796d3006,validation,research_techniques,research_techniques,human,research_techniques,model_families,medium,"Research roundup: Video-R1 RL, interpretability, multimodal diffusion"
+doc_a2eb401c26,train,developer_tools,developer_tools,ai,developer_tools,,medium,Forum advice on RAG for legacy codebase
+doc_55f8601c08,validation,business_compute,business_compute,human,business_compute,,high,Quarterly ETF market stories including China tech stocks
+doc_45f7731f06,train,model_families,business_compute,ai,business_compute,model_families,medium,OpenAI open-weight plan driven by AI economics and funding
+doc_1f2572e7c7,train,model_families,none,ai,none,,medium,Archive listing of mixed tech news headlines
+doc_934ab493bd,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,low,"Overview of AI trends: multimodal, RAG, robotics, agents"
+doc_c7fdcf2a28,train,business_compute,business_compute,ai,business_compute,research_techniques,medium,MLPerf inference hardware benchmark results
+doc_21876c157f,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,high,India national AI ambitions after DeepSeek
+doc_9cb71ca59b,train,model_families,model_families,ai,model_families,research_techniques,high,Model card for ShieldGemma 2 image safety classifier
+doc_4947903a44,train,research_techniques,developer_tools,ai,developer_tools,business_compute,medium,AI agents for online retail using Nvidia stack
+doc_8584839ac2,train,research_techniques,research_techniques,ai,research_techniques,,medium,Explainer on how diffusion generative models work
+doc_b21d54e7c9,validation,research_techniques,research_techniques,human,model_families,research_techniques,medium,Explainer of Stable Diffusion model and its versions
+doc_30a2e6a807,train,business_compute,developer_tools,ai,developer_tools,china_geopolitics,medium,Assessment of Manus autonomous AI agent
+doc_6798f2bc46,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,Chinese versus US AI stock performance comparison
+doc_c6be0fd271,train,developer_tools,developer_tools,ai,developer_tools,,high,Open source Kubernetes-based LLM inference serving platform AIBrix
+doc_26976e74c7,validation,research_techniques,developer_tools,human,developer_tools,,high,Open Deep Search open-source agentic search framework
+doc_b7270196e8,train,research_techniques,model_families,ai,model_families,research_techniques,high,"Analysis of Llama 4 release, MoE and long context"
+doc_59e1bbbee4,train,developer_tools,model_families,ai,model_families,,high,News roundup led by Meta Llama 4 launch
+doc_8c9584b19c,train,model_families,model_families,ai,model_families,,high,Model card for Llama-3.1-Nemotron-Ultra-253B
+doc_cd096ae811,validation,model_families,business_compute,human,business_compute,developer_tools,medium,Google and NVIDIA partnership on infrastructure and applied AI
+doc_69e2ac77ff,train,model_families,model_families,ai,model_families,,high,Llama 4 release quality and benchmark controversy
+doc_f2b31ec708,train,research_techniques,research_techniques,ai,research_techniques,,high,DeepSeek SPCT technique for generalist reward models
+doc_7ef114da1c,train,model_families,model_families,ai,model_families,,high,Nvidia releases Llama-3.1 Nemotron Ultra 253B model
+doc_83188388d9,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Quantum-inspired compression of Llama models
+doc_b31387e14d,train,model_families,research_techniques,ai,research_techniques,model_families,medium,Open Arabic LLM leaderboard benchmark evaluation design
+doc_a314774f1f,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,"Google Cloud infrastructure, TPUs and enterprise AI announcements"
+doc_eb7ffdfe93,train,developer_tools,research_techniques,ai,research_techniques,developer_tools,medium,OLMoTrace traces model outputs to training data
+doc_af95fcb148,train,model_families,model_families,ai,model_families,,high,Phi-4-reasoning model card with benchmarks and safety
+doc_dc81b5e2f8,validation,research_techniques,developer_tools,human_after_ai,developer_tools,research_techniques,high,Tutorial fine-tuning Gemma with LoRA in Keras
+doc_b0985e3e4f,train,research_techniques,research_techniques,ai,research_techniques,,high,Explainer of how reasoning models are trained
+doc_e3db2a6913,train,developer_tools,model_families,ai,model_families,research_techniques,medium,Roundup led by DeepCoder open code model release
+doc_7a3c300d7a,train,research_techniques,model_families,ai,model_families,research_techniques,high,ByteDance Seed-Thinking-v1.5 reasoning model and its training
+doc_f750668f2c,train,business_compute,developer_tools,ai,developer_tools,model_families,medium,Google Cloud Next announcements: Vertex AI and agent tools
+doc_5967b0ffb5,validation,business_compute,business_compute,human,business_compute,,high,CoreWeave brings Grace Blackwell GPUs online for AI companies
+doc_9d69bce281,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,"House panel calls DeepSeek national security threat, export limits"
+doc_4df75699bc,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Hybrid Mamba2 architecture model for inference efficiency
+doc_19c99c36e8,train,business_compute,model_families,ai,model_families,,high,Explainer on Google Gemma model family and releases
+doc_a3e924cc76,train,developer_tools,developer_tools,ai,developer_tools,,high,Talk on building Node.js apps with RAG and agents
+doc_fac75d3f53,train,model_families,model_families,ai,model_families,,high,Phi-4-reasoning-plus model card and benchmarks
+doc_239a2cb726,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,DeepSeek foreign policy bias benchmark framed by US-China competition
+doc_7b05b9b64a,train,research_techniques,research_techniques,ai,research_techniques,,high,Survey of reinforcement learning methods for LLM reasoning training
+doc_918edada5e,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,CentML platform for deploying and optimizing model inference
+doc_48c956e6a1,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,developer_tools,high,Deep Infra Series A funding for inference cloud
+doc_c829fff238,train,research_techniques,model_families,ai,model_families,,high,Release of Dia open text-to-speech model
+doc_878d6d49be,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,NVIDIA NeMo microservices for building enterprise AI agents
+doc_6ee07e6cf0,validation,model_families,business_compute,human,business_compute,model_families,medium,Llama 4 release analysed for Meta stock prospects
+doc_8ee3426ec7,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,high,RL training framework RAGEN for multi-turn agents
+doc_24c8aad747,train,model_families,model_families,ai,model_families,,high,Pleias RAG small reasoning model release
+doc_7c30396afc,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,Stock comparison of Baidu and Tencent as AI investments
+doc_c4ada11a3b,train,research_techniques,research_techniques,ai,research_techniques,china_geopolitics,medium,Explains DeepSeek efficiency techniques like KV compression and MoE
+doc_c6016ec6a4,train,model_families,model_families,ai,model_families,,high,Qwen3-235B-A22B model card and usage
+doc_b372e66c1e,train,research_techniques,model_families,ai,model_families,developer_tools,medium,News roundup led by Zhipu GLM-4 open model release
+doc_afe115fa23,train,model_families,business_compute,ai,business_compute,,high,Meta AI capex and investor concerns amid tariffs
+doc_3d1e851008,train,model_families,model_families,ai,model_families,,high,Alibaba Qwen3 open model release and benchmarks
+doc_9bed090e55,train,model_families,model_families,ai,model_families,developer_tools,medium,Meta AI app launch powered by Llama 4 models
+doc_45fda2de9e,train,model_families,model_families,ai,model_families,,high,Model card for Phi-4-mini-reasoning
+doc_34833848ef,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Native 1-bit LLM architecture and training deep dive
+doc_d1cacbe004,train,model_families,business_compute,ai,business_compute,developer_tools,medium,Meta Llama API service as new cloud business line
+doc_5d79d65005,train,model_families,model_families,ai,model_families,,high,"Qwen2.5-Omni-3B release, capabilities and licence"
+doc_685eebe131,train,research_techniques,model_families,ai,model_families,developer_tools,medium,Newsletter on Meta AI app and Qwen3 release
+doc_87ed01723e,train,research_techniques,research_techniques,ai,research_techniques,,high,Review of test-time compute and chain-of-thought reasoning research
+doc_a9610e4ada,validation,research_techniques,model_families,human,model_families,research_techniques,high,Microsoft Phi-4-reasoning-plus open model release
+doc_7d93f142b6,train,developer_tools,model_families,ai,model_families,,high,"News roundup led by Qwen3, Phi-4 reasoning and Nova releases"
+doc_68531fc92d,train,research_techniques,model_families,ai,model_families,research_techniques,medium,"DeepSeek-Prover-V2 model, training pipeline and benchmarks"
+doc_7021f41794,train,developer_tools,developer_tools,ai,developer_tools,,high,Practical guide to building a RAG chatbot app
+doc_8e1011667b,train,model_families,model_families,ai,model_families,,high,Nvidia releases Parakeet-TDT-0.6B-v2 open ASR model
+doc_115f0545c9,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,ServiceNow agent management platform and Apriel model
+doc_a3c6f90a51,train,business_compute,model_families,ai,model_families,developer_tools,medium,Cisco and Meta release open security LLMs and tools
+doc_d270cdfd5b,train,business_compute,model_families,ai,model_families,business_compute,medium,Mistral Medium 3 model and Le Chat Enterprise launch
+doc_ac6df8e6be,train,model_families,model_families,ai,model_families,,high,Gemma 3n model card
+doc_da5c0339cc,validation,developer_tools,model_families,human,model_families,business_compute,medium,Roundup led by Gemini 2.5 Pro update and Mistral Medium 3
+doc_c093da3cb0,train,research_techniques,model_families,ai,model_families,,high,Overview list of top AI models and their capabilities
+doc_1e96961cba,train,research_techniques,model_families,ai,model_families,research_techniques,high,Release of SmolVLM 256M and 500M models
+doc_854005229b,train,research_techniques,research_techniques,ai,research_techniques,model_families,low,"Newsletter on reasoning training recipes, DeepCoder RL, EU rules"
+doc_52157036b1,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Red Hat AI inference server and agent APIs for enterprises
+doc_68649319e1,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Red Hat and Google Cloud vLLM inference collaboration
+doc_7671f8e12d,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Deploying Llama Stack RAG on OpenShift AI
+doc_bdb0ca41af,train,developer_tools,research_techniques,ai,research_techniques,,medium,Newsletter leads with DeepSeek-V3 training and hardware paper
+doc_bdbab358f8,train,model_families,model_families,ai,model_families,,low,New permissive OpenMDW licence for AI models
+doc_a383ce01d3,train,model_families,model_families,ai,model_families,,high,Model card for Gemma 3n preview
+doc_dfbe838f35,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,"Red Hat inference server, llm-d and Llama Stack"
+doc_667f135236,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,MedGemma 27B model card and evaluations
+doc_b24d8fdc02,validation,model_families,model_families,human,model_families,,high,MedGemma 4B model card
+doc_41f6beae5f,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Microsoft Build keynote on Copilot and agent platforms
+doc_537b71ab3b,validation,business_compute,none,human,research_techniques,china_geopolitics,medium,Open training data commons and data governance
+doc_1b441aae91,train,research_techniques,model_families,ai,model_families,research_techniques,medium,Overview of DeepSeek R1 and V3 models and benchmarks
+doc_40f6437caf,train,developer_tools,model_families,ai,model_families,developer_tools,high,Mistral releases Devstral open coding agent model
+doc_e329a2da1a,train,research_techniques,research_techniques,ai,research_techniques,model_families,low,Explainer of what LLM benchmarks measure
+doc_c13c7c3094,train,developer_tools,developer_tools,ai,developer_tools,,medium,Forum post building local Gemma agent on Termux
+doc_122926ca56,train,developer_tools,model_families,ai,model_families,developer_tools,medium,News roundup led by Claude Opus 4 and Sonnet 4
+doc_5e569357f1,train,developer_tools,developer_tools,ai,developer_tools,,high,Author page listing AI coding tool news
+doc_5efa0ddf17,train,business_compute,developer_tools,ai,developer_tools,,high,Mistral Agents API for building AI agents
+doc_9812b649c0,train,business_compute,business_compute,ai,business_compute,,high,"Nvidia earnings, data center revenue and export restrictions"
+doc_fb4c60b551,validation,research_techniques,business_compute,human,china_geopolitics,,high,AI regulation thresholds policy for startups
+doc_86cdfe0942,train,developer_tools,model_families,ai,model_families,developer_tools,medium,News roundup led by DeepSeek-R1-0528 update
+doc_d17881e6ed,train,developer_tools,developer_tools,ai,developer_tools,,high,OpenHands coding agents automating developer chores
+doc_3ac75461e8,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,DeepSeek R1-0528 upgrade compared with Claude 4
+doc_a891ed2d59,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,"Developer news roundup on TanStack DB, Devstral, MCP"
+doc_5c862988f3,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,Vercel v0 composite model pipeline for code generation
+doc_ec1a28fadb,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Rising hallucination rates in reasoning models
+doc_b6f96ce99a,train,research_techniques,research_techniques,ai,research_techniques,model_families,high,Phi-4 synthetic data training pipeline with agents
+doc_9aa12c3a8e,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Edge Writing Assistance APIs documentation
+doc_9e30f3ed7a,train,business_compute,developer_tools,ai,developer_tools,business_compute,high,Mistral Code enterprise coding assistant launch
+doc_46249c4e90,train,developer_tools,model_families,ai,model_families,developer_tools,high,Mistral Devstral open coding model release and benchmarks
+doc_f880761491,train,developer_tools,developer_tools,ai,developer_tools,,high,Mistral Agents SDK and API for building agents
+doc_a8b01584d0,train,research_techniques,developer_tools,ai,developer_tools,,high,Diffusers how-to guide for text-to-image pipelines
+doc_565455d7e1,validation,research_techniques,research_techniques,human,developer_tools,research_techniques,medium,Diffusers guide to using IP-Adapter for image prompting
+doc_5edb2dc44a,train,model_families,model_families,ai,model_families,,high,Gemma 3n model card on Hugging Face
+doc_26ff46bd8a,train,business_compute,business_compute,ai,business_compute,,high,Mistral fundraising round and valuation
+doc_5d20c6f25a,train,model_families,business_compute,ai,business_compute,,high,Meta 14B investment in Scale AI
+doc_652be4134f,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Enterprise adoption of open-source LLMs across industries
+doc_97d7c3fc41,validation,developer_tools,model_families,human_after_ai,model_families,,high,Mistral Magistral reasoning model launch
+doc_4e41531e82,train,developer_tools,model_families,ai,model_families,developer_tools,low,Batch issue on GenAI engineers and FLUX.1 Kontext models
+doc_8f2e68030b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Trump AI czar on regulation and China competition
+doc_5685bf5074,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,NVIDIA NIM and blueprints for building sovereign AI agents
+doc_c72a47aa1e,train,model_families,business_compute,ai,business_compute,china_geopolitics,medium,France national AI strategy built on NVIDIA infrastructure
+doc_6705bcd42c,train,business_compute,business_compute,ai,business_compute,model_families,medium,Mistral Compute European AI cloud plus Magistral models
+doc_1fe783fa83,train,business_compute,business_compute,ai,business_compute,research_techniques,high,Multiverse Computing 215M funding for LLM compression
+doc_5e033f0b0e,validation,model_families,business_compute,human,business_compute,,high,Meta 15B dollar investment in Scale AI
+doc_80f1a932ef,train,developer_tools,model_families,ai,model_families,,low,News roundup mostly of model releases like o3-pro and Magistral
+doc_66575fab12,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,Zhejiang University and China winning tech race
+doc_a89e176845,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,DeepSeek efficiency upending compute paradigm under export controls
+doc_1014375713,validation,developer_tools,model_families,human,model_families,research_techniques,high,MiniMax-M1 open model release with efficient RL
+doc_53fbbbaaef,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Groq inference market push via Hugging Face partnership
+doc_98cf27e118,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,medium,Mistral CEO on European AI sovereignty vs US
+doc_3376db034f,train,developer_tools,model_families,ai,model_families,,medium,Roundup led by MiniMax M1 and Gemini Flash-Lite
+doc_8827b35167,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,low,"DeepSeek impact on LLM market, costs and distillation"
+doc_fe56a9d055,train,business_compute,business_compute,ai,business_compute,,medium,Competitive GenAI market landscape with small models for risk managers
+doc_42fe72cfe5,train,research_techniques,developer_tools,ai,developer_tools,,high,Tutorial for chatting with models in Transformers
+doc_202b68b72a,train,developer_tools,developer_tools,ai,developer_tools,,high,Hugging Face Hub platform documentation
+doc_ffa9a4a0c2,train,model_families,business_compute,ai,business_compute,china_geopolitics,medium,Meta investment in Scale AI and Alexandr Wang interview
+doc_9bc85be694,train,model_families,model_families,ai,model_families,developer_tools,medium,Overview of popular vision language models
+doc_9201178d51,validation,model_families,none,human_after_ai,china_geopolitics,business_compute,low,Newsletter led by court ruling that AI training is fair use
+doc_ff6369cc56,validation,model_families,none,human_after_ai,china_geopolitics,,low,"Court ruling on copyright and AI training, legal policy"
+doc_7d60f710e4,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Explainer of Gemma 3n MatFormer architecture and PLE
+doc_5c99d94768,validation,research_techniques,business_compute,human,business_compute,model_families,low,Industry adoption of generative 3D tools in production pipelines
+doc_9aa10c19d7,train,model_families,model_families,ai,model_families,research_techniques,high,Release of Llama Nemotron Nano VL document model
+doc_f0a1bc8b2f,train,developer_tools,developer_tools,ai,developer_tools,,high,"Azure AI Foundry platform, agent service and SDK updates"
+doc_5a4ebf0144,train,research_techniques,research_techniques,ai,research_techniques,model_families,low,General explainer on transformers and major LLM families
+doc_f26eb7a52e,train,developer_tools,developer_tools,ai,developer_tools,,high,Advice on choosing and switching models for AI apps
+doc_0dd5d0f7c1,validation,model_families,model_families,human_after_ai,model_families,developer_tools,medium,FLUX.1 Kontext image model optimized for RTX GPUs
+doc_56d85e6a04,train,research_techniques,model_families,ai,model_families,research_techniques,high,DeepSeek R1T2 Chimera merged model release
+doc_8ec807e452,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,high,India government push for sovereign AI after DeepSeek
+doc_e29f1db841,train,research_techniques,model_families,ai,model_families,research_techniques,medium,Skywork-Reward-V2 reward model series release
+doc_987b266efc,train,developer_tools,developer_tools,ai,developer_tools,,high,Step-by-step OpenAI API project tutorial in Python
+doc_f02d97a126,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial deploying LLMs with Ollama on Kubernetes
+doc_db8236eec6,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Nearform and Groq partnership on fast inference hardware
+doc_df63568077,validation,model_families,model_families,human,model_families,,high,Google announces new MedGemma open health models
+doc_b87d6fdc74,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Mistral AI seeks 1B funding round
+doc_0e507bce88,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Top Nvidia business and hardware news of 2025
+doc_00e244fc0e,train,developer_tools,model_families,ai,model_families,research_techniques,high,Moonshot Kimi K2 open model release and benchmarks
+doc_bbcaf11fa1,train,research_techniques,research_techniques,ai,research_techniques,model_families,low,"General explainer of language model types, transformers and limitations"
+doc_d9516c25aa,validation,developer_tools,model_families,human,model_families,china_geopolitics,medium,Moonshot releases low-cost open Kimi K2 model
+doc_49abf8e0ed,validation,model_families,research_techniques,human_after_ai,research_techniques,,high,Study of LLM performance degradation with long context
+doc_f371f13025,validation,research_techniques,model_families,human_after_ai,model_families,,high,Mistral Voxtral open speech model release
+doc_8a90220fe3,validation,model_families,business_compute,human_after_ai,business_compute,,high,Thinking Machines raises 2B in venture funding
+doc_b4d4ba9543,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,China venture capital fundraising revival after DeepSeek
+doc_0b2bcd6b82,train,research_techniques,developer_tools,ai,developer_tools,model_families,medium,Mistral Le Chat adds deep research agent features
+doc_afe6b040fa,train,business_compute,business_compute,ai,business_compute,,medium,Trends in enterprise AI adoption
+doc_bcc4cc7629,train,model_families,business_compute,ai,business_compute,,medium,"Roundup of AI acquisitions, investments and Windsurf deal"
+doc_32267b4e23,train,research_techniques,research_techniques,ai,research_techniques,model_families,high,Comparison of architectures in recent open LLMs
+doc_a6f24ef0d5,train,developer_tools,model_families,ai,model_families,,high,"Qwen3-235B-A22B-2507 release, benchmarks and licence"
+doc_ae82f6fb07,train,developer_tools,developer_tools,ai,developer_tools,business_compute,low,"Newsletter on AI coding tools, Windsurf deal, Kimi K2, EU rules"
+doc_53ccae0628,validation,research_techniques,business_compute,human,business_compute,developer_tools,medium,Indian startups adopting Google Gemini and Gemma models
+doc_df396c5f6f,validation,model_families,model_families,human,model_families,,high,"Qwen3-Coder-480B release, architecture and benchmarks"
+doc_e85184c778,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,White House AI Action Plan and enterprise implications
+doc_c18aa098c0,train,developer_tools,developer_tools,ai,developer_tools,,high,Tools for running LLMs locally without GPUs
+doc_94594ae085,train,model_families,model_families,ai,model_families,,high,Llama Nemotron Super 49B model card
+doc_452d09a276,validation,research_techniques,model_families,human_after_ai,model_families,,high,Wan2.2 open video generation model repository
+doc_99325e58d8,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Trump administration easing AI chip export controls on China
+doc_49db29260a,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,high,China path to surpass US and White House AI Action Plan
+doc_796d4fbc10,train,model_families,model_families,ai,model_families,,high,Gemma 3 270M instruction-tuned model card
+doc_07ed624718,train,model_families,model_families,ai,model_families,business_compute,medium,Meta reconsidering open release of future Llama models
+doc_39bed600c1,train,developer_tools,business_compute,ai,business_compute,china_geopolitics,medium,Open protocols to prevent AI market monopolies
+doc_df7b216bbb,train,developer_tools,developer_tools,ai,developer_tools,,high,Docs for Edge Prompt API with built-in Phi-4-mini
+doc_e72d17e919,validation,research_techniques,research_techniques,human_after_ai,research_techniques,developer_tools,medium,Tutorial building a Llama-style decoder-only transformer
+doc_c4a766faff,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Export controls and Chinese reliance on Nvidia vs Huawei chips
+doc_ecc2b70156,train,model_families,model_families,ai,model_families,,high,OpenAI gpt-oss open-weight model release
+doc_ac5938afae,train,model_families,developer_tools,ai,developer_tools,model_families,medium,"Running gpt-oss models on RTX GPUs via Ollama, llama.cpp"
+doc_9eda310493,train,model_families,model_families,ai,model_families,,high,OpenAI releases gpt-oss open models
+doc_8fc59e16b1,train,model_families,model_families,ai,model_families,,high,Reactions to OpenAI gpt-oss model release
+doc_5b24157dee,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,DeepSeek as market shock and US-China AI rivalry
+doc_6d3011a0c9,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Architecture analysis of gpt-oss versus GPT-2
+doc_25a32751a6,validation,model_families,model_families,human_after_ai,model_families,business_compute,medium,New Nemotron and Cosmos reasoning models adopted by enterprises
+doc_ae922ebe2e,train,model_families,model_families,ai,model_families,,high,Gemma-SEA-LION-v4-27B-IT model card
+doc_ee742926b3,validation,model_families,research_techniques,human,research_techniques,,high,Pretraining data filtering for tamper-resistant safety
+doc_da9f7aa420,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Critique of Trump AI Action Plan policy
+doc_ae14be1ece,train,model_families,model_families,ai,model_families,,high,Liquid AI LFM2-VL vision-language model release
+doc_e738a40d82,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,Nemotron Nano 9B v2 model card
+doc_689382362a,train,developer_tools,model_families,ai,model_families,,high,OpenAI gpt-oss open-weight model release and benchmarks
+doc_6278f43ff7,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Global South AI options amid US-China competition
+doc_56a6773593,train,business_compute,china_geopolitics,ai,china_geopolitics,,high,Implications of US AI Action Plan for risk leaders
+doc_36bb0eed0a,train,model_families,model_families,ai,model_families,,high,Model card for Nemotron Nano 9B v2 base model
+doc_54ba420220,train,model_families,research_techniques,ai,research_techniques,model_families,medium,Math pretraining dataset construction and ablations
+doc_8b7a59b40c,train,model_families,model_families,ai,model_families,,high,Nemotron Nano 12B v2 base model card
+doc_61b578ffc7,train,model_families,china_geopolitics,ai,china_geopolitics,model_families,high,Altman on China AI threat and export controls
+doc_09c2bfea71,train,research_techniques,developer_tools,ai,developer_tools,,high,Platform launches Qwen image editing API for developers
+doc_03e126d149,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,developer_tools,low,Newsletter on China Nvidia review plus buildathon letter
+doc_28d2c719e8,train,model_families,business_compute,ai,business_compute,,medium,"Meta Superintelligence Labs reorganization, hiring and spending"
+doc_a8a5ad70dd,validation,business_compute,business_compute,human_after_ai,business_compute,developer_tools,medium,NVIDIA AI factory hardware and software for inference performance
+doc_0c5914793b,validation,model_families,model_families,human,model_families,,high,Model card for NVIDIA Nemotron Nano 12B v2
+doc_2bddd0fb7b,train,developer_tools,developer_tools,ai,developer_tools,,high,Overview of Vertex AI Model Garden for deploying models
+doc_60086148e0,train,research_techniques,developer_tools,ai,developer_tools,,high,Vertex AI Studio platform for prototyping and deploying models
+doc_d327c670d8,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,MiniCPM-V 4.5 model card
+doc_6d1296f42c,train,research_techniques,model_families,ai,model_families,research_techniques,high,InternVL3.5 multimodal model card with training details
+doc_b88a4935f2,train,developer_tools,developer_tools,ai,developer_tools,research_techniques,medium,LLM system design and model selection cost tradeoffs
+doc_82fa50b93e,train,business_compute,business_compute,ai,business_compute,,high,NVIDIA quarterly earnings call transcript
+doc_70aadc6537,train,developer_tools,business_compute,ai,business_compute,developer_tools,high,Economics and margins of coding agent companies
+doc_dba0cd9a16,validation,china_geopolitics,none,human,china_geopolitics,,high,State versus federal AI regulation under Commerce Clause
+doc_81e3c32c3d,train,model_families,business_compute,ai,business_compute,,low,Musk and Altman feud over OpenAI lawsuits and buyout bids
+doc_722e61f230,train,model_families,business_compute,ai,business_compute,developer_tools,medium,Enterprise use cases and ROI measurement of AI agents
+doc_646aa465af,train,model_families,model_families,ai,model_families,research_techniques,medium,EmbeddingGemma embedding model release and features
+doc_c0bdd5a11a,train,research_techniques,model_families,ai,model_families,research_techniques,high,Model card for Tencent HunyuanImage-2.1 text-to-image model
+doc_cd1b44b0b1,train,model_families,research_techniques,ai,research_techniques,,high,FinePDFs pretraining dataset and extraction pipeline
+doc_1d6aa42a8c,train,business_compute,business_compute,ai,business_compute,china_geopolitics,high,ASML investment in Mistral AI funding round
+doc_b4c1d6e01a,train,research_techniques,developer_tools,ai,developer_tools,,high,ComfyUI workflows and RTX optimizations for generative content
+doc_e2ac533dcf,train,model_families,model_families,ai,model_families,,high,Qwen3-Next-80B-A3B-Thinking model card and usage
+doc_e06b4418af,train,business_compute,business_compute,ai,business_compute,,high,"European tech funding, IPO and Mistral investment"
+doc_2cdcc2fcf9,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,UAE K2 Think model in global AI race and security
+doc_7caf64081a,train,research_techniques,research_techniques,ai,research_techniques,model_families,high,Differential privacy scaling laws and VaultGemma
+doc_39a8cc22bd,train,model_families,model_families,ai,model_families,research_techniques,medium,Welsh language model built on Nemotron
+doc_dd98f9da3b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Vietnam AI sovereignty beyond US-China rivalry
+doc_5fc7ecb0b3,train,business_compute,developer_tools,ai,developer_tools,,high,"Red Hat event on inference, customization and agent tooling"
+doc_deb1698ad8,train,developer_tools,developer_tools,ai,developer_tools,,high,How-to deploy LLMs on AKS with KAITO operator
+doc_d879e482e3,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Converting and running Gemma GGUF on Android via Termux
+doc_bb1d8314f4,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,medium,Sovereign AI strategy for governments and enterprises
+doc_2ae64eab20,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Sovereign AI stacks and geopolitics beyond US-China
+doc_e01fedcb49,train,model_families,developer_tools,ai,developer_tools,,high,Guide to running LLMs locally with Ollama and LM Studio
+doc_3b19bc3491,train,business_compute,business_compute,ai,business_compute,,high,Anthropic valuation and AI funding effects
+doc_49af06a13e,train,model_families,model_families,ai,model_families,,high,Ling-1T trillion-parameter model card
+doc_50875f819c,train,business_compute,china_geopolitics,ai,china_geopolitics,,high,Europe vs US AI regulation and sovereignty debate
+doc_a992d9b3ff,train,business_compute,business_compute,ai,business_compute,,high,European AI startups funding and valuations
+doc_f61e677d50,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Overview of LLM evaluation methods with code
+doc_0661a9fe20,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,News roundup led by OpenAI Apps SDK
+doc_f28e596b68,validation,developer_tools,model_families,human_after_ai,model_families,developer_tools,medium,"Newsletter on Claude Sonnet 4.5, Qwen3 releases and products"
+doc_f2416327eb,train,model_families,model_families,ai,model_families,,high,FunctionGemma 270M Hugging Face model card
+doc_309eb015fe,train,business_compute,business_compute,ai,business_compute,,high,NVIDIA Blackwell inference benchmarks and economics
+doc_6dbdae0b87,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Business case for startups adopting open models
+doc_432734a57c,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Red Hat AI 3 platform and partner ecosystem for inference
+doc_4fbb8d9722,validation,business_compute,model_families,human_after_ai,model_families,china_geopolitics,high,Ant Group Ling-1T trillion-parameter model release
+doc_ccebc7ea8a,validation,research_techniques,research_techniques,human,developer_tools,business_compute,low,Newsletter: agent evals letter and OpenAI AMD chip deal
+doc_8cc313478c,train,business_compute,developer_tools,ai,developer_tools,,low,Technology radar of software engineering techniques and practices
+doc_8dea860464,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,AI-assisted coding with fast models and agent swarms
+doc_27ec083b8a,train,research_techniques,developer_tools,ai,developer_tools,model_families,medium,Roundup led by Claude Skills feature
+doc_661a34508d,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,medium,Practitioner guide to fine-tuning methods like LoRA and DPO
+doc_769517d106,train,research_techniques,model_families,ai,model_families,research_techniques,medium,LightOnOCR-1B release with benchmarks and training ablations
+doc_d761f9d8ce,train,model_families,developer_tools,ai,developer_tools,model_families,medium,"Open Source AI Week highlights, Nemotron releases and tools"
+doc_0438b75ed8,train,model_families,business_compute,ai,business_compute,developer_tools,medium,CrowdStrike Nvidia partnership expansion
+doc_087ec772b3,train,model_families,business_compute,ai,business_compute,china_geopolitics,low,"GTC Washington event highlights, DGX Spark, open-source policy panel"
+doc_96520cb4cf,train,model_families,business_compute,ai,business_compute,,high,NVIDIA AI factory infrastructure for government
+doc_e72ab1a81e,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Google air-gapped sovereign cloud infrastructure offering
+doc_f7a9c3c112,validation,business_compute,business_compute,human,business_compute,developer_tools,high,Google Cloud ships A4X Max GB300 infrastructure and services
+doc_5d234a0dfb,train,business_compute,business_compute,ai,business_compute,,high,Hyperscaler capex and return on compute analysis
+doc_f1bd548049,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,medium,Transformers guide to optimizing LLM inference
+doc_014ca101bf,validation,developer_tools,research_techniques,human_after_ai,research_techniques,developer_tools,medium,Privacy-preserving analytics of GenAI use with differential privacy and TEEs
+doc_f52b97c763,train,developer_tools,developer_tools,ai,developer_tools,model_families,low,News roundup led by OpenAI Aardvark security agent
+doc_859554015f,train,research_techniques,model_families,ai,model_families,,medium,Comparison of ChatGPT alternative chatbots and models
+doc_50c173e3ec,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,high,Debate on whether China will win the AI race
+doc_3734e8a818,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,low,UK court ruling on AI training copyright
+doc_ae6b9eee40,train,research_techniques,research_techniques,ai,research_techniques,,high,"Alternative LLM architectures: linear attention, diffusion, hybrids"
+doc_6c06c16d73,train,business_compute,developer_tools,ai,developer_tools,research_techniques,low,Open-source simulation environment for studying agent marketplaces
+doc_32654c9a9a,train,developer_tools,business_compute,ai,business_compute,model_families,low,"Newsletter: data silos, OpenAI restructuring, MiniMax-M2"
+doc_5a43f7870a,train,business_compute,model_families,ai,model_families,research_techniques,medium,OpenAI releases gpt-oss-safeguard moderation models
+doc_f64effb8f4,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,Experts debate whether China will win AI race
+doc_5b159e1f37,train,business_compute,none,ai,none,,medium,COP30 climate finance and adaptation news
+doc_84ebbe2187,validation,business_compute,business_compute,human,business_compute,,high,Venture funding report for Q3 2025
+doc_270876f5b6,validation,model_families,developer_tools,human,developer_tools,business_compute,medium,Applying VLM agents to computer vision applications
+doc_f05bc0f04d,train,business_compute,business_compute,ai,business_compute,model_families,medium,Enterprise adoption of small language models
+doc_40c39e8979,train,research_techniques,research_techniques,ai,research_techniques,,high,Explainer on large language diffusion models
+doc_c4857a1db1,train,model_families,model_families,ai,model_families,business_compute,medium,Nvidia Apollo open models for scientific simulation
+doc_3b2e4295be,train,model_families,business_compute,ai,business_compute,developer_tools,high,NVIDIA and Microsoft AI superfactory infrastructure deals
+doc_d5b78f2aec,train,developer_tools,developer_tools,ai,developer_tools,model_families,low,"Newsletter on AI Dev conference, Waymo, Kimi agentic model"
+doc_ccb091d84c,train,developer_tools,developer_tools,ai,developer_tools,,high,Foundry Local SDK for on-device Android AI
+doc_2e34b679bc,train,research_techniques,model_families,ai,model_families,,high,Ai2 Olmo 3 open model family release
+doc_381921fb8c,train,developer_tools,model_families,ai,model_families,,medium,News roundup led by Meta SAM 3 and Gemini 3
+doc_f0eb408241,train,developer_tools,model_families,ai,model_families,business_compute,medium,Roundup led by Olmo 3 open model family release
+doc_846bf66a47,train,developer_tools,model_families,ai,model_families,,medium,Roundup led by Claude Opus 4.5 and DeepSeekMath-V2 releases
+doc_24ffff2834,train,developer_tools,developer_tools,ai,developer_tools,,high,Microsoft Foundry fine-tuning how-to documentation
+doc_b5bfe10b61,train,business_compute,business_compute,ai,business_compute,,high,NVIDIA and AWS infrastructure partnership on chips and cloud
+doc_938871cb05,validation,business_compute,business_compute,human,business_compute,,high,Capgemini partnership for enterprise adoption of Mistral models
+doc_0d26e85432,validation,business_compute,research_techniques,human,research_techniques,business_compute,low,MoE architecture scaled on NVIDIA GB200 NVL72 systems
+doc_f02a2aa74e,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,"Architecture tour of DeepSeek V3 through V3.2, sparse attention"
+doc_65072fad80,train,research_techniques,model_families,ai,model_families,,high,Explainer of Amazon Nova model family
+doc_727220477c,train,model_families,model_families,ai,model_families,,high,Nemotron 3 Nano 30B model card
+doc_7df23017b6,train,model_families,model_families,ai,model_families,,high,Essential AI rnj-1 model card
+doc_dc9122d5c0,train,model_families,business_compute,ai,business_compute,model_families,medium,"Meta AI strategy overhaul, hiring spree and spending"
+doc_ec3a4d8dd8,train,research_techniques,research_techniques,ai,research_techniques,,high,DeepSeek reinforcement learning training method under peer review
+doc_6ca3202512,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Starcloud orbital data center runs AI models in space
+doc_7f4dcf327a,validation,developer_tools,developer_tools,human,developer_tools,,high,Open source coding agent Kilo Code
+doc_a40c981d96,train,developer_tools,developer_tools,ai,developer_tools,,low,Roundup of notable open-source software tools of 2025
+doc_b8472837c7,train,model_families,research_techniques,ai,research_techniques,,high,Nemotron pretraining dataset card
+doc_53fba28b19,train,model_families,developer_tools,ai,developer_tools,research_techniques,medium,How-to fine-tune LLMs on RTX GPUs with Unsloth
+doc_efe7562cd5,train,research_techniques,research_techniques,ai,research_techniques,,high,Research paper abstracts on sampling and interpretability
+doc_5da276ae6f,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Google investments and funding for India AI ecosystem
+doc_5a04fce637,train,developer_tools,developer_tools,ai,developer_tools,,low,BigQuery product release notes
+doc_d8e330877b,train,research_techniques,model_families,ai,model_families,business_compute,medium,Nvidia Nemotron 3 open models and business rationale
+doc_e97af0371e,train,business_compute,business_compute,ai,business_compute,,high,European startup funding rounds including Mistral
+doc_cc8d99072b,train,model_families,china_geopolitics,ai,china_geopolitics,business_compute,low,"2025 tech year recap with DeepSeek, policy and spending"
+doc_6dc48843f1,train,developer_tools,business_compute,ai,business_compute,,high,AI gross margins and inference cost economics
+doc_b2853208db,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,AI geopolitics and export controls review of 2025
+doc_4b2fd3639c,train,developer_tools,developer_tools,ai,developer_tools,,high,Reference architecture for building commerce chatbots with RAG and orchestration
+doc_fd41a5f828,train,developer_tools,research_techniques,ai,research_techniques,developer_tools,medium,Reading list of AI engineering research papers
+doc_b1581a551b,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,"Yearly review focused on reasoning, RLVR and training trends"
+doc_882b8ca381,train,model_families,model_families,ai,model_families,,high,Roundup of best large language models
+doc_5f59ca2ed8,train,model_families,business_compute,ai,business_compute,developer_tools,medium,NVIDIA DGX Spark and Station desktop systems for open models
+doc_3fe06d1674,train,model_families,business_compute,ai,business_compute,model_families,medium,NVIDIA CES keynote on Rubin platform and open models
+doc_f705dfada0,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,low,2026 predictions on Chinese open models and AI regulation
+doc_4aa557555f,train,developer_tools,model_families,ai,model_families,,high,MiniMax M2.1 MoE model release and benchmarks
+doc_123b6cbb5e,train,business_compute,business_compute,ai,business_compute,,medium,List of AI startups to watch with funding details
+doc_2234ef262f,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,RTX-powered local AI video generation pipeline and PC AI tools
+doc_44844ea7d2,validation,research_techniques,developer_tools,human_after_ai,developer_tools,,medium,Workshop on ComfyUI and Grasshopper AI design workflows
+doc_057bd27dab,train,business_compute,business_compute,ai,business_compute,developer_tools,low,"Broad 2026 trend piece on agentic AI, security and industry adoption"
+doc_046aaf9999,train,model_families,business_compute,ai,business_compute,,high,Nvidia CES 2026 hardware platforms and partnerships
+doc_be08f0469b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,DeepSeek adoption in developing nations as geopolitical tool
+doc_784e4375c8,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,china_geopolitics,high,Zhipu and MiniMax IPOs in Hong Kong
+doc_ea3ce8ea89,train,model_families,model_families,ai,model_families,,high,TranslateGemma model card
+doc_3ffbe3fac2,train,model_families,model_families,ai,model_families,,high,MedGemma 1.5 and MedASR open medical model releases
+doc_ad459499e7,train,model_families,model_families,ai,model_families,,high,FunctionGemma model card
+doc_039ba7a90f,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial deploying LLMs with llama.cpp and k3s
+doc_d46e502de3,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Hobby project building storytelling agent with gpt-oss on Jetson
+doc_c943548180,train,model_families,business_compute,ai,business_compute,research_techniques,medium,"Thinking Machines Lab funding, talent and Tinker product"
+doc_88b07a4d6b,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Hassabis says China months behind US in AI race
+doc_5f0a162c72,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,high,Tutorial fine-tuning Gemma with Transformers and TRL
+doc_3e385fe265,train,business_compute,china_geopolitics,ai,china_geopolitics,business_compute,medium,China AI scene and investment boom after DeepSeek shock
+doc_0269d2b34e,train,research_techniques,business_compute,ai,business_compute,developer_tools,medium,Press release on Agora and MiniMax partnership after IPO
+doc_a2bd211e18,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,Chinese AI startup IPOs and profitability challenges
+doc_136d1e147e,train,business_compute,business_compute,ai,business_compute,,high,d-Matrix in-memory compute inference chips and funding
+doc_43e04dba8d,train,developer_tools,developer_tools,ai,developer_tools,,high,Ollama enables Claude Code with local open models
+doc_6a0e4f1282,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Survey of AI investment and adoption in financial services
+doc_c925a6822f,train,model_families,business_compute,ai,business_compute,,high,Meta Compute infrastructure investment for sovereign AI
+doc_4cdcce727e,validation,model_families,china_geopolitics,human_after_ai,china_geopolitics,business_compute,high,Chinese open models gaining ground in AI race
+doc_a9ef48fff3,train,model_families,model_families,ai,model_families,developer_tools,medium,NVIDIA Earth-2 open weather model family launch
+doc_f1dc0027fa,validation,model_families,model_families,human,developer_tools,model_families,medium,NVIDIA physical AI models and frameworks for robotics developers
+doc_2e73ade288,train,developer_tools,china_geopolitics,ai,china_geopolitics,developer_tools,medium,Newsletter led by sovereign AI and US policy essay
+doc_8a8c5b11c5,train,business_compute,model_families,ai,model_families,,low,CEO views on AGI and best models per use case
+doc_3e9c20befa,train,model_families,model_families,ai,model_families,developer_tools,high,Model card for StepFun Step 3.5 Flash MoE model
+doc_39acc9d26a,validation,business_compute,business_compute,human,business_compute,china_geopolitics,medium,Chinese businesses choose cheap open models for enterprise use
+doc_5dedb87268,train,research_techniques,developer_tools,ai,developer_tools,,medium,Qolaba all-in-one generative AI platform description
+doc_cd82c07f73,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,Building document intelligence agents with Nemotron for enterprises
+doc_983a308d96,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,"Newsletter on OpenClaw agent, AI jobs and model releases"
+doc_fa5a9ab29f,train,developer_tools,research_techniques,ai,research_techniques,developer_tools,medium,Security research on backdoors hijacking model tool calls
+doc_4ad9c785c0,train,developer_tools,research_techniques,ai,research_techniques,developer_tools,medium,Security research on fake function injection prompt leaks
+doc_9b9fa158fd,train,business_compute,developer_tools,ai,developer_tools,,medium,Hackathon building agentic AI assistant with AWS and Mistral
+doc_18128b241c,train,business_compute,business_compute,ai,business_compute,developer_tools,high,Inference providers cut token costs on NVIDIA Blackwell hardware
+doc_27fad71686,validation,developer_tools,model_families,human,model_families,,high,MiniMax-M2.5 model release and benchmarks
+doc_74063d0ce0,validation,developer_tools,developer_tools,human,developer_tools,,high,Tutorial building a local coding assistant with Gemma
+doc_df920be754,train,business_compute,model_families,ai,model_families,,high,Ant Group releases Ling-2.5-1T and Ring-2.5-1T models with benchmarks
+doc_61ae30d89a,train,model_families,model_families,ai,model_families,developer_tools,medium,Overview of small model families to run locally
+doc_865d6a79d1,train,model_families,model_families,ai,model_families,developer_tools,high,Model card for Qwen3.5-397B-A17B
+doc_d2189684d5,train,model_families,business_compute,ai,business_compute,china_geopolitics,high,NVIDIA compute infrastructure for IndiaAI Mission
+doc_141fee4c59,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Vertex AI provisioned throughput capacity product update
+doc_6aa5651df0,train,business_compute,business_compute,ai,business_compute,,high,Taalas inference chip startup hardware
+doc_e2bf71508e,validation,developer_tools,model_families,human_after_ai,model_families,china_geopolitics,medium,Newsletter on GLM-5 open-weights leader and tech lobbying
+doc_9c1dec1cf2,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,,high,"Anthropic accuses Chinese labs of distillation, national security"
+doc_6523f877e9,train,model_families,model_families,ai,model_families,,high,Model card for Qwen3.5-35B-A3B
+doc_088abfef82,train,research_techniques,research_techniques,ai,research_techniques,model_families,medium,Architecture review of open-weight LLMs released early 2026
+doc_5dab6caa5f,validation,developer_tools,developer_tools,human,model_families,china_geopolitics,medium,Newsletter led by Gemini 3.1 Pro release
+doc_d0a8d24bb9,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Red Hat AI Enterprise platform for deploying models and agents
+doc_6c9739da38,train,model_families,developer_tools,ai,developer_tools,model_families,medium,NVIDIA agentic blueprints and telco model for networks
+doc_c3efedf702,train,developer_tools,developer_tools,ai,developer_tools,,high,Guide to AI gateways for routing LLM requests
+doc_546e108630,train,business_compute,business_compute,ai,business_compute,developer_tools,low,Telecom industry initiative for open telco AI models
+doc_9679f1436f,train,model_families,business_compute,ai,business_compute,developer_tools,medium,NVIDIA Jetson edge hardware for running open models
+doc_c8d8e788e3,validation,research_techniques,model_families,human_after_ai,model_families,research_techniques,high,Microsoft Phi-4-Reasoning-Vision-15B model release
+doc_5118b890b5,train,research_techniques,none,ai,none,,medium,Consumer doll image generator product page
+doc_7f7f8e5fdc,train,model_families,business_compute,ai,business_compute,,high,"NVIDIA GTC keynote on chips, AI factories and revenue"
+doc_c64d52d036,train,model_families,model_families,ai,model_families,,high,Gemma 4 31B model card
+doc_7e86699d90,validation,business_compute,business_compute,human_after_ai,business_compute,developer_tools,medium,Chinese firms and governments racing to adopt OpenClaw agent
+doc_5fecc672e5,validation,model_families,business_compute,human_after_ai,business_compute,,medium,xAI talent hires of Mistral co-founder and others
+doc_a7a5625fa3,validation,model_families,developer_tools,human_after_ai,developer_tools,,high,Nvidia NemoClaw and Agent Toolkit for secure agents
+doc_118a6db368,train,model_families,model_families,ai,model_families,,high,"NVIDIA expands Nemotron, Cosmos and other open model families"
+doc_9a68d9c87d,train,model_families,developer_tools,ai,developer_tools,business_compute,medium,Running local AI agents on NVIDIA RTX PCs and DGX Spark
+doc_e026ef1006,train,developer_tools,model_families,ai,model_families,,high,"Mistral Small 4 release, architecture and capabilities"
+doc_ec832cf267,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,Roundup led by NemoClaw enterprise agent stack
+doc_e5480257c3,train,model_families,model_families,ai,model_families,business_compute,medium,Nvidia open Nemotron model strategy announced at GTC
+doc_8677f73972,train,business_compute,business_compute,ai,business_compute,,high,Vendor partner hardware and infrastructure at Nvidia GTC 2026
+doc_6ab7e79106,train,model_families,business_compute,ai,business_compute,developer_tools,high,Nvidia platform strategy with NemoClaw as business moat
+doc_119dd224fc,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,China leads open model downloads while Nvidia controls hardware
+doc_1ea34ba049,train,research_techniques,research_techniques,ai,research_techniques,,high,Visual guide to attention variants in LLMs
+doc_3c3fe79403,train,business_compute,business_compute,ai,business_compute,,high,Alibaba earnings and AI business strategy shift
+doc_7b35a54a66,train,developer_tools,model_families,ai,model_families,developer_tools,medium,News roundup led by MiniMax M2.7 model release
+doc_c3e2d45fc4,train,model_families,business_compute,ai,business_compute,,medium,"Microsoft hires Ai2 leaders and researchers, funding shifts"
+doc_a95144cf85,train,business_compute,business_compute,ai,business_compute,,low,Blog index of AI venture and market commentary snippets
+doc_853584396e,validation,model_families,model_families,human,model_families,business_compute,low,NVIDIA Nemotron Coalition and open model ecosystem panel
+doc_b2d9110022,train,developer_tools,developer_tools,ai,developer_tools,,medium,"AINews roundup on agent harnesses, MCP and inference tooling"
+doc_ecee6c1161,train,developer_tools,china_geopolitics,ai,china_geopolitics,model_families,medium,Newsletter on AI regulation framework and Nemotron 3 Super
+doc_755dafdf47,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Red Hat vLLM inference stack MLPerf benchmark results
+doc_e50d9eaeb5,train,developer_tools,developer_tools,ai,developer_tools,,high,Foundry Local SDK and runtime for on-device inference
+doc_55563a494c,train,developer_tools,business_compute,ai,business_compute,model_families,medium,H100 rental prices rising and compute market dynamics
+doc_6467a651a6,validation,research_techniques,model_families,human_after_ai,model_families,research_techniques,medium,Podcast on Mistral Voxtral TTS model launch
+doc_3d5a31947b,train,developer_tools,developer_tools,ai,developer_tools,,medium,Google-Agent crawler and personal AI agent competition
+doc_24ffe44e20,train,model_families,developer_tools,ai,developer_tools,,high,On-device LLM Inference API guide
+doc_a35ad8c964,train,developer_tools,developer_tools,ai,developer_tools,,high,Ollama runtime update using MLX for local models
+doc_1e14345bdd,train,model_families,model_families,ai,model_families,,medium,Gemma model licence terms of use
+doc_b66f5fd8ae,train,business_compute,developer_tools,ai,developer_tools,model_families,medium,Deploying Gemma 4 on Google Cloud services
+doc_82e3ac9c3f,train,developer_tools,developer_tools,ai,developer_tools,,high,LLM Inference API guide for web
+doc_d659c63f29,train,developer_tools,model_families,ai,model_families,developer_tools,high,"Guide to Gemma 4 model variants, benchmarks and licence"
+doc_d86af21328,train,business_compute,business_compute,ai,business_compute,model_families,medium,Economics and business models of open-source AI infrastructure
+doc_8a76279546,train,business_compute,business_compute,ai,business_compute,,high,Search and AI licensing deals between tech platforms
+doc_399b320253,train,business_compute,business_compute,ai,business_compute,,high,Circular investment flows among AI companies and clouds
+doc_5e749bd615,train,developer_tools,developer_tools,ai,developer_tools,business_compute,low,"Developer weekly on Claude Code leak, OpenAI funding, Qwen"
+doc_67819e4d7c,train,developer_tools,model_families,ai,model_families,,high,"Explainer of Xiaomi MiMo-V2-Pro model specs, benchmarks and pricing"
+doc_7482350885,train,developer_tools,developer_tools,ai,developer_tools,,high,List of open-source LLM developer projects
+doc_5e44bfe7d9,train,business_compute,business_compute,ai,business_compute,developer_tools,low,Enterprise LLM governance and vendor risk
+doc_0b209a206b,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Rapid model release cycle economics for startups and enterprises
+doc_2ad06bc28a,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,Self-evolving agent harnesses and MiniMax M2.7
+doc_cc4b04956e,train,developer_tools,research_techniques,ai,research_techniques,model_families,medium,Self-evolving training in MiniMax M2.7 and Darwin-Godel agents
+doc_c8e5ded070,train,developer_tools,developer_tools,ai,developer_tools,,high,List of developer tools and agent frameworks for building AI
+doc_84709f47e5,train,developer_tools,developer_tools,ai,developer_tools,,high,Weekly roundup of AI coding tools news
+doc_36782b27f4,train,developer_tools,china_geopolitics,ai,china_geopolitics,model_families,medium,Roundup led by China boycott of NeurIPS sanctions policy
+doc_cbc0e9f54f,train,model_families,model_families,ai,model_families,business_compute,low,Debate over Meta open-sourcing models under Alexandr Wang
+doc_2d67d2f4b7,validation,business_compute,model_families,human,model_families,developer_tools,low,"Podcast on open source licensing of Llama, DeepSeek, Kimi"
+doc_9a4e87cb64,train,model_families,model_families,ai,model_families,business_compute,high,Meta launches Muse Spark model to compete with rivals
+doc_b57ef26012,train,developer_tools,business_compute,ai,business_compute,china_geopolitics,medium,Industry conference takeaways on Anthropic enterprise momentum
+doc_9231291462,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial building local voice-controlled agent with Whisper and Llama
+doc_52c6c854d1,train,model_families,model_families,ai,model_families,business_compute,medium,NVIDIA Ising open models for quantum computing
+doc_665acab743,validation,research_techniques,developer_tools,human_after_ai,developer_tools,research_techniques,high,Tutorial on prefix caching and speculative decoding serving
+doc_9c7d656804,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,Qwen3.6-35B-A3B model card
+doc_55a7603d02,train,china_geopolitics,developer_tools,ai,developer_tools,,high,GPT Proto API platform offering DeepSeek model access
+doc_2b99e0ae31,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,Gemma 4 model card
+doc_e99f5846d9,train,developer_tools,developer_tools,ai,developer_tools,,high,Cloudflare internal AI coding and agent tooling stack
+doc_bab308268b,train,research_techniques,developer_tools,ai,developer_tools,,high,LLMPerf tool for benchmarking LLM inference providers
+doc_302f10af96,train,model_families,developer_tools,ai,developer_tools,research_techniques,high,Notebook tutorial fine-tuning PaliGemma with JAX
+doc_2b54e11174,validation,research_techniques,developer_tools,human_after_ai,developer_tools,model_families,high,Tutorial generating embeddings with EmbeddingGemma via Sentence Transformers
+doc_f94cf38ac3,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,Startups adopting Google Cloud AI infrastructure and agent platform
+doc_4c362ec687,train,business_compute,business_compute,ai,business_compute,developer_tools,high,NVIDIA and Google Cloud infrastructure and GPU instance partnership
+doc_b7675e365c,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,White House memo against Chinese distillation of US models
+doc_d9df0ee220,train,developer_tools,model_families,ai,model_families,developer_tools,medium,AINews digest led by Qwen3.6 and MiMo open model releases
+doc_c1d43761ee,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US crackdown on Chinese distillation of American models
+doc_5051a491a0,train,china_geopolitics,model_families,ai,model_families,china_geopolitics,medium,DeepSeek V4 release amid US-China AI rivalry
+doc_935c80b72a,train,developer_tools,model_families,ai,model_families,developer_tools,high,Newsletter on GPT-5.5 and DeepSeek-V4 launches
+doc_7374b8cf6d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,Restricted model releases and calls for government oversight
+doc_de19bbef13,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,Mistral Leanstral formal verification coding agent
+doc_1792420002,validation,developer_tools,model_families,human_after_ai,model_families,china_geopolitics,high,"DeepSeek V4 release, pricing and architecture"
+doc_d5bb67169c,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial evaluating models with Inspect and Inference Providers
+doc_15f67bc143,train,model_families,research_techniques,ai,research_techniques,,low,Forum advice on designing a British accent audio-LLM benchmark
+doc_db538244b5,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Policy case for US leadership in open source AI versus China
+doc_21bb479977,train,research_techniques,research_techniques,ai,research_techniques,,high,Introspection adapters for auditing fine-tuned behaviors
+doc_50bdb471b0,train,developer_tools,business_compute,ai,business_compute,model_families,medium,News roundup led by OpenAI-Microsoft partnership revision
+doc_a53c392e72,train,model_families,developer_tools,ai,developer_tools,,high,OpenClaw long-running agents and NemoClaw deployment for organizations
+doc_c2e1c5ddb5,train,model_families,model_families,ai,model_families,business_compute,medium,Meta abandons open Llama for proprietary Muse Spark
+doc_caba909f09,validation,developer_tools,model_families,human_after_ai,model_families,business_compute,medium,Newsletter led by GPT-5.5 model release
+doc_463c881ee2,train,business_compute,developer_tools,ai,developer_tools,,high,GKE documentation for AI/ML orchestration and serving
+doc_08ca6bf9e4,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,"Case for running models locally: cost, privacy, control"
+doc_6947af8415,train,developer_tools,developer_tools,ai,developer_tools,,medium,Google Cloud AI products and agent platform listing
+doc_3aca214a1d,train,developer_tools,china_geopolitics,ai,china_geopolitics,business_compute,medium,China regulators block Meta acquisition of Manus
+doc_1c2158fcc0,validation,model_families,business_compute,human_after_ai,developer_tools,business_compute,medium,NVIDIA and ServiceNow enterprise autonomous agent platform
+doc_ed0f4ebe1f,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,SenseTime cost strategy and Chinese AI business models
+doc_da23d087a0,validation,china_geopolitics,china_geopolitics,human,china_geopolitics,business_compute,medium,Kai-Fu Lee on sovereignty and US-China open models
+doc_8422ffc1b2,train,developer_tools,business_compute,ai,business_compute,developer_tools,high,Anthropic SpaceX compute capacity deal and Claude limits
+doc_e25a9c0902,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,China winning global AI race via open-source models
+doc_347438e043,train,developer_tools,developer_tools,ai,developer_tools,,high,Foundry Local 1.1 SDK release with transcription and embeddings APIs
+doc_f053f50df8,train,developer_tools,model_families,ai,model_families,research_techniques,medium,Thinking Machines interaction model release newsletter
+doc_8b2f2b8439,train,business_compute,business_compute,ai,business_compute,,medium,Red Hat CEO on channel partners and enterprise AI
+doc_f25b295200,validation,model_families,developer_tools,human,developer_tools,business_compute,medium,Hermes agent running locally on NVIDIA hardware
+doc_b99040181a,validation,developer_tools,research_techniques,human_after_ai,research_techniques,developer_tools,low,Op-ed on fine-tuning API deprecation plus research roundup
+doc_30dd77e293,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,Azure Foundry documentation of available models and deployment
+doc_2ddf834ffa,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US-China summit and escalation risks of AI models
+doc_9cf3d1d296,train,developer_tools,business_compute,ai,business_compute,china_geopolitics,medium,Mythos access program as exclusive commercial alliance
+doc_0b82da84bf,train,developer_tools,research_techniques,ai,research_techniques,developer_tools,medium,Enterprise case for fine-tuning open-weight models with CPT and RL
+doc_ae36294941,train,business_compute,business_compute,ai,business_compute,,high,Dell and NVIDIA AI factory infrastructure demand at Dell World
+doc_5f46468cf5,train,developer_tools,model_families,ai,model_families,business_compute,medium,Cursor Composer 2.5 model built on Kimi checkpoint
+doc_8003ec0e95,train,developer_tools,business_compute,ai,business_compute,china_geopolitics,high,Cheap models threaten OpenAI and Anthropic IPO valuations
+doc_e2e45dcb97,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Cursor Composer 2.5 coding model release and benchmarks
+doc_490c64130f,train,developer_tools,developer_tools,ai,developer_tools,model_families,high,Google I/O developer keynote on agent platform and APIs
+doc_24ef0647c5,train,developer_tools,developer_tools,ai,developer_tools,,high,Android Studio AI agent development tools
+doc_6f3861ee15,validation,model_families,model_families,ai_agrees_silver_high,model_families,,high,Talk on Gemma 4 open model family capabilities and licence
+doc_5c6383d048,train,model_families,model_families,ai,model_families,research_techniques,high,MiniCPM5-1B model card release
+doc_3c0216ac43,train,research_techniques,model_families,ai,model_families,,high,ACE-Step 1.5 open music generation model guide
+doc_df162b32e9,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial running OpenClaw agent with Gemma 4 on Raspberry Pi
+doc_9b7d5ae24b,validation,research_techniques,developer_tools,human,developer_tools,model_families,high,How-to for faster Gemma 4 on-device inference on Android
+doc_04854522c8,validation,research_techniques,developer_tools,human_after_ai,developer_tools,,high,Tutorial fine-tuning Gemma 4 on Cloud Run GPUs
+doc_82bbbb44b9,train,developer_tools,developer_tools,ai,developer_tools,,high,Running Qwen Coder locally in Cursor via Ollama
+doc_fc9f18b115,validation,research_techniques,developer_tools,human_after_ai,developer_tools,research_techniques,medium,Running local Gemma 4 agents with MTP speculative decoding
+doc_b7ba94eeb0,validation,business_compute,business_compute,human,business_compute,,medium,"Daily brief on AI markets, stocks, investment and jobs"
+doc_9c008049b2,train,model_families,model_families,ai,model_families,,high,Model card for Gemma 4 12B Unified
+doc_e0af07d10a,train,developer_tools,developer_tools,ai,developer_tools,china_geopolitics,medium,Cursor coding tool built on undisclosed Kimi K2.5 base
+doc_d3889618af,train,developer_tools,model_families,ai,model_families,,medium,Newsletter leading with Qwen3.7-Max release and other models
+doc_71995391b3,train,developer_tools,model_families,ai,model_families,developer_tools,high,Mistral 7B overview and prompting guide
+doc_ec436b1203,validation,business_compute,developer_tools,human_after_ai,developer_tools,,high,Inference-aware routing with llm-d and vLLM on Kubernetes
+doc_bc63824c85,train,research_techniques,developer_tools,ai,developer_tools,,medium,Practical review of AI image generation tools for PCs
+doc_a1eb87c74f,train,developer_tools,developer_tools,ai,developer_tools,,high,Amazon Bedrock beginner tutorial building an AI agent
+doc_f4318f2ede,train,research_techniques,developer_tools,ai,developer_tools,model_families,medium,"Local LLM ops news: TRL, llama.cpp, Gemma 4 VRAM"
+doc_1b2b986a7a,validation,developer_tools,business_compute,human_after_ai,business_compute,research_techniques,low,Cognition funding headline plus technical AI news digest
+doc_59363365f3,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial building ADK agents with Phi models on Azure
+doc_75f108b258,train,business_compute,business_compute,ai,business_compute,,high,Alibaba stock movement and analyst ratings
+doc_5e5bf3c34b,train,developer_tools,model_families,ai,model_families,,high,"Gemma 4 release, Apache licence and benchmarks"
+doc_199b1c54b8,validation,research_techniques,model_families,human_after_ai,model_families,,high,Ideogram 4 open-weight text-to-image model card
+doc_c7c25ccf1e,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Trustpilot pipeline serving fine-tuned Gemma at scale
+doc_2235a0a74a,train,model_families,business_compute,ai,business_compute,developer_tools,medium,"NVIDIA-Microsoft partnership spanning hardware, cloud and agent stack"
+doc_28bd566eb3,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Case for open inference stack for agent workloads
+doc_c2af7b2995,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,business_compute,high,Microsoft Foundry managed compute for serving open models
+doc_c599f1262a,train,model_families,developer_tools,ai,developer_tools,model_families,medium,NVIDIA agent skills for physical AI research workflows
+doc_71b92e4777,train,business_compute,developer_tools,ai,developer_tools,research_techniques,low,Google open-sources hydrology flood forecasting framework
+doc_c30dee409a,train,developer_tools,developer_tools,ai,developer_tools,,high,Comparison of LiteLLM and OpenRouter LLM gateways
+doc_653c60b4ce,train,business_compute,developer_tools,ai,developer_tools,research_techniques,low,"Podcast on LLMOps, open models and experiment tracking"
+doc_0f3b15b849,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,medium,Guide to LLM inference and optimization in production
+doc_76edd77dd8,validation,model_families,model_families,human_after_ai,model_families,business_compute,medium,Licensing of LLMs for commercial use
+doc_91e87dae91,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,How-to for configuring GPUs on Kubernetes clusters
+doc_cb86cf9092,train,developer_tools,developer_tools,ai,developer_tools,,high,Comparison of LiteLLM gateway alternatives for developers
+doc_0f53c6cf45,train,business_compute,developer_tools,ai,developer_tools,business_compute,medium,Guide to deploying LLMs in enterprise environments
+doc_07922cf8cb,train,research_techniques,research_techniques,ai,research_techniques,,high,Explainer of transformer architecture and attention
+doc_2097c2eefa,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Multi-model routing with an LLM gateway
+doc_2806b662cc,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Guide to LLMOps for deploying and monitoring LLMs
+doc_b4c6c8e3f1,train,developer_tools,developer_tools,ai,developer_tools,,high,Guide to LLM gateway alternatives after Portkey acquisition
+doc_ca5b7c5ff7,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Comparison of Portkey and LiteLLM LLM gateways
+doc_0f17635c11,train,developer_tools,china_geopolitics,ai,china_geopolitics,model_families,medium,Letter on White House frontier AI executive order regulation
+doc_676ca453b7,train,developer_tools,model_families,ai,model_families,developer_tools,low,"Mixed roundup: Apple-Gemini models, Gemma 4 12B, agent tools"
+doc_08bb3adb06,train,developer_tools,developer_tools,ai,developer_tools,,high,Layers of the AI agent infrastructure stack
+doc_36014414e3,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,medium,"African developers adopting Chinese AI models, geopolitical dependence"
+doc_c65a812c28,validation,developer_tools,none,human_after_ai,none,,medium,Phishing campaigns using AI brand names as lures
+doc_860f40f428,train,developer_tools,business_compute,ai,business_compute,china_geopolitics,medium,Startup switches to DeepSeek to cut inference costs
+doc_cfc8e58b23,train,model_families,model_families,ai,model_families,research_techniques,high,DiffusionGemma model card with architecture and evaluations
+doc_548ed1c13e,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Comparison of best LLMs for agentic coding
+doc_5c90cfd51d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Exporting US military AI to middle powers
+doc_462d8e5401,train,model_families,model_families,ai,model_families,research_techniques,medium,DiffusionGemma diffusion-based text model release
+doc_cc613fd1c4,train,developer_tools,model_families,ai,model_families,research_techniques,medium,Kimi K2.5 multimodal agentic model and training details
+doc_0c23b9c6d6,train,developer_tools,model_families,ai,model_families,developer_tools,low,Claude Mythos 5 and Fable 5 launch plus desktop agents
+doc_876ef014d0,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Comparison of Claude Fable 5 and Opus 4.8 models
+doc_8601d763ff,validation,model_families,business_compute,human_after_ai,business_compute,model_families,medium,"Meta AI strategy, investment and monetization of Muse Spark"
+doc_50ce9ce27a,train,business_compute,business_compute,ai,business_compute,china_geopolitics,medium,French AI infrastructure and data centre investment with NVIDIA
+doc_4f5f8ee811,train,business_compute,business_compute,ai,business_compute,developer_tools,medium,HPE private cloud AI factory infrastructure with NVIDIA
+doc_27d4f73768,train,developer_tools,china_geopolitics,ai,china_geopolitics,model_families,medium,Newsletter on export controls on Claude models and AI sovereignty
+doc_7c90e8662b,train,research_techniques,research_techniques,ai,research_techniques,,high,Hobbyist hybrid Mamba attention MoE architecture trained from scratch
+doc_9e6c3f373c,train,model_families,business_compute,ai,business_compute,developer_tools,high,Product page for NVIDIA DGX Spark desktop hardware
+doc_c1b0ff70e8,validation,business_compute,business_compute,ai_agrees_silver_high,business_compute,,high,Cerebras first quarterly earnings call as public company
+doc_7185623adb,train,business_compute,business_compute,ai,business_compute,model_families,medium,Zhipu AI stock surge after GLM-5.2 launch
+doc_1cf340504b,train,research_techniques,model_families,ai,model_families,,high,Inflect-Micro-v2 TTS model card
+doc_41802671ad,train,developer_tools,developer_tools,ai,developer_tools,model_families,low,Newsletter on agentic coding loops plus GLM-5.2 release
+doc_e72d6df461,validation,research_techniques,research_techniques,ai_agrees_silver_high,research_techniques,,high,Multi-token prediction retrofit for on-device inference speed
+doc_9e3932eff8,validation,developer_tools,developer_tools,human,developer_tools,,high,Replacing Gemini with self-hosted Qwen for production apps
+doc_4ba886bc37,train,research_techniques,research_techniques,ai,research_techniques,,medium,Forum answer on language ablation and vocabulary pruning
+doc_4aa44939a3,validation,developer_tools,developer_tools,human,developer_tools,,high,Agent swarms using MCP tool servers for East Africa
+doc_90f49b9fa8,train,research_techniques,research_techniques,ai,research_techniques,,high,DeepSeek-OCR vision token compression technique
+doc_567f265b08,train,developer_tools,model_families,ai,model_families,research_techniques,medium,Comparison of Unlimited-OCR and Mistral OCR 4 models
+doc_927f2aa059,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Discussion comparing cheap models on coding benchmark
+doc_0dd563abe2,train,developer_tools,model_families,ai,model_families,,high,Gemma 4 12B model capabilities and benchmarks
+doc_594cd6bbe2,train,research_techniques,research_techniques,ai,research_techniques,model_families,low,"Digest: KV cache quantization, GPU cooling, DeepSeek V4"
+doc_6e77b4cc78,validation,developer_tools,model_families,human_after_ai,model_families,research_techniques,medium,DiffusionGemma open-weight diffusion text model release
+doc_acbdcc04fc,train,developer_tools,model_families,ai,model_families,,high,"GLM-5.2 benchmarks, pricing and architecture versus Opus 4.8"
+doc_073e2dda95,validation,developer_tools,developer_tools,human,research_techniques,developer_tools,medium,Z.ai slime RL post-training framework
+doc_75f1a8bcd0,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,high,US crackdown on Anthropic lets Chinese models close gap
+doc_bc887e841b,train,business_compute,business_compute,ai,business_compute,,high,Top AI startups by funding and valuation in 2026
+doc_88070602fd,train,developer_tools,developer_tools,ai,developer_tools,model_families,medium,Interview on running local AI with open models and hardware
+doc_f1b5b07e79,train,developer_tools,developer_tools,ai,developer_tools,,high,Local runtime and MCP gateway for coding agents
+doc_4d9eeb52af,train,developer_tools,business_compute,ai,business_compute,china_geopolitics,low,"Roundup of 2026 AI events: policy, infrastructure, IPOs, agents"
+doc_99554ae189,validation,developer_tools,china_geopolitics,human_after_ai,china_geopolitics,business_compute,medium,Chinese models gaining US enterprise share amid policy tension
+doc_a915e9cd21,validation,developer_tools,developer_tools,human,business_compute,developer_tools,medium,Enterprises cutting AI spend via multi-model routing
+doc_c603aa33a4,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Lawmakers probe US companies using Chinese AI models
+doc_e628a4fd5e,train,business_compute,developer_tools,ai,developer_tools,,high,Building agentic AIOps with open source models
+doc_51e85822aa,validation,model_families,research_techniques,human_after_ai,research_techniques,developer_tools,medium,Reasoning trace dataset for distillation and fine-tuning
+doc_a423077f94,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Survey of top open-weight coding models
+doc_ae7f43fac0,train,model_families,model_families,ai,model_families,business_compute,medium,Meta Muse Spark 1.1 paid model and API launch
+doc_15f201a44d,train,developer_tools,developer_tools,ai,developer_tools,china_geopolitics,low,Letter on specs for coding agents plus export control news
+doc_473d8d266d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Chinese open models advancing global soft power
+doc_8789f38281,train,business_compute,business_compute,ai,business_compute,,medium,VC firm reflects on AI market shifts and investments
+doc_db7beef581,train,research_techniques,research_techniques,ai,research_techniques,,medium,Forum discussion on benchmarking memory of small Qwen models
+doc_7d2254336f,train,business_compute,business_compute,ai,business_compute,research_techniques,medium,Apple in talks with PrismML over on-device model compression
+doc_43be431cc4,train,business_compute,business_compute,ai,business_compute,,high,NVIDIA performance per watt for AI factory infrastructure
+doc_74f7bfcb72,validation,developer_tools,model_families,human,business_compute,developer_tools,medium,Open models nearly match frontier at far lower enterprise cost
+doc_d80e3fa18a,train,model_families,model_families,ai,model_families,,high,Inkling multimodal open-weight model card
+doc_7d23caff00,train,model_families,business_compute,ai,business_compute,china_geopolitics,medium,Nvidia and Japan industry partnerships for AI and robotics
+doc_26dd372a12,train,business_compute,business_compute,ai,business_compute,,high,"Fireworks funding round, valuation and revenue"
+doc_6b396b951c,validation,developer_tools,developer_tools,human,developer_tools,,high,Docs for using Mistral models via managed API
+doc_3a5fdce783,validation,developer_tools,developer_tools,human,developer_tools,,high,Tutorial serving Llama models with vLLM on cloud GPUs
+doc_65bad778c5,train,developer_tools,developer_tools,ai,developer_tools,,high,Docs on Provisioned Throughput supported models
+doc_46b8bba0de,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Guide to serve Gemma on TPUs with Saxml
+doc_a6dcc38448,train,model_families,business_compute,ai,business_compute,model_families,medium,Japanese enterprises adopting Nemotron open models for industry AI
+doc_4babaf3e26,train,model_families,model_families,ai,model_families,research_techniques,medium,DharmaOCR specialized Portuguese OCR model compared with newer models
+doc_6818da0b7a,validation,developer_tools,china_geopolitics,human_after_ai,china_geopolitics,model_families,medium,Kimi K3 release framed in US-China race and market panic
+doc_09571ae881,validation,research_techniques,developer_tools,human,developer_tools,model_families,high,Porting Gemma-4 models to AWS Inferentia2 deployment
+doc_71b8cd00ab,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,medium,Moonshot Kimi K3 release framed by US-China AI rivalry
+doc_31d2e06c02,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Xi calls for global AI governance amid US restrictions
+doc_bc182cbb06,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,Xi pushes open-source global AI cooperation against US control
+doc_f5b1927da0,train,model_families,model_families,ai,model_families,developer_tools,medium,Community Qwen3.6 fine-tune merge with GGUF quants
+doc_fbaac0c9c0,train,model_families,research_techniques,ai,research_techniques,model_families,low,NVIDIA SIGGRAPH research on neural rendering and world models
+doc_7c9de245ac,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Political debate over Chinese open models and bans
+doc_63bd3065f2,train,developer_tools,developer_tools,ai,developer_tools,,high,Guide to self-hosting GLM 5.2 for cyber defense
+doc_46165e6400,validation,business_compute,business_compute,human,business_compute,,high,NVIDIA Vera Rubin rack-scale infrastructure rollout with partners
+doc_141d5618e7,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US Treasury threatens sanctions on Chinese AI labs over distillation
+doc_b8893e81cc,train,business_compute,business_compute,ai,business_compute,,high,GenAI hardware investment versus model revenue data
+doc_2a902926e3,train,developer_tools,model_families,ai,model_families,,medium,Alibaba Qwen3.8 announcement lacking benchmarks
+doc_74054c09c5,train,research_techniques,developer_tools,ai,developer_tools,research_techniques,medium,TRL SFTTrainer documentation for supervised fine-tuning
+doc_b7740a192d,validation,developer_tools,developer_tools,ai_agrees_silver_high,developer_tools,,high,Hugging Face Inference Providers API and SDK documentation
+doc_d2bb289994,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,model_families,high,Kimi K3 and Qwen 3.8 reignite US-China AI race
+doc_35888f66af,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Cursor and others launch model routers for coding
+doc_2c4109d901,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,Tech firms letter on open-weight model regulation
+doc_a4d3345eab,train,developer_tools,model_families,ai,model_families,china_geopolitics,medium,Newsletter on Kimi K3 release and open model safety debate
+doc_cee37b2dc1,validation,developer_tools,china_geopolitics,human_after_ai,china_geopolitics,,high,Western dependence on Chinese open models and distillation policy
+doc_64504732fa,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,high,Distillation debated as national security issue in US-China race
+doc_6616873396,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,Cheap Chinese models gain US adoption amid rivalry
+doc_dd95a66124,train,business_compute,china_geopolitics,ai,china_geopolitics,developer_tools,low,Industry alliance on open-weight AI security and regulation
+doc_e2bf50ff2d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,research_techniques,medium,Industry coalition lobbies US government for open-weight AI
+doc_87ce896ae9,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US-China debate over Chinese open-weight models
+doc_a8d57d99de,validation,model_families,developer_tools,human_after_ai,developer_tools,model_families,high,NVIDIA Agent Toolkit expansion for engineering agents
+doc_338eb622f7,validation,business_compute,none,human_after_ai,research_techniques,china_geopolitics,low,Industry alliance for open AI security and safety
+doc_99fd46b366,train,model_families,business_compute,ai,business_compute,developer_tools,medium,"Nvidia chip design infrastructure, Vera CPU and EDA agent partnerships"
+doc_79391cff9c,train,developer_tools,model_families,ai,model_families,business_compute,medium,Kimi K3 open weights release and hardware requirements
+doc_76a06aeb4e,train,model_families,business_compute,ai,business_compute,china_geopolitics,medium,Nvidia alliance for open AI and investment in SSI
+doc_f950c81b7d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,China token diplomacy and global AI governance strategy
+doc_51c3970702,train,research_techniques,developer_tools,ai,developer_tools,model_families,medium,Tutorial making ECMWF AIFS weather model easy to run
+doc_39ee312115,train,developer_tools,developer_tools,ai,developer_tools,,high,Self-hosted vLLM inference for reliable sovereign agent workloads
+doc_5cb27fc0fe,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,"Chinese AI censorship, token diplomacy and US policy"
+doc_1c55aac0c9,train,research_techniques,model_families,ai,model_families,research_techniques,high,VisionPsy-Nano on-device vision-language model release
+doc_ad91930c66,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US and China compete for AI influence in Asia
+doc_bb9bca5731,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,"Amodei on open-weights ban, chip export controls and safety policy"
+doc_5ff4d9c3b2,train,developer_tools,china_geopolitics,ai,china_geopolitics,developer_tools,medium,"Podcast on open-weights letter, regulation and agent risks"
+doc_df5a8e3dfe,train,model_families,model_families,ai,model_families,,high,Inkling-Small multimodal MoE model card
+doc_cbe399b168,train,developer_tools,developer_tools,ai,developer_tools,,high,Google AI Edge Gallery on-device agents with MCP support
+doc_477e555a52,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Claude Opus 5 launch plus open models for security reviews
+doc_ba722fd910,train,business_compute,business_compute,ai,business_compute,developer_tools,high,Monthly Google AI infrastructure updates
+doc_4a6f5c290e,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,"US lead over China in AI eroding, ecosystem statecraft"
+doc_1245678b9a,train,business_compute,business_compute,ai,business_compute,,medium,MiniMax payments and monetization case study
+doc_154b7a905e,train,model_families,model_families,ai,model_families,,high,NVIDIA Alpamayo 2 Super open model for autonomous driving
+doc_e45661ea00,train,model_families,developer_tools,ai,developer_tools,research_techniques,low,Open Secure AI Alliance agent security guidelines and tools
+doc_2bb9d88a9c,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,medium,US economy betting on winning AI race with China
+doc_36f8be67c4,validation,model_families,model_families,ai_agrees_silver_high,model_families,developer_tools,high,Qwen3.8-27B model card and usage notes
+doc_344402f9d2,validation,business_compute,developer_tools,human,research_techniques,china_geopolitics,low,Opinion on securing AI systems through open models and harnesses
+doc_0665bf7601,train,developer_tools,model_families,ai,model_families,developer_tools,low,"Newsletter covering DeepSeek-V4-Flash update, tokenmaxxing and other news"
+doc_62fead1b14,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US versus China AI race analysis
+doc_45c118acc0,validation,developer_tools,developer_tools,human,model_families,developer_tools,high,Practical comparison of Kimi K3 and GLM-5.2 models
+doc_f12d454853,train,developer_tools,developer_tools,ai,developer_tools,,high,Setup tutorial for Nous Research Hermes Agent
+doc_6955813d4d,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,business_compute,high,US-China competition strategy for global AI stack
+doc_a85f1dbca0,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Comparison of Kimi K2.6 and Claude Opus 4.7 on coding
+doc_1ed4f806d1,train,developer_tools,model_families,ai,model_families,developer_tools,medium,Comparing Kimi K2 and Claude Sonnet 4 coding ability
+doc_9d4412a728,validation,developer_tools,model_families,human_after_ai,model_families,developer_tools,medium,Coding comparison of Kimi K2 versus Grok 4 models
+doc_70efacf382,train,developer_tools,developer_tools,ai,developer_tools,business_compute,medium,Cost and setup of self-hosting open models on AWS
+doc_4221eb1fb7,train,developer_tools,developer_tools,ai,developer_tools,,high,Tutorial building a voice assistant with Llama 3
+doc_2c868c83a3,train,model_families,model_families,ai,model_families,developer_tools,medium,Overview of Llama model family available for self-deployment
+doc_ecd663863a,train,model_families,model_families,ai,model_families,developer_tools,medium,Roundup of new open models for local NVIDIA hardware
+doc_d8e27ee662,validation,model_families,model_families,human,model_families,developer_tools,high,Nemotron 3.5 Lightning model release plus routing library
+doc_699511eec0,validation,developer_tools,research_techniques,human,model_families,research_techniques,medium,Evaluation and fine-tuning of Nemotron 3.5 Lightning model
+doc_061f8473ea,train,research_techniques,research_techniques,ai,research_techniques,developer_tools,high,Speculative decoding benchmarks for Nemotron inference
+doc_2bbbdfec42,train,research_techniques,research_techniques,ai,research_techniques,model_families,high,Domain post-training study on Nemotron 3.5 Lightning
+doc_df81e9593c,train,model_families,china_geopolitics,ai,china_geopolitics,model_families,medium,"US open-weight releases competing with Chinese labs, policy context"
+doc_f5f7ce3cc0,train,developer_tools,model_families,ai,model_families,research_techniques,medium,Developer reactions to GLM-5.3 release and benchmark claims
+doc_d5121202a3,train,business_compute,business_compute,ai,business_compute,,high,Alibaba earnings call on AI cloud revenue and chips
+doc_1673fad18d,train,model_families,model_families,ai,model_families,research_techniques,high,Qwen3.8-Flash-Next model card with new architecture
+doc_3274f1abbe,train,developer_tools,developer_tools,ai,developer_tools,research_techniques,medium,Microsoft Agent Lightning framework for harnessed agent RL
+doc_a6b537c0bc,validation,china_geopolitics,china_geopolitics,ai_agrees_silver_high,china_geopolitics,,high,China pragmatic AI strategy forcing rethink of US AI policy
+doc_7f24f12feb,train,china_geopolitics,china_geopolitics,ai,china_geopolitics,,high,US-China intergovernmental AI safety dialogue
