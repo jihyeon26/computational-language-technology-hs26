@@ -63,3 +63,7 @@ outputs/
 # Exception: small Stage 2 WP1 outputs (splits, tables, figures) are versioned
 !artifacts/stage2_wp1/
 !artifacts/stage2_wp1/**
+
+# Exception: small Stage 2 WP3 outputs (tables, figures) are versioned
+!artifacts/stage2_wp3/
+!artifacts/stage2_wp3/**

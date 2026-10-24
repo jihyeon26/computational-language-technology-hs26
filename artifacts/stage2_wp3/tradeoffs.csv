@@ -1,0 +1,9 @@
+representation,parameters,what is stored,train_min,train_hw,peak_gpu_gb,infer_s_per_1000,infer_hw,trainable,adapter_mb,macro_f1,macro_f1_hand
+TF-IDF,149135,vocabulary and IDF; classifier weights,0.5455222101666853,CPU (2 cores),0.0,13.042703514998948,CPU,149135.0,,0.7955280930890687,0.7536611451676014
+Word2Vec (mean),12608600,input and output word vectors,14.83226765050002,CPU (2 cores),0.0,13.165179759998864,CPU,12608600.0,,0.7252612078897049,0.7285394582728674
+FastText (mean),62608600,"word vectors, n-gram buckets, output vectors",29.083427609833354,CPU (2 cores),0.0,13.946503364999217,CPU,62608600.0,,0.7268259515458896,0.742864636019632
+Doc2Vec,16245500,"article vectors, word and output vectors",7.655619223999982,CPU (2 cores),0.0,24.750428854999882,CPU,16245500.0,,0.7490978741138303,0.739648530331457
+Qwen3-1.7B frozen,1727017984,pre-trained weights (4-bit); classifier weights,0.0,no training (embeddings only),2.63,681.1320754716982,Tesla T4,0.0,,0.7379699928554417,0.7134959349593496
+Qwen3-1.7B QLoRA,1727017984,pre-trained weights (4-bit) + LoRA adapter (24.6 MB),9.008333333333333,NVIDIA L4,2.82,66.50943396226415,NVIDIA L4,6432768.0,24.6,0.8040736751679496,0.7963419189506146
+Qwen3-4B frozen,4034290176,pre-trained weights (4-bit); classifier weights,0.0,no training (embeddings only),5.56,112.26415094339623,NVIDIA L4,0.0,,0.7517098595411096,0.7536071333104213
+Qwen3-4B QLoRA,4034290176,pre-trained weights (4-bit) + LoRA adapter (45.1 MB),21.158333333333335,NVIDIA L4,4.8,133.0188679245283,NVIDIA L4,11809280.0,45.1,0.8426814312591218,0.7877271481233001

@@ -1,0 +1,14 @@
+{
+  "cpu": "x86_64 \u00b7 2 cores",
+  "sample_articles": 3637,
+  "sample_tokens": 5265576,
+  "tokenise_s": 38.69792337900003,
+  "Word2Vec_train_s": 88.99360590300012,
+  "FastText_train_s": 174.50056565900013,
+  "Doc2Vec_train_s": 45.93371534399989,
+  "TF-IDF_train_s": 3.273133261000112,
+  "TF-IDF_infer_per_1000_s": 13.042703514998948,
+  "Word2Vec (mean)_infer_per_1000_s": 13.165179759998864,
+  "FastText (mean)_infer_per_1000_s": 13.946503364999217,
+  "Doc2Vec_infer_per_1000_s": 24.750428854999882
+}
