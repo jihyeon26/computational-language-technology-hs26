@@ -1,0 +1,19 @@
+{
+  "schema_version": "stage3-wp2-open-models-kg-v2.0",
+  "created_at_utc": "2026-10-26T17:17:13+00:00",
+  "nli_model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+  "support_threshold": 0.5,
+  "edges": 999,
+  "retrieval_eligible_edges": 805,
+  "support_status": {
+    "supported": 756,
+    "name_pattern": 135,
+    "not_supported": 90,
+    "no_passage": 18
+  },
+  "versions": {
+    "python": "3.12.13",
+    "pandas": "3.1.0",
+    "networkx": "3.7"
+  }
+}

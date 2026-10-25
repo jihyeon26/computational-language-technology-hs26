@@ -1,0 +1,5 @@
+﻿label_set,relations,relations,precision without check,AUC NLI,AUC GLiREL,kept,precision of kept,correct relations kept
+findings check,competes with,21,0.86,0.81,0.56,20,0.90 (0.70-0.97),18 / 18
+findings check,other relations,305,0.81,0.9,0.65,276,0.89 (0.85-0.92),246 / 248
+random sample,competes with,22,0.27,0.79,0.56,21,0.29 (0.14-0.50),6 / 6
+random sample,other relations,69,0.71,0.92,0.69,62,0.79 (0.67-0.87),49 / 49

@@ -71,3 +71,7 @@ outputs/
 # Exception: Stage 3 WP1 Q&A test set and RAG settings are versioned
 !artifacts/stage3_wp1/
 !artifacts/stage3_wp1/**
+
+# Exception: Stage 3 WP2 knowledge graph revision outputs are versioned
+!artifacts/stage3_wp2/
+!artifacts/stage3_wp2/**

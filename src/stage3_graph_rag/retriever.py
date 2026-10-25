@@ -38,11 +38,19 @@ class GraphEvidenceRetriever:
         assertions: pd.DataFrame,
         text_units: pd.DataFrame,
         documents: pd.DataFrame,
+        background: pd.DataFrame | None = None,
     ) -> None:
+        """`assertions` are article claims with a passage; `background` holds curated facts without a passage
+        (e.g. lexicon model family -> developer). Background facts are returned separately and never as evidence."""
         self.nodes = nodes.copy()
         self.assertions = assertions.copy()
         self.text_units = text_units.copy()
         self.documents = documents.copy()
+        self.background = (
+            background.copy()
+            if background is not None
+            else pd.DataFrame(columns=["subject_id", "predicate", "object_id", "knowledge_source"])
+        )
         self._validate()
         self._labels = self.nodes.set_index("entity_id")["canonical_name"].to_dict()
         self._types = self.nodes.set_index("entity_id")["entity_type"].to_dict()
@@ -149,6 +157,24 @@ class GraphEvidenceRetriever:
                 break
         return selected
 
+    def _background_facts(
+        self, seeds: list[str], predicates: Iterable[str] | None
+    ) -> list[dict[str, Any]]:
+        facts = self.background[
+            self.background["subject_id"].isin(seeds) | self.background["object_id"].isin(seeds)
+        ]
+        if predicates:
+            facts = facts[facts["predicate"].isin({str(value) for value in predicates})]
+        return [
+            {
+                "subject": {"entity_id": row["subject_id"], "name": self._labels.get(row["subject_id"])},
+                "predicate": row["predicate"],
+                "object": {"entity_id": row["object_id"], "name": self._labels.get(row["object_id"])},
+                "knowledge_source": row.get("knowledge_source", "curated_lexicon"),
+            }
+            for row in facts.to_dict(orient="records")
+        ]
+
     def retrieve(
         self,
         query: str,
@@ -159,11 +185,17 @@ class GraphEvidenceRetriever:
         start_date: str | None = None,
         end_date: str | None = None,
         top_k: int = 10,
+        min_support: float | None = None,
     ) -> dict[str, Any]:
+        """`min_support` drops passages whose `support_score` (does the passage state the relation?) is below it;
+        passages without a score were not checked (e.g. relations derived from a model name) and are kept. When
+        assertions have a `support_score`, it ranks the passages instead of the extraction score."""
         if max_hops < 1 or max_hops > 3:
             raise ValueError("max_hops must be between 1 and 3")
         if top_k < 1:
             raise ValueError("top_k must be positive")
+        if min_support is not None and "support_score" not in self.assertions:
+            raise ValueError("min_support needs a support_score column in the assertions")
 
         matched = self.resolve_entities(query)
         seeds = list(dict.fromkeys(str(value) for value in (entity_ids or [])))
@@ -178,6 +210,7 @@ class GraphEvidenceRetriever:
                 "query": query,
                 "matched_entities": [],
                 "evidence": [],
+                "background": [],
                 "diagnostics": {"reason": "no_entity_match", "returned_evidence": 0},
             }
 
@@ -191,6 +224,10 @@ class GraphEvidenceRetriever:
             dates = pd.to_datetime(edges.get("published_at"), errors="coerce")
         if end_date:
             edges = edges[dates <= pd.Timestamp(end_date)].copy()
+        if min_support is not None:
+            support = pd.to_numeric(edges["support_score"], errors="coerce")
+            edges = edges[support.isna() | (support >= min_support)].copy()
+        background = self._background_facts(seeds, predicates)
 
         frontier = set(seeds)
         visited = set(seeds)
@@ -213,6 +250,7 @@ class GraphEvidenceRetriever:
                 "query": query,
                 "matched_entities": matched,
                 "evidence": [],
+                "background": background,
                 "diagnostics": {
                     "reason": "no_matching_assertions",
                     "seed_entity_ids": seeds,
@@ -250,13 +288,14 @@ class GraphEvidenceRetriever:
             columns={"published_at": "document_published_at"}
         )
         selected = selected.merge(document_lookup, on="document_id", how="left")
-        raw_rule_score = (
-            selected["rule_score"]
-            if "rule_score" in selected
+        score_column = "support_score" if "support_score" in selected else "rule_score"
+        raw_score = (
+            selected[score_column]
+            if score_column in selected
             else pd.Series(0.0, index=selected.index)
         )
-        rule_score = pd.to_numeric(raw_rule_score, errors="coerce").fillna(0.0)
-        selected["retrieval_score"] = 2.0 / selected["hop"] + rule_score.clip(0, 1)
+        evidence_score = pd.to_numeric(raw_score, errors="coerce").fillna(0.0)
+        selected["retrieval_score"] = 2.0 / selected["hop"] + evidence_score.clip(0, 1)
         selected["_sort_date"] = pd.to_datetime(selected.get("published_at"), errors="coerce")
         selected = selected.sort_values(
             ["retrieval_score", "hop", "_sort_date", "relation_id"],
@@ -293,6 +332,12 @@ class GraphEvidenceRetriever:
                     "rule_score": (
                         None if pd.isna(row.get("rule_score")) else float(row.get("rule_score"))
                     ),
+                    "support_score": (
+                        None
+                        if pd.isna(row.get("support_score", float("nan")))
+                        else float(row.get("support_score"))
+                    ),
+                    "knowledge_source": row.get("knowledge_source", "article_claim"),
                     "retrieval_score": float(row["retrieval_score"]),
                 }
             )
@@ -303,6 +348,7 @@ class GraphEvidenceRetriever:
             "query": query,
             "matched_entities": matched,
             "evidence": evidence,
+            "background": background,
             "diagnostics": {
                 "seed_entity_ids": seeds,
                 "candidate_assertions": int(len(pd.concat(selected_frames, ignore_index=True))),

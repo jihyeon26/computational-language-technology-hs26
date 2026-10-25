@@ -17,3 +17,6 @@ jupyter
 # --- Stage 1 · WP2 / WP3, Stage 2, Stage 3: add your packages below ---
 networkx>=3.2         # WP3 knowledge graph
 openpyxl>=3.1         # WP3: reads the review workbooks
+torch>=2.4             # Stage 3 WP2: NLI evidence support check (cached; only needed to score new sentences)
+transformers>=4.44
+sentencepiece>=0.2
