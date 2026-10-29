@@ -1,0 +1,2771 @@
+[
+  {
+    "id": "q001",
+    "type": "factual",
+    "question": "Which AWS service can I use to deploy a Llama model with vLLM?",
+    "reference_answer": "AWS SageMaker endpoint, with its DJL (Deep Java Library) image.",
+    "source_ids": [
+      "doc_c44fd663ac"
+    ],
+    "date": "2024-09-12",
+    "passage_id": "doc_c44fd663ac_p00",
+    "quarter": "2024Q3",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q003",
+    "type": "temporal",
+    "question": "When did Google launch DataGemma?",
+    "reference_answer": "On 12 September 2024: an article published that day reports that Google debuted DataGemma that day.",
+    "source_ids": [
+      "doc_d57f4c755c"
+    ],
+    "date": "2024-09-12",
+    "passage_id": "doc_d57f4c755c_p00",
+    "quarter": "2024Q3",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q004",
+    "type": "relational",
+    "question": "Which model family is DataGemma built on?",
+    "reference_answer": "Google's Gemma family of open models; DataGemma grounds its answers in data from Google's Data Commons platform.",
+    "source_ids": [
+      "doc_d57f4c755c"
+    ],
+    "date": "2024-09-12",
+    "passage_id": "doc_d57f4c755c_p00",
+    "quarter": "2024Q3",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q005",
+    "type": "factual",
+    "question": "How fast can SambaNova run Llama 3.1 405B?",
+    "reference_answer": "More than 100 tokens per second; the 70B model runs at up to 580 tokens per second.",
+    "source_ids": [
+      "doc_3f5ee378c1"
+    ],
+    "date": "2024-09-13",
+    "passage_id": "doc_3f5ee378c1_p04",
+    "quarter": "2024Q3",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q006",
+    "type": "comparative",
+    "question": "How is SambaNova's way of running Llama different from Groq and Cerebras?",
+    "reference_answer": "According to McGonnell, Groq and Cerebras store model weights on SRAM, which reequires many chips, whereas SambaNova runs all three Llama 3.1 models on a single 16-socket node server, without performance loss when more models are loaded.",
+    "source_ids": [
+      "doc_3f5ee378c1"
+    ],
+    "date": "2024-09-13",
+    "passage_id": "doc_3f5ee378c1_p04",
+    "quarter": "2024Q3",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q007",
+    "type": "comparative",
+    "question": "How much does a 16-message chatbot conversation cost with Llama 3 70B on AWS Bedrock compared with GPT-4o?",
+    "reference_answer": "About $0.08 with Llama 3-70B on AWS Bedrock versus about $0.16 with GPT-4o, roughly half.",
+    "source_ids": [
+      "doc_aa40fb25c4"
+    ],
+    "date": "2024-09-14",
+    "passage_id": "doc_aa40fb25c4_p07",
+    "quarter": "2024Q3",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q011",
+    "type": "analytical",
+    "question": "Why is DataGemma's use of Data Commons a big deal for RAG?",
+    "reference_answer": "It is described as the first large-scale cloud-based implementation of RAG, and it grounds answers in a public data resource rather than proprietary data, signalling Google's intention to use verifiable, high-quality data to make AI more reliable.",
+    "source_ids": [
+      "doc_6e52a3f8ee"
+    ],
+    "date": "2024-09-17",
+    "passage_id": "doc_6e52a3f8ee_p01",
+    "quarter": "2024Q3",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q014",
+    "type": "comparative",
+    "question": "Were open-weight models as fast and capable as proprietary ones in September 2024?",
+    "reference_answer": "In September 2024, open-weight models were served faster than proprietary models and were nearly as capable.",
+    "source_ids": [
+      "doc_bda39137f9"
+    ],
+    "date": "2024-09-18",
+    "passage_id": "doc_bda39137f9_p07",
+    "quarter": "2024Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q015",
+    "type": "factual",
+    "question": "If I modify a Llama model, who owns the result?",
+    "reference_answer": "You do: you own your modifications and derivative works of the Llama Materials, subject to Meta's ownership of the original Llama Materials and of derivatives made by or for Meta.",
+    "source_ids": [
+      "doc_e6b138fdbf"
+    ],
+    "date": "2024-09-18",
+    "passage_id": "doc_e6b138fdbf_p05",
+    "quarter": "2024Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q016",
+    "type": "factual",
+    "question": "Am I allowed to use the Llama name for my product?",
+    "reference_answer": "Only in a limited way: Meta grants no trademark licence except a licence to use \"Llama\" as required by Section 1.b.i of the Llama licence, and all goodwill from its use goes to Meta.",
+    "source_ids": [
+      "doc_e6b138fdbf"
+    ],
+    "date": "2024-09-18",
+    "passage_id": "doc_e6b138fdbf_p05",
+    "quarter": "2024Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q017",
+    "type": "factual",
+    "question": "How does Google plan to improve DataGemma?",
+    "reference_answer": "By training it on more information and increasing its question-answering capacity from a few hundred to millions of questions.",
+    "source_ids": [
+      "doc_fa76b96f1a"
+    ],
+    "date": "2024-09-18",
+    "passage_id": "doc_fa76b96f1a_p04",
+    "quarter": "2024Q3",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q018",
+    "type": "relational",
+    "question": "Who at Google presented DataGemma as an early step in grounded AI?",
+    "reference_answer": "Google software engineer Jennifer Chen and Prem Ramaswami, the head of Data Commons, in a blog post.",
+    "source_ids": [
+      "doc_fa76b96f1a"
+    ],
+    "date": "2024-09-18",
+    "passage_id": "doc_fa76b96f1a_p04",
+    "quarter": "2024Q3",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q019",
+    "type": "relational",
+    "question": "Which teacher model was used to train Llama Guard 3-1B?",
+    "reference_answer": "Llama Guard 3-8B, through logit-level distillation during supervised training.",
+    "source_ids": [
+      "doc_4c28e03ed5"
+    ],
+    "date": "2024-09-25",
+    "passage_id": "doc_4c28e03ed5_p03",
+    "quarter": "2024Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q020",
+    "type": "factual",
+    "question": "How was the output layer of Llama Guard 3-1B made smaller?",
+    "reference_answer": "With output layer pruning: only the 20 output tokens the model uses were kept, which reduced the output layer from 262.6M to 40.96k parameters and saved 131.3MB with 4-bit weights.",
+    "source_ids": [
+      "doc_4c28e03ed5"
+    ],
+    "date": "2024-09-25",
+    "passage_id": "doc_4c28e03ed5_p03",
+    "quarter": "2024Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q021",
+    "type": "comparative",
+    "question": "What makes Molmo's training data different from other multimodal models?",
+    "reference_answer": "Molmo was trained on a much smaller, curated data set of only 600,000 images, while other models use billions of images and text samples scraped from the internet, which brings noise and hallucinations.",
+    "source_ids": [
+      "doc_8819c20cc3"
+    ],
+    "date": "2024-09-25",
+    "passage_id": "doc_8819c20cc3_p01",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q022",
+    "type": "factual",
+    "question": "How big are Ai2's Molmo models?",
+    "reference_answer": "Between 1 billion and 72 billion parameters.",
+    "source_ids": [
+      "doc_8819c20cc3"
+    ],
+    "date": "2024-09-25",
+    "passage_id": "doc_8819c20cc3_p01",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q023",
+    "type": "factual",
+    "question": "In which sizes do the Llama 3.2 text models come?",
+    "reference_answer": "1B and 3B, as pretrained and instruction-tuned models.",
+    "source_ids": [
+      "doc_e3599d071a"
+    ],
+    "date": "2024-09-25",
+    "passage_id": "doc_e3599d071a_p00",
+    "quarter": "2024Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q024",
+    "type": "analytical",
+    "question": "What are the Llama 3.2 text models good for?",
+    "reference_answer": "They are optimized for multilingual dialogue, including agentic retrieval and summarization, and outperform many available open-source and closed chat models on common industry benchmarks.",
+    "source_ids": [
+      "doc_e3599d071a"
+    ],
+    "date": "2024-09-25",
+    "passage_id": "doc_e3599d071a_p00",
+    "quarter": "2024Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q025",
+    "type": "temporal",
+    "question": "When did Meta release the Llama 3.2 update?",
+    "reference_answer": "In September 2024 (reported on 26 September 2024): vision models of 11B and 90B, released with lightweight 1B and 3B text models.",
+    "source_ids": [
+      "doc_10ad296400"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_10ad296400_p02",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q026",
+    "type": "factual",
+    "question": "What context length do the small Llama 3.2 models support?",
+    "reference_answer": "128K tokens; they are designed for Qualcomm and MediaTek hardware.",
+    "source_ids": [
+      "doc_10ad296400"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_10ad296400_p02",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q027",
+    "type": "comparative",
+    "question": "Is Molmo better than GPT-4o?",
+    "reference_answer": "Ai2 claims its biggest Molmo model outperforms GPT-4o on tests of understanding images, charts and documents.",
+    "source_ids": [
+      "doc_4472d95ee0"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_4472d95ee0_p01",
+    "quarter": "2024Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q028",
+    "type": "relational",
+    "question": "Who made the Molmo models?",
+    "reference_answer": "The Allen Institute for Artificial Intelligence (Ai2), a research nonprofit.",
+    "source_ids": [
+      "doc_4472d95ee0"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_4472d95ee0_p01",
+    "quarter": "2024Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q029",
+    "type": "comparative",
+    "question": "Which rival models does Llama 3.2 beat?",
+    "reference_answer": "According to Meta, Llama 3.2 outperforms rivals like Gemma and Phi 3.5-mini, in instruction following, tool use, summarisation and prompt rewriting.",
+    "source_ids": [
+      "doc_7860509430"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_7860509430_p03",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q030",
+    "type": "factual",
+    "question": "Which celebrity voices can Meta AI speak with?",
+    "reference_answer": "In the voices of Dame Judi Dench, John Cena and Kristen Bell.",
+    "source_ids": [
+      "doc_7860509430"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_7860509430_p03",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q031",
+    "type": "comparative",
+    "question": "How did OpenAI’s Ada-002 rank against open-source embedding models in a 2024 retrieval and clustering comparison?",
+    "reference_answer": "At the bottom of the list, below all the other models tested; OpenAI’s newer text-embed-3 models perform better and are cheaper.",
+    "source_ids": [
+      "doc_f076530547"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_f076530547_p07",
+    "quarter": "2024Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q035",
+    "type": "factual",
+    "question": "What is Black Forest Labs working on after Flux?",
+    "reference_answer": "Text-to-video systems.",
+    "source_ids": [
+      "doc_47f29bf86a"
+    ],
+    "date": "2024-10-03",
+    "passage_id": "doc_47f29bf86a_p07",
+    "quarter": "2024Q4",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q036",
+    "type": "relational",
+    "question": "Which other company is working on AI video models besides Black Forest Labs?",
+    "reference_answer": "Midjourney, which is reportedly pursuing generative AI video models and hardware.",
+    "source_ids": [
+      "doc_47f29bf86a"
+    ],
+    "date": "2024-10-03",
+    "passage_id": "doc_47f29bf86a_p07",
+    "quarter": "2024Q4",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q037",
+    "type": "analytical",
+    "question": "Why are so few startups training foundation models from scratch anymore?",
+    "reference_answer": "Because the small and medium open models released by bigger players such as Facebook make it hard to justify training a foundation model without a strong differentiator (technology or data), and fine-tuning is much cheaper than training from scratch.",
+    "source_ids": [
+      "doc_075dbb55a1"
+    ],
+    "date": "2024-10-11",
+    "passage_id": "doc_075dbb55a1_p11",
+    "quarter": "2024Q4",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q038",
+    "type": "comparative",
+    "question": "How much compute does fine-tuning need compared with training from scratch?",
+    "reference_answer": "Fine-tuning typically needs 4 nodes or less, usually a single node, while training from scratch needs 16 nodes or more for models of 7B parameters and up.",
+    "source_ids": [
+      "doc_075dbb55a1"
+    ],
+    "date": "2024-10-11",
+    "passage_id": "doc_075dbb55a1_p11",
+    "quarter": "2024Q4",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q039",
+    "type": "temporal",
+    "question": "When did Nvidia release Llama-3.1-Nemotron-70B?",
+    "reference_answer": "It was launched on Hugging Face on 15 October 2024.",
+    "source_ids": [
+      "doc_96a2831197"
+    ],
+    "date": "2024-10-23",
+    "passage_id": "doc_96a2831197_p00",
+    "quarter": "2024Q4",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q040",
+    "type": "relational",
+    "question": "Which model is Nvidia's Nemotron-70B based on?",
+    "reference_answer": "Meta's open-source Llama-3.1-70B-Instruct Base.",
+    "source_ids": [
+      "doc_96a2831197"
+    ],
+    "date": "2024-10-23",
+    "passage_id": "doc_96a2831197_p00",
+    "quarter": "2024Q4",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q041",
+    "type": "factual",
+    "question": "What is Innoplexus building with Nemotron-4 Hindi?",
+    "reference_answer": "A tool that lets users access and understand information about Ayurveda, the traditional medicine system of India, based on Hindi content from key repositories.",
+    "source_ids": [
+      "doc_ff29339962"
+    ],
+    "date": "2024-10-24",
+    "passage_id": "doc_ff29339962_p06",
+    "quarter": "2024Q4",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q043",
+    "type": "factual",
+    "question": "How many Chinese AI models were above 10^24 FLOP in April 2024?",
+    "reference_answer": "According to Epoch AI, 5 models (Qwen-72B, XVERSE-65B, Chat GLM3, Tigerbot-70B and ERNIE 3.0 TITAN).",
+    "source_ids": [
+      "doc_05a9b5c50b"
+    ],
+    "date": "2024-10-28",
+    "passage_id": "doc_05a9b5c50b_p06",
+    "quarter": "2024Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q044",
+    "type": "relational",
+    "question": "Who developed Qwen-72B and Yi-34B?",
+    "reference_answer": "Qwen-72B was developed by Alibaba and Yi-34B by 01.AI.",
+    "source_ids": [
+      "doc_05a9b5c50b"
+    ],
+    "date": "2024-10-28",
+    "passage_id": "doc_05a9b5c50b_p06",
+    "quarter": "2024Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q045",
+    "type": "factual",
+    "question": "Which models meet the Open Source AI Definition?",
+    "reference_answer": "Pythia (EleutherAI), OLMo (AI2), Amber and CrystalCoder (LLM360), and T5 (Google).",
+    "source_ids": [
+      "doc_ca6e7b27b1"
+    ],
+    "date": "2024-11-01",
+    "passage_id": "doc_ca6e7b27b1_p00",
+    "quarter": "2024Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q046",
+    "type": "comparative",
+    "question": "Do BLOOM and Falcon count as open-source AI under the OSI definition?",
+    "reference_answer": "Not yet: they could comply only after some changes to their licences or legal terms, unlike Pythia and OLMo, which already comply.",
+    "source_ids": [
+      "doc_ca6e7b27b1"
+    ],
+    "date": "2024-11-01",
+    "passage_id": "doc_ca6e7b27b1_p00",
+    "quarter": "2024Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q047",
+    "type": "temporal",
+    "question": "When was the Baichuan-Omni technical report released ? ",
+    "reference_answer": "Its technical report was released on 11 October 2024.",
+    "source_ids": [
+      "doc_1a22e095a9"
+    ],
+    "date": "2024-11-03",
+    "passage_id": "doc_1a22e095a9_p22",
+    "quarter": "2024Q4",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q048",
+    "type": "factual",
+    "question": "Which vision encoder does Baichuan-Omni use?",
+    "reference_answer": "SigLIP, with the AnyRes module for high-resolution images.",
+    "source_ids": [
+      "doc_1a22e095a9"
+    ],
+    "date": "2024-11-03",
+    "passage_id": "doc_1a22e095a9_p22",
+    "quarter": "2024Q4",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q049",
+    "type": "relational",
+    "question": "Can the US government use Llama?",
+    "reference_answer": "Yes: Meta made its Llama models available to the U.S. government for national security purposes, a major change in its policy on military applications.",
+    "source_ids": [
+      "doc_eb5d2b123e"
+    ],
+    "date": "2024-11-13",
+    "passage_id": "doc_eb5d2b123e_p05",
+    "quarter": "2024Q4",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q050",
+    "type": "comparative",
+    "question": "Did Anthropic also open its models to US government use, like Meta?",
+    "reference_answer": "Yes: Anthropic offered its Claude models to U.S. intelligence and defense agencies, as Meta did with Llama for national security; both rely on partnerships with government contractors.",
+    "source_ids": [
+      "doc_eb5d2b123e"
+    ],
+    "date": "2024-11-13",
+    "passage_id": "doc_eb5d2b123e_p05",
+    "quarter": "2024Q4",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q051",
+    "type": "analytical",
+    "question": "Why does Indonesia want its own AI model like Sahabat-AI?",
+    "reference_answer": "It embodies Indonesia's vision of digital sovereignty and inclusivity: a model that speaks Indonesian languages and reflects the local culture, meant to let every Indonesian use advanced technology and to democratize AI.",
+    "source_ids": [
+      "doc_f2f11fe92f"
+    ],
+    "date": "2024-11-14",
+    "passage_id": "doc_f2f11fe92f_p01",
+    "quarter": "2024Q4",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q052",
+    "type": "factual",
+    "question": "Which languages does Sahabat-AI support?",
+    "reference_answer": "In Bahasa Indonesian and various local languages of Indonesia.",
+    "source_ids": [
+      "doc_f2f11fe92f"
+    ],
+    "date": "2024-11-14",
+    "passage_id": "doc_f2f11fe92f_p01",
+    "quarter": "2024Q4",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q054",
+    "type": "relational",
+    "question": "Who makes the Granite models?",
+    "reference_answer": "IBM, to meet the needs of increasingly complex enterprise applications.",
+    "source_ids": [
+      "doc_c5204237b7"
+    ],
+    "date": "2024-11-20",
+    "passage_id": "doc_c5204237b7_p04",
+    "quarter": "2024Q4",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q055",
+    "type": "factual",
+    "question": "Which medical areas does Google's HAI-DEF cover at launch?",
+    "reference_answer": "Radiology, dermatology and pathology.",
+    "source_ids": [
+      "doc_6190d217dc"
+    ],
+    "date": "2024-11-25",
+    "passage_id": "doc_6190d217dc_p00",
+    "quarter": "2024Q4",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q057",
+    "type": "analytical",
+    "question": "Can companies use Qwen without a long legal review?",
+    "reference_answer": "Yes: Qwen has a highly favorable licensing model, so companies can use it without extensive legal reviews.",
+    "source_ids": [
+      "doc_5eb8fa495f"
+    ],
+    "date": "2024-12-17",
+    "passage_id": "doc_5eb8fa495f_p02",
+    "quarter": "2024Q4",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q058",
+    "type": "temporal",
+    "question": "When did DeepSeek claim that R1 can match OpenAI's o1?",
+    "reference_answer": "In November 2024: an article of 17 December 2024 reports that DeepSeek said so the month before.",
+    "source_ids": [
+      "doc_5eb8fa495f"
+    ],
+    "date": "2024-12-17",
+    "passage_id": "doc_5eb8fa495f_p02",
+    "quarter": "2024Q4",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q060",
+    "type": "comparative",
+    "question": "Are open-source video generators like Mochi as good as Sora in December 2024?",
+    "reference_answer": "Not in December 2024: open-source alternatives such as Mochi still fell short of commercial video generators like Sora, Veo, Movie Gen, Runway Gen-3 Alpha and Stable Video Diffusion.",
+    "source_ids": [
+      "doc_19eb0369e4"
+    ],
+    "date": "2024-12-18",
+    "passage_id": "doc_19eb0369e4_p07",
+    "quarter": "2024Q4",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q063",
+    "type": "factual",
+    "question": "In which sizes does Gemma 2 come?",
+    "reference_answer": "2 billion, 9 billion and 27 billion parameters.",
+    "source_ids": [
+      "doc_0c81a84868"
+    ],
+    "date": "2024-12-25",
+    "passage_id": "doc_0c81a84868_p08",
+    "quarter": "2024Q4",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q065",
+    "type": "relational",
+    "question": "Which frameworks supported DeepSeek-V3 at launch?",
+    "reference_answer": "SGLang (v0.4.1, on both NVIDIA and AMD GPUs) and LMDeploy.",
+    "source_ids": [
+      "doc_512ba017cf"
+    ],
+    "date": "2024-12-25",
+    "passage_id": "doc_512ba017cf_p03",
+    "quarter": "2024Q4",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q066",
+    "type": "factual",
+    "question": "Which optimizations does SGLang offer for DeepSeek-V3?",
+    "reference_answer": "MLA optimizations, FP8 (W8A8), FP8 KV cache and Torch Compile.",
+    "source_ids": [
+      "doc_512ba017cf"
+    ],
+    "date": "2024-12-25",
+    "passage_id": "doc_512ba017cf_p03",
+    "quarter": "2024Q4",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q069",
+    "type": "relational",
+    "question": "Which companies were expected to be the first to use NVIDIA's Llama Nemotron models?",
+    "reference_answer": "The AI agent platform providers SAP and ServiceNow.",
+    "source_ids": [
+      "doc_09fbfcf3c7"
+    ],
+    "date": "2025-01-07",
+    "passage_id": "doc_09fbfcf3c7_p02",
+    "quarter": "2025Q1",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q070",
+    "type": "analytical",
+    "question": "What makes Llama Nemotron good for AI agents?",
+    "reference_answer": "They are pruned and trained with NVIDIA's latest techniques and high-quality datasets, excel at instruction following, chat, function calling, coding and math, and are size-optimized to run on a broad range of NVIDIA computing resources.",
+    "source_ids": [
+      "doc_09fbfcf3c7"
+    ],
+    "date": "2025-01-07",
+    "passage_id": "doc_09fbfcf3c7_p02",
+    "quarter": "2025Q1",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q072",
+    "type": "analytical",
+    "question": "What did DeepSeek V3 reveal about US chip export controls?",
+    "reference_answer": "That chips China had stockpiled through an international smuggling network were being used to train cutting-edge AI; the Biden Administration then tightened chip sanctions with new quotas and licence requirements.",
+    "source_ids": [
+      "doc_4bd052a5dc"
+    ],
+    "date": "2025-01-13",
+    "passage_id": "doc_4bd052a5dc_p02",
+    "quarter": "2025Q1",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q073",
+    "type": "comparative",
+    "question": "How much faster is SmolVLM than Qwen2-VL?",
+    "reference_answer": "3.3 to 4.5 times faster for prefill and 7.5 to 16 times faster for generation.",
+    "source_ids": [
+      "doc_7a096bb266"
+    ],
+    "date": "2025-01-24",
+    "passage_id": "doc_7a096bb266_p04",
+    "quarter": "2025Q1",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q074",
+    "type": "factual",
+    "question": "How well does SmolVLM understand videos?",
+    "reference_answer": "Surprisingly well for its size: with a simple pipeline of up to 50 frames per video, SmolVLM scored 27.14% on the CinePile video benchmark.",
+    "source_ids": [
+      "doc_7a096bb266"
+    ],
+    "date": "2025-01-24",
+    "passage_id": "doc_7a096bb266_p04",
+    "quarter": "2025Q1",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q077",
+    "type": "relational",
+    "question": "Who is leading the OpenEuroLLM project?",
+    "reference_answer": "Jan Hajič, a computational linguist at Charles University in Czechia, and Peter Sarlin, co-founder of Silo AI (an AI lab bought by AMD).",
+    "source_ids": [
+      "doc_41c59ad8c8"
+    ],
+    "date": "2025-02-04",
+    "passage_id": "doc_41c59ad8c8_p04",
+    "quarter": "2025Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q079",
+    "type": "relational",
+    "question": "Who makes the Kimi chatbot?",
+    "reference_answer": "Moonshot.",
+    "source_ids": [
+      "doc_dea6b0af33"
+    ],
+    "date": "2025-02-04",
+    "passage_id": "doc_dea6b0af33_p07",
+    "quarter": "2025Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q080",
+    "type": "temporal",
+    "question": "When was Kimi chatbot first released ?",
+    "reference_answer": "In 2023.",
+    "source_ids": [
+      "doc_dea6b0af33"
+    ],
+    "date": "2025-02-04",
+    "passage_id": "doc_dea6b0af33_p07",
+    "quarter": "2025Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q084",
+    "type": "factual",
+    "question": "What is DeepSeek-V3.2 good at?",
+    "reference_answer": "It combines high computational efficiency with superior reasoning and agent performance.",
+    "source_ids": [
+      "doc_2a8c5f9942"
+    ],
+    "date": "2025-02-12",
+    "passage_id": "doc_2a8c5f9942_p02",
+    "quarter": "2025Q1",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q085",
+    "type": "relational",
+    "question": "Which dataset is DeepHermes-3 built on?",
+    "reference_answer": "The Hermes 3 dataset, a curated multi-domain dataset of about 390 million tokens that Nous Research developed for the Hermes 3 series.",
+    "source_ids": [
+      "doc_d3666c18ba"
+    ],
+    "date": "2025-02-14",
+    "passage_id": "doc_d3666c18ba_p02",
+    "quarter": "2025Q1",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q089",
+    "type": "temporal",
+    "question": "When was Cerebras's Oklahoma City data center scheduled to come online?",
+    "reference_answer": "It was scheduled to come online in June 2025.",
+    "source_ids": [
+      "doc_44fb16e61a"
+    ],
+    "date": "2025-03-11",
+    "passage_id": "doc_44fb16e61a_p05",
+    "quarter": "2025Q1",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q090",
+    "type": "factual",
+    "question": "How many Cerebras CS-3 systems was the Oklahoma City data center planned to house?",
+    "reference_answer": "Over 300 Cerebras CS-3 systems.",
+    "source_ids": [
+      "doc_44fb16e61a"
+    ],
+    "date": "2025-03-11",
+    "passage_id": "doc_44fb16e61a_p05",
+    "quarter": "2025Q1",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q091",
+    "type": "temporal",
+    "question": "When did the HELMET benchmark come out?",
+    "reference_answer": "In October 2024 (\"last October\" in a post of March 2025); HELMET is presented at ICLR 2025.",
+    "source_ids": [
+      "doc_03d40b4976"
+    ],
+    "date": "2025-03-12",
+    "passage_id": "doc_03d40b4976_p00",
+    "quarter": "2025Q1",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q092",
+    "type": "relational",
+    "question": "Which two models are mentioned as examples of HELMET benchmark adoption?",
+    "reference_answer": "Microsoft's Phi-4 and AI21's Jamba 1.6.",
+    "source_ids": [
+      "doc_03d40b4976"
+    ],
+    "date": "2025-03-12",
+    "passage_id": "doc_03d40b4976_p00",
+    "quarter": "2025Q1",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q093",
+    "type": "comparative",
+    "question": "How did Cohere's Command A compare with GPT-4o and DeepSeek-V3 on coding and technical questions in Cohere's tests?",
+    "reference_answer": "Cohere found Command A to be comparable to GPT-4o and DeepSeek-V3, outperforming them in some cases.",
+    "source_ids": [
+      "doc_4234250f84"
+    ],
+    "date": "2025-03-13",
+    "passage_id": "doc_4234250f84_p02",
+    "quarter": "2025Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q094",
+    "type": "factual",
+    "question": "How much did DeepSeek claim it cost to build its AI assistant?",
+    "reference_answer": "About US$6 million.",
+    "source_ids": [
+      "doc_4234250f84"
+    ],
+    "date": "2025-03-13",
+    "passage_id": "doc_4234250f84_p02",
+    "quarter": "2025Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q095",
+    "type": "temporal",
+    "question": "When did Google release Gemma 3?",
+    "reference_answer": "In March 2025.",
+    "source_ids": [
+      "doc_fe04506d39"
+    ],
+    "date": "2025-03-14",
+    "passage_id": "doc_fe04506d39_p01",
+    "quarter": "2025Q1",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q096",
+    "type": "factual",
+    "question": "Can Gemma 3 run on a single GPU?",
+    "reference_answer": "Yes: Google says Gemma 3 is the best model in the world for running on a single GPU or AI accelerator.",
+    "source_ids": [
+      "doc_fe04506d39"
+    ],
+    "date": "2025-03-14",
+    "passage_id": "doc_fe04506d39_p01",
+    "quarter": "2025Q1",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q097",
+    "type": "comparative",
+    "question": "How much more compute does DeepSeek R1 need than Llama?",
+    "reference_answer": "DeepSeek R1 used 150 times more compute and generated 20 times more tokens.",
+    "source_ids": [
+      "doc_c92e8263a9"
+    ],
+    "date": "2025-03-18",
+    "passage_id": "doc_c92e8263a9_p01",
+    "quarter": "2025Q1",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q098",
+    "type": "factual",
+    "question": "How much did Nvidia expect AI compute demand to increase compared with its previous estimates?",
+    "reference_answer": "By 100 times.",
+    "source_ids": [
+      "doc_c92e8263a9"
+    ],
+    "date": "2025-03-18",
+    "passage_id": "doc_c92e8263a9_p01",
+    "quarter": "2025Q1",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q101",
+    "type": "relational",
+    "question": "Can I run Llama or Mistral on Intel Gaudi2?",
+    "reference_answer": "Yes, with Hugging Face's Text Generation Inference (TGI) server.",
+    "source_ids": [
+      "doc_dac03163e1"
+    ],
+    "date": "2025-03-28",
+    "passage_id": "doc_dac03163e1_p03",
+    "quarter": "2025Q1",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q102",
+    "type": "factual",
+    "question": "Can running a 70B model on Intel Gaudi2 require multiple accelerators?",
+    "reference_answer": "Yes. Multiple Gaudi accelerators may be required for larger models such as 70B models.",
+    "source_ids": [
+      "doc_dac03163e1"
+    ],
+    "date": "2025-03-28",
+    "passage_id": "doc_dac03163e1_p03",
+    "quarter": "2025Q1",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q103",
+    "type": "relational",
+    "question": "Which models did FlexAI test its MLPerf-based benchmarking tool on?",
+    "reference_answer": "DeepSeek R1 and Llama 3.3.",
+    "source_ids": [
+      "doc_c7fdcf2a28"
+    ],
+    "date": "2025-04-02",
+    "passage_id": "doc_c7fdcf2a28_p22",
+    "quarter": "2025Q2",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q105",
+    "type": "temporal",
+    "question": "On what date did AI technology stocks fall sharply following DeepSeek's breakthrough?",
+    "reference_answer": "On 27 January 2025.",
+    "source_ids": [
+      "doc_6798f2bc46"
+    ],
+    "date": "2025-04-04",
+    "passage_id": "doc_6798f2bc46_p00",
+    "quarter": "2025Q2",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q106",
+    "type": "analytical",
+    "question": "Why did DeepSeek make AI stocks fall?",
+    "reference_answer": "DeepSeek showed that its AI could do as much or more with a much smaller investment, so investors feared that AI infrastructure spending would slow down drastically as companies realized they had been overspending.",
+    "source_ids": [
+      "doc_6798f2bc46"
+    ],
+    "date": "2025-04-04",
+    "passage_id": "doc_6798f2bc46_p00",
+    "quarter": "2025Q2",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q107",
+    "type": "comparative",
+    "question": "Which smaller Jais model outperformed a larger Jais model on OALL v2?",
+    "reference_answer": "inceptionai/jais-family-30b-8k outperformed inceptionai/jais-adapted-70b.",
+    "source_ids": [
+      "doc_b31387e14d"
+    ],
+    "date": "2025-04-08",
+    "passage_id": "doc_b31387e14d_p11",
+    "quarter": "2025Q2",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q108",
+    "type": "analytical",
+    "question": "Why might 7B AceGPT and Jais models have lower relative performance on OALL v2?",
+    "reference_answer": "The authors hypothesize that smaller models perform worse on ALRAGE, a generative task that tends to favor larger models.",
+    "source_ids": [
+      "doc_b31387e14d"
+    ],
+    "date": "2025-04-08",
+    "passage_id": "doc_b31387e14d_p11",
+    "quarter": "2025Q2",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q109",
+    "type": "comparative",
+    "question": "What is Qwen2.5-Omni good and bad at?",
+    "reference_answer": "Compared with similarly sized models, Qwen2.5-Omni performs especially well on audio-to-text, image-to-text and video-to-text tasks, but less well on text-to-text and text-to-speech tasks.",
+    "source_ids": [
+      "doc_e05f15f801"
+    ],
+    "date": "2025-04-09",
+    "passage_id": "doc_e05f15f801_p10",
+    "quarter": "2025Q2",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q111",
+    "type": "comparative",
+    "question": "How much training data did Bamba-9B use compared with other Mamba models?",
+    "reference_answer": "Bamba-9B was trained on 2.2T tokens, NVIDIA Hybrid Mamba2 on 3.5T, Falcon Mamba on 5.5T and Zamba on 1T tokens.",
+    "source_ids": [
+      "doc_4df75699bc"
+    ],
+    "date": "2025-04-16",
+    "passage_id": "doc_4df75699bc_p05",
+    "quarter": "2025Q2",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q112",
+    "type": "factual",
+    "question": "Which architecture does Bamba-9B use?",
+    "reference_answer": "A hybrid architecture with full attention layers interspersed with Mamba2 layers, like NVIDIA's hybrid Mamba2 model.",
+    "source_ids": [
+      "doc_4df75699bc"
+    ],
+    "date": "2025-04-16",
+    "passage_id": "doc_4df75699bc_p05",
+    "quarter": "2025Q2",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q113",
+    "type": "comparative",
+    "question": "Is DeepSeek more hawkish than other AI models on foreign policy?",
+    "reference_answer": "DeepSeek prefers more hawkish responses, similar to Gemini, Qwen2 and Llama 8B; this preference is statistically significant compared with models such as GPT-4o and Claude Sonnet.",
+    "source_ids": [
+      "doc_239a2cb726"
+    ],
+    "date": "2025-04-18",
+    "passage_id": "doc_239a2cb726_p04",
+    "quarter": "2025Q2",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q115",
+    "type": "factual",
+    "question": "Which sampling settings should I use for Qwen3 in thinking mode?",
+    "reference_answer": "Temperature=0.6, TopP=0.95, TopK=20 and MinP=0; greedy decoding should not be used, as it can lead to performance degradation and endless repetitions.",
+    "source_ids": [
+      "doc_c6016ec6a4"
+    ],
+    "date": "2025-04-27",
+    "passage_id": "doc_c6016ec6a4_p01",
+    "quarter": "2025Q2",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q121",
+    "type": "factual",
+    "question": "Can I run Alibaba's Wan2.1-VACE video model on a consumer GPU?",
+    "reference_answer": "Yes: the smaller 1.3 billion parameter version runs on consumer-grade GPUs with 8.19 GB of VRAM; there is also a 14 billion parameter version.",
+    "source_ids": [
+      "doc_bdb0ca41af"
+    ],
+    "date": "2025-05-16",
+    "passage_id": "doc_bdb0ca41af_p02",
+    "quarter": "2025Q2",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q122",
+    "type": "temporal",
+    "question": "When did Alibaba introduce its VACE framework?",
+    "reference_answer": "In March 2025.",
+    "source_ids": [
+      "doc_bdb0ca41af"
+    ],
+    "date": "2025-05-16",
+    "passage_id": "doc_bdb0ca41af_p02",
+    "quarter": "2025Q2",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q123",
+    "type": "relational",
+    "question": "Which model is MedGemma based on?",
+    "reference_answer": "Gemma 3: MedGemma uses the same decoder-only transformer architecture as Gemma 3.",
+    "source_ids": [
+      "doc_b24d8fdc02"
+    ],
+    "date": "2025-05-19",
+    "passage_id": "doc_b24d8fdc02_p02",
+    "quarter": "2025Q2",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q124",
+    "type": "factual",
+    "question": "Which Transformers version do I need for MedGemma?",
+    "reference_answer": "transformers 4.50.0 or later, since Gemma 3 is supported starting from that version.",
+    "source_ids": [
+      "doc_b24d8fdc02"
+    ],
+    "date": "2025-05-19",
+    "passage_id": "doc_b24d8fdc02_p02",
+    "quarter": "2025Q2",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q125",
+    "type": "relational",
+    "question": "How does OpenAI keep its open-weight gpt-oss models safe?",
+    "reference_answer": "With Safeguard, a model designed to monitor and mediate the deployment of its open-weight GPT-OSS models.",
+    "source_ids": [
+      "doc_5e569357f1"
+    ],
+    "date": "2025-05-24",
+    "passage_id": "doc_5e569357f1_p14",
+    "quarter": "2025Q2",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q130",
+    "type": "analytical",
+    "question": "Why did Meta invest in Scale AI?",
+    "reference_answer": "To secure the data, talent and expertise needed for the superintelligence race, and in response to rising competition from cost-effective rivals such as DeepSeek, whose models reach state-of-the-art performance at a fraction of the cost.",
+    "source_ids": [
+      "doc_5e033f0b0e"
+    ],
+    "date": "2025-06-12",
+    "passage_id": "doc_5e033f0b0e_p04",
+    "quarter": "2025Q2",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q131",
+    "type": "relational",
+    "question": "Which university is known for producing start-ups like DeepSeek?",
+    "reference_answer": "Zhejiang University in Hangzhou, nicknamed the \"mother of little dragons\": DeepSeek is one of the tech start-ups it produced.",
+    "source_ids": [
+      "doc_66575fab12"
+    ],
+    "date": "2025-06-13",
+    "passage_id": "doc_66575fab12_p00",
+    "quarter": "2025Q2",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q133",
+    "type": "factual",
+    "question": "How much data was Llama Nemotron Nano VL trained on?",
+    "reference_answer": "About 1.5 million samples from publicly available, synthetically generated and internally curated datasets.",
+    "source_ids": [
+      "doc_9aa10c19d7"
+    ],
+    "date": "2025-06-27",
+    "passage_id": "doc_9aa10c19d7_p05",
+    "quarter": "2025Q2",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q134",
+    "type": "analytical",
+    "question": "Why is Llama Nemotron Nano VL good at reading documents?",
+    "reference_answer": "Mainly its OCR-focused supervised fine-tuning data blend, which also covers reading order, markdown reconstruction with semantic classes and bounding boxes, formula parsing and table extraction.",
+    "source_ids": [
+      "doc_9aa10c19d7"
+    ],
+    "date": "2025-06-27",
+    "passage_id": "doc_9aa10c19d7_p05",
+    "quarter": "2025Q2",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q137",
+    "type": "relational",
+    "question": "Which base models are Skywork's reward models built on?",
+    "reference_answer": "On the Qwen3 and LLaMA3 series: 8 reward models with 600 million to 8 billion parameters.",
+    "source_ids": [
+      "doc_e29f1db841"
+    ],
+    "date": "2025-07-05",
+    "passage_id": "doc_e29f1db841_p04",
+    "quarter": "2025Q3",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q138",
+    "type": "factual",
+    "question": "How much data did Skywork keep to train Skywork-Reward-V2?",
+    "reference_answer": "26 million data points, selected from the original 40 million samples.",
+    "source_ids": [
+      "doc_e29f1db841"
+    ],
+    "date": "2025-07-05",
+    "passage_id": "doc_e29f1db841_p04",
+    "quarter": "2025Q3",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q145",
+    "type": "comparative",
+    "question": "How is Grok 2.5's mixture-of-experts design different from Qwen3 and DeepSeek?",
+    "reference_answer": "Grok 2.5 uses a small number of large experts (eight), an older trend, whereas more recent designs such as DeepSeekMoE and Qwen3 favor a larger number of smaller experts.",
+    "source_ids": [
+      "doc_32267b4e23"
+    ],
+    "date": "2025-07-19",
+    "passage_id": "doc_32267b4e23_p40",
+    "quarter": "2025Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q146",
+    "type": "factual",
+    "question": "Does Grok 2.5 use a shared expert?",
+    "reference_answer": "Effectively yes: an additional, always-on SwiGLU module works as a shared expert, with a doubled intermediate dimension.",
+    "source_ids": [
+      "doc_32267b4e23"
+    ],
+    "date": "2025-07-19",
+    "passage_id": "doc_32267b4e23_p40",
+    "quarter": "2025Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q147",
+    "type": "relational",
+    "question": "Which model is Sarvam-Translate built on?",
+    "reference_answer": "Gemma 3.",
+    "source_ids": [
+      "doc_53ccae0628"
+    ],
+    "date": "2025-07-23",
+    "passage_id": "doc_53ccae0628_p01",
+    "quarter": "2025Q3",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q148",
+    "type": "factual",
+    "question": "How many translation requests does the Sarvam-Translate API handle each week?",
+    "reference_answer": "Over 100,000 weekly translation requests",
+    "source_ids": [
+      "doc_53ccae0628"
+    ],
+    "date": "2025-07-23",
+    "passage_id": "doc_53ccae0628_p01",
+    "quarter": "2025Q3",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q149",
+    "type": "analytical",
+    "question": "Why do some US startups still use DeepSeek?",
+    "reference_answer": "To cut costs compared with more expensive US models; the money saved helps pay for critical needs such as additional headcount.",
+    "source_ids": [
+      "doc_5b24157dee"
+    ],
+    "date": "2025-08-09",
+    "passage_id": "doc_5b24157dee_p03",
+    "quarter": "2025Q3",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q151",
+    "type": "comparative",
+    "question": "How is gpt-oss's attention different from Qwen3's?",
+    "reference_answer": "Both use grouped query attention, but gpt-oss restricts the context size with sliding window attention in every second layer and uses bias units for the attention weights.",
+    "source_ids": [
+      "doc_6d3011a0c9"
+    ],
+    "date": "2025-08-09",
+    "passage_id": "doc_6d3011a0c9_p23",
+    "quarter": "2025Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q152",
+    "type": "temporal",
+    "question": "When were attention bias units last used before gpt-oss?",
+    "reference_answer": "In GPT-2; they had not been seen since then and are commonly regarded as redundant.",
+    "source_ids": [
+      "doc_6d3011a0c9"
+    ],
+    "date": "2025-08-09",
+    "passage_id": "doc_6d3011a0c9_p23",
+    "quarter": "2025Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q157",
+    "type": "temporal",
+    "question": "When did OpenAI last release an open-weight model before gpt-oss?",
+    "reference_answer": "In 2019, with GPT-2; the gpt-oss models released in August 2025 were its first open-weight models since then.",
+    "source_ids": [
+      "doc_61b578ffc7"
+    ],
+    "date": "2025-08-18",
+    "passage_id": "doc_61b578ffc7_p03",
+    "quarter": "2025Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q158",
+    "type": "comparative",
+    "question": "Is gpt-oss open source?",
+    "reference_answer": "No, it is open-weight: its parameters are publicly available, but OpenAI does not release the training data or the full source code.",
+    "source_ids": [
+      "doc_61b578ffc7"
+    ],
+    "date": "2025-08-18",
+    "passage_id": "doc_61b578ffc7_p03",
+    "quarter": "2025Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q159",
+    "type": "relational",
+    "question": "Which model is NVIDIA-Nemotron-Nano-12B-v2 based on?",
+    "reference_answer": "It was fine-tuned from NVIDIA-Nemotron-Nano-12B-v2-Base and compressed into NVIDIA-Nemotron-Nano-9B-v2.",
+    "source_ids": [
+      "doc_0c5914793b"
+    ],
+    "date": "2025-08-21",
+    "passage_id": "doc_0c5914793b_p00",
+    "quarter": "2025Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q160",
+    "type": "comparative",
+    "question": "Does turning off reasoning hurt the accuracy of Nemotron Nano 12B v2?",
+    "reference_answer": "Slightly, on harder prompts: answers without intermediate reasoning traces are a bit less accurate, while generating reasoning traces first generally gives higher-quality answers.",
+    "source_ids": [
+      "doc_0c5914793b"
+    ],
+    "date": "2025-08-21",
+    "passage_id": "doc_0c5914793b_p00",
+    "quarter": "2025Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q163",
+    "type": "relational",
+    "question": "Did NVIDIA work with OpenAI on its open models?",
+    "reference_answer": "Yes: NVIDIA partnered with OpenAI to optimize its open-source GPT models for fast and efficient inference on RTX-enabled Windows devices.",
+    "source_ids": [
+      "doc_82fa50b93e"
+    ],
+    "date": "2025-08-27",
+    "passage_id": "doc_82fa50b93e_p13",
+    "quarter": "2025Q3",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q165",
+    "type": "temporal",
+    "question": "When did Google release EmbeddingGemma?",
+    "reference_answer": "On 4 September 2025.",
+    "source_ids": [
+      "doc_646aa465af"
+    ],
+    "date": "2025-09-05",
+    "passage_id": "doc_646aa465af_p00",
+    "quarter": "2025Q3",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q166",
+    "type": "factual",
+    "question": "How much memory does EmbeddingGemma need?",
+    "reference_answer": "It runs on less than 200MB of RAM.",
+    "source_ids": [
+      "doc_646aa465af"
+    ],
+    "date": "2025-09-05",
+    "passage_id": "doc_646aa465af_p00",
+    "quarter": "2025Q3",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q167",
+    "type": "relational",
+    "question": "Which models were used to build the Welsh language model?",
+    "reference_answer": "The 49-billion-parameter Llama Nemotron Super model and the 9-billion-parameter Nemotron Nano model.",
+    "source_ids": [
+      "doc_39a8cc22bd"
+    ],
+    "date": "2025-09-14",
+    "passage_id": "doc_39a8cc22bd_p03",
+    "quarter": "2025Q3",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q168",
+    "type": "analytical",
+    "question": "How did the UK-LLM team get enough Welsh training data?",
+    "reference_answer": "It used NVIDIA NIM microservices for gpt-oss-120b and DeepSeek-R1 to translate NVIDIA Nemotron open datasets with over 30 million entries from English to Welsh.",
+    "source_ids": [
+      "doc_39a8cc22bd"
+    ],
+    "date": "2025-09-14",
+    "passage_id": "doc_39a8cc22bd_p03",
+    "quarter": "2025Q3",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q169",
+    "type": "analytical",
+    "question": "What makes Qwen3-Next so fast?",
+    "reference_answer": "A mixture-of-experts architecture that uses fewer parameters at inference, more efficient layers in place of vanilla attention (especially useful for long contexts), and predicting several tokens at once.",
+    "source_ids": [
+      "doc_c414818159"
+    ],
+    "date": "2025-09-17",
+    "passage_id": "doc_c414818159_p05",
+    "quarter": "2025Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q171",
+    "type": "relational",
+    "question": "Which hardware was FunctionGemma trained on?",
+    "reference_answer": "On Tensor Processing Unit hardware (TPUv4p, TPUv5p and TPUv5e), using JAX and ML Pathways.",
+    "source_ids": [
+      "doc_f2416327eb"
+    ],
+    "date": "2025-10-08",
+    "passage_id": "doc_f2416327eb_p03",
+    "quarter": "2025Q4",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q173",
+    "type": "relational",
+    "question": "Does Red Hat AI 3 use Meta's Llama Stack?",
+    "reference_answer": "Yes: Red Hat's work with Meta's open-source Llama Stack is foundational to Red Hat AI 3, and Red Hat and its partners contribute to the project.",
+    "source_ids": [
+      "doc_432734a57c"
+    ],
+    "date": "2025-10-10",
+    "passage_id": "doc_432734a57c_p04",
+    "quarter": "2025Q4",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q175",
+    "type": "comparative",
+    "question": "Did China download more AI models than the US in 2025?",
+    "reference_answer": "Yes: according to Air Street Capital, China has overtaken the U.S. in monthly downloads of AI models.",
+    "source_ids": [
+      "doc_50c173e3ec"
+    ],
+    "date": "2025-11-03",
+    "passage_id": "doc_50c173e3ec_p03",
+    "quarter": "2025Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q179",
+    "type": "comparative",
+    "question": "How did GPT-OSS-20b perform in Microsoft's Magentic Marketplace simulation?",
+    "reference_answer": "Reasonably: in Microsoft's Magentic Marketplace simulation, medium-sized open models such as GPT-OSS-20b outperformed simple baselines like random or cheapest choice, while GPT-5 reached near-optimal performance.",
+    "source_ids": [
+      "doc_6c06c16d73"
+    ],
+    "date": "2025-11-05",
+    "passage_id": "doc_6c06c16d73_p06",
+    "quarter": "2025Q4",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q181",
+    "type": "comparative",
+    "question": "How does China's AI compute compare with the US?",
+    "reference_answer": "China has 400,000 petaflops, the world's seventh largest, far below India's 1.2 million petaflops and the U.S.'s 39.7 million petaflops, half of the world's total.",
+    "source_ids": [
+      "doc_f64effb8f4"
+    ],
+    "date": "2025-11-10",
+    "passage_id": "doc_f64effb8f4_p06",
+    "quarter": "2025Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q182",
+    "type": "temporal",
+    "question": "When did DeepSeek launch the low-cost model that showed Chinese firms could work around US export controls?",
+    "reference_answer": "DeepSeek launched it in January 2025; the Nvidia chips it could draw upon were stockpiled before the U.S. export ban, in 2023-24.",
+    "source_ids": [
+      "doc_f64effb8f4"
+    ],
+    "date": "2025-11-10",
+    "passage_id": "doc_f64effb8f4_p06",
+    "quarter": "2025Q4",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q183",
+    "type": "relational",
+    "question": "Who raised the biggest early-stage AI rounds in Europe in Q3 2025?",
+    "reference_answer": "Paris-based Mistral AI and London's Nscale.",
+    "source_ids": [
+      "doc_84ebbe2187"
+    ],
+    "date": "2025-11-12",
+    "passage_id": "doc_84ebbe2187_p01",
+    "quarter": "2025Q4",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q186",
+    "type": "factual",
+    "question": "What is NVIDIA's Nemotron Labs series about?",
+    "reference_answer": "How the latest open models, datasets and training techniques help businesses build specialized AI systems and applications on NVIDIA platforms.",
+    "source_ids": [
+      "doc_270876f5b6"
+    ],
+    "date": "2025-11-13",
+    "passage_id": "doc_270876f5b6_p00",
+    "quarter": "2025Q4",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q187",
+    "type": "comparative",
+    "question": "Does Kimi K2 Thinking use a lot of tokens?",
+    "reference_answer": "Yes: 140 million tokens on the Artificial Analysis Intelligence Index, more than any other LLM tested, about 2.5 times DeepSeek-V3.2 Exp (62 million) and double GPT-5 Codex on high reasoning (77 million).",
+    "source_ids": [
+      "doc_d5b78f2aec"
+    ],
+    "date": "2025-11-19",
+    "passage_id": "doc_d5b78f2aec_p07",
+    "quarter": "2025Q4",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q188",
+    "type": "factual",
+    "question": "How does Kimi K2 Thinking use tools?",
+    "reference_answer": "Instead of completing all reasoning steps before acting, it runs cycles of reasoning and tool use, adjusting continually to interim reasoning steps and tool results.",
+    "source_ids": [
+      "doc_d5b78f2aec"
+    ],
+    "date": "2025-11-19",
+    "passage_id": "doc_d5b78f2aec_p07",
+    "quarter": "2025Q4",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q190",
+    "type": "relational",
+    "question": "Who trained Apertus?",
+    "reference_answer": "A couple of Swiss universities, using the ALP supercomputer.",
+    "source_ids": [
+      "doc_c0841ac583"
+    ],
+    "date": "2025-11-28",
+    "passage_id": "doc_c0841ac583_p09",
+    "quarter": "2025Q4",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q191",
+    "type": "factual",
+    "question": "Which open-source models can I fine-tune in Microsoft Foundry?",
+    "reference_answer": "Ministral-3B, Qwen-32B, Llama-3.3-70B-Instruct and gpt-oss-20b; they are supported only on Foundry resources and in the new Foundry UI.",
+    "source_ids": [
+      "doc_24ffff2834"
+    ],
+    "date": "2025-12-01",
+    "passage_id": "doc_24ffff2834_p02",
+    "quarter": "2025Q4",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q192",
+    "type": "factual",
+    "question": "Which format does Microsoft Foundry need for fine-tuning data?",
+    "reference_answer": "As JSON Lines (JSONL) in the conversational format of the Chat Completions API, encoded in UTF-8 with a byte-order mark, each file under 512 MB.",
+    "source_ids": [
+      "doc_24ffff2834"
+    ],
+    "date": "2025-12-01",
+    "passage_id": "doc_24ffff2834_p02",
+    "quarter": "2025Q4",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q194",
+    "type": "comparative",
+    "question": "Is DeepSeek V3.2 as good as GPT-5?",
+    "reference_answer": "Roughly: its performance is at the level of GPT-5 and Gemini 3.0 Pro, and it is also available as an open-weight model.",
+    "source_ids": [
+      "doc_f02a2aa74e"
+    ],
+    "date": "2025-12-03",
+    "passage_id": "doc_f02a2aa74e_p00",
+    "quarter": "2025Q4",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q196",
+    "type": "relational",
+    "question": "Which models did Amazon compare Nova with?",
+    "reference_answer": "With the GPT-4o, Gemini, Llama 3.1 and Claude model families.",
+    "source_ids": [
+      "doc_65072fad80"
+    ],
+    "date": "2025-12-04",
+    "passage_id": "doc_65072fad80_p07",
+    "quarter": "2025Q4",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q197",
+    "type": "temporal",
+    "question": "Which Common Crawl data was Nemotron 3 Nano trained on?",
+    "reference_answer": "The snapshots from CC-MAIN-2013-20 through CC-MAIN-2025-13.",
+    "source_ids": [
+      "doc_727220477c"
+    ],
+    "date": "2025-12-04",
+    "passage_id": "doc_727220477c_p08",
+    "quarter": "2025Q4",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q198",
+    "type": "analytical",
+    "question": "Why was Nemotron 3 Nano's multilingual data only filtered with heuristics?",
+    "reference_answer": "Because no reliable multilingual model-based quality classifiers were available.",
+    "source_ids": [
+      "doc_727220477c"
+    ],
+    "date": "2025-12-04",
+    "passage_id": "doc_727220477c_p08",
+    "quarter": "2025Q4",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q199",
+    "type": "analytical",
+    "question": "Why is rnj-1-instruct only lightly post-trained?",
+    "reference_answer": "To allow further specialization by the community; its pass@k results indicate untapped potential for test-time scaling and domain specialization.",
+    "source_ids": [
+      "doc_7df23017b6"
+    ],
+    "date": "2025-12-04",
+    "passage_id": "doc_7df23017b6_p01",
+    "quarter": "2025Q4",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q200",
+    "type": "factual",
+    "question": "How were GPT OSS 20B and Qwen 3 8B configured in the rnj-1 evaluation?",
+    "reference_answer": "GPT OSS 20B with reasoning effort set to low, and Qwen 3 8B with thinking turned off.",
+    "source_ids": [
+      "doc_7df23017b6"
+    ],
+    "date": "2025-12-04",
+    "passage_id": "doc_7df23017b6_p01",
+    "quarter": "2025Q4",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q201",
+    "type": "temporal",
+    "question": "When did Wang take over Meta's TBD Lab?",
+    "reference_answer": "In August 2025, after Zuckerberg recruited him from Scale AI, where he was the 28-year-old CEO.",
+    "source_ids": [
+      "doc_dc9122d5c0"
+    ],
+    "date": "2025-12-09",
+    "passage_id": "doc_dc9122d5c0_p06",
+    "quarter": "2025Q4",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q202",
+    "type": "analytical",
+    "question": "Why did Chris Cox stop leading Meta's AI division?",
+    "reference_answer": "The botched release of Llama 4, which was a significant catalyst for Zuckerberg's pivot and led to a major internal shake-up.",
+    "source_ids": [
+      "doc_dc9122d5c0"
+    ],
+    "date": "2025-12-09",
+    "passage_id": "doc_dc9122d5c0_p06",
+    "quarter": "2025Q4",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q203",
+    "type": "analytical",
+    "question": "Do DeepSeek-R1-Zero's thinking tokens show how it really reasons?",
+    "reference_answer": "Not necessarily, according to Kambhampati: R1-Zero is trained with an outcome-based reward, so every token that led to a correct answer is rewarded, even tangents and dead ends, and the tokens need not correspond to a step-by-step solution.",
+    "source_ids": [
+      "doc_ec3a4d8dd8"
+    ],
+    "date": "2025-12-09",
+    "passage_id": "doc_ec3a4d8dd8_p08",
+    "quarter": "2025Q4",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q204",
+    "type": "factual",
+    "question": "How is DeepSeek-R1-Zero rewarded during training?",
+    "reference_answer": "An outcome-based reward model, which rewards the tokens that led to a correct answer rather than the quality of the intermediate steps.",
+    "source_ids": [
+      "doc_ec3a4d8dd8"
+    ],
+    "date": "2025-12-09",
+    "passage_id": "doc_ec3a4d8dd8_p08",
+    "quarter": "2025Q4",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q205",
+    "type": "temporal",
+    "question": "When did NVIDIA unveil its Rubin platform?",
+    "reference_answer": "At CES 2026 in Las Vegas, in January 2026, together with the open Alpamayo model family.",
+    "source_ids": [
+      "doc_3fe06d1674"
+    ],
+    "date": "2026-01-05",
+    "passage_id": "doc_3fe06d1674_p00",
+    "quarter": "2026Q1",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q206",
+    "type": "comparative",
+    "question": "How much cheaper is token generation on NVIDIA Rubin?",
+    "reference_answer": "It is roughly one-tenth of the cost on the previous platform, according to Jensen Huang.",
+    "source_ids": [
+      "doc_3fe06d1674"
+    ],
+    "date": "2026-01-05",
+    "passage_id": "doc_3fe06d1674_p00",
+    "quarter": "2026Q1",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q207",
+    "type": "comparative",
+    "question": "In which countries is DeepSeek used the most?",
+    "reference_answer": "In China (89% market share), followed by Belarus (56%), Cuba (49%) and Russia (around 43%), according to a Microsoft report of January 2026.",
+    "source_ids": [
+      "doc_be08f0469b"
+    ],
+    "date": "2026-01-08",
+    "passage_id": "doc_be08f0469b_p04",
+    "quarter": "2026Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q208",
+    "type": "analytical",
+    "question": "Why did DeepSeek gain large market shares in countries such as Russia, Iran and Belarus?",
+    "reference_answer": "Because U.S. services face restrictions or foreign tech access is limited there, and DeepSeek is often the default chatbot on phones made by Chinese companies such as Huawei; adoption stayed low in North America and Europe.",
+    "source_ids": [
+      "doc_be08f0469b"
+    ],
+    "date": "2026-01-08",
+    "passage_id": "doc_be08f0469b_p04",
+    "quarter": "2026Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q209",
+    "type": "temporal",
+    "question": "When did Google update MedGemma?",
+    "reference_answer": "MedGemma was published the year before (\"last year\"), and the update with improved imaging support was announced on 13 January 2026.",
+    "source_ids": [
+      "doc_3ffbe3fac2"
+    ],
+    "date": "2026-01-13",
+    "passage_id": "doc_3ffbe3fac2_p00",
+    "quarter": "2026Q1",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q210",
+    "type": "relational",
+    "question": "How can developers scale MedGemma?",
+    "reference_answer": "On Google Cloud through Vertex AI; MedGemma is published through the Health AI Developer Foundations (HAI-DEF) program.",
+    "source_ids": [
+      "doc_3ffbe3fac2"
+    ],
+    "date": "2026-01-13",
+    "passage_id": "doc_3ffbe3fac2_p00",
+    "quarter": "2026Q1",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q211",
+    "type": "relational",
+    "question": "What does the head of Alibaba's Qwen team think of China's chances to overtake the US in AI?",
+    "reference_answer": "Lin Junyang, technical lead of the Qwen team, put the chance of a Chinese firm surpassing U.S. tech giants in the next three to five years at less than 20%.",
+    "source_ids": [
+      "doc_88b07a4d6b"
+    ],
+    "date": "2026-01-16",
+    "passage_id": "doc_88b07a4d6b_p03",
+    "quarter": "2026Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q214",
+    "type": "factual",
+    "question": "Did Google publish a safety report for EmbeddingGemma?",
+    "reference_answer": "Yes: a detailed report on how the models were tested for safety and bias.",
+    "source_ids": [
+      "doc_ab8e34c502"
+    ],
+    "date": "2026-01-19",
+    "passage_id": "doc_ab8e34c502_p06",
+    "quarter": "2026Q1",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q216",
+    "type": "analytical",
+    "question": "Why are Zhipu AI and MiniMax losing money?",
+    "reference_answer": "Their costs, including for training new AI models, keep rising: they are burning cash faster than they can generate sustainable revenue.",
+    "source_ids": [
+      "doc_a2bd211e18"
+    ],
+    "date": "2026-01-21",
+    "passage_id": "doc_a2bd211e18_p02",
+    "quarter": "2026Q1",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q217",
+    "type": "relational",
+    "question": "Which AI technologies did Capgemini use for its green jobs assistant?",
+    "reference_answer": "AWS and Mistral AI technologies.",
+    "source_ids": [
+      "doc_9b9fa158fd"
+    ],
+    "date": "2026-02-10",
+    "passage_id": "doc_9b9fa158fd_p00",
+    "quarter": "2026Q1",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q219",
+    "type": "relational",
+    "question": "Which Gemma model can I use to build a personal AI coding assistant?",
+    "reference_answer": "Gemma 2 2B, wrapped in a basic web service to which a VS Code extension connects.",
+    "source_ids": [
+      "doc_74063d0ce0"
+    ],
+    "date": "2026-02-14",
+    "passage_id": "doc_74063d0ce0_p03",
+    "quarter": "2026Q1",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q220",
+    "type": "factual",
+    "question": "What hardware do I need to run Gemma 2 2B for a personal AI coding assistant?",
+    "reference_answer": "A GPU or TPU machine with about 16GB of GPU memory, about the same amount of regular RAM, and at least 20GB of disk space.",
+    "source_ids": [
+      "doc_74063d0ce0"
+    ],
+    "date": "2026-02-14",
+    "passage_id": "doc_74063d0ce0_p03",
+    "quarter": "2026Q1",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q221",
+    "type": "comparative",
+    "question": "Is Ministral 3 8B as good as bigger models?",
+    "reference_answer": "It is competitive with larger 13B-class models on practical tasks while staying efficient enough for laptops.",
+    "source_ids": [
+      "doc_61ae30d89a"
+    ],
+    "date": "2026-02-16",
+    "passage_id": "doc_61ae30d89a_p04",
+    "quarter": "2026Q1",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q223",
+    "type": "factual",
+    "question": "What context length does Qwen3.5 support?",
+    "reference_answer": "262,144 tokens by default; a context length of at least 128K tokens is advised to preserve its thinking capabilities.",
+    "source_ids": [
+      "doc_865d6a79d1"
+    ],
+    "date": "2026-02-16",
+    "passage_id": "doc_865d6a79d1_p03",
+    "quarter": "2026Q1",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q224",
+    "type": "relational",
+    "question": "Which version of SGLang is needed to serve Qwen3.5?",
+    "reference_answer": "SGLang, installed from the main branch of its repository.",
+    "source_ids": [
+      "doc_865d6a79d1"
+    ],
+    "date": "2026-02-16",
+    "passage_id": "doc_865d6a79d1_p03",
+    "quarter": "2026Q1",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q225",
+    "type": "analytical",
+    "question": "Why are small reasoning models like Phi-4-reasoning-vision useful for AI agents?",
+    "reference_answer": "Agents often perform many smaller perception and reasoning tasks, and not every agent task needs a frontier model; smaller reasoning models that handle vision are essential for practical agent deployments.",
+    "source_ids": [
+      "doc_c8d8e788e3"
+    ],
+    "date": "2026-03-10",
+    "passage_id": "doc_c8d8e788e3_p07",
+    "quarter": "2026Q1",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q226",
+    "type": "comparative",
+    "question": "What did Microsoft's Phi-4-reasoning-vision paper suggest about data quality versus architecture?",
+    "reference_answer": "Possibly: a reading of Microsoft's Phi-4 paper suggests that data quality may play a larger role in model performance than architecture alone.",
+    "source_ids": [
+      "doc_c8d8e788e3"
+    ],
+    "date": "2026-03-10",
+    "passage_id": "doc_c8d8e788e3_p07",
+    "quarter": "2026Q1",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q227",
+    "type": "relational",
+    "question": "Which model does the Blythe Doll AI Generator use?",
+    "reference_answer": "Stable Diffusion XL, trained on millions of images.",
+    "source_ids": [
+      "doc_5118b890b5"
+    ],
+    "date": "2026-03-11",
+    "passage_id": "doc_5118b890b5_p00",
+    "quarter": "2026Q1",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q228",
+    "type": "factual",
+    "question": "Is the Blythe Doll AI Generator free?",
+    "reference_answer": "Only partly: it uses a freemium model with a restricted number of free generations, and it is limited to Blythe doll art.",
+    "source_ids": [
+      "doc_5118b890b5"
+    ],
+    "date": "2026-03-11",
+    "passage_id": "doc_5118b890b5_p00",
+    "quarter": "2026Q1",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q229",
+    "type": "temporal",
+    "question": "When did Devendra Singh Chaplot join xAI?",
+    "reference_answer": "He announced on X on 14 March 2026 that he was joining xAI and SpaceX.",
+    "source_ids": [
+      "doc_5fecc672e5"
+    ],
+    "date": "2026-03-14",
+    "passage_id": "doc_5fecc672e5_p00",
+    "quarter": "2026Q1",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q230",
+    "type": "relational",
+    "question": "Which AI companies did Devendra Singh Chaplot help found?",
+    "reference_answer": "He co-founded Mistral AI and was a founding member of Thinking Machines Lab.",
+    "source_ids": [
+      "doc_5fecc672e5"
+    ],
+    "date": "2026-03-14",
+    "passage_id": "doc_5fecc672e5_p00",
+    "quarter": "2026Q1",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q231",
+    "type": "relational",
+    "question": "How did NVIDIA make Nemotron 3 Nano 4B?",
+    "reference_answer": "By pruning and distilling the larger Nemotron Nano 9B v2 with the Nemotron Elastic framework.",
+    "source_ids": [
+      "doc_ec832cf267"
+    ],
+    "date": "2026-03-18",
+    "passage_id": "doc_ec832cf267_p02",
+    "quarter": "2026Q1",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q233",
+    "type": "relational",
+    "question": "Can I use NVIDIA Nemotron models in Microsoft Foundry?",
+    "reference_answer": "Yes: Nemotron models are available through Microsoft Foundry, with the same governance and management features as the rest of its catalog of over 11,000 models.",
+    "source_ids": [
+      "doc_8677f73972"
+    ],
+    "date": "2026-03-19",
+    "passage_id": "doc_8677f73972_p04",
+    "quarter": "2026Q1",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q235",
+    "type": "comparative",
+    "question": "What is the difference between MLA and DeepSeek Sparse Attention?",
+    "reference_answer": "Multi-head Latent Attention reduces KV-cache cost by compressing what is stored (the cache representation), while DeepSeek Sparse Attention reduces how much of the prior context the model revisits (the attention pattern).",
+    "source_ids": [
+      "doc_1ea34ba049"
+    ],
+    "date": "2026-03-22",
+    "passage_id": "doc_1ea34ba049_p18",
+    "quarter": "2026Q1",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q236",
+    "type": "factual",
+    "question": "How does DeepSeek Sparse Attention choose which tokens to look at?",
+    "reference_answer": "A lightning indexer that scores previous tokens for each new query token, and a token selector that keeps only a high-scoring subset (e.g. top-k) as the sparse attention mask.",
+    "source_ids": [
+      "doc_1ea34ba049"
+    ],
+    "date": "2026-03-22",
+    "passage_id": "doc_1ea34ba049_p18",
+    "quarter": "2026Q1",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q237",
+    "type": "factual",
+    "question": "Does distilling Gemma into another model count as a Gemma derivative?",
+    "reference_answer": "Yes: under the Gemma Terms of Use, Model Derivatives include models created by transferring patterns of Gemma's weights or outputs, including distillation and training on synthetic data generated by Gemma, as well as modifications of Gemma and works based on it.",
+    "source_ids": [
+      "doc_1e14345bdd"
+    ],
+    "date": "2026-04-01",
+    "passage_id": "doc_1e14345bdd_p01",
+    "quarter": "2026Q2",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q238",
+    "type": "comparative",
+    "question": "Are Gemma's outputs considered model derivatives?",
+    "reference_answer": "No: Outputs are not Model Derivatives, unlike models trained to perform like Gemma, for example by distillation or on Gemma's synthetic outputs.",
+    "source_ids": [
+      "doc_1e14345bdd"
+    ],
+    "date": "2026-04-01",
+    "passage_id": "doc_1e14345bdd_p01",
+    "quarter": "2026Q2",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q239",
+    "type": "factual",
+    "question": "How much did it cost to build Llama 3.1?",
+    "reference_answer": "About $170 million, excluding data acquisition and labour.",
+    "source_ids": [
+      "doc_399b320253"
+    ],
+    "date": "2026-04-04",
+    "passage_id": "doc_399b320253_p01",
+    "quarter": "2026Q2",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q240",
+    "type": "temporal",
+    "question": "How much compute did Meta plan to have by the end of 2024?",
+    "reference_answer": "Compute equivalent to 600,000 Nvidia H100 GPUs by the end of 2024, an $18 billion investment in chips alone.",
+    "source_ids": [
+      "doc_399b320253"
+    ],
+    "date": "2026-04-04",
+    "passage_id": "doc_399b320253_p01",
+    "quarter": "2026Q2",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q241",
+    "type": "comparative",
+    "question": "Does Qwen3.6 still support /think and /nothink?",
+    "reference_answer": "No: unlike Qwen3, it does not officially support the /think and /nothink soft switch; it thinks by default, and direct responses are set through API parameters.",
+    "source_ids": [
+      "doc_9c7d656804"
+    ],
+    "date": "2026-04-15",
+    "passage_id": "doc_9c7d656804_p03",
+    "quarter": "2026Q2",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q242",
+    "type": "analytical",
+    "question": "Why preserve previous reasoning traces in Qwen3.6 conversations?",
+    "reference_answer": "To improve decision consistency and reduce redundant reasoning and token consumption, particularly in agent scenarios.",
+    "source_ids": [
+      "doc_9c7d656804"
+    ],
+    "date": "2026-04-15",
+    "passage_id": "doc_9c7d656804_p03",
+    "quarter": "2026Q2",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q243",
+    "type": "relational",
+    "question": "Which NVIDIA model and agent system does Aible use on Google Cloud?",
+    "reference_answer": "Nemotron 3 and NemoClaw agents.",
+    "source_ids": [
+      "doc_f94cf38ac3"
+    ],
+    "date": "2026-04-22",
+    "passage_id": "doc_f94cf38ac3_p09",
+    "quarter": "2026Q2",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q245",
+    "type": "temporal",
+    "question": "When did Anthropic accuse DeepSeek of distilling Claude?",
+    "reference_answer": "In February 2026.",
+    "source_ids": [
+      "doc_5051a491a0"
+    ],
+    "date": "2026-04-24",
+    "passage_id": "doc_5051a491a0_p04",
+    "quarter": "2026Q2",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q246",
+    "type": "comparative",
+    "question": "How did Morningstar analyst Ivan Su compare DeepSeek V4 with R1?",
+    "reference_answer": "He described V4 as a competent follow-up but not as significant a breakthrough as R1.",
+    "source_ids": [
+      "doc_5051a491a0"
+    ],
+    "date": "2026-04-24",
+    "passage_id": "doc_5051a491a0_p04",
+    "quarter": "2026Q2",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q247",
+    "type": "relational",
+    "question": "Which base model was used to reconstruct the reward model sycophant?",
+    "reference_answer": "Llama 3.3 70B Instruct.",
+    "source_ids": [
+      "doc_21bb479977"
+    ],
+    "date": "2026-04-28",
+    "passage_id": "doc_21bb479977_p05",
+    "quarter": "2026Q2",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q248",
+    "type": "factual",
+    "question": "How many models are in AuditBench?",
+    "reference_answer": "56 models, each implanted with one of 14 concerning behaviors and adversarially trained not to confess.",
+    "source_ids": [
+      "doc_21bb479977"
+    ],
+    "date": "2026-04-28",
+    "passage_id": "doc_21bb479977_p05",
+    "quarter": "2026Q2",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q251",
+    "type": "comparative",
+    "question": "Which Google Cloud service is described as the easiest option for deploying Gemma?",
+    "reference_answer": "Cloud Run.",
+    "source_ids": [
+      "doc_6f3861ee15"
+    ],
+    "date": "2026-05-20",
+    "passage_id": "doc_6f3861ee15_p19",
+    "quarter": "2026Q2",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q252",
+    "type": "factual",
+    "question": "What was Gemini Enterprise called before?",
+    "reference_answer": "Vertex.",
+    "source_ids": [
+      "doc_6f3861ee15"
+    ],
+    "date": "2026-05-20",
+    "passage_id": "doc_6f3861ee15_p19",
+    "quarter": "2026Q2",
+    "topic": "T09 gemma · gemma model · model gemma"
+  },
+  {
+    "id": "q253",
+    "type": "factual",
+    "question": "How fast can I generate images with Stable Diffusion on an RTX 4070?",
+    "reference_answer": "About 10–30 seconds per image at standard resolutions.",
+    "source_ids": [
+      "doc_bc63824c85"
+    ],
+    "date": "2026-05-26",
+    "passage_id": "doc_bc63824c85_p02",
+    "quarter": "2026Q2",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q254",
+    "type": "factual",
+    "question": "How much VRAM do I need to run Stable Diffusion locally?",
+    "reference_answer": "A reasonably modern Nvidia GPU with at least 6GB of VRAM for basic use, and 8-12GB or more for modern, higher-resolution models.",
+    "source_ids": [
+      "doc_bc63824c85"
+    ],
+    "date": "2026-05-26",
+    "passage_id": "doc_bc63824c85_p02",
+    "quarter": "2026Q2",
+    "topic": "T06 image · video · text"
+  },
+  {
+    "id": "q255",
+    "type": "analytical",
+    "question": "Why can running Gemma 4 models on GPUs with 24GB of VRAM or less be challenging?",
+    "reference_answer": "A large KV cache increases VRAM consumption, potentially limiting local inference, context length, and model performance.",
+    "source_ids": [
+      "doc_f4318f2ede"
+    ],
+    "date": "2026-05-28",
+    "passage_id": "doc_f4318f2ede_p04",
+    "quarter": "2026Q2",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q256",
+    "type": "factual",
+    "question": "What technique can help reduce KV cache memory usage when running Gemma 4 locally?",
+    "reference_answer": "KV cache quantization, such as Q4 quantization.",
+    "source_ids": [
+      "doc_f4318f2ede"
+    ],
+    "date": "2026-05-28",
+    "passage_id": "doc_f4318f2ede_p04",
+    "quarter": "2026Q2",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q257",
+    "type": "temporal",
+    "question": "When did Nemotron 3 Ultra come to Microsoft Foundry?",
+    "reference_answer": "In June 2026 (\"this month\" in an announcement of 2 June 2026).",
+    "source_ids": [
+      "doc_2235a0a74a"
+    ],
+    "date": "2026-06-02",
+    "passage_id": "doc_2235a0a74a_p02",
+    "quarter": "2026Q2",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q258",
+    "type": "relational",
+    "question": "Which NVIDIA open models were highlighted as available on Microsoft Foundry in the June 2026 announcement?",
+    "reference_answer": "Nemotron 3 Ultra, Nemotron 3.5 ASR, Nemotron 3.5 Content Safety, Cosmos 3, and Earth-2 weather models.",
+    "source_ids": [
+      "doc_2235a0a74a"
+    ],
+    "date": "2026-06-02",
+    "passage_id": "doc_2235a0a74a_p02",
+    "quarter": "2026Q2",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q259",
+    "type": "analytical",
+    "question": "Why are companies fine-tuning small open-source models?",
+    "reference_answer": "Because size is no longer the only indicator of quality: fine-tuned small models meet task-specific needs while reducing cost and latency.",
+    "source_ids": [
+      "doc_0f53c6cf45"
+    ],
+    "date": "2026-06-04",
+    "passage_id": "doc_0f53c6cf45_p12",
+    "quarter": "2026Q2",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q260",
+    "type": "temporal",
+    "question": "What shift in enterprise LLM adoption is described alongside the rise of smaller open-source models?",
+    "reference_answer": "Enterprises are shifting their focus from access to optimization, orchestration, and scale.",
+    "source_ids": [
+      "doc_0f53c6cf45"
+    ],
+    "date": "2026-06-04",
+    "passage_id": "doc_0f53c6cf45_p12",
+    "quarter": "2026Q2",
+    "topic": "T14 enterprise · innovation · solution"
+  },
+  {
+    "id": "q263",
+    "type": "relational",
+    "question": "Which model powers the Polish recycling assistant Gdzie to wyrzucić?",
+    "reference_answer": "Gemma.",
+    "source_ids": [
+      "doc_60b57d6c79"
+    ],
+    "date": "2026-06-11",
+    "passage_id": "doc_60b57d6c79_p03",
+    "quarter": "2026Q2",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q265",
+    "type": "comparative",
+    "question": "How did Meta's approach to open-weight models differ between Llama and Muse Spark, according to Krish Subramanian?",
+    "reference_answer": "Llama targeted developers seeking open-weight alternatives, whereas Meta made little effort to appeal to those developers with Muse Spark.",
+    "source_ids": [
+      "doc_8601d763ff"
+    ],
+    "date": "2026-06-14",
+    "passage_id": "doc_8601d763ff_p06",
+    "quarter": "2026Q2",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q267",
+    "type": "comparative",
+    "question": "How fast is DiffusionGemma compared with other Gemma 4 models on an H100?",
+    "reference_answer": "About four times faster, reaching approximately 1,000 tokens per second on an H100.",
+    "source_ids": [
+      "doc_6e77b4cc78"
+    ],
+    "date": "2026-06-28",
+    "passage_id": "doc_6e77b4cc78_p06",
+    "quarter": "2026Q2",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q268",
+    "type": "analytical",
+    "question": "What is the main performance advantage of DiffusionGemma?",
+    "reference_answer": "Lower latency for individual requests rather than higher overall throughput.",
+    "source_ids": [
+      "doc_6e77b4cc78"
+    ],
+    "date": "2026-06-28",
+    "passage_id": "doc_6e77b4cc78_p06",
+    "quarter": "2026Q2",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q269",
+    "type": "analytical",
+    "question": "Why does Mistral OCR4 produce text unrelated to the document when the fonts are small?",
+    "reference_answer": "Because generative OCR models trained on next-token prediction can keep generating from patterns learned in training instead of from the source document when the visual signal is ambiguous, which produces repetitive, incohrent text disconnected from the page.",
+    "source_ids": [
+      "doc_4babaf3e26"
+    ],
+    "date": "2026-07-16",
+    "passage_id": "doc_4babaf3e26_p07",
+    "quarter": "2026Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q271",
+    "type": "factual",
+    "question": "Can Mistral Medium 3 run on a single node?",
+    "reference_answer": "Yes: it is optimized for single-node inference, especially for long-context applications, and its size allows high throughput on a single node.",
+    "source_ids": [
+      "doc_6b396b951c"
+    ],
+    "date": "2026-07-16",
+    "passage_id": "doc_6b396b951c_p01",
+    "quarter": "2026Q3",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q272",
+    "type": "analytical",
+    "question": "Is Mistral OCR (25.05) good for scientific papers?",
+    "reference_answer": "Yes: it understands complex document elements such as interleaved images, mathematical expressions, tables and advanced layouts like LaTeX formatting, as well as charts, graphs, equations and figures.",
+    "source_ids": [
+      "doc_6b396b951c"
+    ],
+    "date": "2026-07-16",
+    "passage_id": "doc_6b396b951c_p01",
+    "quarter": "2026Q3",
+    "topic": "T10 api · file · python"
+  },
+  {
+    "id": "q273",
+    "type": "temporal",
+    "question": "When is Kimi K3 going open-weight?",
+    "reference_answer": "Its open-weight release was set for 27 July 2026.",
+    "source_ids": [
+      "doc_2a902926e3"
+    ],
+    "date": "2026-07-21",
+    "passage_id": "doc_2a902926e3_p01",
+    "quarter": "2026Q3",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q274",
+    "type": "comparative",
+    "question": "How does Alibaba's Qwen3.8 launch compare with Moonshot's Kimi K3 launch?",
+    "reference_answer": "Moonshot published a substantial technical breakdown with a full benchmark table, architecture details and pricing, while Alibaba relied largely on a single post on X with bold claims and grammatical slips.",
+    "source_ids": [
+      "doc_2a902926e3"
+    ],
+    "date": "2026-07-21",
+    "passage_id": "doc_2a902926e3_p01",
+    "quarter": "2026Q3",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q275",
+    "type": "factual",
+    "question": "How did Z.ai's revenue and losses change in 2025?",
+    "reference_answer": "Revenue rose 132% to 724 million yuan ($107 million), while the net loss jumped 60% to 4.7 billion yuan ($694 million).",
+    "source_ids": [
+      "doc_6616873396"
+    ],
+    "date": "2026-07-26",
+    "passage_id": "doc_6616873396_p09",
+    "quarter": "2026Q3",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q277",
+    "type": "relational",
+    "question": "Can I use Llama Guard with Inkling-Small?",
+    "reference_answer": "Yes: Llama Guard is compatible with Inkling-Small and can be layered around it to catch jailbreak attempts, filter unsafe outputs and enforce use-case-specific policies",
+    "source_ids": [
+      "doc_df5a8e3dfe"
+    ],
+    "date": "2026-07-30",
+    "passage_id": "doc_df5a8e3dfe_p03",
+    "quarter": "2026Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q278",
+    "type": "comparative",
+    "question": "Is Inkling-Small riskier than other open-weight models?",
+    "reference_answer": "No: its residual risks (occasional compliance with role-play or indirectly framed harmful prompts) are consistent with those of any open-weight model, and it presents no material uplift beyond what is already available in the open-weight ecosystem.",
+    "source_ids": [
+      "doc_df5a8e3dfe"
+    ],
+    "date": "2026-07-30",
+    "passage_id": "doc_df5a8e3dfe_p03",
+    "quarter": "2026Q3",
+    "topic": "T11 english · multilingual · instruction"
+  },
+  {
+    "id": "q283",
+    "type": "relational",
+    "question": "How is CrowdStrike using Nemotron Nano?",
+    "reference_answer": "CrowdStrike is fine-tuning it for cyber defense: internal testing reached 96% accuracy in generating investigation queries in Falcon LogScale.",
+    "source_ids": [
+      "doc_e45661ea00"
+    ],
+    "date": "2026-08-04",
+    "passage_id": "doc_e45661ea00_p08",
+    "quarter": "2026Q3",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q284",
+    "type": "temporal",
+    "question": "When did Mistral release Shieldstral?",
+    "reference_answer": "On 4 August 2026, as open weights under the Apache 2.0 licence.",
+    "source_ids": [
+      "doc_e45661ea00"
+    ],
+    "date": "2026-08-04",
+    "passage_id": "doc_e45661ea00_p08",
+    "quarter": "2026Q3",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q285",
+    "type": "relational",
+    "question": "What is Qwen3.8 based on?",
+    "reference_answer": "On the architectural foundation of Qwen3.5.",
+    "source_ids": [
+      "doc_36f8be67c4"
+    ],
+    "date": "2026-08-05",
+    "passage_id": "doc_36f8be67c4_p00",
+    "quarter": "2026Q3",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q286",
+    "type": "relational",
+    "question": "Which Qwen versions came before Qwen3.8?",
+    "reference_answer": "Qwen3.5 and Qwen3.6; in August 2026, a hosted Qwen3.8-27B service on Qwen Cloud with a 1M context length was announced as coming soon.",
+    "source_ids": [
+      "doc_36f8be67c4"
+    ],
+    "date": "2026-08-05",
+    "passage_id": "doc_36f8be67c4_p00",
+    "quarter": "2026Q3",
+    "topic": "T15 qwen · qwen qwen · context length"
+  },
+  {
+    "id": "q287",
+    "type": "comparative",
+    "question": "How does Kimi K3 compare with the top models from Anthropic and OpenAI?",
+    "reference_answer": "In benchmarks, Kimi K3 came ever closer to the top models from Anthropic and OpenAI and even surpassed them in some areas.",
+    "source_ids": [
+      "doc_62fead1b14"
+    ],
+    "date": "2026-08-07",
+    "passage_id": "doc_62fead1b14_p01",
+    "quarter": "2026Q3",
+    "topic": "T07 china · united_states · chinese"
+  },
+  {
+    "id": "q289",
+    "type": "comparative",
+    "question": "How much does multi-token prediction speed up Nemotron 3.5 Lightning?",
+    "reference_answer": "It is worth 1.46 to 1.96 times unaccelerated decoding, across both node types and concurrency points measured.",
+    "source_ids": [
+      "doc_061f8473ea"
+    ],
+    "date": "2026-08-11",
+    "passage_id": "doc_061f8473ea_p26",
+    "quarter": "2026Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q290",
+    "type": "factual",
+    "question": "Do I need to train a draft model for speculative decoding with Nemotron 3.5 Lightning?",
+    "reference_answer": "No: its speculative decoder is built in and enabled by default, and works on stock vLLM from the first day with nothing to train, no second artifact to version and no draft head to keep in sync.",
+    "source_ids": [
+      "doc_061f8473ea"
+    ],
+    "date": "2026-08-11",
+    "passage_id": "doc_061f8473ea_p26",
+    "quarter": "2026Q3",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q293",
+    "type": "temporal",
+    "question": "When did QwQ 32B and Gemma 3 27B come out?",
+    "reference_answer": "In March 2025.",
+    "source_ids": [
+      "doc_b8e88ae5a2"
+    ],
+    "date": "2026-08-11",
+    "passage_id": "doc_b8e88ae5a2_p00",
+    "quarter": "2026Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q294",
+    "type": "comparative",
+    "question": "Which is better for coding: QwQ 32B, Gemma 3 or DeepSeek R1?",
+    "reference_answer": "QwQ leads on coding, while the other two are equally top-notch on reasoning.",
+    "source_ids": [
+      "doc_b8e88ae5a2"
+    ],
+    "date": "2026-08-11",
+    "passage_id": "doc_b8e88ae5a2_p00",
+    "quarter": "2026Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q295",
+    "type": "temporal",
+    "question": "When did Meta release Muse Glimmer?",
+    "reference_answer": "On 11 August 2026.",
+    "source_ids": [
+      "doc_ecd663863a"
+    ],
+    "date": "2026-08-11",
+    "passage_id": "doc_ecd663863a_p05",
+    "quarter": "2026Q3",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q296",
+    "type": "factual",
+    "question": "How fast is Muse Glimmer on an RTX 5090?",
+    "reference_answer": "Over 200 tokens per second.",
+    "source_ids": [
+      "doc_ecd663863a"
+    ],
+    "date": "2026-08-11",
+    "passage_id": "doc_ecd663863a_p05",
+    "quarter": "2026Q3",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q299",
+    "type": "relational",
+    "question": "Which Qwen product will Alibaba work with to launch e-commerce AI agents?",
+    "reference_answer": "Qwen office. ",
+    "source_ids": [
+      "doc_d5121202a3"
+    ],
+    "date": "2026-08-20",
+    "passage_id": "doc_d5121202a3_p25",
+    "quarter": "2026Q3",
+    "topic": "T12 stock · investor · growth"
+  },
+  {
+    "id": "q301",
+    "type": "temporal",
+    "question": "When was the first Llama model unveiled?",
+    "reference_answer": "In early 2023.",
+    "source_ids": [
+      "doc_65275a8327"
+    ],
+    "date": "2024-09-26",
+    "passage_id": "doc_65275a8327_p01",
+    "quarter": "2024Q3",
+    "topic": "T13 meta · zuckerberg · llama"
+  },
+  {
+    "id": "q302",
+    "type": "temporal",
+    "question": "When was Exo Labs, the startup running open models locally on Mac clusters, founded?",
+    "reference_answer": "In March 2024.",
+    "source_ids": [
+      "doc_cd46dd7141"
+    ],
+    "date": "2024-11-13",
+    "passage_id": "doc_cd46dd7141_p00",
+    "quarter": "2024Q4",
+    "topic": "T03 blackwell · gpu · workload"
+  },
+  {
+    "id": "q303",
+    "type": "temporal",
+    "question": "When did DeepSeek first launch an open-source language model?",
+    "reference_answer": "In November 2023, after being spun off from High-Flyer Quant in March 2023.",
+    "source_ids": [
+      "doc_a6d282c476"
+    ],
+    "date": "2025-01-27",
+    "passage_id": "doc_a6d282c476_p04",
+    "quarter": "2025Q1",
+    "topic": "T02 deepseek · r1 · chinese"
+  },
+  {
+    "id": "q304",
+    "type": "temporal",
+    "question": "When did DeepSeek introduce DeepSeek-R1-Zero?",
+    "reference_answer": "On 20 January 2025, together with DeepSeek-R1, as its two first-generation reasoning models.",
+    "source_ids": [
+      "doc_cc148668ca"
+    ],
+    "date": "2025-02-17",
+    "passage_id": "doc_cc148668ca_p00",
+    "quarter": "2025Q1",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q305",
+    "type": "temporal",
+    "question": "When did Multiverse Computing release its compressed versions of Llama 3.1-8B and Llama 3.3-70B?",
+    "reference_answer": "On 8 April 2025.",
+    "source_ids": [
+      "doc_83188388d9"
+    ],
+    "date": "2025-04-08",
+    "passage_id": "doc_83188388d9_p00",
+    "quarter": "2025Q2",
+    "topic": "T05 memory · attention · token"
+  },
+  {
+    "id": "q306",
+    "type": "temporal",
+    "question": "When did Mistral first launch Codestral?",
+    "reference_answer": "In May 2024, as its first specialized coding model.",
+    "source_ids": [
+      "doc_40f6437caf"
+    ],
+    "date": "2025-05-21",
+    "passage_id": "doc_40f6437caf_p02",
+    "quarter": "2025Q2",
+    "topic": "T04 claude · agent · cod"
+  },
+  {
+    "id": "q308",
+    "type": "temporal",
+    "question": "When did OpenAI stop releasing its large language model weights?",
+    "reference_answer": "In 2019, when the high cost of building cutting-edge models led it to form a for-profit subsidiary; it still published weights for models such as CLIP and Whisper.",
+    "source_ids": [
+      "doc_111d330583"
+    ],
+    "date": "2025-08-06",
+    "passage_id": "doc_111d330583_p04",
+    "quarter": "2025Q3",
+    "topic": "T16 people · ask · find"
+  },
+  {
+    "id": "q309",
+    "type": "temporal",
+    "question": "When did Mistral AI announce its flagship Mistral 3 model?",
+    "reference_answer": "In December 2025; Mistral 3 uses the DeepSeek V3 architecture.",
+    "source_ids": [
+      "doc_b1581a551b"
+    ],
+    "date": "2025-12-30",
+    "passage_id": "doc_b1581a551b_p34",
+    "quarter": "2025Q4",
+    "topic": "T01 reasoning · reinforcement · reinforcement learning"
+  },
+  {
+    "id": "q310",
+    "type": "temporal",
+    "question": "When did Nvidia release its first Nemotron open model?",
+    "reference_answer": "In November 2023; it came from Nvidia's NeMo framework for building custom generative AI models.",
+    "source_ids": [
+      "doc_e5480257c3"
+    ],
+    "date": "2026-03-18",
+    "passage_id": "doc_e5480257c3_p01",
+    "quarter": "2026Q1",
+    "topic": "T08 nemotron · nvidia · nvidia nemotron"
+  },
+  {
+    "id": "q313",
+    "type": "temporal",
+    "question": "Before Kimi K3, when had an open model last come this close to the state of the art?",
+    "reference_answer": "In 2024, with Meta's Llama 3.",
+    "source_ids": [
+      "doc_a4d3345eab"
+    ],
+    "date": "2026-07-24",
+    "passage_id": "doc_a4d3345eab_p04",
+    "quarter": "2026Q3",
+    "topic": "T04 claude · agent · cod"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "corpus": {
+    "file": "core_articles.csv",
+    "articles": 1210,
+    "filter": "Stage 1 om_tier == 'core'"
+  },
+  "chunks": {
+    "size": 200,
+    "overlap": 40,
+    "contextualize": "title"
+  },
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embeddings_file": "embeddings_core_articles_size200_overlap40_title_all_MiniLM_L6_v2.npy",
+  "retrieval": {
+    "strategy": "hybrid",
+    "size": 30
+  },
+  "generation": {
+    "mode": "grounded",
+    "max_passages": 6,
+    "max_per_source": 2,
+    "max_chars_per_passage": 1200,
+    "max_tokens": 400
+  },
+  "rag_model": {
+    "model": "qwen3:4b-instruct",
+    "server": "Ollama, OpenAI-compatible endpoint http://localhost:11434/v1"
+  },
+  "test_set": {
+    "file": "qa_reviewed.json",
+    "questions": 213
+  }
+}

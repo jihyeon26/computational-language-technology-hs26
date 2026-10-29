@@ -67,3 +67,7 @@ outputs/
 # Exception: small Stage 2 WP3 outputs (tables, figures) are versioned
 !artifacts/stage2_wp3/
 !artifacts/stage2_wp3/**
+
+# Exception: Stage 3 WP1 Q&A test set and RAG settings are versioned
+!artifacts/stage3_wp1/
+!artifacts/stage3_wp1/**
