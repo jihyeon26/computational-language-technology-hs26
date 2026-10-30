@@ -1,0 +1,214 @@
+id,type,question,route,entities,intents,rr_text,rr_text_graph
+q001,factual,Which AWS service can I use to deploy a Llama model with vLLM?,entity+relation,AWS; Llama; vllm,available on,1.0,1.0
+q003,temporal,When did Google launch DataGemma?,entity+relation,Google; Gemma,,0.3333,0.5
+q004,relational,Which model family is DataGemma built on?,entity+relation,Gemma,member of family; based on,1.0,0.2
+q005,factual,How fast can SambaNova run Llama 3.1 405B?,entity,SambaNova; Llama 3.1 405B,,1.0,1.0
+q006,comparative,How is SambaNova's way of running Llama different from Groq and Cerebras?,entity,SambaNova; Llama; Groq; Cerebras,,0.5,0.5
+q007,comparative,How much does a 16-message chatbot conversation cost with Llama 3 70B on AWS Bedrock compared with GPT-4o?,entity,Llama-3-70B; AWS Bedrock; GPT-4o,,1.0,1.0
+q011,analytical,Why is DataGemma's use of Data Commons a big deal for RAG?,entity,Gemma; Data Commons,,1.0,1.0
+q014,comparative,Were open-weight models as fast and capable as proprietary ones in September 2024?,text,,,0.05,0.05
+q015,factual,"If I modify a Llama model, who owns the result?",entity,Llama,acquired by; subsidiary of,1.0,1.0
+q016,factual,Am I allowed to use the Llama name for my product?,entity,Llama,,1.0,1.0
+q017,factual,How does Google plan to improve DataGemma?,entity+relation,Google; Gemma,,1.0,1.0
+q018,relational,Who at Google presented DataGemma as an early step in grounded AI?,entity+relation,Google; Gemma,,1.0,1.0
+q019,relational,Which teacher model was used to train Llama Guard 3-1B?,entity,Llama Guard 3-1B,distilled from,1.0,1.0
+q020,factual,How was the output layer of Llama Guard 3-1B made smaller?,entity,Llama Guard 3-1B,,1.0,1.0
+q021,comparative,What makes Molmo's training data different from other multimodal models?,entity,OLMo / Molmo / Tülu,,0.5,0.5
+q022,factual,How big are Ai2's Molmo models?,entity+relation,Ai2; OLMo / Molmo / Tülu,,1.0,1.0
+q023,factual,In which sizes do the Llama 3.2 text models come?,entity,Llama,,0.5,0.5
+q024,analytical,What are the Llama 3.2 text models good for?,entity,Llama,,0.3333,0.3333
+q025,temporal,When did Meta release the Llama 3.2 update?,entity+relation,Meta; Llama,,0.0833,0.0833
+q026,factual,What context length do the small Llama 3.2 models support?,entity,Llama,supported by,0.0,0.0
+q027,comparative,Is Molmo better than GPT-4o?,entity+relation,OLMo / Molmo / Tülu; GPT-4o,outperforms,0.0625,0.1667
+q028,relational,Who made the Molmo models?,entity+relation,OLMo / Molmo / Tülu,developed by,0.25,0.3333
+q029,comparative,Which rival models does Llama 3.2 beat?,entity,Llama,outperforms,0.1667,0.1667
+q030,factual,Which celebrity voices can Meta AI speak with?,entity,Meta AI,,1.0,1.0
+q031,comparative,How did OpenAI’s Ada-002 rank against open-source embedding models in a 2024 retrieval and clustering comparison?,entity,OpenAI,,1.0,1.0
+q035,factual,What is Black Forest Labs working on after Flux?,entity,Black Forest Labs; FLUX,,1.0,1.0
+q036,relational,Which other company is working on AI video models besides Black Forest Labs?,entity,Black Forest Labs,,1.0,1.0
+q037,analytical,Why are so few startups training foundation models from scratch anymore?,text,,founded by,1.0,1.0
+q038,comparative,How much compute does fine-tuning need compared with training from scratch?,text,,,0.2,0.2
+q039,temporal,When did Nvidia release Llama-3.1-Nemotron-70B?,entity,NVIDIA; Llama; Nemotron-70B,,1.0,1.0
+q040,relational,Which model is Nvidia's Nemotron-70B based on?,entity+relation,NVIDIA; Nemotron-70B,member of family; based on,0.3333,1.0
+q041,factual,What is Innoplexus building with Nemotron-4 Hindi?,entity,Nemotron; Hindi,,1.0,1.0
+q043,factual,How many Chinese AI models were above 10^24 FLOP in April 2024?,entity,Chinese AI models,,1.0,1.0
+q044,relational,Who developed Qwen-72B and Yi-34B?,entity,Qwen-72B; Yi,developed by,0.0556,0.3333
+q045,factual,Which models meet the Open Source AI Definition?,text,,,0.3333,0.3333
+q046,comparative,Do BLOOM and Falcon count as open-source AI under the OSI definition?,entity,BLOOM; Falcon; OSI definition,,0.25,1.0
+q047,temporal,When was the Baichuan-Omni technical report released ? ,entity,Baichuan,,0.3333,0.5
+q048,factual,Which vision encoder does Baichuan-Omni use?,entity,Baichuan,,1.0,1.0
+q049,relational,Can the US government use Llama?,entity,Llama,,0.2,0.2
+q050,comparative,"Did Anthropic also open its models to US government use, like Meta?",entity,Anthropic; Meta,,0.2,0.2
+q051,analytical,Why does Indonesia want its own AI model like Sahabat-AI?,entity,Indonesia,acquired by; subsidiary of,1.0,1.0
+q052,factual,Which languages does Sahabat-AI support?,text,,supported by,0.5,0.5
+q054,relational,Who makes the Granite models?,entity+relation,Granite,developed by,1.0,1.0
+q055,factual,Which medical areas does Google's HAI-DEF cover at launch?,entity,Google; HAI-DEF,,1.0,1.0
+q057,analytical,Can companies use Qwen without a long legal review?,entity,Qwen,,1.0,1.0
+q058,temporal,When did DeepSeek claim that R1 can match OpenAI's o1?,entity+relation,DeepSeek; R1; OpenAI; o1,,0.0,0.0
+q060,comparative,Are open-source video generators like Mochi as good as Sora in December 2024?,entity,Mochi; Sora,,1.0,1.0
+q063,factual,In which sizes does Gemma 2 come?,entity,Gemma,,0.0,0.0
+q065,relational,Which frameworks supported DeepSeek-V3 at launch?,entity+relation,DeepSeek,supported by,1.0,0.5
+q066,factual,Which optimizations does SGLang offer for DeepSeek-V3?,entity,SGLang; DeepSeek,,1.0,1.0
+q069,relational,Which companies were expected to be the first to use NVIDIA's Llama Nemotron models?,entity+relation,NVIDIA; Llama; Nemotron,,0.2,0.5
+q070,analytical,What makes Llama Nemotron good for AI agents?,entity,Llama; Nemotron,,0.5,0.5
+q072,analytical,What did DeepSeek V3 reveal about US chip export controls?,entity+relation,DeepSeek,runs on,0.0476,0.0476
+q073,comparative,How much faster is SmolVLM than Qwen2-VL?,entity,SmolLM; qwen2,,1.0,1.0
+q074,factual,How well does SmolVLM understand videos?,entity,SmolLM,,1.0,1.0
+q077,relational,Who is leading the OpenEuroLLM project?,entity,EuroLLM / Teuken,,0.5,0.5
+q079,relational,Who makes the Kimi chatbot?,entity+relation,Kimi,developed by,1.0,1.0
+q080,temporal,When was Kimi chatbot first released ?,entity,Kimi,,1.0,1.0
+q084,factual,What is DeepSeek-V3.2 good at?,entity,DeepSeek,,0.0,0.0
+q085,relational,Which dataset is DeepHermes-3 built on?,entity,DeepHermes-3,member of family; based on,1.0,1.0
+q089,temporal,When was Cerebras's Oklahoma City data center scheduled to come online?,entity,Cerebras; data_center,,1.0,1.0
+q090,factual,How many Cerebras CS-3 systems was the Oklahoma City data center planned to house?,entity,Cerebras; data_center,,1.0,1.0
+q091,temporal,When did the HELMET benchmark come out?,text,,,1.0,1.0
+q092,relational,Which two models are mentioned as examples of HELMET benchmark adoption?,text,,used by,1.0,1.0
+q093,comparative,How did Cohere's Command A compare with GPT-4o and DeepSeek-V3 on coding and technical questions in Cohere's tests?,entity+relation,Cohere; Command R / Aya; GPT-4o; DeepSeek,,1.0,0.5
+q094,factual,How much did DeepSeek claim it cost to build its AI assistant?,entity,DeepSeek,,0.0769,0.0769
+q095,temporal,When did Google release Gemma 3?,entity+relation,Google; Gemma,,0.5,0.5
+q096,factual,Can Gemma 3 run on a single GPU?,entity+relation,Gemma,runs on,0.2,0.2
+q097,comparative,How much more compute does DeepSeek R1 need than Llama?,entity+relation,DeepSeek; Llama,,0.25,0.1667
+q098,factual,How much did Nvidia expect AI compute demand to increase compared with its previous estimates?,entity,NVIDIA,,0.5,0.5
+q101,relational,Can I run Llama or Mistral on Intel Gaudi2?,entity+relation,Llama; Mistral; Intel; Gaudi2,,1.0,1.0
+q102,factual,Can running a 70B model on Intel Gaudi2 require multiple accelerators?,entity,Intel; Gaudi2,,1.0,1.0
+q103,relational,Which models did FlexAI test its MLPerf-based benchmarking tool on?,entity,MLPerf,,1.0,1.0
+q105,temporal,On what date did AI technology stocks fall sharply following DeepSeek's breakthrough?,entity,DeepSeek,,0.0,0.0
+q106,analytical,Why did DeepSeek make AI stocks fall?,entity,DeepSeek,,0.0,0.0
+q107,comparative,Which smaller Jais model outperformed a larger Jais model on OALL v2?,entity,Jais,outperforms,1.0,1.0
+q108,analytical,Why might 7B AceGPT and Jais models have lower relative performance on OALL v2?,entity,Jais,,1.0,1.0
+q109,comparative,What is Qwen2.5-Omni good and bad at?,entity,Qwen,,0.3333,0.3333
+q111,comparative,How much training data did Bamba-9B use compared with other Mamba models?,entity,Bamba-9B,,1.0,1.0
+q112,factual,Which architecture does Bamba-9B use?,entity,Bamba-9B,,1.0,1.0
+q113,comparative,Is DeepSeek more hawkish than other AI models on foreign policy?,entity,DeepSeek,,1.0,1.0
+q115,factual,Which sampling settings should I use for Qwen3 in thinking mode?,entity,qwen3,,1.0,1.0
+q121,factual,Can I run Alibaba's Wan2.1-VACE video model on a consumer GPU?,entity,Alibaba; Wan,runs on,1.0,1.0
+q122,temporal,When did Alibaba introduce its VACE framework?,entity,Alibaba,,0.3333,0.3333
+q123,relational,Which model is MedGemma based on?,entity+relation,Gemma,member of family; based on,0.5,0.5
+q124,factual,Which Transformers version do I need for MedGemma?,entity,Transformers; Gemma,,1.0,1.0
+q125,relational,How does OpenAI keep its open-weight gpt-oss models safe?,entity+relation,OpenAI; gpt-oss,,0.0,0.0
+q130,analytical,Why did Meta invest in Scale AI?,entity+relation,Meta; Scale AI,invested in,0.3333,1.0
+q131,relational,Which university is known for producing start-ups like DeepSeek?,entity,DeepSeek,,0.2,0.2
+q133,factual,How much data was Llama Nemotron Nano VL trained on?,entity,Llama; Nemotron,,1.0,1.0
+q134,analytical,Why is Llama Nemotron Nano VL good at reading documents?,entity,Llama; Nemotron,,1.0,1.0
+q137,relational,Which base models are Skywork's reward models built on?,text,,member of family; based on,1.0,1.0
+q138,factual,How much data did Skywork keep to train Skywork-Reward-V2?,text,,,1.0,1.0
+q145,comparative,How is Grok 2.5's mixture-of-experts design different from Qwen3 and DeepSeek?,entity,Grok (open releases); qwen3; DeepSeek,,1.0,1.0
+q146,factual,Does Grok 2.5 use a shared expert?,entity,Grok (open releases),,0.5,0.5
+q147,relational,Which model is Sarvam-Translate built on?,entity+relation,Sarvam,member of family; based on,0.5,0.5
+q148,factual,How many translation requests does the Sarvam-Translate API handle each week?,entity,Sarvam,,1.0,1.0
+q149,analytical,Why do some US startups still use DeepSeek?,entity,DeepSeek,,0.1429,0.1429
+q151,comparative,How is gpt-oss's attention different from Qwen3's?,entity,gpt-oss; qwen3,,1.0,1.0
+q152,temporal,When were attention bias units last used before gpt-oss?,entity,gpt-oss,,1.0,1.0
+q157,temporal,When did OpenAI last release an open-weight model before gpt-oss?,entity+relation,OpenAI; gpt-oss,,0.125,0.1111
+q158,comparative,Is gpt-oss open source?,entity,gpt-oss,,0.1,0.1
+q159,relational,Which model is NVIDIA-Nemotron-Nano-12B-v2 based on?,entity+relation,NVIDIA; Nemotron-Nano-12B,member of family; based on,0.3333,0.5
+q160,comparative,Does turning off reasoning hurt the accuracy of Nemotron Nano 12B v2?,entity,Nemotron-Nano-12B,,1.0,1.0
+q163,relational,Did NVIDIA work with OpenAI on its open models?,entity,NVIDIA; OpenAI,,0.0667,0.0667
+q165,temporal,When did Google release EmbeddingGemma?,entity+relation,Google; Gemma,,1.0,0.5
+q166,factual,How much memory does EmbeddingGemma need?,entity,Gemma,,1.0,1.0
+q167,relational,Which models were used to build the Welsh language model?,entity,Welsh,,1.0,1.0
+q168,analytical,How did the UK-LLM team get enough Welsh training data?,entity,UK; Welsh,,1.0,1.0
+q169,analytical,What makes Qwen3-Next so fast?,entity,qwen3; Next,,0.125,0.2
+q171,relational,Which hardware was FunctionGemma trained on?,entity+relation,Gemma,runs on,0.5,0.5
+q173,relational,Does Red Hat AI 3 use Meta's Llama Stack?,entity+relation,Red Hat AI; Meta; Llama,,0.3333,0.3333
+q175,comparative,Did China download more AI models than the US in 2025?,entity,China,available on,0.5,0.5
+q179,comparative,How did GPT-OSS-20b perform in Microsoft's Magentic Marketplace simulation?,entity,gpt-oss-20B; Microsoft,,1.0,1.0
+q181,comparative,How does China's AI compute compare with the US?,entity,China,,0.3333,0.3333
+q182,temporal,When did DeepSeek launch the low-cost model that showed Chinese firms could work around US export controls?,entity,DeepSeek,,0.0526,0.0526
+q183,relational,Who raised the biggest early-stage AI rounds in Europe in Q3 2025?,entity,Europe; Q3,,1.0,1.0
+q186,factual,What is NVIDIA's Nemotron Labs series about?,entity+relation,NVIDIA; Nemotron,,0.0909,0.0909
+q187,comparative,Does Kimi K2 Thinking use a lot of tokens?,entity,Kimi,,0.3333,0.3333
+q188,factual,How does Kimi K2 Thinking use tools?,entity,Kimi,,1.0,1.0
+q190,relational,Who trained Apertus?,entity,Apertus,developed by,0.3333,1.0
+q191,factual,Which open-source models can I fine-tune in Microsoft Foundry?,entity,Microsoft Foundry,founded by,0.5,0.5
+q192,factual,Which format does Microsoft Foundry need for fine-tuning data?,entity,Microsoft Foundry,founded by,1.0,1.0
+q194,comparative,Is DeepSeek V3.2 as good as GPT-5?,entity,DeepSeek; GPT-5,,1.0,1.0
+q196,relational,Which models did Amazon compare Nova with?,entity+relation,Amazon; Nova,,1.0,1.0
+q197,temporal,Which Common Crawl data was Nemotron 3 Nano trained on?,entity,Common Crawl; Nemotron,,0.2,0.2
+q198,analytical,Why was Nemotron 3 Nano's multilingual data only filtered with heuristics?,entity,Nemotron,,1.0,1.0
+q199,analytical,Why is rnj-1-instruct only lightly post-trained?,text,,,1.0,1.0
+q200,factual,How were GPT OSS 20B and Qwen 3 8B configured in the rnj-1 evaluation?,entity,gpt-oss-20B; Qwen,,1.0,1.0
+q201,temporal,When did Wang take over Meta's TBD Lab?,entity,Wang; Meta; TBD Lab,,1.0,1.0
+q202,analytical,Why did Chris Cox stop leading Meta's AI division?,entity+relation,Chris Cox; Meta,,1.0,1.0
+q203,analytical,Do DeepSeek-R1-Zero's thinking tokens show how it really reasons?,entity,DeepSeek,,0.5,0.5
+q204,factual,How is DeepSeek-R1-Zero rewarded during training?,entity,DeepSeek,,1.0,1.0
+q205,temporal,When did NVIDIA unveil its Rubin platform?,entity,NVIDIA; Rubin platform,available on,1.0,1.0
+q206,comparative,How much cheaper is token generation on NVIDIA Rubin?,entity,NVIDIA; Rubin,,0.0909,0.125
+q207,comparative,In which countries is DeepSeek used the most?,entity,DeepSeek,,1.0,1.0
+q208,analytical,"Why did DeepSeek gain large market shares in countries such as Russia, Iran and Belarus?",entity,DeepSeek; Russia; Iran; Belarus,,1.0,1.0
+q209,temporal,When did Google update MedGemma?,entity+relation,Google; Gemma,,0.25,1.0
+q210,relational,How can developers scale MedGemma?,entity,Gemma,,0.2,0.2
+q211,relational,What does the head of Alibaba's Qwen team think of China's chances to overtake the US in AI?,entity+relation,Alibaba; Qwen; China,,0.3333,0.25
+q214,factual,Did Google publish a safety report for EmbeddingGemma?,entity+relation,Google; Gemma,,1.0,1.0
+q216,analytical,Why are Zhipu AI and MiniMax losing money?,entity,GLM; MiniMax,,1.0,1.0
+q217,relational,Which AI technologies did Capgemini use for its green jobs assistant?,entity,Capgemini,,1.0,1.0
+q219,relational,Which Gemma model can I use to build a personal AI coding assistant?,entity,Gemma,,1.0,1.0
+q220,factual,What hardware do I need to run Gemma 2 2B for a personal AI coding assistant?,entity,Gemma-2 2B,runs on,1.0,1.0
+q221,comparative,Is Ministral 3 8B as good as bigger models?,entity,Ministral 3 8B,,1.0,1.0
+q223,factual,What context length does Qwen3.5 support?,entity,Qwen,supported by,0.5,0.5
+q224,relational,Which version of SGLang is needed to serve Qwen3.5?,entity+relation,SGLang; Qwen,member of family,0.5,1.0
+q225,analytical,Why are small reasoning models like Phi-4-reasoning-vision useful for AI agents?,entity,Phi,,1.0,1.0
+q226,comparative,What did Microsoft's Phi-4-reasoning-vision paper suggest about data quality versus architecture?,entity+relation,Microsoft; Phi,,1.0,0.5
+q227,relational,Which model does the Blythe Doll AI Generator use?,text,,,1.0,1.0
+q228,factual,Is the Blythe Doll AI Generator free?,text,,,1.0,1.0
+q229,temporal,When did Devendra Singh Chaplot join xAI?,entity+relation,Devendra Singh Chaplot; xAI,,1.0,1.0
+q230,relational,Which AI companies did Devendra Singh Chaplot help found?,entity,Devendra Singh Chaplot,founded by,1.0,1.0
+q231,relational,How did NVIDIA make Nemotron 3 Nano 4B?,entity,NVIDIA; Nemotron 3 Nano 4B,,0.3333,1.0
+q233,relational,Can I use NVIDIA Nemotron models in Microsoft Foundry?,entity+relation,NVIDIA; Nemotron; Microsoft Foundry,founded by,0.1,0.1667
+q235,comparative,What is the difference between MLA and DeepSeek Sparse Attention?,entity+relation,MLA; DeepSeek,,1.0,1.0
+q236,factual,How does DeepSeek Sparse Attention choose which tokens to look at?,entity,DeepSeek,,1.0,1.0
+q237,factual,Does distilling Gemma into another model count as a Gemma derivative?,entity,Gemma,distilled from,1.0,1.0
+q238,comparative,Are Gemma's outputs considered model derivatives?,entity,Gemma,,1.0,1.0
+q239,factual,How much did it cost to build Llama 3.1?,entity,Llama,,0.0,0.0
+q240,temporal,How much compute did Meta plan to have by the end of 2024?,entity,Meta,,0.5,0.5
+q241,comparative,Does Qwen3.6 still support /think and /nothink?,entity,Qwen,supported by,1.0,1.0
+q242,analytical,Why preserve previous reasoning traces in Qwen3.6 conversations?,entity,Qwen,,1.0,1.0
+q243,relational,Which NVIDIA model and agent system does Aible use on Google Cloud?,entity,NVIDIA; Aible; Google Cloud,,1.0,1.0
+q245,temporal,When did Anthropic accuse DeepSeek of distilling Claude?,entity+relation,Anthropic; DeepSeek; Claude,distilled from,0.5,0.5
+q246,comparative,How did Morningstar analyst Ivan Su compare DeepSeek V4 with R1?,entity+relation,Morningstar; DeepSeek; R1,,0.5,0.5
+q247,relational,Which base model was used to reconstruct the reward model sycophant?,text,,member of family; based on,1.0,1.0
+q248,factual,How many models are in AuditBench?,text,,,1.0,1.0
+q251,comparative,Which Google Cloud service is described as the easiest option for deploying Gemma?,entity+relation,Google Cloud; Gemma,available on,0.5,0.5
+q252,factual,What was Gemini Enterprise called before?,entity,Gemini Enterprise,,0.0556,0.1
+q253,factual,How fast can I generate images with Stable Diffusion on an RTX 4070?,entity,Stable Diffusion / StableLM; RTX,,1.0,1.0
+q254,factual,How much VRAM do I need to run Stable Diffusion locally?,entity,VRAM; Stable Diffusion / StableLM,,0.0909,0.2
+q255,analytical,Why can running Gemma 4 models on GPUs with 24GB of VRAM or less be challenging?,entity+relation,Gemma; VRAM,runs on,1.0,0.5
+q256,factual,What technique can help reduce KV cache memory usage when running Gemma 4 locally?,entity,KV cache; Gemma,,1.0,1.0
+q257,temporal,When did Nemotron 3 Ultra come to Microsoft Foundry?,entity,Nemotron; Microsoft Foundry,founded by,1.0,1.0
+q258,relational,Which NVIDIA open models were highlighted as available on Microsoft Foundry in the June 2026 announcement?,entity+relation,NVIDIA; Microsoft Foundry,founded by; available on,0.3333,1.0
+q259,analytical,Why are companies fine-tuning small open-source models?,text,,,0.0,0.0
+q260,temporal,What shift in enterprise LLM adoption is described alongside the rise of smaller open-source models?,text,,used by,1.0,1.0
+q263,relational,Which model powers the Polish recycling assistant Gdzie to wyrzucić?,text,,,1.0,1.0
+q265,comparative,"How did Meta's approach to open-weight models differ between Llama and Muse Spark, according to Krish Subramanian?",entity+relation,Meta; Llama; Muse Spark,,0.1111,0.1111
+q267,comparative,How fast is DiffusionGemma compared with other Gemma 4 models on an H100?,entity,Gemma; H100,,1.0,1.0
+q268,analytical,What is the main performance advantage of DiffusionGemma?,entity,Gemma,,1.0,1.0
+q269,analytical,Why does Mistral OCR4 produce text unrelated to the document when the fonts are small?,entity,Mistral,,1.0,1.0
+q271,factual,Can Mistral Medium 3 run on a single node?,entity+relation,Mistral,runs on,1.0,1.0
+q272,analytical,Is Mistral OCR (25.05) good for scientific papers?,entity,Mistral,,1.0,1.0
+q273,temporal,When is Kimi K3 going open-weight?,entity,Kimi,,0.0909,0.0909
+q274,comparative,How does Alibaba's Qwen3.8 launch compare with Moonshot's Kimi K3 launch?,entity+relation,Alibaba; Qwen; MoonShot AI; Kimi,,1.0,0.3333
+q275,factual,How did Z.ai's revenue and losses change in 2025?,entity,Zhipu AI (Z.ai),,1.0,1.0
+q277,relational,Can I use Llama Guard with Inkling-Small?,entity,Llama; Inkling-Small,,1.0,1.0
+q278,comparative,Is Inkling-Small riskier than other open-weight models?,entity,Inkling-Small,,1.0,1.0
+q283,relational,How is CrowdStrike using Nemotron Nano?,entity,CrowdStrike; Nemotron,,0.3333,0.3333
+q284,temporal,When did Mistral release Shieldstral?,entity,Mistral,,0.0,0.0
+q285,relational,What is Qwen3.8 based on?,entity+relation,Qwen,member of family; based on,1.0,1.0
+q286,relational,Which Qwen versions came before Qwen3.8?,entity,Qwen,,1.0,1.0
+q287,comparative,How does Kimi K3 compare with the top models from Anthropic and OpenAI?,entity,Kimi; Anthropic; OpenAI,,0.0769,0.1
+q289,comparative,How much does multi-token prediction speed up Nemotron 3.5 Lightning?,entity,Nemotron,,1.0,1.0
+q290,factual,Do I need to train a draft model for speculative decoding with Nemotron 3.5 Lightning?,entity,Nemotron,,0.5,0.5
+q293,temporal,When did QwQ 32B and Gemma 3 27B come out?,entity,QwQ-32B; Gemma 3 27B,,1.0,1.0
+q294,comparative,"Which is better for coding: QwQ 32B, Gemma 3 or DeepSeek R1?",entity,QwQ-32B; Gemma; DeepSeek,,1.0,1.0
+q295,temporal,When did Meta release Muse Glimmer?,entity+relation,Meta; Muse Glimmer,,0.1429,0.5
+q296,factual,How fast is Muse Glimmer on an RTX 5090?,entity,Muse Glimmer; RTX 5090,,1.0,1.0
+q299,relational,Which Qwen product will Alibaba work with to launch e-commerce AI agents?,entity+relation,Qwen; Alibaba,,0.5,0.5
+q301,temporal,When was the first Llama model unveiled?,entity,Llama,,0.25,0.25
+q302,temporal,"When was Exo Labs, the startup running open models locally on Mac clusters, founded?",entity,Mac,founded by,1.0,1.0
+q303,temporal,When did DeepSeek first launch an open-source language model?,entity,DeepSeek,,0.0,0.0
+q304,temporal,When did DeepSeek introduce DeepSeek-R1-Zero?,entity,DeepSeek,,0.125,0.125
+q305,temporal,When did Multiverse Computing release its compressed versions of Llama 3.1-8B and Llama 3.3-70B?,entity,Multiverse Computing; Llama 3.1 8B; Llama 3.3 70B,,1.0,1.0
+q306,temporal,When did Mistral first launch Codestral?,entity,Mistral,,1.0,1.0
+q308,temporal,When did OpenAI stop releasing its large language model weights?,entity,OpenAI,,0.3333,0.3333
+q309,temporal,When did Mistral AI announce its flagship Mistral 3 model?,entity,Mistral AI; Mistral,,0.0,0.0
+q310,temporal,When did Nvidia release its first Nemotron open model?,entity+relation,NVIDIA; Nemotron,,0.5,1.0
+q313,temporal,"Before Kimi K3, when had an open model last come this close to the state of the art?",entity,Kimi,,1.0,1.0

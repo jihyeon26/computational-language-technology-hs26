@@ -1,0 +1,69 @@
+{
+  "baseline": "rag_settings.json of WP1 (corpus, chunks, embeddings, retrieval, generation, model)",
+  "knowledge_graph": {
+    "nodes": "kg_v2/nodes.parquet",
+    "relations": "kg_v2/typed_edges_assertions.parquet",
+    "relations_used": 4190,
+    "entity_mentions": "stage1_wp2/entity_mentions.csv"
+  },
+  "linking": {
+    "named_types": [
+      "AI_MODEL",
+      "BENCHMARK",
+      "COMPANY",
+      "DATASET",
+      "FOUNDATION_MODEL",
+      "GPE",
+      "HARDWARE",
+      "LAW",
+      "LICENSE",
+      "ORG",
+      "PERSON",
+      "PLATFORM",
+      "PRODUCT",
+      "STANDARD",
+      "TECHNOLOGY"
+    ],
+    "family_patterns": "WP1 lexicon",
+    "exceptions": {
+      "Llama": "\\bLlama[\\w.\\- ]{0,15}?(?:Nemotron|Stack)\\b|\\bLlamaCon\\b"
+    }
+  },
+  "fusion": {
+    "rankings": [
+      "text",
+      "entity",
+      "relation"
+    ],
+    "rrf_k": 60,
+    "entity_pool": 100,
+    "size": 30
+  },
+  "prompt": {
+    "graph_facts": "evidence chunk among the prompt passages",
+    "max_facts": 5,
+    "lexicon_facts": "not used"
+  },
+  "intents": [
+    "acquired by",
+    "announced by",
+    "available on",
+    "based on",
+    "developed by",
+    "distilled from",
+    "founded by",
+    "headquartered in",
+    "integrated into",
+    "invested in",
+    "licensed under",
+    "manufactured by",
+    "member of family",
+    "outperforms",
+    "released by",
+    "runs on",
+    "subsidiary of",
+    "supported by",
+    "used by",
+    "works for"
+  ]
+}
