@@ -1,9 +1,8 @@
 {
   "baseline": "rag_settings.json of WP1 (corpus, chunks, embeddings, retrieval, generation, model)",
   "knowledge_graph": {
-    "nodes": "kg_v2/nodes.parquet",
-    "relations": "kg_v2/typed_edges_assertions.parquet",
-    "relations_used": 4190,
+    "graph": "knowledge graph v2 (Section 1, outputs/stage3_kg_v2)",
+    "relations_used": 4173,
     "entity_mentions": "stage1_wp2/entity_mentions.csv"
   },
   "linking": {

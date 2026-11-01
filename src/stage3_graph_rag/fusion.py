@@ -35,8 +35,10 @@ INTENTS: dict[str, re.Pattern] = {
     "used by": re.compile(r"\b(?:who uses|used by|adopt\w*|customers?)\b", re.I),
     "manufactured by": re.compile(r"\b(?:manufactur\w*|who makes the chips?)\b", re.I),
 }
-# Competition is not answered from the graph: the relation could not be checked sentence by sentence (KG v2)
-COMPETITION = re.compile(r"\b(?:compet\w*|rival\w*)\b", re.I)
+# Competition and comparison questions ask how entities stand against each other, which passages describe: they get no
+# relation ranking (`competes with` could not be checked sentence by sentence and is not in the retrieval graph)
+COMPARISON = re.compile(r"\b(?:compet\w*|rival\w*|compar\w*|versus|vs\.?|better|worse|faster|slower|cheaper|differ\w*)\b",
+                        re.I)
 _WORD = re.compile(r"[a-z0-9]+(?:\.[0-9]+)?")
 _STOP = set("a an and are as at be by can could did do does for from has have how in is it its of on or that the "
             "their them they this to was were what when where which who why will with".split())
@@ -82,7 +84,8 @@ class GraphTextRetriever:
     The relations are returned as graph facts with their article, date and chunk; `facts_in_context` keeps those
     whose chunk is among the passages given to the model, so every fact in a prompt comes with its source sentence.
 
-    Without a linked entity, the result is the text ranking. Competition questions get no relation ranking.
+    Without a linked entity, the result is the text ranking. Competition and comparison questions get no relation
+    ranking.
     Lexicon facts (`background`) are returned for inspection but are not evidence: they have no source article."""
 
     def __init__(self, linker: EntityLinker, assertions: pd.DataFrame, mentions: pd.DataFrame,
@@ -128,7 +131,7 @@ class GraphTextRetriever:
         return None
 
     def relation_candidates(self, question: str, seeds: list[str]) -> pd.DataFrame:
-        if not seeds or COMPETITION.search(question):
+        if not seeds or COMPARISON.search(question):
             return self.assertions.iloc[0:0]
         seed_set = set(seeds)
         edges = self.assertions[self.assertions["subject_id"].isin(seed_set)
