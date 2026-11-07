@@ -79,3 +79,6 @@ outputs/
 # Exception: Stage 3 WP3 evaluation outputs are versioned
 !artifacts/stage3_wp3/
 !artifacts/stage3_wp3/**
+
+# macOS folder metadata (also inside the whitelisted artifact folders)
+**/.DS_Store
