@@ -75,3 +75,7 @@ outputs/
 # Exception: Stage 3 WP2 knowledge graph revision outputs are versioned
 !artifacts/stage3_wp2/
 !artifacts/stage3_wp2/**
+
+# Exception: Stage 3 WP3 evaluation outputs are versioned
+!artifacts/stage3_wp3/
+!artifacts/stage3_wp3/**

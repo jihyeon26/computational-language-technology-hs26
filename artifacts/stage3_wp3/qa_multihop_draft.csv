@@ -1,0 +1,673 @@
+qa_id,category,type,question,reference_answer,evidence,source_ids,passage_ids,dates,titles,passage_texts,review_status,review_note,reviewer
+m01,multi-hop,factual,"How much did Meta reportedly spend on developing Llama 3.1, the model family that SambaNova serves at more than 100 tokens per second?","About $170 million (excluding data acquisition and labour), according to a 2026 article; SambaNova reported running the Llama 3.1 405B model at more than 100 tokens per second on its cloud service.","[doc_399b320253_p01] When Meta released its Llama 3.1 model in 2024, estimates placed the development cost at approximately $ 170 million, excluding data acquisition and labour.
+[doc_3f5ee378c1_p04] The SambaNova Cloud service can run the 405B — the largest open generative AI model — at more than 100 tokens pers second, a key measurement for AI workloads.","[""doc_399b320253"", ""doc_3f5ee378c1""]","[""doc_399b320253_p01"", ""doc_3f5ee378c1_p04""]",2026-04-04; 2024-09-13,"[doc_399b320253_p01] When Investment Becomes Revenue
+[doc_3f5ee378c1_p04] Small AI Chip Makers Eye Gains in Inference Workloads","[doc_399b320253_p01 · 2026-04-04 · When Investment Becomes Revenue]
+The pattern repeats across the industry with mechanical precision. Major AI companies have engineered closed-loop financial ecosystems where investment, infrastructure ownership, and demand circulate among the same dominant players. The roles of customer, supplier, and investor have blurred into an indistinguishable whole. And while each deal, examined individually, makes perfect strategic sense, the cumulative effect raises questions that go beyond competition policy into something more fundamental: when organic growth becomes structurally indistinguishable from circular capital flows, how do we measure genuine market validation, and at what point does strategic vertical integration transition from competitive advantage to barriers that fundamentally reshape who gets to participate in building the AI-powered future?
+
+To understand how we arrived at this moment, you have to appreciate the sheer capital intensity of frontier AI development. When Meta released its Llama 3.1 model in 2024, estimates placed the development cost at approximately $ 170 million, excluding data acquisition and labour. That's just one model, from one company. Meta announced plans to expand its AI infrastructure to compute power equivalent to 600,000 Nvidia H100 GPUs by the end of 2024, representing an $ 18 billion investment in chips alone.
+
+[doc_3f5ee378c1_p04 · 2024-09-13 · Small AI Chip Makers Eye Gains in Inference Workloads]
+“ Both Grok and Cerebras are taking what I would consider to be an incredibly inefficient approach to running these models, ” McGonnell said. “ They’re just mapping it to SRAM. The weights of the models are stored on SRAM and the only way to do that is to have lots and lots and lots of chips. ”
+
+Instead, SambaNova can run all three Llama 3.1 models on a single 16-socket node server, and performance isn’t impacted if more models are loaded onto the server. In addition, SambaNova is the first to offer the 405B model to developers, according to company officials, because its chip is more efficient and faster. The SambaNova Cloud service can run the 405B — the largest open generative AI model — at more than 100 tokens pers second, a key measurement for AI workloads. The 70B model can run at up to 580 tokens per second.",,,
+m02,multi-hop,relational,"Which Meta model is Nvidia's Nemotron-70B built on, and which enterprise software companies were expected to be the first users of the Llama Nemotron family announced in January 2025?",Nemotron-70B (Llama-3.1-Nemotron-70B-Instruct) is based on Meta's Llama-3.1-70B-Instruct; SAP and ServiceNow were expected to be among the first to use the Llama Nemotron models.,"[doc_96a2831197_p00] Launched on Hugging Face on Oct. 15, the new Nvidia model is called Llama-3.1-Nemotron-70B-Instruct and is based on Meta’s open source Llama foundation models, specifically Llama-3.1-70B-Instruct Base.
+[doc_09fbfcf3c7_p02] Leading AI agent platform providers including SAP and ServiceNow are expected to be among the first to use the new Llama Nemotron models.","[""doc_96a2831197"", ""doc_09fbfcf3c7""]","[""doc_96a2831197_p00"", ""doc_09fbfcf3c7_p02""]",2024-10-23; 2025-01-07,"[doc_96a2831197_p00] Nvidia’s Newest Foundation Model Can Actually Spell ‘ Strawberry’
+[doc_09fbfcf3c7_p02] NVIDIA Announces Nemotron Model Families to Advance Agentic AI","[doc_96a2831197_p00 · 2024-10-23 · Nvidia’s Newest Foundation Model Can Actually Spell ‘ Strawberry’]
+A new AI model from Nvidia knows just how many R’s are in the word strawberry, a feat that OpenAI’s GPT-4o model has yet to achieve. In what is known as the “ strawberry problem, ” GPT-4o and a few other established models often give the false answer that ‘ strawberry’ only has two R’s.
+
+Launched on Hugging Face on Oct. 15, the new Nvidia model is called Llama-3.1-Nemotron-70B-Instruct and is based on Meta’s open source Llama foundation models, specifically Llama-3.1-70B-Instruct Base. The Llama series of AI models were designed as open source foundations for developers to build upon.
+
+The Hugging Face model page asserts that Nemotron-70B surpasses GPT-4o and Anthropic’s Claude 3.5 Sonnet on a few different benchmarks. Nemotron-70B scores 85.0 on the Chatbot Arena Hard benchmark, 57.6 on AlpacaEval 2 LC, and 8.98 on the GPT-4-Turbo MT-Bench. The page also notes that Nemotron-70B was fine-tuned using reinforcement learning from human feedback, as well as a new alignment technique from Nvidia called HelpSteer2-preference which the company says trains the model to more closely follow instructions.
+
+[doc_09fbfcf3c7_p02 · 2025-01-07 · NVIDIA Announces Nemotron Model Families to Advance Agentic AI]
+Llama Nemotron models are pruned and trained with NVIDIA’s latest techniques and high-quality datasets for enhanced agentic capabilities. They excel at instruction following, chat, function calling, coding and math, while being size-optimized to run on a broad range of NVIDIA accelerated computing resources.
+
+“ Agentic AI is the next frontier of AI development, and delivering on this opportunity requires full-stack optimization across a system of LLMs to deliver efficient, accurate AI agents, ” said Ahmad Al-Dahle, vice president and head of GenAI at Meta. “ Through our collaboration with NVIDIA and our shared commitment to open models, the NVIDIA Llama Nemotron family built on Llama can help enterprises quickly create their own custom AI agents. ”
+
+Leading AI agent platform providers including SAP and ServiceNow are expected to be among the first to use the new Llama Nemotron models.",,,
+m03,multi-hop,relational,What is the lineage of Nvidia's Nemotron 3 Nano 4B: which models was it derived from?,Nemotron 3 Nano 4B was created by pruning and distilling Nemotron Nano 9B v2 (with the Nemotron Elastic framework); Nemotron Nano 9B v2 was itself a compressed version of NVIDIA-Nemotron-Nano-12B-v2.,"[doc_ec832cf267_p02] The model was created by pruning and distilling Nvidia’s larger Nemotron Nano 9B v2 using the Nemotron Elastic framework, which uses a router to determine optimal pruning decisions across depth, Mamba heads, FFN channels, and hidden dimensions simultaneously, instead of requiring separate compression stages.
+[doc_0c5914793b_p00] The model was fine-tuned from NVIDIA-Nemotron-Nano-12B-v2-Base was further compressed into NVIDIA-Nemotron-Nano-9B-v2.","[""doc_ec832cf267"", ""doc_0c5914793b""]","[""doc_ec832cf267_p02"", ""doc_0c5914793b_p00""]",2026-03-18; 2025-08-21,"[doc_ec832cf267_p02] Data Points: Nvidia’s enterprise-focused NemoClaw gives OpenClaw a security boost
+[doc_0c5914793b_p00] nvidia/NVIDIA-Nemotron-Nano-12B-v2 · Hugging Face","[doc_ec832cf267_p02 · 2026-03-18 · Data Points: Nvidia’s enterprise-focused NemoClaw gives OpenClaw a security boost]
+Nvidia released Nemotron 3 Nano 4B, a 4 billion parameter model designed for on-device inference. The model uses a hybrid Mamba-Transformer architecture and achieves state-of-the-art (in its size class) instruction following, tool use, and gaming agency performance while maintaining the lowest VRAM footprint and latency. The model was created by pruning and distilling Nvidia’s larger Nemotron Nano 9B v2 using the Nemotron Elastic framework, which uses a router to determine optimal pruning decisions across depth, Mamba heads, FFN channels, and hidden dimensions simultaneously, instead of requiring separate compression stages. Nvidia released the model in three quantized formats: BF16 for maximum accuracy, FP8 using selective quantization that achieves one point eight times latency improvement, and GGUF Q4 K M for Llama.cpp compatibility. (Hugging Face)
+
+[doc_0c5914793b_p00 · 2025-08-21 · nvidia/NVIDIA-Nemotron-Nano-12B-v2 · Hugging Face]
+NVIDIA-Nemotron-Nano-12B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so, albeit with a slight decrease in accuracy for harder prompts that require reasoning. Conversely, allowing the model to generate reasoning traces first generally results in higher-quality final solutions to queries and tasks. The model was fine-tuned from NVIDIA-Nemotron-Nano-12B-v2-Base was further compressed into NVIDIA-Nemotron-Nano-9B-v2.
+
+NVIDIA-Nemotron-Nano-12B-v2 is a general purpose reasoning and chat model intended to be used in English and coding languages. Other non-English languages (German, French, Italian, Spanish and Japanese) are also supported. Developers designing AI Agent systems, chatbots, RAG systems, and other AI-powered applications. Also suitable for typical instruction-following tasks.",,,
+m04,multi-hop,temporal,"The Welsh-language model built on Nemotron used an OpenAI model to translate its training data. Which model was it, and when had OpenAI released it?","gpt-oss-120b, which the UK-LLM team used (with DeepSeek-R1) to translate Nemotron datasets into Welsh. OpenAI had released gpt-oss-120b and gpt-oss-20b in early August 2025, its first open-weight models since GPT-2 in 2019.","[doc_39a8cc22bd_p03] So to create a sufficiently large Welsh training dataset, the team used NVIDIA NIM microservices for gpt-oss-120b and DeepSeek-R1 to translate NVIDIA Nemotron open datasets with over 30 million entries from English to Welsh.
+[doc_61b578ffc7_p03] Earlier this month, OpenAI released two open-weight language models — its first since GPT-2 in 2019 — marking a significant shift in strategy for the company that has long kept its technology gated behind application programming interfaces, or APIs.","[""doc_39a8cc22bd"", ""doc_61b578ffc7""]","[""doc_39a8cc22bd_p03"", ""doc_61b578ffc7_p03""]",2025-09-14; 2025-08-18,"[doc_39a8cc22bd_p03] Bringing AI to UK Languages With NVIDIA Nemotron
+[doc_61b578ffc7_p03] OpenAI's Altman warns the U.S. is underestimating China's AI threat","[doc_39a8cc22bd_p03 · 2025-09-14 · Bringing AI to UK Languages With NVIDIA Nemotron]
+The new model for Welsh is based on NVIDIA Nemotron, a family of open-source models that features open weights, datasets and recipes. The UK-LLM development team has tapped the 49-billion-parameter Llama Nemotron Super model and 9-billion-parameter Nemotron Nano model, post-training them on Welsh-language data.
+
+Compared with languages like English or Spanish, there’s less available source data in Welsh for AI training. So to create a sufficiently large Welsh training dataset, the team used NVIDIA NIM microservices for gpt-oss-120b and DeepSeek-R1 to translate NVIDIA Nemotron open datasets with over 30 million entries from English to Welsh.
+
+They used a GPU cluster through the NVIDIA DGX Cloud Lepton platform and are harnessing hundreds of NVIDIA GH200 Grace Hopper Superchips on Isambard-AI — the U.K.’s most powerful supercomputer, backed by £225 million in government investment and based at University of Bristol — to accelerate their translation and training workloads.
+
+[doc_61b578ffc7_p03 · 2025-08-18 · OpenAI's Altman warns the U.S. is underestimating China's AI threat]
+""It was clear that if we didn't do it, the world was gon na head to be mostly built on Chinese open source models,"" Altman said. ""That was a factor in our decision, for sure. Wasn't the only one, but that loomed large.""
+
+Earlier this month, OpenAI released two open-weight language models — its first since GPT-2 in 2019 — marking a significant shift in strategy for the company that has long kept its technology gated behind application programming interfaces, or APIs.
+
+The new text-only models, called gpt-oss-120b and gpt-oss-20b, are designed as lower-cost options that developers, researchers, and companies can download, run locally, and customize.
+
+An AI model is considered open weight if its parameters — the values learned during training that determine how the model generates responses — are publicly available. While that offers transparency and control, it's not the same as open source. OpenAI is still not releasing its training data or full source code.",,,
+m05,multi-hop,analytical,"What did DeepSeek claim about the cost of building its model, and what happened to AI stocks on 27 January 2025?","DeepSeek claimed its assistant took two months and about US$6 million to build, on Nvidia's less advanced H800 chips. On 27 January 2025 AI stocks tumbled and over one trillion dollars of market capitalisation was wiped out, on fears that AI infrastructure spending would slow.","[doc_4234250f84_p02] DeepSeek has claimed building its assistant took two months, cost about US $ 6 million and used some of Nvidia’s less-advanced H800 semiconductors rather than the higher computing power needed by other AI models.
+[doc_6798f2bc46_p00] AI stocks were sent tumbling in the computer and technology sector, leading to over one trillion dollars of market capitalization being shaved off the markets on January 27, 2025.","[""doc_4234250f84"", ""doc_6798f2bc46""]","[""doc_4234250f84_p02"", ""doc_6798f2bc46_p00""]",2025-03-13; 2025-04-04,"[doc_4234250f84_p02] New Cohere AI model's performance rivals latest versions of DeepSeek, ChatGPT
+[doc_6798f2bc46_p00] China’s AI Stocks BIDU, BABA Outshine MSFT, GOOGL","[doc_4234250f84_p02 · 2025-03-13 · New Cohere AI model's performance rivals latest versions of DeepSeek, ChatGPT]
+DeepSeek has claimed building its assistant took two months, cost about US $ 6 million and used some of Nvidia’s less-advanced H800 semiconductors rather than the higher computing power needed by other AI models.
+
+The company did not immediately respond to request for comments about how it thinks its product stacks up against Command A or doubts some have raised about DeepSeek’s figures because of the much higher sums being spent by competitors and reports suggesting the company had access to tens of thousands more GPUs than it said it used.
+
+When Cohere tested its model against GPT-4o and DeepSeek-V3 with coding and answering technical questions, it found Command A was in the same league and in some cases, ahead of GPT-4o and DeepSeek-V3.
+
+[doc_6798f2bc46_p00 · 2025-04-04 · China’s AI Stocks BIDU, BABA Outshine MSFT, GOOGL]
+The United States and China are two undisputed global superpowers, not just based on their economies and militaries but also in the artificial intelligence (AI) arms race. China-based DeepSeek caused shockwaves and was a game changer in AI. It revealed how its AI could do just as much or even more at a significantly smaller investment than its counterparts in the United States.
+
+AI stocks were sent tumbling in the computer and technology sector, leading to over one trillion dollars of market capitalization being shaved off the markets on January 27, 2025. The fear was that this revelation could cause AI infrastructure spending to drastically slow down as companies realized they had been overspending.
+
+While there were many disputes about the implications, the belief that a Chinese AI company could make these strides using lower-generation chips was unfathomable. In the AI arms race, the United States has advantages, including the most cutting-edge NVIDIA Co. NASDAQ: NVDA GPUs and ASML Holding N.V. NASDAQ: ASML extreme UV lithography machines capable of producing these chips.",,,
+m06,multi-hop,analytical,Why do Nvidia's Jensen Huang and researcher Sasha Luccioni both expect reasoning models like DeepSeek-R1 to increase AI compute demand rather than reduce it?,"Huang compared DeepSeek R1 with Meta's Llama at GTC: R1 used 150 times more compute and generated 20 times more tokens, and Nvidia expects compute demand to rise 100x. Luccioni warns that if chain-of-thought models are adopted widely, inference energy use would skyrocket and void any efficiency gains.","[doc_c92e8263a9_p01] DeepSeek, as it turns out, used 150 times more compute and generated 20 times more tokens.
+[doc_67dcb9caf4_p07] “ If we started adopting this paradigm widely, inference energy usage would skyrocket, ” she says.","[""doc_c92e8263a9"", ""doc_67dcb9caf4""]","[""doc_c92e8263a9_p01"", ""doc_67dcb9caf4_p07""]",2025-03-18; 2025-01-31,"[doc_c92e8263a9_p01] After DeepSeek, NVIDIA Puts Its Focus on Inference at GTC
+[doc_67dcb9caf4_p07] DeepSeek might not be such good news for energy after all","[doc_c92e8263a9_p01 · 2025-03-18 · After DeepSeek, NVIDIA Puts Its Focus on Inference at GTC]
+Indeed, NVIDIA says it expects demand for AI compute to increase by 100x compared with previous estimates. Interestingly, when Huang wanted to demonstrate how much compute power the new reasoning models will need, he chose to compare Meta’s more traditional Llama model to DeepSeek R1. That was surely no coincidence. DeepSeek, as it turns out, used 150 times more compute and generated 20 times more tokens.
+
+“ Inference at scale is extreme computing, ” Huang said. There is always a trade-off between latency and compute cost to be made here. Either way, Huang argued, the amount of tokens generated will only continue to increase. Training wasn’t completely left out of the keynote, of course, but it was hard to look at a large part of the presentation and not think that at least the first half or so was a reaction to DeepSeek.
+
+[doc_67dcb9caf4_p07 · 2025-01-31 · DeepSeek might not be such good news for energy after all]
+OpenAI just released o3-mini, a reasoning model that’s faster, cheaper, and more accurate than its predecessor.
+
+“ If we started adopting this paradigm widely, inference energy usage would skyrocket, ” she says. “ If all of the models that are released are more compute intensive and become chain-of-thought, then it completely voids any efficiency gains. ”
+
+AI has been here before. Before ChatGPT launched in 2022, the name of the game in AI was extractive—basically finding information in lots of text, or categorizing images. But in 2022, the focus switched from extractive AI to generative AI, which is based on making better and better predictions. That requires more energy.
+
+“ That’s the first paradigm shift, ” Luccioni says. According to her research, that shift has resulted in orders of magnitude more energy being used to accomplish similar tasks. If the fervor around DeepSeek continues, she says, companies might be pressured to put its chain-of-thought-style models into everything, the way generative AI has been added to everything from Google search to messaging apps.",,,
+m07,multi-hop,comparative,"Which attention mechanisms does DeepSeek V3.2 combine, and how did the timing of its release resemble that of DeepSeek V3?","DeepSeek V3.2 combines Multi-head Latent Attention (MLA), which compresses the KV cache, with DeepSeek Sparse Attention, which learns which earlier tokens to revisit. Like V3, it was released over a major US holiday weekend (Thanksgiving 2025).","[doc_1ea34ba049_p18] DeepSeek V3.2 uses both Multi-head Latent Attention (MLA) and DeepSeek Sparse Attention.
+[doc_f02a2aa74e_p00] Similar to DeepSeek V3, the team released their new flagship model over a major US holiday weekend.","[""doc_1ea34ba049"", ""doc_f02a2aa74e""]","[""doc_1ea34ba049_p18"", ""doc_f02a2aa74e_p00""]",2026-03-22; 2025-12-03,"[doc_1ea34ba049_p18] A Visual Guide to Attention Variants in Modern LLMs
+[doc_f02a2aa74e_p00] A Technical Tour of the DeepSeek Models from V3 to V3.2","[doc_1ea34ba049_p18 · 2026-03-22 · A Visual Guide to Attention Variants in Modern LLMs]
+DeepSeek V3.2 uses both Multi-head Latent Attention (MLA) and DeepSeek Sparse Attention. MLA reduces KV-cache cost by compressing what gets stored. DeepSeek Sparse Attention reduces how much of the prior context the model has to revisit. Put differently, one optimizes the cache representation, the other optimizes the attention pattern on top of it.
+
+The sparse pattern is not random. The first stage is a lightning indexer that scores previous tokens for each new query token. It uses MLA’s compressed token representations and computes a learned similarity score over the prior context, so the model can rank which earlier positions are worth revisiting.
+
+The second stage is a token selector. It keeps only a smaller high-scoring subset, for example, a top-k set of past positions, and turns that subset into the sparse attention mask. So the main point is that DeepSeek Sparse Attention does not hard-code the sparsity pattern. It learns which past tokens to keep.
+
+[doc_f02a2aa74e_p00 · 2025-12-03 · A Technical Tour of the DeepSeek Models from V3 to V3.2]
+Similar to DeepSeek V3, the team released their new flagship model over a major US holiday weekend. Given DeepSeek V3.2’s really good performance (on GPT-5 and Gemini 3.0 Pro) level, and the fact that it’s also available as an open-weight model, it’s definitely worth a closer look.
+
+I covered the predecessor, DeepSeek V3, at the very beginning of my The Big LLM Architecture Comparison article, which I kept extending over the months as new architectures got released. Originally, as I just got back from Thanksgiving holidays with my family, I planned to “ just ” extend the article with this new DeepSeek V3.2 release by adding another section, but I then realized that there’s just too much interesting information to cover, so I decided to make this a longer, standalone article.",,,
+m08,multi-hop,comparative,"Which company makes the Kimi models, and how did Kimi K2 Thinking compare with DeepSeek-V3.2 Exp in cost and tokens on the Artificial Analysis Intelligence Index?","Kimi is built by Moonshot (Beijing). Kimi K2 Thinking used 140 million tokens, about 2.5 times the 62 million of DeepSeek-V3.2 Exp, and cost $356 to run the Intelligence Index, roughly 9 times the $41 of DeepSeek-V3.2 Exp.","[doc_dea6b0af33_p07] Moonshot is best known for building Kimi, the second-most-popular AI chatbot in China, just after ByteDance’s Doubao, with over 13 million users.
+[doc_d5b78f2aec_p07] To run the Intelligence Index tests, Kimi K2 Thinking ($ 356) was around 2.5 times less expensive than GPT-5 set to high reasoning ($ 913), but roughly 9 times pricier than DeepSeek-V3.2 Exp ($ 41).","[""doc_dea6b0af33"", ""doc_d5b78f2aec""]","[""doc_dea6b0af33_p07"", ""doc_d5b78f2aec_p07""]",2025-02-04; 2025-11-19,"[doc_dea6b0af33_p07] Four Chinese AI startups to watch beyond DeepSeek
+[doc_d5b78f2aec_p07] Self-Driving On U.S. Freeways, Open LLM Tops Agentic Leaderboard, Anthropic Sparks Controversy, and more...","[doc_dea6b0af33_p07 · 2025-02-04 · Four Chinese AI startups to watch beyond DeepSeek]
+With a valuation over $ 2 billion after its newest round of fundraising, Baichuan is currently among the biggest AI startups in China.
+
+Founded by AI veteran Yan Junjie, Minimax is best known for its product Talkie, a companion chatbot available around the world. The platform provides various characters users can chat with for emotional support or entertainment, and it had even more downloads last year than leading competitor chatbot platform Character.ai.
+
+Chinese media outlet 36Kr reported that Minimax’s revenue in 2024 was around $ 70 million, making it one of the most successful consumer-facing Chinese AI startups in the global market.
+
+Moonshot is best known for building Kimi, the second-most-popular AI chatbot in China, just after ByteDance’s Doubao, with over 13 million users. Released in 2023, Kimi supports input lengths of over 200,000 characters, making it a popular choice among students, white-collar workers, and others who routinely have to work with long chunks of text.
+
+[doc_d5b78f2aec_p07 · 2025-11-19 · Self-Driving On U.S. Freeways, Open LLM Tops Agentic Leaderboard, Anthropic Sparks Controversy, and more...]
+How it works: Rather than completing all reasoning steps before acting, Kimi K2 Thinking executes cycles of reasoning and tool use. This enables it to adjust continually depending on interim reasoning steps or results of tool calls.
+
+Results: Kimi K2 Thinking leads open-weights LLMs in several benchmarks and achieves state-of-the-art results on some agentic tasks. However, it generates many more tokens than most competitors to achieve a comparable performance.
+
+Yes, but: Kimi K2 Thinking used 140 million tokens to complete Artificial Analysis’ Intelligence Index evaluations, more than any other LLM tested, roughly 2.5 times the number used by DeepSeek-V3.2 Exp (62 million) and double that of GPT-5 Codex set to high reasoning (77 million). To run the Intelligence Index tests, Kimi K2 Thinking ($ 356) was around 2.5 times less expensive than GPT-5 set to high reasoning ($ 913), but roughly 9 times pricier than DeepSeek-V3.2 Exp ($ 41).",,,
+m09,multi-hop,factual,"What actions did Microsoft and Anthropic take against DeepSeek, as reported in early 2026?","Microsoft banned its own employees from using DeepSeek, and its January 2026 report found DeepSeek's adoption low in North America and Europe but 89% market share in China. In February 2026 Anthropic accused DeepSeek and two other Chinese labs of industrial-scale distillation campaigns to extract Claude's capabilities.","[doc_be08f0469b_p04] Microsoft last year banned its own employees from using DeepSeek.
+[doc_5051a491a0_p04] In February, Anthropic accused DeepSeek and two other China-based AI laboratories of “ industrial-scale campaigns ” to “ illicitly extract Claude’s capabilities to improve their own models. ”","[""doc_be08f0469b"", ""doc_5051a491a0""]","[""doc_be08f0469b_p04"", ""doc_5051a491a0_p04""]",2026-01-08; 2026-04-24,"[doc_be08f0469b_p04] DeepSeek's AI gains traction in developing nations, Microsoft report says
+[doc_5051a491a0_p04] China's DeepSeek launches an update of its AI model","[doc_be08f0469b_p04 · 2026-01-08 · DeepSeek's AI gains traction in developing nations, Microsoft report says]
+Developed countries including Australia, Germany and the U.S. have sought to limit the use of DeepSeek over alleged security risks. Microsoft last year banned its own employees from using DeepSeek. Adoption of DeepSeek remained low in North America and Europe, the report found, but it surged in its home country China, as well as Russia, Iran, Cuba, Belarus – places where U.S. services face restrictions or where foreign tech access is limited.
+
+In many places, DeepSeek’s prevalence correlated with it being a default chatbot on widely available phones made by Chinese tech companies like Huawei.
+
+DeepSeek’s market share in China was 89%, the report estimated. That’s followed by Belarus’s 56% and Cuba’s 49%, both of which also had low AI adoption more broadly. In Russia, its market share was around 43%.
+
+[doc_5051a491a0_p04 · 2026-04-24 · China's DeepSeek launches an update of its AI model]
+However, some analysts remain skeptical. Ivan Su, a senior equity analyst at Morningstar, said while V4 is a “ competent ” follow-up, it’s not as big a breakthrough as the rollout of R1.
+
+“ Domestic competition has intensified significantly since R1’s release, ” Su said. “ Against U.S. models, DeepSeek’s own evaluation suggests its capabilities largely match on most fronts, but independent evaluations are needed before final conclusions can be drawn. ”
+
+In February, Anthropic accused DeepSeek and two other China-based AI laboratories of “ industrial-scale campaigns ” to “ illicitly extract Claude’s capabilities to improve their own models. ” It said they did that using a technique called distillation that “ involves training a less capable model on the outputs of a stronger one. ” OpenAI made similar allegations in a letter to U.S. lawmakers.",,,
+m10,multi-hop,relational,"Which models did Google and its partners build on Gemma 3 after its launch in March 2025, and what are they for?","MedGemma, Google's open medical models, use the Gemma 3 architecture; EmbeddingGemma (released 4 September 2025) is a 308M-parameter on-device embedding model based on Gemma 3; and Sarvam built Sarvam-Translate on Gemma 3 for translation across 22 Indian languages.","[doc_fe04506d39_p01] The company launched its new Gemma 3 this month, which is a collection of lightweight, open models for customers and developers to build AI applications capable of running on anything.
+[doc_b24d8fdc02_p02] The MedGemma model is built based on Gemma 3 and uses the same decoder-only transformer architecture as Gemma 3.
+[doc_646aa465af_p00] Based on the Gemma 3 architecture, it was trained on over 100 languages.
+[doc_53ccae0628_p01] Sarvam has used Gemma 3 to build its recently-released translation model, Sarvam-Translate, an open-source model delivering accurate, context-rich translations for long-form across all 22 officially-recognized Indian languages.","[""doc_fe04506d39"", ""doc_b24d8fdc02"", ""doc_646aa465af"", ""doc_53ccae0628""]","[""doc_fe04506d39_p01"", ""doc_b24d8fdc02_p02"", ""doc_646aa465af_p00"", ""doc_53ccae0628_p01""]",2025-03-14; 2025-05-19; 2025-09-05; 2025-07-23,"[doc_fe04506d39_p01] Google Cloud’s 10 New Bold AI Products: Gemini Robotics, AI Coach And Gemma 3
+[doc_b24d8fdc02_p02] google/medgemma-4b-pt · Hugging Face
+[doc_646aa465af_p00] Unlock On-Device AI through Google’s EmbeddingGemma
+[doc_53ccae0628_p01] Eight Indian Startups Building Boldly with AI","[doc_fe04506d39_p01 · 2025-03-14 · Google Cloud’s 10 New Bold AI Products: Gemini Robotics, AI Coach And Gemma 3]
+[ Related: Accenture Exec: Why $ 2.5B Google Cloud-Salesforce AI Alliances Is ‘ Beautiful’ ]
+
+Google Cloud generated $ 12 billion in revenue during fourth-quarter 2024, representing a 30 percent year-over-year increase. Google’s cloud business is the third largest in the world with 12 percent share of the market, trailing only Microsoft at 21 percent share and Amazon Web Services at 30 percent share.
+
+CRN breaks down the 10 new Google AI products, features and innovation launched in March that every Google Cloud partner should know about.
+
+Gemma is Google’s family of open AI models launched in 2024.
+
+The company launched its new Gemma 3 this month, which is a collection of lightweight, open models for customers and developers to build AI applications capable of running on anything. Google says Gemma 3 is the best in the world for running on a single GPU or AI accelerator.
+
+[doc_b24d8fdc02_p02 · 2025-05-19 · google/medgemma-4b-pt · Hugging Face]
+First, install the Transformers library. Gemma 3 is supported starting from transformers 4.50.0.
+
+To give the model a quick try, running it locally with weights from Hugging Face, see Quick start notebook in Colab. Note that you will need to use Colab Enterprise to run the 27B model without quantization.
+
+For an example of fine-tuning the model, see the Fine-tuning notebook in Colab.
+
+The MedGemma model is built based on Gemma 3 and uses the same decoder-only transformer architecture as Gemma 3. To read more about the architecture, consult the Gemma 3 model card.
+
+A technical report is coming soon. In the meantime, if you publish using this model, please cite the Hugging Face model page:
+
+MedGemma was evaluated across a range of different multimodal classification, report generation, visual question answering, and text-based tasks.
+
+[doc_646aa465af_p00 · 2025-09-05 · Unlock On-Device AI through Google’s EmbeddingGemma]
+Google released EmbeddingGemma on September 4, 2025, a new open-source 308M parameter embedding model. It is capable of delivering best-in-class performance based on its size. This model is specifically engineered for on-device AI. It empowers users to develop applications with ease and efficiency using methods like Retrieval Augmented Generation and semantic search. Based on the Gemma 3 architecture, it was trained on over 100 languages. With quantization, the model is optimized for use on everyday devices, such as phones, tablets, and laptops. It is small enough to run on less than 200MB of RAM. This article explores EmbeddingGemma practically based embedding generating and similarity searching.
+
+Text embeddings are crucial in modern language models. Machines use them as the fundamental method to understand and process human language. Instead of treating words as discrete, isolated units, text embeddings transform them into dense numerical vectors. These vectors capture their semantic meaning and relationships. Consequently, this allows language models to perform complex tasks that require a more refined understanding of language.
+
+[doc_53ccae0628_p01 · 2025-07-23 · Eight Indian Startups Building Boldly with AI]
+Sarvam is working to help build a sovereign AI ecosystem for India that caters to the country’s wide-ranging culture and diversity. Sarvam has been selected for the INDIAai Mission to contribute to India’s Sovereign AI. Sarvam has used Gemma 3 to build its recently-released translation model, Sarvam-Translate, an open-source model delivering accurate, context-rich translations for long-form across all 22 officially-recognized Indian languages. Gemma 3's efficiency and industry-leading native multilingual understanding enabled Sarvam to lower the costs of training and inferencing for Indian languages, supporting Sarvam-Translate in providing high-quality, culturally-nuanced translations.
+
+As a hosted translation API, the model has been serving over 100,000 weekly translation requests. This API is also a key component of Samvaad, the organization’s conversational AI agent platform, which has handled over 10 million conversation turns across Indian languages.",,,
+m11,multi-hop,temporal,"What is MedGemma built on, and what did Google say about its adoption when it announced MedGemma 1.5?","MedGemma is built on Gemma 3 and shares its decoder-only transformer architecture. When announcing MedGemma 1.5 in January 2026, Google reported millions of downloads and hundreds of community-built variants on Hugging Face since the MedGemma release the year before.","[doc_b24d8fdc02_p02] The MedGemma model is built based on Gemma 3 and uses the same decoder-only transformer architecture as Gemma 3.
+[doc_3ffbe3fac2_p00] The response to the MedGemma release has been incredible, with millions of downloads and hundreds of community-built variants published on Hugging Face.","[""doc_b24d8fdc02"", ""doc_3ffbe3fac2""]","[""doc_b24d8fdc02_p02"", ""doc_3ffbe3fac2_p00""]",2025-05-19; 2026-01-13,"[doc_b24d8fdc02_p02] google/medgemma-4b-pt · Hugging Face
+[doc_3ffbe3fac2_p00] Next generation medical image interpretation with MedGemma 1.5 and medical speech to text with MedASR","[doc_b24d8fdc02_p02 · 2025-05-19 · google/medgemma-4b-pt · Hugging Face]
+First, install the Transformers library. Gemma 3 is supported starting from transformers 4.50.0.
+
+To give the model a quick try, running it locally with weights from Hugging Face, see Quick start notebook in Colab. Note that you will need to use Colab Enterprise to run the 27B model without quantization.
+
+For an example of fine-tuning the model, see the Fine-tuning notebook in Colab.
+
+The MedGemma model is built based on Gemma 3 and uses the same decoder-only transformer architecture as Gemma 3. To read more about the architecture, consult the Gemma 3 model card.
+
+A technical report is coming soon. In the meantime, if you publish using this model, please cite the Hugging Face model page:
+
+MedGemma was evaluated across a range of different multimodal classification, report generation, visual question answering, and text-based tasks.
+
+[doc_3ffbe3fac2_p00 · 2026-01-13 · Next generation medical image interpretation with MedGemma 1.5 and medical speech to text with MedASR]
+We are updating our open MedGemma model with improved medical imaging support. We also describe MedASR, our new open medical speech-to-text model.
+
+The adoption of artificial intelligence in healthcare is accelerating dramatically, with the healthcare industry adopting AI at twice the rate of the broader economy. In support of this transformation, last year Google published the MedGemma collection of open medical generative AI models through our Health AI Developer Foundations (HAI-DEF) program. HAI-DEF models like MedGemma are intended as starting points for developers to evaluate and adapt to their medical use cases, and they can be easily scaled on Google Cloud through Vertex AI. The response to the MedGemma release has been incredible, with millions of downloads and hundreds of community-built variants published on Hugging Face.",,,
+m12,multi-hop,analytical,"How does DataGemma reduce hallucinations, and what did Google say it planned to do next with the model?","DataGemma grounds its answers in Google's Data Commons, a public knowledge graph of over 240 billion statistical data points, retrieving real-world data before generating a response (RAG). Google planned to improve the model by training it on more information and raising its question-answering capacity from a few hundred questions to millions.","[doc_d57f4c755c_p00] Available on Hugging Face for academic and research use, both new models build on the existing Gemma family of open models and use extensive real-world data from the Google-created Data Commons platform to ground their answers.
+[doc_6e52a3f8ee_p01] In the case of DataGemma, the source of this data is Google’s Data Commons project, a publicly available resource that aggregates statistical data from reputable institutions like the United Nations.
+[doc_fa76b96f1a_p04] Google plans to improve the model by training it on more information and increasing its question-answering capacity from a few hundred to millions.","[""doc_d57f4c755c"", ""doc_6e52a3f8ee"", ""doc_fa76b96f1a""]","[""doc_d57f4c755c_p00"", ""doc_6e52a3f8ee_p01"", ""doc_fa76b96f1a_p04""]",2024-09-12; 2024-09-17; 2024-09-18,"[doc_d57f4c755c_p00] Google’s DataGemma AI is a statistics wizard
+[doc_6e52a3f8ee_p01] How Google DataGemma uses RAG to combat AI hallucinations
+[doc_fa76b96f1a_p04] Google’s DataGemma Tackles AI Hallucination","[doc_d57f4c755c_p00 · 2024-09-12 · Google’s DataGemma AI is a statistics wizard]
+Google is expanding its AI model family while addressing some of the biggest issues in the domain. Today, the company debuted DataGemma, a pair of open-source, instruction-tuned models that take a step toward mitigating the challenge of hallucinations – the tendency of large language models (LLMs) to provide inaccurate answers – on queries revolving around statistical data.
+
+Available on Hugging Face for academic and research use, both new models build on the existing Gemma family of open models and use extensive real-world data from the Google-created Data Commons platform to ground their answers. The public platform provides an open knowledge graph with over 240 billion data points sourced from trusted organizations across economic, scientific, health and other sectors.
+
+The models use two distinct approaches to enhance their factual accuracy in response to user questions. Both methods proved fairly effective in tests covering a diverse set of queries.
+
+[doc_6e52a3f8ee_p01 · 2024-09-17 · How Google DataGemma uses RAG to combat AI hallucinations]
+Retrieval-augmented generation is a game changer because it doesn’t rely solely on pre-trained AI models to generate answers. Instead, it retrieves relevant data from an external source before generating a response. This approach allows AI to provide more accurate and contextually relevant answers by pulling real-world data from repositories. In the case of DataGemma, the source of this data is Google’s Data Commons project, a publicly available resource that aggregates statistical data from reputable institutions like the United Nations.
+
+This move by Google to integrate Data Commons with its generative AI models represents the first large-scale cloud-based implementation of RAG. While many enterprises have used RAG to ground their AI models in proprietary data, using a public data resource like Data Commons takes things to a whole new level. It signals Google’s intention to use verifiable, high-quality data to make AI more reliable and useful across a broad range of applications.
+
+[doc_fa76b96f1a_p04 · 2024-09-18 · Google’s DataGemma Tackles AI Hallucination]
+Although these numbers may seem modest, they reflect a notable improvement over Google’s LLMs that do not access Data Commons. Google plans to improve the model by training it on more information and increasing its question-answering capacity from a few hundred to millions.
+
+“ While DataGemma represents a significant step forward, we recognize that it’s still early in the development of grounded AI, ” Google software engineer Jennifer Chen and Prem Ramaswami, the head of Data Commons, detailed in a blog post.
+
+“ We invite researchers, developers, and anyone passionate about responsible AI to explore DataGemma and join us in this exciting journey. We believe that by grounding LLMs in the real-world data of Data Commons, we can unlock new possibilities for AI and create a future where information is not only intelligent but also grounded in facts and evidence. ”",,,
+m13,multi-hop,analytical,"What makes Qwen attractive to companies according to the December 2024 report, and how did the technical lead of the Qwen team assess China's chances against US AI giants in January 2026?","Qwen has a highly favourable licensing model that lets companies use it without extensive legal reviews, and it is described as one of the best-performing models at any size. In January 2026 Lin Junyang, technical lead of Alibaba's Qwen team, said there was less than a 20% chance that a Chinese firm would surpass the US tech giants in the next three to five years, because US computing infrastructure is one to two orders of magnitude larger.","[doc_5eb8fa495f_p02] He added that Qwen has a ""highly favorable licensing model"" which means it can be used by companies without the need for ""extensive legal reviews.""
+[doc_88b07a4d6b_p03] Lin Junyang, technical lead of Alibaba's Qwen team, said during an AI conference in Beijing last week, that there was a less than 20% chance that a Chinese firm would surpass U.S. tech giants in the next three-to-five years when it comes to AI, the South China Morning Post reported.","[""doc_5eb8fa495f"", ""doc_88b07a4d6b""]","[""doc_5eb8fa495f_p02"", ""doc_88b07a4d6b_p03""]",2024-12-17; 2026-01-16,"[doc_5eb8fa495f_p02] Chinese AI models are popular globally and are beating U.S. rivals in some areas
+[doc_88b07a4d6b_p03] China just 'months ' behind U.S. AI models, Google DeepMind CEO says","[doc_5eb8fa495f_p02 · 2024-12-17 · Chinese AI models are popular globally and are beating U.S. rivals in some areas]
+He added that Qwen has a ""highly favorable licensing model"" which means it can be used by companies without the need for ""extensive legal reviews.""
+
+Qwen comes in various sizes, or parameters, as they're known in the world of LLMs. Large parameter models are more powerful but have higher computational costs, while smaller ones are cheaper to run.
+
+""Regardless of the size you choose, Qwen is likely to be one of the best-performing models available right now,"" Wang added.
+
+DeepSeek, a start-up, also made waves recently with a model called DeepSeek-R1. DeepSeek said last month that its R1 model competes with OpenAI's o1 — a model designed for reasoning or solving more complex tasks.
+
+These companies claim that their models can compete with other open-source offerings like Meta's Llama, as well as closed LLMs such as those from OpenAI, across various functions.
+
+[doc_88b07a4d6b_p03 · 2026-01-16 · China just 'months ' behind U.S. AI models, Google DeepMind CEO says]
+Homegrown chip firms like Huawei have looked to fill the gap, but their performance still lags behind Nvidia's offering.
+
+Some analysts have suggested that over the longer term, the lack of access to Nvidia chips in China could mean the gap between U.S. and Chinese AI models widens.
+
+""I do suspect, though that we will start seeing a divergence as that superior U.S. AI infrastructure starts iterating those models and starts making those models more capable over time in years to come,"" Richard Clode, portfolio manager at Janus Henderson, told CNBC's ""The China Connection"" last week.
+
+""So I would expect from here we're probably at peak relative Chinese AI capability versus the U.S.""
+
+Even Chinese companies have acknowledged their difficulties.
+
+Lin Junyang, technical lead of Alibaba's Qwen team, said during an AI conference in Beijing last week, that there was a less than 20% chance that a Chinese firm would surpass U.S. tech giants in the next three-to-five years when it comes to AI, the South China Morning Post reported. Lin reportedly said that U.S. computing infrastructure is ""one to two orders of magnitude larger"" than China's.",,,
+m14,multi-hop,comparative,How did the control of the thinking mode change between Qwen3 and Qwen3.6?,"Qwen3 has thinking enabled by default and can be switched with enable_thinking or the /think and /nothink soft switch. Qwen3.6 no longer supports that soft switch: it thinks by default, direct answers are obtained through API parameters, and it adds a preserve_thinking option that keeps the reasoning traces of earlier messages.","[doc_c6016ec6a4_p01] By default, Qwen3 has thinking capabilities enabled, similar to QwQ-32B.
+[doc_9c7d656804_p03] Qwen3.6 does not officially support the soft switch of Qwen3, i.e., /think and /nothink.","[""doc_c6016ec6a4"", ""doc_9c7d656804""]","[""doc_c6016ec6a4_p01"", ""doc_9c7d656804_p03""]",2025-04-27; 2026-04-15,"[doc_c6016ec6a4_p01] Qwen/Qwen3-235B-A22B · Hugging Face
+[doc_9c7d656804_p03] Qwen/Qwen3.6-35B-A3B · Hugging Face","[doc_c6016ec6a4_p01 · 2025-04-27 · Qwen/Qwen3-235B-A22B · Hugging Face]
+For local use, applications such as Ollama, LMStudio, MLX-LM, llama.cpp, and KTransformers have also supported Qwen3.
+
+The enable thinking switch is also available in APIs created by SGLang and vLLM. Please refer to our documentation for SGLang and vLLM users.
+
+By default, Qwen3 has thinking capabilities enabled, similar to QwQ-32B. This means the model will use its reasoning abilities to enhance the quality of generated responses. For example, when explicitly setting enable thinking=True or leaving it as the default value in tokenizer.apply chat template, the model will engage its thinking mode.
+
+In this mode, the model will generate think content wrapped in a < think >... < /think > block, followed by the final response.
+
+For thinking mode, use Temperature=0.6, TopP=0.95, TopK=20, and MinP=0 (the default setting in generation config.json). DO NOT use greedy decoding, as it can lead to performance degradation and endless repetitions. For more detailed guidance, please refer to the Best Practices section.
+
+[doc_9c7d656804_p03 · 2026-04-15 · Qwen/Qwen3.6-35B-A3B · Hugging Face]
+Qwen3.6 does not officially support the soft switch of Qwen3, i.e., /think and /nothink.
+
+Qwen3.6 will think by default before response. You can obtain direct response from the model without thinking by configuring the API parameters. For example,
+
+By default, only the thinking blocks generated in handling the latest user message is retained, resulting in a pattern commonly as interleaved thinking. Qwen3.6 has been additionally trained to preserve and leverage thinking traces from historical messages. You can enable this behavior by setting the preserve thinking option:
+
+If you are using APIs from Alibaba Cloud Model Studio, in addition to changing model, please use ""preserve thinking"": True instead of ""chat template kwargs"": { ""preserve thinking"": False }.
+
+This capability is particularly beneficial for agent scenarios, where maintaining full reasoning context can enhance decision consistency and, in many cases, reduce overall token consumption by minimizing redundant reasoning. Additionally, it can improve KV cache utilization, optimizing inference efficiency in both thinking and non-thinking modes.",,,
+m15,multi-hop,temporal,"What did Alibaba claim about Qwen3.8 in July 2026, and which open model of that generation followed in August 2026?","In July 2026 Alibaba announced on X that Qwen3.8, with 2.4 trillion parameters, would go open-weight and was 'second only to Fable 5', a claim criticised for relying on a single post without data. In August 2026 Qwen3.8-27B was released on Hugging Face as a compact dense, natively vision-language model built on the Qwen3.5 architecture.","[doc_2a902926e3_p01] Alibaba, on the other hand, has largely relied on a single post on X to make its bold claims.
+[doc_36f8be67c4_p00] Qwen3.8-27B brings these advances to a compact, deployment-friendly dense model: a native vision-language model that understands images and videos, with flexible thinking control, designed to carry complex, multi-step tasks through to completion with greater reliability.","[""doc_2a902926e3"", ""doc_36f8be67c4""]","[""doc_2a902926e3_p01"", ""doc_36f8be67c4_p00""]",2026-07-21; 2026-08-05,"[doc_2a902926e3_p01] ""Second only to Fable 5:"" Alibaba talks the talk with Qwen3.8 without providing any real data
+[doc_36f8be67c4_p00] Qwen/Qwen3.8-27B · Hugging Face","[doc_2a902926e3_p01 · 2026-07-21 · ""Second only to Fable 5:"" Alibaba talks the talk with Qwen3.8 without providing any real data]
+While Moonshot has yet to release the K3 weights, it has already published a fairly substantial technical breakdown, complete with a full benchmark table against other leading systems, architecture details, and published pricing, with a July 27 date set for the open-weight release itself.
+
+Alibaba, on the other hand, has largely relied on a single post on X to make its bold claims. On top of that, the message contained a couple of grammatical slip-ups, one of which seemingly conflated “ compatible ” with “ comparable. ”
+
+While not hugely important in itself, it’s the kind of detail that might not instill much confidence in a launch meant to position the model as a genuine frontier contender.
+
+Qwen3.8 is launching and going open-weight soon! 🌐With a massive 2.4T parameters, this model is continuously evolving. We believe it’s one of the most powerful model available today, compatible to leading frontier AI models, second only to Fable 5.You don't have to wait to… pic.twitter.com/JS3ID73IYS
+
+[doc_36f8be67c4_p00 · 2026-08-05 · Qwen/Qwen3.8-27B · Hugging Face]
+How to use Qwen/Qwen3.8-27B with Transformers:
+
+How to use Qwen/Qwen3.8-27B with Docker Model Runner:
+
+These artifacts are compatible with Hugging Face Transformers, vLLM, SGLang, TokenSpeed, etc.
+
+For users seeking managed, scalable inference without infrastructure maintenance, the official Qwen API service is provided by Qwen Cloud. In particular, Qwen3.8-27B will be available as a hosted version with more production features, e.g., 1M context length by default, official built-in tools. For more information, please refer to the Qwen3.8-27B Overview. The service is coming soon. Stay tuned for updates.
+
+Following the widespread community adoption of the Qwen3.5 and Qwen3.6 series, we are pleased to introduce Qwen3.8, the most capable generation in the Qwen open-model family to date.
+
+Built on the architectural foundation of Qwen3.5, Qwen3.8 delivers substantial gains across coding, professional work, research, and long-horizon agentic tasks. Qwen3.8-27B brings these advances to a compact, deployment-friendly dense model: a native vision-language model that understands images and videos, with flexible thinking control, designed to carry complex, multi-step tasks through to completion with greater reliability.",,,
+m16,multi-hop,analytical,"Why did OpenAI release the gpt-oss models as open weights, and which architectural detail of gpt-oss surprised an analyst?","Sam Altman said that without it the world would have been built mostly on Chinese open source models; gpt-oss-120b and gpt-oss-20b were OpenAI's first open-weight models since GPT-2. Architecturally, gpt-oss uses bias units in its attention weights, which had not been seen since GPT-2 and are considered redundant (it also restricts context with sliding-window attention in every second layer).","[doc_61b578ffc7_p03] ""It was clear that if we didn't do it, the world was gon na head to be mostly built on Chinese open source models,"" Altman said.
+[doc_6d3011a0c9_p23] It seems that gpt-oss uses bias units for the attention weights, as shown in the figure below.","[""doc_61b578ffc7"", ""doc_6d3011a0c9""]","[""doc_61b578ffc7_p03"", ""doc_6d3011a0c9_p23""]",2025-08-18; 2025-08-09,"[doc_61b578ffc7_p03] OpenAI's Altman warns the U.S. is underestimating China's AI threat
+[doc_6d3011a0c9_p23] From GPT-2 to gpt-oss: Analyzing the Architectural Advances","[doc_61b578ffc7_p03 · 2025-08-18 · OpenAI's Altman warns the U.S. is underestimating China's AI threat]
+""It was clear that if we didn't do it, the world was gon na head to be mostly built on Chinese open source models,"" Altman said. ""That was a factor in our decision, for sure. Wasn't the only one, but that loomed large.""
+
+Earlier this month, OpenAI released two open-weight language models — its first since GPT-2 in 2019 — marking a significant shift in strategy for the company that has long kept its technology gated behind application programming interfaces, or APIs.
+
+The new text-only models, called gpt-oss-120b and gpt-oss-20b, are designed as lower-cost options that developers, researchers, and companies can download, run locally, and customize.
+
+An AI model is considered open weight if its parameters — the values learned during training that determine how the model generates responses — are publicly available. While that offers transparency and control, it's not the same as open source. OpenAI is still not releasing its training data or full source code.
+
+[doc_6d3011a0c9_p23 · 2025-08-09 · From GPT-2 to gpt-oss: Analyzing the Architectural Advances]
+In any case, it's because it's quite unusual to only scale those two (transformer blocks and number of experts). For instance, when looking at Qwen3 MoE models of multiple sizes (Figure 17 below), they were scaled more proportionally to each other over many more aspects..
+
+Both gpt-oss and Qwen3 use grouped query attention. The main difference is that gpt-oss restricts the context size via sliding window attention in each second layer, as mentioned earlier.
+
+However, there's one interesting detail that caught my eye. It seems that gpt-oss uses bias units for the attention weights, as shown in the figure below.
+
+I haven't seen these bias units being used since the GPT-2 days, and they are commonly regarded as redundant. Indeed, I found a recent paper that shows mathematically that this is at least true for the key transformation (k proj). Furthermore, the empirical results show that there is little difference between with and without bias units (see Figure 19 below).",,,
+m17,multi-hop,relational,"Which organisation released the Molmo models, how did it keep their training efficient, and which of its models meets the Open Source AI Definition?","The Allen Institute for Artificial Intelligence (Ai2) released Molmo. Instead of billions of scraped images, Molmo was trained on a curated set of about 600,000 images, which Ai2 says gives good performance with far fewer resources. Ai2's OLMo is among the models that comply with the OSI's Open Source AI Definition 1.0.","[doc_4472d95ee0_p01] What’s new: The Allen Institute for Artificial Intelligence (Ai2), a research nonprofit, is releasing a family of open-source multimodal language models, called Molmo, that it says perform as well as top proprietary models from OpenAI, Google, and Anthropic.
+[doc_8819c20cc3_p01] In contrast, Ai2’s Molmo models have been trained on a significantly smaller and more curated data set containing only 600,000 images, and they have between 1 billion and 72 billion parameters.
+[doc_ca6e7b27b1_p00] Models that currently comply with the Open Source AI Definition include Pythia (EleutherAI), OLMo (AI2), Amber and CrystalCoder (LLM360), and T5 (Google).","[""doc_4472d95ee0"", ""doc_8819c20cc3"", ""doc_ca6e7b27b1""]","[""doc_4472d95ee0_p01"", ""doc_8819c20cc3_p01"", ""doc_ca6e7b27b1_p00""]",2024-09-26; 2024-09-25; 2024-11-01,"[doc_4472d95ee0_p01] The Download: A CRISPR patent battle, and the promise of tiny AI
+[doc_8819c20cc3_p01] A tiny new open source AI model performs as well as powerful big ones
+[doc_ca6e7b27b1_p00] Data Points: What counts as an open source AI model?","[doc_4472d95ee0_p01 · 2024-09-26 · The Download: A CRISPR patent battle, and the promise of tiny AI]
+What’s new: The Allen Institute for Artificial Intelligence (Ai2), a research nonprofit, is releasing a family of open-source multimodal language models, called Molmo, that it says perform as well as top proprietary models from OpenAI, Google, and Anthropic.
+
+What it does: The organization claims that its biggest Molmo model outperforms OpenAI’s GPT-4o in tests that measure things like understanding images, charts, and documents. Meanwhile, Ai2 says a smaller Molmo model comes close to OpenAI’s state-of-the-art model in performance, an achievement it ascribes to vastly more efficient data collection and training methods.
+
+Why it matters: These techniques could prove really useful if we want to meaningfully govern the data that we use for AI development, and suggest that training models on less, but higher-quality, data can lower computing costs. Read the full story.
+
+[doc_8819c20cc3_p01 · 2024-09-25 · A tiny new open source AI model performs as well as powerful big ones]
+Other large multimodal language models are trained on vast data sets containing billions of images and text samples that have been hoovered from the internet, and they can include several trillion parameters. This process introduces a lot of noise to the training data and, with it, hallucinations, says Ani Kembhavi, a senior director of research at Ai2. In contrast, Ai2’s Molmo models have been trained on a significantly smaller and more curated data set containing only 600,000 images, and they have between 1 billion and 72 billion parameters. This focus on high-quality data, versus indiscriminately scraped data, has led to good performance with far fewer resources, Kembhavi says.
+
+Researchers have long disagreed over what constitutes open-source AI. An influential group has offered up an answer.
+
+[doc_ca6e7b27b1_p00 · 2024-11-01 · Data Points: What counts as an open source AI model?]
+The Open Source Initiative created the 1.0 version of its Open Source AI Definition to specify what constitutes an open source AI system, including required code, data, and model weights. The definition allows developers to exclude some training data that can not be legally shared, but still requires detailed information about all data used. The new specification aims to enable meaningful modification of AI systems by third parties, balancing openness with practical and legal constraints in areas like healthcare. Models that currently comply with the Open Source AI Definition include Pythia (EleutherAI), OLMo (AI2), Amber and CrystalCoder (LLM360), and T5 (Google). Other models like BLOOM (BigScience), Starcoder2 (BigCode), and Falcon (TII) could potentially comply with some changes to their licenses or legal terms. (Open Source Initiative)",,,
+m18,multi-hop,analytical,"How did Meta's AI strategy change after the Llama 4 release, and what did analysts say this means for the developers who valued Llama?","After the botched Llama 4 release Zuckerberg reorganised Meta's AI efforts: Chris Cox lost oversight of the GenAI unit, Meta invested $15 billion in Scale AI and made its CEO Alexandr Wang chief AI officer, heading a new superintelligence lab (TBD Lab). Analysts noted that Llama's appeal was as an open-weight alternative for developers, and that Meta has made little effort in that direction with Muse Spark, which risks losing developer trust.","[doc_dc9122d5c0_p06] The Llama 4 flub was a significant catalyst in Zuckerberg's pivot, the people said, and also led to a major internal shake-up.
+[doc_5e033f0b0e_p04] Meta’s $ 15 billion investment in Scale AI represents a strategic bet on securing the data, talent, and expertise needed to compete in the AI superintelligence race.
+[doc_8601d763ff_p06] The appeal of Llama was that it specifically targeted developers wanting open-weight alternative models, while with Muse Spark, Meta has made little effort in that direction, he said.","[""doc_dc9122d5c0"", ""doc_5e033f0b0e"", ""doc_8601d763ff""]","[""doc_dc9122d5c0_p06"", ""doc_5e033f0b0e_p04"", ""doc_8601d763ff_p06""]",2025-12-09; 2025-06-12; 2026-06-14,"[doc_dc9122d5c0_p06] Meta's multibillion dollar AI strategy overhaul creates culture clash
+[doc_5e033f0b0e_p04] Meta ploughs $ 15B into Scale AI to catch up with OpenAI, Anthropic, and DeepSeek in the AI race — TFN
+[doc_8601d763ff_p06] Meta hired Alexandr Wang to build AI. It's Zuckerberg's job to sell it","[doc_dc9122d5c0_p06 · 2025-12-09 · Meta's multibillion dollar AI strategy overhaul creates culture clash]
+The Llama 4 flub was a significant catalyst in Zuckerberg's pivot, the people said, and also led to a major internal shake-up. Chris Cox, Meta's chief product officer and a 20-year company veteran who was hired as its 13th software engineer, no longer oversees the AI division, formally known as the GenAI unit, after the botched release, the people said.
+
+Zuckerberg went on a spending spree to retool Meta's AI leadership.
+
+He landed on Wang, then Scale AI's 28-year-old CEO, who was named Meta's new chief AI officer and, in August, became the head of an elite unit called TBD Lab. Avocado is being developed inside TBD, people familiar with the matter said.
+
+OpenAI CEO Sam Altman said in June that Meta was trying to lure talent from his company with gigantic pay packages, including sky-high $ 100 million signing bonuses, which Meta said at the time was a misrepresentation.
+
+[doc_5e033f0b0e_p04 · 2025-06-12 · Meta ploughs $ 15B into Scale AI to catch up with OpenAI, Anthropic, and DeepSeek in the AI race — TFN]
+Meta’s massive investment also responds to rising competition from cost-effective rivals like DeepSeek, whose models achieve state-of-the-art performance at a fraction of the cost of U.S. competitors. This raises questions about Meta’s efficiency and strategic direction.
+
+Meta’s new superintelligence lab, led by Wang, is part of a broader reorganisation of its AI efforts under Mark Zuckerberg, who has committed substantial resources to make Meta a leader in AI. The lab will focus on developing AI systems that surpass human cognitive capabilities, though the concept of superintelligence remains difficult to define and measure.
+
+Meta’s $ 15 billion investment in Scale AI represents a strategic bet on securing the data, talent, and expertise needed to compete in the AI superintelligence race. The deal’s success hinges on Meta’s ability to leverage Scale AI’s resources to overcome its AI setbacks, withstand fierce competition, and achieve breakthroughs in AGI, while managing substantial financial and regulatory risks.
+
+[doc_8601d763ff_p06 · 2026-06-14 · Meta hired Alexandr Wang to build AI. It's Zuckerberg's job to sell it]
+""If they do proprietary, computationally efficient models, that will be so different from what's happening in this death match between the big guys,"" Moore said. ""They might really benefit.""
+
+Moore added that Meta has to show an advantage somewhere, whether it be on cost, latency or other technical nuances that matter to developers.
+
+Krish Subramanian, the CEO of consulting firm KOI AI and former product head at IBM Consulting, said developers are more excited about Google's AI models than what Meta is offering. The appeal of Llama was that it specifically targeted developers wanting open-weight alternative models, while with Muse Spark, Meta has made little effort in that direction, he said.
+
+""The lack of developer trust will come back to hit them if they don't focus on third-party developers,"" Subramanian said, noting that it took years for Microsoft to regain trust from open-source coders during the early days of Azure.",,,
+m19,multi-hop,analytical,"How is DeepSeek connected to the US export controls on AI chips: what did its models suggest to US policymakers, and how large is the compute gap between the US and China?","The power of DeepSeek V3 suggested that smuggled Nvidia chips were being used to train frontier AI in China, and the Biden administration tightened its chip export rules in January 2025. DeepSeek is also said to have drawn on Nvidia chips stockpiled before the ban. By mid-2025 the US had 39.7 million petaflops of AI compute, half of the world's total, against 400,000 petaflops in China.","[doc_4bd052a5dc_p02] The pure power of DeepSeek v3 strongly suggested that those chips were being used to train AI at the cutting edge.
+[doc_f64effb8f4_p06] China’s compute is the world’s seventh largest with 400,000 petaflops, far below even India’s 1.2 million petaflops.","[""doc_4bd052a5dc"", ""doc_f64effb8f4""]","[""doc_4bd052a5dc_p02"", ""doc_f64effb8f4_p06""]",2025-01-13; 2025-11-10,"[doc_4bd052a5dc_p02] Why Biden Is Restricting AI Chip Exports to China
+[doc_f64effb8f4_p06] Will China win the AI race?","[doc_4bd052a5dc_p02 · 2025-01-13 · Why Biden Is Restricting AI Chip Exports to China]
+Read More: AI Models Are Getting Smarter. New Tests Are Racing To Catch Up.
+
+Under Biden, the U.S. government had intensified a policy that began during Trump’s first term: using the power of export controls to limit the number of advanced chips that China could obtain to impede its attempts to reach parity with the U.S. on AI. Despite measures that made the export of advanced chips to China illegal in 2022, Beijing had nevertheless succeeded in stockpiling thousands of chips to build its own AI systems thanks to an international smuggling network. The pure power of DeepSeek v3 strongly suggested that those chips were being used to train AI at the cutting edge.
+
+And so, with just a week until Trump’s return to the White House, the Biden Administration added finishing touches to its existing chip sanctions. The new rules attempt to make it even harder for China to obtain cutting-edge AI chips via smuggling, by establishing new quotas and license requirements for the sale of advanced chips to all but America’s closest allies.
+
+[doc_f64effb8f4_p06 · 2025-11-10 · Will China win the AI race?]
+Where the US really blows China out of the water is in AI compute power, driven by its access to the world’s most advanced chips. The US has total AI compute of 39.7 million petaflops – half of the world’s total (by summer 2025 numbers).
+
+China’s compute is the world’s seventh largest with 400,000 petaflops, far below even India’s 1.2 million petaflops. This is the result of the US export ban on Nvidia and AMD’s most advanced chips, and is despite the fact that China has 46% (230) of the world’s AI data clusters.
+
+With the launch of its low-cost high-performance large language model in January 2025, DeepSeek showed that Chinese firms can innovate around US export constraints and develop comparable AI models using far less resources. But DeepSeek could draw upon Nvidia chips stockpiled before the ban in 2023-24.",,,
+m20,multi-hop,relational,"Which Mistral AI co-founder joined xAI in March 2026, and which open-weight safety model did Mistral release in August 2026?","Devendra Singh Chaplot, a Mistral AI co-founder and Thinking Machines Lab founding member, announced on 14 March 2026 that he was joining xAI and SpaceX to work on Grok training. In August 2026 Mistral released Shieldstral, a multimodal safety classifier, as open weights under Apache 2.0.","[doc_5fecc672e5_p00] On March 14, Devendra Singh Chaplot announced on X that he is joining xAI and SpaceX to work directly with Elon Musk.
+[doc_e45661ea00_p08] Mistral today released its new Shieldstral multimodal safety classifier model as open weights under Apache 2.0.","[""doc_5fecc672e5"", ""doc_e45661ea00""]","[""doc_5fecc672e5_p00"", ""doc_e45661ea00_p08""]",2026-03-14; 2026-08-04,"[doc_5fecc672e5_p00] xAI's Superintelligence Push Just Got a Co-Founder of Mistral AI and a Member of Mira Murati's Founding Team
+[doc_e45661ea00_p08] AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency","[doc_5fecc672e5_p00 · 2026-03-14 · xAI's Superintelligence Push Just Got a Co-Founder of Mistral AI and a Member of Mira Murati's Founding Team]
+Devendra Singh Chaplot, robotics researcher, Mistral AI co-founder and Thinking Machines Lab founding member, is joining xAI and SpaceX to work directly with Musk on Grok model training.
+
+Devendra Singh Chaplot, robotics researcher, Mistral AI co-founder and Thinking Machines Lab founding member, is joining xAI and SpaceX to work directly with Musk on Grok model training.
+
+On March 14, Devendra Singh Chaplot announced on X that he is joining xAI and SpaceX to work directly with Elon Musk. Musk reposted the announcement with a single line: Welcome to xAI.
+
+The hire is the third significant talent acquisition xAI has made in a week. As FintechWeekly reported, Andrew Milich and Jason Ginsberg — the two engineers who scaled Cursor to a $ 2 billion revenue run rate — joined xAI days earlier. The pattern is deliberate.
+
+[doc_e45661ea00_p08 · 2026-08-04 · AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency]
+CrowdStrike is fine-tuning the NVIDIA Nemotron Nano model for cyber defense. Internal testing achieved 96% accuracy in generating investigation queries within Falcon LogScale, delivering a natural-language interface that boosts agent investigative efficiency. CrowdStrike has also published research demonstrating how a specialized NVIDIA Nemotron Nano reasoning model outperforms much larger models on Security Operations Center detection triage while introducing calibrated logit-based confidence to enable measurable, tunable, and auditable autonomous security decisions.
+
+Mistral today released its new Shieldstral multimodal safety classifier model as open weights under Apache 2.0.
+
+Seeing what an agent did is only part of the picture. Defenders also need to understand why it acted, whether the system behaves safely and how attacks are evolving in the real world.
+
+Akamai brings insights from its State of the Internet reports and Security Intelligence Group research, drawing on real-world data to illuminate AI-era threats and explain how emerging exploits work so defenders can learn, adapt and respond.Cognition has released a trustworthiness evaluation, which measures alignment and security risks of open source-derived models. The evaluation demonstrates these risks can be mitigated via post-training.",,,
+m21,multi-hop,temporal,How did Nvidia's Nemotron models become available on Microsoft Foundry during 2026?,"At GTC in March 2026 Microsoft announced that Nvidia Nemotron models were available through Microsoft Foundry with the same governance features as the rest of its 11,000+ model catalogue. In June 2026 Nvidia and Microsoft added Nemotron 3 Ultra, an open frontier reasoning model, together with Nemotron 3.5 ASR and Nemotron 3.5 Content Safety, on Foundry managed compute.","[doc_8677f73972_p04] Nvidia Nemotron models are also available through Microsoft Foundry, receiving the same governance and management features available across Foundry’s 11,000+ model catalog.
+[doc_2235a0a74a_p02] NVIDIA Nemotron 3 Ultra, a new open frontier reasoning model for long-running agents across coding, research and enterprise workflows, is available this month on Foundry managed compute, alongside Nemotron 3.5 ASR for speech recognition and Nemotron 3.5 Content Safety.","[""doc_8677f73972"", ""doc_2235a0a74a""]","[""doc_8677f73972_p04"", ""doc_2235a0a74a_p02""]",2026-03-19; 2026-06-02,"[doc_8677f73972_p04] AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026
+[doc_2235a0a74a_p02] NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local","[doc_8677f73972_p04 · 2026-03-19 · AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026]
+Supermicro’s new portfolio of AI infrastructure systems, built on Nvidia’s Vera Rubin platform, is designed to accelerate the deployment of large-scale AI factories. The systems use Supermicro’s modular Data Center Building Block Solutions (DCBBS) architecture with advanced liquid cooling to simplify deployment and improve efficiency. Offerings include rack-scale Vera Rubin NVL72 and HGX Rubin NVL8 GPU platforms, flexible Vera CPU servers, and a new context memory storage platform powered by BlueField-4. Together, they improve performance and efficiency for AI training and inference, targeting up to 10X better throughput per watt and lower token costs compared with previous-generation systems, the company said.
+
+Microsoft used Nvidia GTC 2026 to unveil new offerings for Microsoft Foundry, Azure AI Infrastructure, and Physical AI. The company’s next-generation Foundry Agent Service equips developers with new APIs to more efficiently build, deploy, and operate production-ready AI agents. Nvidia Nemotron models are also available through Microsoft Foundry, receiving the same governance and management features available across Foundry’s 11,000+ model catalog. The company also showed Azure AI infrastructure optimized for inference-heavy, reasoning-based workloads, including what it called the first hyperscale cloud to power next-generation Nvidia Vera Rubin NVL72 systems. It also unveiled a partnership with Nvidia for Physical AI integration of Microsoft Fabric with Nvidia Omniverse.
+
+[doc_2235a0a74a_p02 · 2026-06-02 · NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local]
+Agentic AI runs on a system of models. With NVIDIA, Anthropic and OpenAI models — plus Hermes special agents — now on the hosted agents in Foundry Agent Service, enterprises can bring agentic systems to life on Azure with built-in identity and governance. Anthropic’s Claude models now run natively on NVIDIA GB300 Blackwell Ultra systems on Azure, with customer availability in the weeks ahead.
+
+NVIDIA Nemotron 3 Ultra, a new open frontier reasoning model for long-running agents across coding, research and enterprise workflows, is available this month on Foundry managed compute, alongside Nemotron 3.5 ASR for speech recognition and Nemotron 3.5 Content Safety. Developers can compose Nemotron alongside frontier and local models, optimizing cost and quality for each workflow.
+
+NVIDIA’s open model portfolio on Foundry now spans agentic, physical and scientific AI. NVIDIA Cosmos 3, the first fully open omnimodel for physical AI, brings vision reasoning, world simulation and action generation. NVIDIA Earth-2 AI weather models are available through Microsoft Planetary Computer Pro and Foundry for enterprise forecasting and risk analysis.",,,
+m22,multi-hop,factual,"What do the articles report about the finances of Zhipu AI (Z.ai), the maker of the GLM models, after its stock market listing?","Zhipu AI listed before any IPO by OpenAI but, like MiniMax, is logging increasing losses and 'burning cash faster than it can generate sustainable revenue'. In 2025 its revenue rose 132% to 724 million yuan ($107 million), while its net loss grew 60% to 4.7 billion yuan ($694 million).","[doc_a2bd211e18_p02] Zhipu AI and Minimax are also logging increasing losses while costs, including for training new AI models, rise.
+[doc_6616873396_p09] Z.ai, for example, reported its revenue surged 132% to 724 million yuan ($ 107 million) last year, but net loss jumped 60% to 4.7 billion yuan ($ 694 million).","[""doc_a2bd211e18"", ""doc_6616873396""]","[""doc_a2bd211e18_p02"", ""doc_6616873396_p09""]",2026-01-21; 2026-07-26,"[doc_a2bd211e18_p02] Chinese AI startups soar on market hype but face test of profitability
+[doc_6616873396_p09] Cheaper, intelligent Chinese AI models make inroads in the US","[doc_a2bd211e18_p02 · 2026-01-21 · Chinese AI startups soar on market hype but face test of profitability]
+MiniMax, which targets the consumer market with its multimedia AI tools, has seen even stronger gains.
+
+Their IPOs came ahead of any such move from OpenAI, the San Francisco-based startup behind the phenomenally popular ChatGPT.
+
+Although OpenAI’s value has ballooned in funding rounds to a staggering $ 500 billion, it does not expect to be profitable before 2029 owing to huge outlays to build the computing infrastructure it relies on.
+
+Zhipu AI and Minimax are also logging increasing losses while costs, including for training new AI models, rise.
+
+Both are “ burning cash faster than they can generate sustainable revenue streams ”, analyst Poe Zhao, founder of Hello China Tech, told AFP.
+
+US restrictions bar the most advanced, energy-efficient AI chips on the market, made by US company Nvidia, from sale in China.
+
+[doc_6616873396_p09 · 2026-07-26 · Cheaper, intelligent Chinese AI models make inroads in the US]
+“ The competition is no longer simply the United States against China; the Chinese labs are also putting a lot of pressure on one another, ” Angelopoulos said.
+
+But as is the case in the U.S., huge investments in AI have also raised concerns over sustainability of these Chinese startups. Z.ai, for example, reported its revenue surged 132% to 724 million yuan ($ 107 million) last year, but net loss jumped 60% to 4.7 billion yuan ($ 694 million).
+
+For now, Chinese AI models will likely continue to march ahead including in the U.S. “ I would highly recommend anyone doing any serious AI load to at least evaluate it, ” said Krikorian.
+
+O’ Brien reported from Providence, Rhode Island. AP Business Writer Kelvin Chan in Toronto contributed to this report.",,,
+m23,multi-hop,comparative,"Which two AI chip start-ups are reported serving Meta's Llama models as alternatives to Nvidia, and what performance did each claim?","SambaNova, which runs all three Llama 3.1 models on a single 16-socket node and serves the 405B model at more than 100 tokens per second (the 70B at up to 580), and Cerebras, which announced six new data centres processing 40 million tokens per second, including a tornado-proof Oklahoma City facility with over 300 CS-3 systems that 'will keep sending Llama tokens to developers'.","[doc_3f5ee378c1_p04] Instead, SambaNova can run all three Llama 3.1 models on a single 16-socket node server, and performance isn’t impacted if more models are loaded onto the server.
+[doc_44fb16e61a_p05] The Oklahoma City facility, operated in partnership with Scale Datacenter, will house over 300 Cerebras CS-3 systems and feature triple-redundant power stations and custom water-cooling solutions specifically designed for Cerebras’ wafer-scale systems.","[""doc_3f5ee378c1"", ""doc_44fb16e61a""]","[""doc_3f5ee378c1_p04"", ""doc_44fb16e61a_p05""]",2024-09-13; 2025-03-11,"[doc_3f5ee378c1_p04] Small AI Chip Makers Eye Gains in Inference Workloads
+[doc_44fb16e61a_p05] Cerebras just announced 6 new AI datacenters that process 40M tokens per second — and it could be bad news for Nvidia","[doc_3f5ee378c1_p04 · 2024-09-13 · Small AI Chip Makers Eye Gains in Inference Workloads]
+“ Both Grok and Cerebras are taking what I would consider to be an incredibly inefficient approach to running these models, ” McGonnell said. “ They’re just mapping it to SRAM. The weights of the models are stored on SRAM and the only way to do that is to have lots and lots and lots of chips. ”
+
+Instead, SambaNova can run all three Llama 3.1 models on a single 16-socket node server, and performance isn’t impacted if more models are loaded onto the server. In addition, SambaNova is the first to offer the 405B model to developers, according to company officials, because its chip is more efficient and faster. The SambaNova Cloud service can run the 405B — the largest open generative AI model — at more than 100 tokens pers second, a key measurement for AI workloads. The 70B model can run at up to 580 tokens per second.
+
+[doc_44fb16e61a_p05 · 2025-03-11 · Cerebras just announced 6 new AI datacenters that process 40M tokens per second — and it could be bad news for Nvidia]
+The company is making substantial investments in resilient infrastructure as part of its expansion. Its Oklahoma City facility, scheduled to come online in June 2025, is designed to withstand extreme weather events.
+
+“ Oklahoma, as you know, is a kind of a tornado zone. So this data center actually is rated and designed to be fully resistant to tornadoes and seismic activity, ” Wang said. “ It will withstand the strongest tornado ever recorded on record. If [ such a tornado ] goes through, this thing will just keep sending Llama tokens to developers. ”
+
+The Oklahoma City facility, operated in partnership with Scale Datacenter, will house over 300 Cerebras CS-3 systems and feature triple-redundant power stations and custom water-cooling solutions specifically designed for Cerebras’ wafer-scale systems.",,,
+m24,multi-hop,analytical,"What do the articles say about how Nvidia's Llama-3.1-Nemotron-70B was trained, and how did the later Nemotron-Nano-12B-v2 differ in its origin?","Llama-3.1-Nemotron-70B-Instruct was built on Meta's Llama-3.1-70B-Instruct and fine-tuned with reinforcement learning from human feedback and Nvidia's HelpSteer2-preference alignment technique. NVIDIA-Nemotron-Nano-12B-v2, by contrast, was trained from scratch by Nvidia as a unified reasoning and non-reasoning model.","[doc_96a2831197_p00] The page also notes that Nemotron-70B was fine-tuned using reinforcement learning from human feedback, as well as a new alignment technique from Nvidia called HelpSteer2-preference which the company says trains the model to more closely follow instructions.
+[doc_0c5914793b_p00] NVIDIA-Nemotron-Nano-12B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks.","[""doc_96a2831197"", ""doc_0c5914793b""]","[""doc_96a2831197_p00"", ""doc_0c5914793b_p00""]",2024-10-23; 2025-08-21,"[doc_96a2831197_p00] Nvidia’s Newest Foundation Model Can Actually Spell ‘ Strawberry’
+[doc_0c5914793b_p00] nvidia/NVIDIA-Nemotron-Nano-12B-v2 · Hugging Face","[doc_96a2831197_p00 · 2024-10-23 · Nvidia’s Newest Foundation Model Can Actually Spell ‘ Strawberry’]
+A new AI model from Nvidia knows just how many R’s are in the word strawberry, a feat that OpenAI’s GPT-4o model has yet to achieve. In what is known as the “ strawberry problem, ” GPT-4o and a few other established models often give the false answer that ‘ strawberry’ only has two R’s.
+
+Launched on Hugging Face on Oct. 15, the new Nvidia model is called Llama-3.1-Nemotron-70B-Instruct and is based on Meta’s open source Llama foundation models, specifically Llama-3.1-70B-Instruct Base. The Llama series of AI models were designed as open source foundations for developers to build upon.
+
+The Hugging Face model page asserts that Nemotron-70B surpasses GPT-4o and Anthropic’s Claude 3.5 Sonnet on a few different benchmarks. Nemotron-70B scores 85.0 on the Chatbot Arena Hard benchmark, 57.6 on AlpacaEval 2 LC, and 8.98 on the GPT-4-Turbo MT-Bench. The page also notes that Nemotron-70B was fine-tuned using reinforcement learning from human feedback, as well as a new alignment technique from Nvidia called HelpSteer2-preference which the company says trains the model to more closely follow instructions.
+
+[doc_0c5914793b_p00 · 2025-08-21 · nvidia/NVIDIA-Nemotron-Nano-12B-v2 · Hugging Face]
+NVIDIA-Nemotron-Nano-12B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so, albeit with a slight decrease in accuracy for harder prompts that require reasoning. Conversely, allowing the model to generate reasoning traces first generally results in higher-quality final solutions to queries and tasks. The model was fine-tuned from NVIDIA-Nemotron-Nano-12B-v2-Base was further compressed into NVIDIA-Nemotron-Nano-9B-v2.
+
+NVIDIA-Nemotron-Nano-12B-v2 is a general purpose reasoning and chat model intended to be used in English and coding languages. Other non-English languages (German, French, Italian, Spanish and Japanese) are also supported. Developers designing AI Agent systems, chatbots, RAG systems, and other AI-powered applications. Also suitable for typical instruction-following tasks.",,,
+g01,global,analytical,"According to the coverage, why have Chinese open models such as DeepSeek, Qwen and Kimi gained adoption outside China?","Mainly cost and openness: DeepSeek's competitive token pricing lets cash-strapped start-ups save money, Qwen's favourable licence avoids legal reviews, and the models can be downloaded and self-hosted, which some users do to keep their data out of China. Their capability has also risen close to the frontier (Kimi K3 in July 2026), and most AI uses do not need frontier models, so adoption grew among Western companies and in developing economies.","[doc_5b24157dee_p03] Certain Silicon Valley start-ups have opted to stick with DeepSeek in lieu of more expensive AI models from US firms in a bid to cut down on costs.
+[doc_5eb8fa495f_p02] He added that Qwen has a ""highly favorable licensing model"" which means it can be used by companies without the need for ""extensive legal reviews.""
+[doc_62fead1b14_p01] While lagging behind the frontier, China's models have emerged as cheaper and highly capable alternatives to U.S. options.
+[doc_859554015f_p03] Whatever it costs, DeepSeek’s token-based pricing structure is highly competitive in comparison to its main rivals, making it a valuable consideration for your business.","[""doc_5b24157dee"", ""doc_5eb8fa495f"", ""doc_62fead1b14"", ""doc_859554015f""]","[""doc_5b24157dee_p03"", ""doc_5eb8fa495f_p02"", ""doc_62fead1b14_p01"", ""doc_859554015f_p03""]",2025-08-09; 2024-12-17; 2026-08-07; 2025-11-03,"[doc_5b24157dee_p03] It shocked the US market but has China's DeepSeek changed AI?
+[doc_5eb8fa495f_p02] Chinese AI models are popular globally and are beating U.S. rivals in some areas
+[doc_62fead1b14_p01] China is gaining ground in AI. The U.S. still has a major advantage
+[doc_859554015f_p03] 10 ChatGPT Alternatives You Can Try In 2025","[doc_5b24157dee_p03 · 2025-08-09 · It shocked the US market but has China's DeepSeek changed AI?]
+But while exact numbers aren't available, plenty of Americans still use DeepSeek today.
+
+Certain Silicon Valley start-ups have opted to stick with DeepSeek in lieu of more expensive AI models from US firms in a bid to cut down on costs.
+
+One investor told me for cash-strapped firms, funds saved by continuing to use DeepSeek are helping to pay for critical needs such as additional headcount.
+
+They are, however, being careful.
+
+In online forums, users explain how torun DeepSeek-R1 on their own devicesrather than online using DeepSeek's servers in China - a workaround they believe can protect their data from being shared surreptitiously.
+
+""It's a good way to use the model without being concerned about what it's exfiltrating"" to China, said Christopher Caen, CEO of Mill Pond Research.
+
+[doc_5eb8fa495f_p02 · 2024-12-17 · Chinese AI models are popular globally and are beating U.S. rivals in some areas]
+He added that Qwen has a ""highly favorable licensing model"" which means it can be used by companies without the need for ""extensive legal reviews.""
+
+Qwen comes in various sizes, or parameters, as they're known in the world of LLMs. Large parameter models are more powerful but have higher computational costs, while smaller ones are cheaper to run.
+
+""Regardless of the size you choose, Qwen is likely to be one of the best-performing models available right now,"" Wang added.
+
+DeepSeek, a start-up, also made waves recently with a model called DeepSeek-R1. DeepSeek said last month that its R1 model competes with OpenAI's o1 — a model designed for reasoning or solving more complex tasks.
+
+These companies claim that their models can compete with other open-source offerings like Meta's Llama, as well as closed LLMs such as those from OpenAI, across various functions.
+
+[doc_62fead1b14_p01 · 2026-08-07 · China is gaining ground in AI. The U.S. still has a major advantage]
+Beijing-based Moonshot's Kimi K3, released in July, edged ever closer to top models from Anthropic and OpenAI in benchmarking, even surpassing them in some areas. There's been growing adoption of Chinese AI models among Western companies as capability has shot up.
+
+And there are other areas in AI which China is also considered to be leading in. The world's most capable open models – which can be downloaded, modified and self-hosted – are all Chinese, and many experts consider the country to be ahead in robotics.
+
+So is the U.S. losing the AI arms race?
+
+While lagging behind the frontier, China's models have emerged as cheaper and highly capable alternatives to U.S. options. With most AI use not requiring frontier model capabilities, adoption has risen on American shores and reportedly in developing economies in Africa.
+
+[doc_859554015f_p03 · 2025-11-03 · 10 ChatGPT Alternatives You Can Try In 2025]
+Whatever it costs, DeepSeek’s token-based pricing structure is highly competitive in comparison to its main rivals, making it a valuable consideration for your business.
+
+We tested it with this prompt: “ When were U.S. President Woodrow Wilson’s four daughters—Margaret, Jessie, Elizabeth, and Eleanor—born? ”
+
+As DeepSeek-R1 is an open-source model, the real value lies in its self-deployed version, which allows anyone to install and run a highly accurate AI chatbot API, similar to ChatGPT, on their own server without relying on third-party providers.
+
+Although several users prefer to use ChatGPT in research-related tasks and for faster responses to context, others praise DeepSeek for giving them exactly what they need in code generation and debugging. On Reddit, LengthyLegato114514 mentioned, “ In terms of code-related use cases, IMO Claude = DeepSeek = o1 > 4o. ”",,,
+g02,global,analytical,"Beyond its capabilities, what concerns about DeepSeek do the articles raise?","Data security (users run DeepSeek-R1 locally to avoid data being sent to China; Australia, Germany, the US and Microsoft restricted its use), political bias (unresponsive on Tiananmen or Taiwan, hawkish preferences in crisis scenarios) and misinformation risks, doubts about its cost claims given reports of far more GPUs than declared, and accusations by Anthropic and OpenAI of distilling their models' outputs.","[doc_5b24157dee_p03] ""It's a good way to use the model without being concerned about what it's exfiltrating"" to China, said Christopher Caen, CEO of Mill Pond Research.
+[doc_be08f0469b_p04] Developed countries including Australia, Germany and the U.S. have sought to limit the use of DeepSeek over alleged security risks.
+[doc_239a2cb726_p04] Moreover, experts have warned against the use of DeepSeek due to concerns over misinformation.
+[doc_4234250f84_p02] The company did not immediately respond to request for comments about how it thinks its product stacks up against Command A or doubts some have raised about DeepSeek’s figures because of the much higher sums being spent by competitors and reports suggesting the company had access to tens of thousands more GPUs than it said it used.
+[doc_5051a491a0_p04] OpenAI made similar allegations in a letter to U.S. lawmakers.","[""doc_5b24157dee"", ""doc_be08f0469b"", ""doc_239a2cb726"", ""doc_4234250f84"", ""doc_5051a491a0""]","[""doc_5b24157dee_p03"", ""doc_be08f0469b_p04"", ""doc_239a2cb726_p04"", ""doc_4234250f84_p02"", ""doc_5051a491a0_p04""]",2025-08-09; 2026-01-08; 2025-04-18; 2025-03-13; 2026-04-24,"[doc_5b24157dee_p03] It shocked the US market but has China's DeepSeek changed AI?
+[doc_be08f0469b_p04] DeepSeek's AI gains traction in developing nations, Microsoft report says
+[doc_239a2cb726_p04] Hawkish AI? Uncovering DeepSeek’s Foreign Policy Biases
+[doc_4234250f84_p02] New Cohere AI model's performance rivals latest versions of DeepSeek, ChatGPT
+[doc_5051a491a0_p04] China's DeepSeek launches an update of its AI model","[doc_5b24157dee_p03 · 2025-08-09 · It shocked the US market but has China's DeepSeek changed AI?]
+But while exact numbers aren't available, plenty of Americans still use DeepSeek today.
+
+Certain Silicon Valley start-ups have opted to stick with DeepSeek in lieu of more expensive AI models from US firms in a bid to cut down on costs.
+
+One investor told me for cash-strapped firms, funds saved by continuing to use DeepSeek are helping to pay for critical needs such as additional headcount.
+
+They are, however, being careful.
+
+In online forums, users explain how torun DeepSeek-R1 on their own devicesrather than online using DeepSeek's servers in China - a workaround they believe can protect their data from being shared surreptitiously.
+
+""It's a good way to use the model without being concerned about what it's exfiltrating"" to China, said Christopher Caen, CEO of Mill Pond Research.
+
+[doc_be08f0469b_p04 · 2026-01-08 · DeepSeek's AI gains traction in developing nations, Microsoft report says]
+Developed countries including Australia, Germany and the U.S. have sought to limit the use of DeepSeek over alleged security risks. Microsoft last year banned its own employees from using DeepSeek. Adoption of DeepSeek remained low in North America and Europe, the report found, but it surged in its home country China, as well as Russia, Iran, Cuba, Belarus – places where U.S. services face restrictions or where foreign tech access is limited.
+
+In many places, DeepSeek’s prevalence correlated with it being a default chatbot on widely available phones made by Chinese tech companies like Huawei.
+
+DeepSeek’s market share in China was 89%, the report estimated. That’s followed by Belarus’s 56% and Cuba’s 49%, both of which also had low AI adoption more broadly. In Russia, its market share was around 43%.
+
+[doc_239a2cb726_p04 · 2025-04-18 · Hawkish AI? Uncovering DeepSeek’s Foreign Policy Biases]
+The release of DeepSeek-V3 also sparked a debate about the large language models’ biases in sensitive topics, such as politics. For example, some argued that DeepSeek is unresponsive to topics that are sensitive concerning Chinese political history, such as events in Tiananmen Square and China-Taiwan relations. Moreover, experts have warned against the use of DeepSeek due to concerns over misinformation. In the future, these biases will likely matter more as open-source models are leveraged by institutions and private companies, amplifying the institutional bias of these models inherent in the training data and the training process to downstream tasks.
+
+Our analysis of the evaluation results shows that DeepSeek’s model preferences are in line with models that previous benchmarking studies have identified as prone to escalation. As seen in Figure 1, when presented with over 400 different crisis scenarios built to match the Militarized Interstate Dispute Dataset—an authoritative academic project for studying crisis politics and deterrence—DeepSeek preferences are similar to those seen in Gemini, Qwen2 (also a Chinese model), and Llama 8B models. The preference for more hawkish responses to the scenarios is statistically significant compared to other models like GPT-4o and Claude Sonnet. In the other domains, no statistically different pattern stands out from DeepSeek.
+
+[doc_4234250f84_p02 · 2025-03-13 · New Cohere AI model's performance rivals latest versions of DeepSeek, ChatGPT]
+DeepSeek has claimed building its assistant took two months, cost about US $ 6 million and used some of Nvidia’s less-advanced H800 semiconductors rather than the higher computing power needed by other AI models.
+
+The company did not immediately respond to request for comments about how it thinks its product stacks up against Command A or doubts some have raised about DeepSeek’s figures because of the much higher sums being spent by competitors and reports suggesting the company had access to tens of thousands more GPUs than it said it used.
+
+When Cohere tested its model against GPT-4o and DeepSeek-V3 with coding and answering technical questions, it found Command A was in the same league and in some cases, ahead of GPT-4o and DeepSeek-V3.
+
+[doc_5051a491a0_p04 · 2026-04-24 · China's DeepSeek launches an update of its AI model]
+However, some analysts remain skeptical. Ivan Su, a senior equity analyst at Morningstar, said while V4 is a “ competent ” follow-up, it’s not as big a breakthrough as the rollout of R1.
+
+“ Domestic competition has intensified significantly since R1’s release, ” Su said. “ Against U.S. models, DeepSeek’s own evaluation suggests its capabilities largely match on most fronts, but independent evaluations are needed before final conclusions can be drawn. ”
+
+In February, Anthropic accused DeepSeek and two other China-based AI laboratories of “ industrial-scale campaigns ” to “ illicitly extract Claude’s capabilities to improve their own models. ” It said they did that using a technique called distillation that “ involves training a less capable model on the outputs of a stronger one. ” OpenAI made similar allegations in a letter to U.S. lawmakers.",,,
+g03,global,temporal,"How did the trend towards small, efficient open models noted at the end of 2024 continue in 2026?","At the end of 2024 the top AI companies offered families of small, medium and large models (Microsoft Phi-3, Google Gemma 2, Hugging Face SmolLM), made capable by distillation, pruning, quantisation and better data. In 2026 the trend continued with Mistral's Ministral 3 8B edge model, competitive with 13B-class models on a laptop, and Microsoft's 15B Phi-4-reasoning-vision, presented as evidence that data quality matters more than size, while enterprises fine-tune small open models (Mistral, Phi-3, DBRX) to cut cost and latency.","[doc_0c81a84868_p08] Model families such as Microsoft Phi-3 (in versions of roughly 3.8 billion, 7 billion, and 14 billion parameters), Google Gemma 2 (2 billion, 9 billion, and 27 billion), and Hugging Face SmolLM (135 million, 360 million, and 1.7 billion) specialize in small.
+[doc_61ae30d89a_p04] Mistral AI released Ministral 3 8B as their edge model, designed for deployments where you need maximum performance in minimal space.
+[doc_c8d8e788e3_p07] “ Not every agent task needs a frontier model. Phi-4-reasoning-vision shows what’s possible at 15B parameters, ” Saravia writes.
+[doc_0f53c6cf45_p12] Models like Mistral, Phi-3, and DBRX are showing that size is no longer the only indicator of quality.","[""doc_0c81a84868"", ""doc_61ae30d89a"", ""doc_c8d8e788e3"", ""doc_0f53c6cf45""]","[""doc_0c81a84868_p08"", ""doc_61ae30d89a_p04"", ""doc_c8d8e788e3_p07"", ""doc_0f53c6cf45_p12""]",2024-12-25; 2026-02-16; 2026-03-10; 2026-06-04,"[doc_0c81a84868_p08] Top AI Stories of 2024! Agents Rise, Prices Fall, Models Shrink, and more...
+[doc_61ae30d89a_p04] Top 7 Small Language Models You Can Run on a Laptop
+[doc_c8d8e788e3_p07] With its latest Phi-4 reasoning model, Microsoft reckons bigger isn’t always better
+[doc_0f53c6cf45_p12] LLM in Enterprise: A Complete Guide","[doc_0c81a84868_p08 · 2024-12-25 · Top AI Stories of 2024! Agents Rise, Prices Fall, Models Shrink, and more...]
+What happened: Instead of putting all their resources into building big models, top AI companies promoted families of large language models that offer a choice of small, medium, and large. Model families such as Microsoft Phi-3 (in versions of roughly 3.8 billion, 7 billion, and 14 billion parameters), Google Gemma 2 (2 billion, 9 billion, and 27 billion), and Hugging Face SmolLM (135 million, 360 million, and 1.7 billion) specialize in small.
+
+Driving the story: Smaller models have become more capable thanks to techniques like knowledge distillation (in which a larger teacher model is used to train a smaller student model to match its output), parameter pruning (which removes less-influential parameters), quantization (which reduces neural network sizes by representing each parameter with fewer bits), and greater attention to curating training sets for data quality. Beyond performance, speed, and price, the ability to run on relatively low-powered hardware is a competitive advantage for a variety of uses.
+
+[doc_61ae30d89a_p04 · 2026-02-16 · Top 7 Small Language Models You Can Run on a Laptop]
+Best for: Simple classification tasks · Basic Q & A on narrow domains · Log analysis and data extraction · Mobile and IoT deployment
+
+Hardware: Quantized (4-bit) requires 2-4GB RAM · Full precision (16-bit) requires 4-6GB RAM · Recommended: Can run on high-end smartphones
+
+Download / Run locally: Available on Hugging Face under the meta-llama org (Llama 3.2 1B Instruct). License acceptance/authentication may be required for download. For Ollama: ollama pull llama3.2:1b.
+
+Mistral AI released Ministral 3 8B as their edge model, designed for deployments where you need maximum performance in minimal space. It is competitive with larger 13B-class models on practical tasks while staying efficient enough for laptops.
+
+Strong efficiency for edge deployments. The Ministral line is tuned to deliver high quality at low latency on consumer hardware, making it a practical “ production small model ” option when you want more capability than 3B-class models. It uses grouped-query attention and other optimizations to deliver strong performance at 8B parameter count.
+
+[doc_c8d8e788e3_p07 · 2026-03-10 · With its latest Phi-4 reasoning model, Microsoft reckons bigger isn’t always better]
+Some researchers argue this approach may be particularly relevant for AI agents, which often need to perform a large number of smaller perception and reasoning tasks rather than rely on a single massive model.
+
+Elvis Saravia, an AI researcher and founder of Dair.ai, said the model illustrates how smaller multimodal reasoning systems could play an important role in real-world agent deployments.
+
+“ Not every agent task needs a frontier model. Phi-4-reasoning-vision shows what’s possible at 15B parameters, ” Saravia writes. “ Smaller reasoning models that handle vision are essential for practical agent deployments. ”
+
+Elsewhere, Andreas von Richter, an AI researcher, engineer, and investor, said the most interesting insight in Microsoft’s paper was easy to miss: data quality may be playing a larger role in model performance than architecture alone.
+
+[doc_0f53c6cf45_p12 · 2026-06-04 · LLM in Enterprise: A Complete Guide]
+Enterprises can also leverage prompt versioning, token usage tracking, and fine-tuning pipelines with secure sandboxed environments. Access controls, API key management, and audit trails ensure enterprise-grade security and governance. TrueFoundry enables cost transparency and control through granular billing, rate limiting, and usage quotas, giving engineering and finance teams full visibility into LLM usage at scale.
+
+With TrueFoundry, enterprises don’t just deploy LLMs; they operationalize them. The platform bridges the gap between experimentation and production, making it possible to build reliable, compliant, and scalable LLM-powered applications.
+
+As enterprise adoption of LLMs matures, the focus is shifting from access to optimization, orchestration, and scale. One of the most significant trends is the rise of small and efficient open-source models. Models like Mistral, Phi-3, and DBRX are showing that size is no longer the only indicator of quality. Enterprises are increasingly fine-tuning these smaller models to meet task-specific needs while reducing cost and latency.",,,
+g04,global,relational,"What role do open models play in Nvidia's Nemotron strategy, according to the coverage?","Nemotron is an open family with open weights, datasets and training recipes; its Llama Nemotron models are built on Meta's Llama in a collaboration framed around a shared commitment to open models, with SAP and ServiceNow as first users. Partners build on it: the UK-LLM team post-trained Nemotron models for Welsh and CrowdStrike fine-tuned Nemotron Nano for cyber defence (96% accuracy on investigation queries), and the models are distributed through Microsoft Foundry.","[doc_39a8cc22bd_p03] The new model for Welsh is based on NVIDIA Nemotron, a family of open-source models that features open weights, datasets and recipes.
+[doc_09fbfcf3c7_p02] “ Through our collaboration with NVIDIA and our shared commitment to open models, the NVIDIA Llama Nemotron family built on Llama can help enterprises quickly create their own custom AI agents. ”
+[doc_e45661ea00_p08] CrowdStrike is fine-tuning the NVIDIA Nemotron Nano model for cyber defense.
+[doc_8677f73972_p04] Nvidia Nemotron models are also available through Microsoft Foundry, receiving the same governance and management features available across Foundry’s 11,000+ model catalog.","[""doc_39a8cc22bd"", ""doc_09fbfcf3c7"", ""doc_e45661ea00"", ""doc_8677f73972""]","[""doc_39a8cc22bd_p03"", ""doc_09fbfcf3c7_p02"", ""doc_e45661ea00_p08"", ""doc_8677f73972_p04""]",2025-09-14; 2025-01-07; 2026-08-04; 2026-03-19,"[doc_39a8cc22bd_p03] Bringing AI to UK Languages With NVIDIA Nemotron
+[doc_09fbfcf3c7_p02] NVIDIA Announces Nemotron Model Families to Advance Agentic AI
+[doc_e45661ea00_p08] AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency
+[doc_8677f73972_p04] AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026","[doc_39a8cc22bd_p03 · 2025-09-14 · Bringing AI to UK Languages With NVIDIA Nemotron]
+The new model for Welsh is based on NVIDIA Nemotron, a family of open-source models that features open weights, datasets and recipes. The UK-LLM development team has tapped the 49-billion-parameter Llama Nemotron Super model and 9-billion-parameter Nemotron Nano model, post-training them on Welsh-language data.
+
+Compared with languages like English or Spanish, there’s less available source data in Welsh for AI training. So to create a sufficiently large Welsh training dataset, the team used NVIDIA NIM microservices for gpt-oss-120b and DeepSeek-R1 to translate NVIDIA Nemotron open datasets with over 30 million entries from English to Welsh.
+
+They used a GPU cluster through the NVIDIA DGX Cloud Lepton platform and are harnessing hundreds of NVIDIA GH200 Grace Hopper Superchips on Isambard-AI — the U.K.’s most powerful supercomputer, backed by £225 million in government investment and based at University of Bristol — to accelerate their translation and training workloads.
+
+[doc_09fbfcf3c7_p02 · 2025-01-07 · NVIDIA Announces Nemotron Model Families to Advance Agentic AI]
+Llama Nemotron models are pruned and trained with NVIDIA’s latest techniques and high-quality datasets for enhanced agentic capabilities. They excel at instruction following, chat, function calling, coding and math, while being size-optimized to run on a broad range of NVIDIA accelerated computing resources.
+
+“ Agentic AI is the next frontier of AI development, and delivering on this opportunity requires full-stack optimization across a system of LLMs to deliver efficient, accurate AI agents, ” said Ahmad Al-Dahle, vice president and head of GenAI at Meta. “ Through our collaboration with NVIDIA and our shared commitment to open models, the NVIDIA Llama Nemotron family built on Llama can help enterprises quickly create their own custom AI agents. ”
+
+Leading AI agent platform providers including SAP and ServiceNow are expected to be among the first to use the new Llama Nemotron models.
+
+[doc_e45661ea00_p08 · 2026-08-04 · AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency]
+CrowdStrike is fine-tuning the NVIDIA Nemotron Nano model for cyber defense. Internal testing achieved 96% accuracy in generating investigation queries within Falcon LogScale, delivering a natural-language interface that boosts agent investigative efficiency. CrowdStrike has also published research demonstrating how a specialized NVIDIA Nemotron Nano reasoning model outperforms much larger models on Security Operations Center detection triage while introducing calibrated logit-based confidence to enable measurable, tunable, and auditable autonomous security decisions.
+
+Mistral today released its new Shieldstral multimodal safety classifier model as open weights under Apache 2.0.
+
+Seeing what an agent did is only part of the picture. Defenders also need to understand why it acted, whether the system behaves safely and how attacks are evolving in the real world.
+
+Akamai brings insights from its State of the Internet reports and Security Intelligence Group research, drawing on real-world data to illuminate AI-era threats and explain how emerging exploits work so defenders can learn, adapt and respond.Cognition has released a trustworthiness evaluation, which measures alignment and security risks of open source-derived models. The evaluation demonstrates these risks can be mitigated via post-training.
+
+[doc_8677f73972_p04 · 2026-03-19 · AI Innovation Unveiled: 14 Vendor Partners Helping Shape The Future Of Enterprise AI At Nvidia GTC 2026]
+Supermicro’s new portfolio of AI infrastructure systems, built on Nvidia’s Vera Rubin platform, is designed to accelerate the deployment of large-scale AI factories. The systems use Supermicro’s modular Data Center Building Block Solutions (DCBBS) architecture with advanced liquid cooling to simplify deployment and improve efficiency. Offerings include rack-scale Vera Rubin NVL72 and HGX Rubin NVL8 GPU platforms, flexible Vera CPU servers, and a new context memory storage platform powered by BlueField-4. Together, they improve performance and efficiency for AI training and inference, targeting up to 10X better throughput per watt and lower token costs compared with previous-generation systems, the company said.
+
+Microsoft used Nvidia GTC 2026 to unveil new offerings for Microsoft Foundry, Azure AI Infrastructure, and Physical AI. The company’s next-generation Foundry Agent Service equips developers with new APIs to more efficiently build, deploy, and operate production-ready AI agents. Nvidia Nemotron models are also available through Microsoft Foundry, receiving the same governance and management features available across Foundry’s 11,000+ model catalog. The company also showed Azure AI infrastructure optimized for inference-heavy, reasoning-based workloads, including what it called the first hyperscale cloud to power next-generation Nvidia Vera Rubin NVL72 systems. It also unveiled a partnership with Nvidia for Physical AI integration of Microsoft Fabric with Nvidia Omniverse.",,,
+g05,global,temporal,"Which releases built on Google's Gemma family does the coverage report between 2024 and 2026, in chronological order?","DataGemma (September 2024, grounded in Data Commons), Gemma 3 (March 2025, built to run on a single GPU), MedGemma (May 2025, medical models on Gemma 3, updated to MedGemma 1.5 in January 2026), EmbeddingGemma (4 September 2025, a 308M on-device embedding model) and, in 2026, Gemma 4 with variants such as DiffusionGemma (June 2026).","[doc_d57f4c755c_p00] Today, the company debuted DataGemma, a pair of open-source, instruction-tuned models that take a step toward mitigating the challenge of hallucinations – the tendency of large language models (LLMs) to provide inaccurate answers – on queries revolving around statistical data.
+[doc_fe04506d39_p01] The company launched its new Gemma 3 this month, which is a collection of lightweight, open models for customers and developers to build AI applications capable of running on anything.
+[doc_b24d8fdc02_p02] The MedGemma model is built based on Gemma 3 and uses the same decoder-only transformer architecture as Gemma 3.
+[doc_646aa465af_p00] Google released EmbeddingGemma on September 4, 2025, a new open-source 308M parameter embedding model.
+[doc_6e77b4cc78_p06] As Merve Noyan (@ mervenoyann) from Hugging Face noted: ""DiffusionGemma is out — it's compute-bound so 4x faster compared to other Gemma-4 models (1k tok/s on H100) — also great on coding, generate and iterate on any code from 3D generation to front-end.""","[""doc_d57f4c755c"", ""doc_fe04506d39"", ""doc_b24d8fdc02"", ""doc_646aa465af"", ""doc_6e77b4cc78""]","[""doc_d57f4c755c_p00"", ""doc_fe04506d39_p01"", ""doc_b24d8fdc02_p02"", ""doc_646aa465af_p00"", ""doc_6e77b4cc78_p06""]",2024-09-12; 2025-03-14; 2025-05-19; 2025-09-05; 2026-06-28,"[doc_d57f4c755c_p00] Google’s DataGemma AI is a statistics wizard
+[doc_fe04506d39_p01] Google Cloud’s 10 New Bold AI Products: Gemini Robotics, AI Coach And Gemma 3
+[doc_b24d8fdc02_p02] google/medgemma-4b-pt · Hugging Face
+[doc_646aa465af_p00] Unlock On-Device AI through Google’s EmbeddingGemma
+[doc_6e77b4cc78_p06] DiffusionGemma: Open-Weight Text at 1,000 Tokens/Sec","[doc_d57f4c755c_p00 · 2024-09-12 · Google’s DataGemma AI is a statistics wizard]
+Google is expanding its AI model family while addressing some of the biggest issues in the domain. Today, the company debuted DataGemma, a pair of open-source, instruction-tuned models that take a step toward mitigating the challenge of hallucinations – the tendency of large language models (LLMs) to provide inaccurate answers – on queries revolving around statistical data.
+
+Available on Hugging Face for academic and research use, both new models build on the existing Gemma family of open models and use extensive real-world data from the Google-created Data Commons platform to ground their answers. The public platform provides an open knowledge graph with over 240 billion data points sourced from trusted organizations across economic, scientific, health and other sectors.
+
+The models use two distinct approaches to enhance their factual accuracy in response to user questions. Both methods proved fairly effective in tests covering a diverse set of queries.
+
+[doc_fe04506d39_p01 · 2025-03-14 · Google Cloud’s 10 New Bold AI Products: Gemini Robotics, AI Coach And Gemma 3]
+[ Related: Accenture Exec: Why $ 2.5B Google Cloud-Salesforce AI Alliances Is ‘ Beautiful’ ]
+
+Google Cloud generated $ 12 billion in revenue during fourth-quarter 2024, representing a 30 percent year-over-year increase. Google’s cloud business is the third largest in the world with 12 percent share of the market, trailing only Microsoft at 21 percent share and Amazon Web Services at 30 percent share.
+
+CRN breaks down the 10 new Google AI products, features and innovation launched in March that every Google Cloud partner should know about.
+
+Gemma is Google’s family of open AI models launched in 2024.
+
+The company launched its new Gemma 3 this month, which is a collection of lightweight, open models for customers and developers to build AI applications capable of running on anything. Google says Gemma 3 is the best in the world for running on a single GPU or AI accelerator.
+
+[doc_b24d8fdc02_p02 · 2025-05-19 · google/medgemma-4b-pt · Hugging Face]
+First, install the Transformers library. Gemma 3 is supported starting from transformers 4.50.0.
+
+To give the model a quick try, running it locally with weights from Hugging Face, see Quick start notebook in Colab. Note that you will need to use Colab Enterprise to run the 27B model without quantization.
+
+For an example of fine-tuning the model, see the Fine-tuning notebook in Colab.
+
+The MedGemma model is built based on Gemma 3 and uses the same decoder-only transformer architecture as Gemma 3. To read more about the architecture, consult the Gemma 3 model card.
+
+A technical report is coming soon. In the meantime, if you publish using this model, please cite the Hugging Face model page:
+
+MedGemma was evaluated across a range of different multimodal classification, report generation, visual question answering, and text-based tasks.
+
+[doc_646aa465af_p00 · 2025-09-05 · Unlock On-Device AI through Google’s EmbeddingGemma]
+Google released EmbeddingGemma on September 4, 2025, a new open-source 308M parameter embedding model. It is capable of delivering best-in-class performance based on its size. This model is specifically engineered for on-device AI. It empowers users to develop applications with ease and efficiency using methods like Retrieval Augmented Generation and semantic search. Based on the Gemma 3 architecture, it was trained on over 100 languages. With quantization, the model is optimized for use on everyday devices, such as phones, tablets, and laptops. It is small enough to run on less than 200MB of RAM. This article explores EmbeddingGemma practically based embedding generating and similarity searching.
+
+Text embeddings are crucial in modern language models. Machines use them as the fundamental method to understand and process human language. Instead of treating words as discrete, isolated units, text embeddings transform them into dense numerical vectors. These vectors capture their semantic meaning and relationships. Consequently, this allows language models to perform complex tasks that require a more refined understanding of language.
+
+[doc_6e77b4cc78_p06 · 2026-06-28 · DiffusionGemma: Open-Weight Text at 1,000 Tokens/Sec]
+As Merve Noyan (@ mervenoyann) from Hugging Face noted: ""DiffusionGemma is out — it's compute-bound so 4x faster compared to other Gemma-4 models (1k tok/s on H100) — also great on coding, generate and iterate on any code from 3D generation to front-end.""
+
+Not everyone was bullish. User lambda offered the sharpest counterargument: ""Diffusion kind of loses its benefit in hosted models... given that it also reduces accuracy, it's hard to see where you'd really want that.""
+
+The logic checks out. In high-QPS cloud serving, autoregressive models batch efficiently across requests — many users sharing the same GPU, each getting their tokens interleaved. Diffusion's advantage is per-request latency, not aggregate throughput. As the vLLM team noted, the speedup is ""optimized for low-to-medium batch sizes on single accelerators.""",,,
+g06,global,analytical,"What is the difference between an open-weight and an open-source model in the coverage, and which models meet the Open Source Initiative's definition?","A model is open-weight when its parameters are public, as with OpenAI's gpt-oss, but that is not open source: OpenAI does not release training data or full code. The OSI's Open Source AI Definition 1.0 requires code, detailed information on the data and the weights. Models that comply include Pythia (EleutherAI), OLMo (Ai2), Amber and CrystalCoder (LLM360) and T5 (Google); BLOOM, StarCoder2 and Falcon could comply with changes to their licences.","[doc_61b578ffc7_p03] While that offers transparency and control, it's not the same as open source.
+[doc_ca6e7b27b1_p00] The Open Source Initiative created the 1.0 version of its Open Source AI Definition to specify what constitutes an open source AI system, including required code, data, and model weights.
+[doc_8819c20cc3_p01] Researchers have long disagreed over what constitutes open-source AI.","[""doc_61b578ffc7"", ""doc_ca6e7b27b1"", ""doc_8819c20cc3""]","[""doc_61b578ffc7_p03"", ""doc_ca6e7b27b1_p00"", ""doc_8819c20cc3_p01""]",2025-08-18; 2024-11-01; 2024-09-25,"[doc_61b578ffc7_p03] OpenAI's Altman warns the U.S. is underestimating China's AI threat
+[doc_ca6e7b27b1_p00] Data Points: What counts as an open source AI model?
+[doc_8819c20cc3_p01] A tiny new open source AI model performs as well as powerful big ones","[doc_61b578ffc7_p03 · 2025-08-18 · OpenAI's Altman warns the U.S. is underestimating China's AI threat]
+""It was clear that if we didn't do it, the world was gon na head to be mostly built on Chinese open source models,"" Altman said. ""That was a factor in our decision, for sure. Wasn't the only one, but that loomed large.""
+
+Earlier this month, OpenAI released two open-weight language models — its first since GPT-2 in 2019 — marking a significant shift in strategy for the company that has long kept its technology gated behind application programming interfaces, or APIs.
+
+The new text-only models, called gpt-oss-120b and gpt-oss-20b, are designed as lower-cost options that developers, researchers, and companies can download, run locally, and customize.
+
+An AI model is considered open weight if its parameters — the values learned during training that determine how the model generates responses — are publicly available. While that offers transparency and control, it's not the same as open source. OpenAI is still not releasing its training data or full source code.
+
+[doc_ca6e7b27b1_p00 · 2024-11-01 · Data Points: What counts as an open source AI model?]
+The Open Source Initiative created the 1.0 version of its Open Source AI Definition to specify what constitutes an open source AI system, including required code, data, and model weights. The definition allows developers to exclude some training data that can not be legally shared, but still requires detailed information about all data used. The new specification aims to enable meaningful modification of AI systems by third parties, balancing openness with practical and legal constraints in areas like healthcare. Models that currently comply with the Open Source AI Definition include Pythia (EleutherAI), OLMo (AI2), Amber and CrystalCoder (LLM360), and T5 (Google). Other models like BLOOM (BigScience), Starcoder2 (BigCode), and Falcon (TII) could potentially comply with some changes to their licenses or legal terms. (Open Source Initiative)
+
+[doc_8819c20cc3_p01 · 2024-09-25 · A tiny new open source AI model performs as well as powerful big ones]
+Other large multimodal language models are trained on vast data sets containing billions of images and text samples that have been hoovered from the internet, and they can include several trillion parameters. This process introduces a lot of noise to the training data and, with it, hallucinations, says Ani Kembhavi, a senior director of research at Ai2. In contrast, Ai2’s Molmo models have been trained on a significantly smaller and more curated data set containing only 600,000 images, and they have between 1 billion and 72 billion parameters. This focus on high-quality data, versus indiscriminately scraped data, has led to good performance with far fewer resources, Kembhavi says.
+
+Researchers have long disagreed over what constitutes open-source AI. An influential group has offered up an answer.",,,

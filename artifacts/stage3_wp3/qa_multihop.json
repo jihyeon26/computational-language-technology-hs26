@@ -1,0 +1,400 @@
+[
+ {
+  "id": "m02",
+  "type": "relational",
+  "category": "multi-hop",
+  "question": "Which Meta model is Nvidia's Nemotron-70B built on, and which enterprise software companies were expected to be the first users of the Llama Nemotron family announced in January 2025?",
+  "reference_answer": "Nemotron-70B (Llama-3.1-Nemotron-70B-Instruct) is based on Meta's Llama-3.1-70B-Instruct; SAP and ServiceNow were expected to be among the first to use the Llama Nemotron models.",
+  "source_ids": [
+   "doc_96a2831197",
+   "doc_09fbfcf3c7"
+  ],
+  "passage_ids": [
+   "doc_96a2831197_p00",
+   "doc_09fbfcf3c7_p02"
+  ],
+  "date": "2024-10-23"
+ },
+ {
+  "id": "m03",
+  "type": "relational",
+  "category": "multi-hop",
+  "question": "What is the lineage of Nvidia's Nemotron 3 Nano 4B: which models was it derived from?",
+  "reference_answer": "Nemotron 3 Nano 4B was created by pruning and distilling Nemotron Nano 9B v2 (with the Nemotron Elastic framework); Nemotron Nano 9B v2 was itself a compressed version of NVIDIA-Nemotron-Nano-12B-v2.",
+  "source_ids": [
+   "doc_ec832cf267",
+   "doc_0c5914793b"
+  ],
+  "passage_ids": [
+   "doc_ec832cf267_p02",
+   "doc_0c5914793b_p00"
+  ],
+  "date": "2026-03-18"
+ },
+ {
+  "id": "m04",
+  "type": "temporal",
+  "category": "multi-hop",
+  "question": "The training data for the Welsh-language model was produced with the help of an OpenAI model. Which one, and when had OpenAI made its first such release since GPT-2?",
+  "reference_answer": "gpt-oss-120b, which the UK-LLM team used (with DeepSeek-R1) to translate Nemotron datasets into Welsh. OpenAI had released gpt-oss-120b and gpt-oss-20b in early August 2025, its first open-weight models since GPT-2 in 2019.",
+  "source_ids": [
+   "doc_39a8cc22bd",
+   "doc_61b578ffc7"
+  ],
+  "passage_ids": [
+   "doc_39a8cc22bd_p03",
+   "doc_61b578ffc7_p03"
+  ],
+  "date": "2025-09-14"
+ },
+ {
+  "id": "m05",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "What did DeepSeek claim about the cost of building its model, and what happened to AI stocks on 27 January 2025?",
+  "reference_answer": "DeepSeek claimed its assistant took two months and about US$6 million to build, on Nvidia's less advanced H800 chips. On 27 January 2025 AI stocks tumbled and over one trillion dollars of market capitalisation was wiped out, on fears that AI infrastructure spending would slow.",
+  "source_ids": [
+   "doc_4234250f84",
+   "doc_6798f2bc46"
+  ],
+  "passage_ids": [
+   "doc_4234250f84_p02",
+   "doc_6798f2bc46_p00"
+  ],
+  "date": "2025-03-13"
+ },
+ {
+  "id": "m06",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "Why do Nvidia's Jensen Huang and researcher Sasha Luccioni both expect reasoning models like DeepSeek-R1 to increase AI compute demand rather than reduce it?",
+  "reference_answer": "Huang compared DeepSeek R1 with Meta's Llama at GTC: R1 used 150 times more compute and generated 20 times more tokens, and Nvidia expects compute demand to rise 100x. Luccioni warns that if chain-of-thought models are adopted widely, inference energy use would skyrocket and void any efficiency gains.",
+  "source_ids": [
+   "doc_c92e8263a9",
+   "doc_67dcb9caf4"
+  ],
+  "passage_ids": [
+   "doc_c92e8263a9_p01",
+   "doc_67dcb9caf4_p07"
+  ],
+  "date": "2025-03-18"
+ },
+ {
+  "id": "m09",
+  "type": "factual",
+  "category": "multi-hop",
+  "question": "What actions did Microsoft and Anthropic take against DeepSeek, as reported in early 2026?",
+  "reference_answer": "Microsoft banned its own employees from using DeepSeek, and its January 2026 report found DeepSeek's adoption low in North America and Europe but 89% market share in China. In February 2026 Anthropic accused DeepSeek and two other Chinese labs of industrial-scale distillation campaigns to extract Claude's capabilities.",
+  "source_ids": [
+   "doc_be08f0469b",
+   "doc_5051a491a0"
+  ],
+  "passage_ids": [
+   "doc_be08f0469b_p04",
+   "doc_5051a491a0_p04"
+  ],
+  "date": "2026-01-08"
+ },
+ {
+  "id": "m10",
+  "type": "relational",
+  "category": "global",
+  "question": "Which models did Google and its partners build on Gemma 3 after its launch in March 2025, and what are they for?",
+  "reference_answer": "MedGemma, Google's open medical models, use the Gemma 3 architecture; EmbeddingGemma (released 4 September 2025) is a 308M-parameter on-device embedding model based on Gemma 3; and Sarvam built Sarvam-Translate on Gemma 3 for translation across 22 Indian languages.",
+  "source_ids": [
+   "doc_fe04506d39",
+   "doc_b24d8fdc02",
+   "doc_646aa465af",
+   "doc_53ccae0628"
+  ],
+  "passage_ids": [
+   "doc_fe04506d39_p01",
+   "doc_b24d8fdc02_p02",
+   "doc_646aa465af_p00",
+   "doc_53ccae0628_p01"
+  ],
+  "date": "2025-03-14"
+ },
+ {
+  "id": "m11",
+  "type": "temporal",
+  "category": "multi-hop",
+  "question": "What is MedGemma built on, and what did Google say about its adoption when it announced MedGemma 1.5?",
+  "reference_answer": "MedGemma is built on Gemma 3 and shares its decoder-only transformer architecture. When announcing MedGemma 1.5 in January 2026, Google reported millions of downloads and hundreds of community-built variants on Hugging Face since the MedGemma release the year before.",
+  "source_ids": [
+   "doc_b24d8fdc02",
+   "doc_3ffbe3fac2"
+  ],
+  "passage_ids": [
+   "doc_b24d8fdc02_p02",
+   "doc_3ffbe3fac2_p00"
+  ],
+  "date": "2025-05-19"
+ },
+ {
+  "id": "m12",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "How does DataGemma reduce hallucinations, and what did Google say it planned to do next with the model?",
+  "reference_answer": "DataGemma grounds its answers in Google's Data Commons, a public knowledge graph of over 240 billion statistical data points, retrieving real-world data before generating a response (RAG). Google planned to improve the model by training it on more information and raising its question-answering capacity from a few hundred questions to millions.",
+  "source_ids": [
+   "doc_d57f4c755c",
+   "doc_6e52a3f8ee",
+   "doc_fa76b96f1a"
+  ],
+  "passage_ids": [
+   "doc_d57f4c755c_p00",
+   "doc_6e52a3f8ee_p01",
+   "doc_fa76b96f1a_p04"
+  ],
+  "date": "2024-09-12"
+ },
+ {
+  "id": "m13",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "What makes Qwen attractive to companies, and how did the technical lead of Alibaba's Qwen team assess China's chances of surpassing the US AI giants?",
+  "reference_answer": "Qwen has a highly favourable licensing model that lets companies use it without extensive legal reviews, and it is described as one of the best-performing models at any size. In January 2026 Lin Junyang, technical lead of Alibaba's Qwen team, said there was less than a 20% chance that a Chinese firm would surpass the US tech giants in the next three to five years, because US computing infrastructure is one to two orders of magnitude larger.",
+  "source_ids": [
+   "doc_5eb8fa495f",
+   "doc_88b07a4d6b"
+  ],
+  "passage_ids": [
+   "doc_5eb8fa495f_p02",
+   "doc_88b07a4d6b_p03"
+  ],
+  "date": "2024-12-17"
+ },
+ {
+  "id": "m15",
+  "type": "temporal",
+  "category": "multi-hop",
+  "question": "What did Alibaba claim about Qwen3.8 in July 2026, and which open model of that generation followed in August 2026?",
+  "reference_answer": "In July 2026 Alibaba announced on X that Qwen3.8, with 2.4 trillion parameters, would go open-weight and was 'second only to Fable 5', a claim criticised for relying on a single post without data. In August 2026 Qwen3.8-27B was released on Hugging Face as a compact dense, natively vision-language model built on the Qwen3.5 architecture.",
+  "source_ids": [
+   "doc_2a902926e3",
+   "doc_36f8be67c4"
+  ],
+  "passage_ids": [
+   "doc_2a902926e3_p01",
+   "doc_36f8be67c4_p00"
+  ],
+  "date": "2026-07-21"
+ },
+ {
+  "id": "m16",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "Why did OpenAI release the gpt-oss models as open weights, and which architectural detail of gpt-oss surprised an analyst?",
+  "reference_answer": "Sam Altman said that without it the world would have been built mostly on Chinese open source models; gpt-oss-120b and gpt-oss-20b were OpenAI's first open-weight models since GPT-2. Architecturally, gpt-oss uses bias units in its attention weights, which had not been seen since GPT-2 and are considered redundant (it also restricts context with sliding-window attention in every second layer).",
+  "source_ids": [
+   "doc_61b578ffc7",
+   "doc_6d3011a0c9"
+  ],
+  "passage_ids": [
+   "doc_61b578ffc7_p03",
+   "doc_6d3011a0c9_p23"
+  ],
+  "date": "2025-08-18"
+ },
+ {
+  "id": "m17",
+  "type": "relational",
+  "category": "multi-hop",
+  "question": "Which organisation released the Molmo models, how did it keep their training efficient, and which of its models meets the Open Source AI Definition?",
+  "reference_answer": "The Allen Institute for Artificial Intelligence (Ai2) released Molmo. Instead of billions of scraped images, Molmo was trained on a curated set of about 600,000 images, which Ai2 says gives good performance with far fewer resources. Ai2's OLMo is among the models that comply with the OSI's Open Source AI Definition 1.0.",
+  "source_ids": [
+   "doc_4472d95ee0",
+   "doc_8819c20cc3",
+   "doc_ca6e7b27b1"
+  ],
+  "passage_ids": [
+   "doc_4472d95ee0_p01",
+   "doc_8819c20cc3_p01",
+   "doc_ca6e7b27b1_p00"
+  ],
+  "date": "2024-09-26"
+ },
+ {
+  "id": "m18",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "How did Meta's AI strategy change after the Llama 4 release, and what did analysts say this means for the developers who valued Llama?",
+  "reference_answer": "After the botched Llama 4 release Zuckerberg reorganised Meta's AI efforts: Chris Cox lost oversight of the GenAI unit, Meta invested $15 billion in Scale AI and made its CEO Alexandr Wang chief AI officer, heading a new superintelligence lab (TBD Lab). Analysts noted that Llama's appeal was as an open-weight alternative for developers, and that Meta has made little effort in that direction with Muse Spark, which risks losing developer trust.",
+  "source_ids": [
+   "doc_dc9122d5c0",
+   "doc_5e033f0b0e",
+   "doc_8601d763ff"
+  ],
+  "passage_ids": [
+   "doc_dc9122d5c0_p06",
+   "doc_5e033f0b0e_p04",
+   "doc_8601d763ff_p06"
+  ],
+  "date": "2025-12-09"
+ },
+ {
+  "id": "m19",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "How is DeepSeek connected to the US export controls on AI chips: what did its models suggest to US policymakers, and how large is the compute gap between the US and China?",
+  "reference_answer": "The power of DeepSeek V3 suggested that smuggled Nvidia chips were being used to train frontier AI in China, and the Biden administration tightened its chip export rules in January 2025. DeepSeek is also said to have drawn on Nvidia chips stockpiled before the ban. By mid-2025 the US had 39.7 million petaflops of AI compute, half of the world's total, against 400,000 petaflops in China.",
+  "source_ids": [
+   "doc_4bd052a5dc",
+   "doc_f64effb8f4"
+  ],
+  "passage_ids": [
+   "doc_4bd052a5dc_p02",
+   "doc_f64effb8f4_p06"
+  ],
+  "date": "2025-01-13"
+ },
+ {
+  "id": "m21",
+  "type": "temporal",
+  "category": "multi-hop",
+  "question": "How did Nvidia's Nemotron models become available on Microsoft Foundry during 2026?",
+  "reference_answer": "At GTC in March 2026 Microsoft announced that Nvidia Nemotron models were available through Microsoft Foundry with the same governance features as the rest of its 11,000+ model catalogue. In June 2026 Nvidia and Microsoft added Nemotron 3 Ultra, an open frontier reasoning model, together with Nemotron 3.5 ASR and Nemotron 3.5 Content Safety, on Foundry managed compute.",
+  "source_ids": [
+   "doc_8677f73972",
+   "doc_2235a0a74a"
+  ],
+  "passage_ids": [
+   "doc_8677f73972_p04",
+   "doc_2235a0a74a_p02"
+  ],
+  "date": "2026-03-19"
+ },
+ {
+  "id": "m22",
+  "type": "factual",
+  "category": "multi-hop",
+  "question": "What do the articles report about the finances of Zhipu AI (Z.ai), the maker of the GLM models, after its stock market listing?",
+  "reference_answer": "Zhipu AI listed before any IPO by OpenAI but, like MiniMax, is logging increasing losses and 'burning cash faster than it can generate sustainable revenue'. In 2025 its revenue rose 132% to 724 million yuan ($107 million), while its net loss grew 60% to 4.7 billion yuan ($694 million).",
+  "source_ids": [
+   "doc_a2bd211e18",
+   "doc_6616873396"
+  ],
+  "passage_ids": [
+   "doc_a2bd211e18_p02",
+   "doc_6616873396_p09"
+  ],
+  "date": "2026-01-21"
+ },
+ {
+  "id": "m23",
+  "type": "comparative",
+  "category": "multi-hop",
+  "question": "Which two AI chip start-ups are reported serving Meta's Llama models as alternatives to Nvidia, and what performance did each claim?",
+  "reference_answer": "SambaNova, which runs all three Llama 3.1 models on a single 16-socket node and serves the 405B model at more than 100 tokens per second (the 70B at up to 580), and Cerebras, which announced six new data centres processing 40 million tokens per second, including a tornado-proof Oklahoma City facility with over 300 CS-3 systems that 'will keep sending Llama tokens to developers'.",
+  "source_ids": [
+   "doc_3f5ee378c1",
+   "doc_44fb16e61a"
+  ],
+  "passage_ids": [
+   "doc_3f5ee378c1_p04",
+   "doc_44fb16e61a_p05"
+  ],
+  "date": "2024-09-13"
+ },
+ {
+  "id": "m24",
+  "type": "analytical",
+  "category": "multi-hop",
+  "question": "What do the articles say about how Nvidia's Llama-3.1-Nemotron-70B was trained, and how did the later Nemotron-Nano-12B-v2 differ in its origin?",
+  "reference_answer": "Llama-3.1-Nemotron-70B-Instruct was built on Meta's Llama-3.1-70B-Instruct and fine-tuned with reinforcement learning from human feedback and Nvidia's HelpSteer2-preference alignment technique. NVIDIA-Nemotron-Nano-12B-v2, by contrast, was trained from scratch by Nvidia as a unified reasoning and non-reasoning model.",
+  "source_ids": [
+   "doc_96a2831197",
+   "doc_0c5914793b"
+  ],
+  "passage_ids": [
+   "doc_96a2831197_p00",
+   "doc_0c5914793b_p00"
+  ],
+  "date": "2024-10-23"
+ },
+ {
+  "id": "g02",
+  "type": "analytical",
+  "category": "global",
+  "question": "Beyond its capabilities, what concerns about DeepSeek do the articles raise?",
+  "reference_answer": "Data security (users run DeepSeek-R1 locally to avoid data being sent to China; Australia, Germany, the US and Microsoft restricted its use), political bias (unresponsive on Tiananmen or Taiwan, hawkish preferences in crisis scenarios) and misinformation risks, doubts about its cost claims given reports of far more GPUs than declared, and accusations by Anthropic and OpenAI of distilling their models' outputs.",
+  "source_ids": [
+   "doc_5b24157dee",
+   "doc_be08f0469b",
+   "doc_239a2cb726",
+   "doc_4234250f84",
+   "doc_5051a491a0"
+  ],
+  "passage_ids": [
+   "doc_5b24157dee_p03",
+   "doc_be08f0469b_p04",
+   "doc_239a2cb726_p04",
+   "doc_4234250f84_p02",
+   "doc_5051a491a0_p04"
+  ],
+  "date": "2025-08-09"
+ },
+ {
+  "id": "g03",
+  "type": "temporal",
+  "category": "global",
+  "question": "How did the trend towards small, efficient open models noted at the end of 2024 continue in 2026?",
+  "reference_answer": "At the end of 2024 the top AI companies offered families of small, medium and large models (Microsoft Phi-3, Google Gemma 2, Hugging Face SmolLM), made capable by distillation, pruning, quantisation and better data. In 2026 the trend continued with Mistral's Ministral 3 8B edge model, competitive with 13B-class models on a laptop, and Microsoft's 15B Phi-4-reasoning-vision, presented as evidence that data quality matters more than size, while enterprises fine-tune small open models (Mistral, Phi-3, DBRX) to cut cost and latency.",
+  "source_ids": [
+   "doc_0c81a84868",
+   "doc_61ae30d89a",
+   "doc_c8d8e788e3",
+   "doc_0f53c6cf45"
+  ],
+  "passage_ids": [
+   "doc_0c81a84868_p08",
+   "doc_61ae30d89a_p04",
+   "doc_c8d8e788e3_p07",
+   "doc_0f53c6cf45_p12"
+  ],
+  "date": "2024-12-25"
+ },
+ {
+  "id": "g04",
+  "type": "relational",
+  "category": "global",
+  "question": "What role do open models play in Nvidia's Nemotron strategy, according to the coverage?",
+  "reference_answer": "Nemotron is an open family with open weights, datasets and training recipes; its Llama Nemotron models are built on Meta's Llama in a collaboration framed around a shared commitment to open models, with SAP and ServiceNow as first users. Partners build on it: the UK-LLM team post-trained Nemotron models for Welsh and CrowdStrike fine-tuned Nemotron Nano for cyber defence (96% accuracy on investigation queries), and the models are distributed through Microsoft Foundry.",
+  "source_ids": [
+   "doc_39a8cc22bd",
+   "doc_09fbfcf3c7",
+   "doc_e45661ea00",
+   "doc_8677f73972"
+  ],
+  "passage_ids": [
+   "doc_39a8cc22bd_p03",
+   "doc_09fbfcf3c7_p02",
+   "doc_e45661ea00_p08",
+   "doc_8677f73972_p04"
+  ],
+  "date": "2025-09-14"
+ },
+ {
+  "id": "g05",
+  "type": "temporal",
+  "category": "global",
+  "question": "Which releases built on Google's Gemma family does the coverage report between 2024 and 2026, in chronological order?",
+  "reference_answer": "DataGemma (September 2024, grounded in Data Commons), Gemma 3 (March 2025, built to run on a single GPU), MedGemma (May 2025, medical models on Gemma 3, updated to MedGemma 1.5 in January 2026), EmbeddingGemma (4 September 2025, a 308M on-device embedding model) and, in 2026, Gemma 4 with variants such as DiffusionGemma (June 2026).",
+  "source_ids": [
+   "doc_d57f4c755c",
+   "doc_fe04506d39",
+   "doc_b24d8fdc02",
+   "doc_646aa465af",
+   "doc_6e77b4cc78"
+  ],
+  "passage_ids": [
+   "doc_d57f4c755c_p00",
+   "doc_fe04506d39_p01",
+   "doc_b24d8fdc02_p02",
+   "doc_646aa465af_p00",
+   "doc_6e77b4cc78_p06"
+  ],
+  "date": "2024-09-12"
+ }
+]

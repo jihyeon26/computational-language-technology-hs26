@@ -1,0 +1,6 @@
+configuration,hit@1,hit@3,hit@5,hit@10,recall@10,MRR
+hybrid 30 (Part 1),0.551,0.767,0.826,0.864,0.843,0.666
+hybrid 60,0.551,0.767,0.826,0.864,0.845,0.667
+hybrid 30 + re-ranking,0.648,0.801,0.839,0.907,0.888,0.735
+hybrid 60 + re-ranking,0.644,0.797,0.835,0.907,0.879,0.731
+hybrid 30 + recency (half-life 1 year),0.25,0.386,0.487,0.602,0.582,0.357
